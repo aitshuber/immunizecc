@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    <!-- Schema other -->
+ {% capture seo %}
+ {% seo %}
+ <meta name="keywords" content="{{page.keywords}}">
+ {% endcapture %}
+ {{seo | remove: "Jekyll"}}
+
+
+</head>
+<body>
+    <!-- NAVBAR -->
+   {% include nav.html %}
+   <!-- Hero -->
+  <main id="content" role="main">
+    <div class="bg-img-hero-center mb-3" style="background-image: url({{page.banner-image}});">
+        <!-- Content -->
+        <div class="container space-md-4 space-2">
+            <div class="w-lg-80 text-center mx-auto">
+    
+            </div>
+        </div>
+        <!-- End Content -->
+    </div>
+    
+    {{ content }}
+  </main>
+    <!-- FOOTER -->
+    {% include footer.html %}   
+   
+
+    <!-- JAVASCRIPT -->
+    {% include scripts.html %}  
+   
+
+  </body>
+</html>
