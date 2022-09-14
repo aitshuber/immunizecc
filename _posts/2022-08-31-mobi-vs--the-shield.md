@@ -3,7 +3,7 @@ layout: post
 title: Mobi vs. The Shield
 description: "The Immunization Partnership created a children's book to explain community immunity and the importance of keeping those who are unable to receive vaccines safe from harm. The book follows Mobi, a pesky measles virus, who has a goal of infecting everyone in Townsville. However, a superhero vaccine named Victor quickly throws a wrench in Mobi's plans. The reader goes on an exciting adventure with Mobi and Victor as they explore several different situations about community immunity.\_"
 keywords: "Mobi vs. The Shield\_"
-date: 2022-08-31 19:00:00 -0500
+date: 2022-08-30 19:00:00 -0500
 published: true
 categories:
   - blog
