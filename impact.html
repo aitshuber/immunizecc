@@ -36,19 +36,19 @@ permalink: "impact"
 		<div class="container space-2">
         <div class="row">
             
-                
+                {% for post in site.posts %}
                  <div class="col-md-6 col-lg-4 mb-5">
                     <!-- Blog News -->
                       <article class="card h-100">
                         
-                            <img class="card-img-top max-h-225" src="assets/img/IZU_FINAL_SVC9E6P.png" alt="Image Description">
+                            <img class="card-img-top max-h-225" src="{{ post.image }}" alt="Image Description">
                         
                         <div class="card-body p-5">
-                           <a href="../IZU.html"><h4 class="font-weight-semi-bold immunizetitle text-primary">Immunization University (IZU)</h4></a>
-                            <p>IZU is an online platform providing nursing educational courses/modules for professional continuing education credit for nursing approved credits through a partnership with Cizik School of Nursing at UTHealth. </p>
+                           <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">I{{ post.title }}</h4></a>
+                            <p>I{{ post.excerpt | strip_html | truncatewords:10 }} </p>
                         </div>
                         <div class="card-footer border-0 py-4 px-5">
-                                <a href="../IZU.html" class="text-primary">Find Out
+                                <a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
                                     More
                                     <small class="fas fa-arrow-right ml-1"></small>
                                 </a>
@@ -56,7 +56,7 @@ permalink: "impact"
                       </article>
                     <!-- End Blog News -->
                 </div>
-            
+            {% endfor %}
                 
                  <div class="col-md-6 col-lg-4 mb-5">
                     <!-- Blog News -->
