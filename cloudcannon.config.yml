@@ -1,5 +1,3 @@
-# Base path to your site source files, same as source for Jekyll
-source: site
 # Populates collections for navigation and metadata in the editor
 collections_config:
 	# Collection-level configuration
