@@ -5,7 +5,7 @@
   External-Link: true
   Button-Position: center
   _select_data:
-    Button-Position:
+    Button-Positions:
     - left
     - center
     - right
