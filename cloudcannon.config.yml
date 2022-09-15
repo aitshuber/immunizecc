@@ -10,7 +10,6 @@ collections_config:
   posts:
   path: _posts
   output: true
-  pages:
 paths:
   # The default location for newly uploaded files, relative to source
   uploads: assets/img
