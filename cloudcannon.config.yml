@@ -8,3 +8,7 @@ source_editor:
   tab_size: 3
   theme: 'Accolades'
 timezone: "America/Chicago"
+_enabled_editors:
+  - visual
+  - content
+  - data
