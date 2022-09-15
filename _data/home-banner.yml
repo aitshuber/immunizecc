@@ -3,15 +3,19 @@
   Button-Text: Go to Link
   Button-Link: "https://github.com"
   External-Link: true
-  spare_part: Bolt
-  _inputs:
-	spare_part:
-	  type: choice
-	  options:
-		values:
-		  - Bolt
-		  - Nut
-		  - Gear
+  colors:
+	- Red
+  ssgs:
+   - hugo
+   - 11ty
+  _select_data:
+	colors:
+	  - Red
+	  - Blue
+	ssgs:
+	  jekyll: Jekyll
+	  hugo: Hugo
+	  11ty: Eleventy
   Positions:
       - left
       - center
