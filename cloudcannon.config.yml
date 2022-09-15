@@ -12,11 +12,8 @@ _enabled_editors:
   - visual
   - content
   - data
-_inputs:
-  Button-Position:
-    type: select
 _select_data:
-  Button-Position_list:
+  Button-Position:
     - left
     - center
     - right
