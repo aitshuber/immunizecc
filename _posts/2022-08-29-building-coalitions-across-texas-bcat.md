@@ -2,8 +2,9 @@
 layout: post
 title: Building Coalitions across Texas (BCaT)
 description: >-
-  The BCaT Network is an online community for Texas immunization coalitions to
-  network and share coalition resources.
+  Coalitions are instrumental in promoting and raising immunization rates at the
+  local level, which helps keep all of Texas protected from outbreaks of
+  vaccine-preventable diseases.
 keywords: BCaT Network
 date: 2022-08-29 19:00:00 -0500
 published: true
@@ -17,17 +18,17 @@ Coalitions are instrumental in promoting and raising immunization rates at the l
 
 TIP provides technical assistance and consultation services for 10 immunization coalitions in the following cities and counties: Andrews County, Gregg County, El Paso, Houston, Lubbock, McAllen, Midland, San Antonio, Smith County, Tarrant County, and Tyler.
 
-The BCaT Network is an online community for Texas immunization coalitions to network and share coalition resources.&nbsp;
+The BCaT Network is an online community for Texas immunization coalitions to network and share coalition resources.
 
 * Join the BCaT Network - [Learn More](https://bcatnetwork.ning.com){: target="_blank" rel="noopener"}
 
-The BCaT Network features resources from TIP, Texas Department of State Health Services, the Centers for Disease Control and Prevention, Coalition Works, and many others.&nbsp;
+The BCaT Network features resources from TIP, Texas Department of State Health Services, the Centers for Disease Control and Prevention, Coalition Works, and many others.
 
 Immunization coalitions will have the opportunity to learn from other members through discussion board posts and shared resources. Additionally, each coalition will have their own page within the BCaT Network to interact with their members.
 
-TIP Staff created a&nbsp;[BCaT Network User Guide](https://immunizeusa.org/static/custom/img/resources/bcat-network-user-guide.pdf){: target="_blank"}&nbsp;as a resource to learn the features of the Network.&nbsp;
+TIP Staff created a [BCaT Network User Guide](https://immunizeusa.org/static/custom/img/resources/bcat-network-user-guide.pdf){: target="_blank"} as a resource to learn the features of the Network.
 
-TIP developed helpful guides and toolkits for coalition growth and sustainability available for free download.&nbsp;
+TIP developed helpful guides and toolkits for coalition growth and sustainability available for free download.
 
 Over the last few years TIP’s coalition capacity building efforts have included:
 
@@ -39,4 +40,4 @@ Over the last few years TIP’s coalition capacity building efforts have include
 * Distributed the Event Planning Guide which assists new and emerging immunization coalitions in building their capacity to improve and sustain high immunization rates through hosting community events.
 * Distributed the Communications which addresses strategies on how to interact with traditional media and tips on engaging the community through social media.
 
-If you have any questions about the BCaT Network or Coalitions, please email Katy Gore at&nbsp;[kgore@immunizeUSA.org](mailto:kgore@immunizeUSA.org).
+If you have any questions about the BCaT Network or Coalitions, please email Katy Gore at [kgore@immunizeUSA.org](mailto:kgore@immunizeUSA.org).
