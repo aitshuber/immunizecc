@@ -7,4 +7,4 @@ paths:
 source_editor:
   tab_size: 3
   theme: 'Accolades'
-source: site
+source: _site
