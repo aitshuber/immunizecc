@@ -12,8 +12,9 @@ _enabled_editors:
   - visual
   - content
   - data
-_select_data:
-  Button-Position:
-    - left
-    - center
-    - right
+Button-Position:
+  type: select
+  options:
+    values: left
+    values: center
+    value: right
