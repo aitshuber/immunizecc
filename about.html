@@ -906,16 +906,20 @@ banner-image: assets/forms/aboutusbanner.jpg
     </div>
     <!-- End Join Our Team -->
 
-
+{% for item in site.data.job-listing %}
+{% if item.enabled != true %}{% assign hasjobs = false %}{% else %}{% assign hasjobs = true %}{% endif %}
+{% endfor %}
+{% if hasjobs == true %}
 <div class="container space-md-2 space-1">
     <div class="row text-center">
         <div class="col-md-12">
             <span class="h1 text-primary immunizetitle font-weight-semi-bold">Current Job Postings</span>
-            
-                <span class="h4 font-weight-semi-bold pt-4 d-block">Community Engagement Director</span>
-                <a href="https://www.immunizeusa.org/media/web_app_images/forms/Community%20Engagement%20Director_Job%20Description_2022.docx" target="_blank" class="h6 text-black">Job Details</a>
+                {% for item in site.data.job-listing %}
+                <span class="h4 font-weight-semi-bold pt-4 d-block">{{item.Job_Title}}</span>
+                <a href="{{item.file}}" target="_blank" class="h6 text-black">Job Details</a>
                 <br/>
-            
+                {% endfor %}
         </div>
     </div>
 </div>
+{% endif %}
