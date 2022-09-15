@@ -1,7 +1,5 @@
-# Populates collections for navigation and metadata in the editor
-collections_config:
-	# Collection-level configuration
-  _enabled_editors:
+collections_config: 
+  _enabled_editors: 
     - visual
     - content
     - data
