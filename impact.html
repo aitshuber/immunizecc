@@ -31,7 +31,7 @@ banner-image: assets/forms/immunize-impact.jpg
                             <img class="card-img-top max-h-225" src="{{ post.image }}" alt="Image Description">
                         
                         <div class="card-body p-5">
-                           <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">I{{ post.title }}</h4></a>
+                           <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
                             <p>{{ post.excerpt | strip_html | truncatewords:25 }} </p>
                         </div>
                         <div class="card-footer border-0 py-4 px-5">
