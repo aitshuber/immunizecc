@@ -32,7 +32,7 @@ banner-image: assets/forms/immunize-impact.jpg
                         
                         <div class="card-body p-5">
                            <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
-                            <p>{{ post.excerpt | truncate: 75 }} </p>
+                            <p>{{ post.excerpt | strip | strip_html | truncatewords:25 }} </p>
                         </div>
                         <div class="card-footer border-0 py-4 px-5">
                                 <a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
