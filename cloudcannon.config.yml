@@ -15,3 +15,8 @@ _enabled_editors:
 _inputs:
   Button-Position:
     type: select
+_select_data:
+  Button-Position_list:
+    - left
+    - center
+    - right
