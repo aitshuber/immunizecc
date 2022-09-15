@@ -11,7 +11,7 @@ tags:
   - blog
 image: /assets/img/Mobi_Leslie_logo_feQQQaM.png
 ---
-## ***Mobi vs. The Shield: ***
+## *Mobi vs. The Shield:&nbsp;*
 
 ## ***Community Immunity Saves the Day***
 
