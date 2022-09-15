@@ -16,6 +16,7 @@ _select_data:
   Button-Position:
     type: select
     options:
-      - left
-      - center
-      - right
+      values: 
+        - left
+        - center
+        - right
