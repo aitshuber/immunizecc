@@ -5,8 +5,7 @@ keywords:
 layout: default
 permalink: "/"
 ---
-    
-    <!-- Hero Section -->
+
     <!-- Hero v1 Section -->
     <div class="u-hero-v1">
         <!-- Hero Carousel Main -->
@@ -16,21 +15,30 @@ permalink: "/"
              data-adaptive-height="true"
              data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
              data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
-             data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4"
-        >
-            
+             data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">   
+             {% for item in site.data.home-banner %}
+              
                 <div class="js-slide">
-                    <!-- Slide #1 -->
-                    <div class="d-lg-flex align-items-lg-center u-hero-v1__main"
-                         style="background-image: url(/assets/forms/immunize-hands.jpg);">
+                <!-- Slide #1 -->
+                <div class="d-lg-flex align-items-lg-center u-hero-v1__main"
+                     style="background-image: url({{item.Image}});">
+                            <div class="container space-3 space-top-md-5 space-top-lg-3">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-12 position-relative">
+                                        <h1 style="text-align:{{item.Button-Position}}">{{item.Text}}</h1>
+                                        <div class="text-center">
+                                        <a href="{{item.Button-Text}}" class="btn btn-sm btn-primary transition-3d-hover mt-2" {% if item.external-link != true  %}{% else %}target="_blank"{% endif %}>
+                                            {{item.Button-Text}}
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         
-                            
-                        
-                    </div>
-
-                    <!-- End Slide #1 -->
+                    
                 </div>
-            
+
+            {% endfor %}
             
         </div>
         <!-- End Hero Carousel Main -->

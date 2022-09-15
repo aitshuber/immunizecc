@@ -3,7 +3,7 @@ title: About Tip
 description: 
 keywords:
 layout: sub-page
-permalink: about
+permalink: "about"
 banner-image: assets/forms/aboutusbanner.jpg
 ---
 
@@ -76,9 +76,7 @@ banner-image: assets/forms/aboutusbanner.jpg
         <!-- Team Carousel -->
 
         <div class="row justify-content-center">
-            
-            
-
+            {% for item in site.data.staff %}
                 <!-- Start Staff Card -->
                 <div class="col-md-4 mb-4 p-4">
                     <!-- <a href="#bio346" data-modal-target="#bio346" data-modal-effect="blur"> <img
@@ -86,23 +84,23 @@ banner-image: assets/forms/aboutusbanner.jpg
                             alt="Image Description"></a> -->
                     <div class="card border-0 shadow-sm mt-n6">
                         <div class="card-body text-center p-4">
-                            <a href="#bio346" data-modal-target="#bio346" data-modal-effect="blur">
-                                <h3 class="h5 mb-1">Keith Brown</h3>
+                            <a href="#{{item.Name | downcase | truncatewords:1, "" }}{{forloop.index}}" data-modal-target="#{{item.Name | downcase | truncatewords:1, "" }}{{forloop.index}}" data-modal-effect="blur">
+                                <h3 class="h5 mb-1">{{item.Name}}</h3>
                             </a>
-                            <p class="font-size-1 mb-0 green">Development Director</p>
+                            <p class="font-size-1 mb-0 green">{{item.Position}}</p>
                         </div>
                     </div>
                 </div>
                 <!-- End Staff Card -->
                 <!-- Start Staff Modal -->
-                <div id="bio346" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
+                <div id="{{item.Name | downcase | truncatewords:1, "" }}{{forloop.index}}" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
                     <div class="card">
                         <header class="card-header bg-light py-3 px-5">
                             <div class="d-flex justify-content-between align-items-center">
-                                <h4 class="modal-title">Keith Brown<br/> <a class="text-primary"
+                                <h4 class="modal-title">{{item.Name}}<br/> <a class="text-primary"
                                                                                style="font-size: small !important"
-                                                                               href="mailto:kbrown@immunizeusa.org"
-                                                                               target="_blank">kbrown@immunizeusa.org</a></h4>
+                                                                               href="mailto:{{item.Email}}"
+                                                                               target="_blank">{{item.Email}}</a></h4>
 
                                 <button type="button" class="close" aria-label="Close"
                                         onclick="Custombox.modal.close();">
@@ -113,7 +111,7 @@ banner-image: assets/forms/aboutusbanner.jpg
                         <div class="card-body p-5">
                             <div class="row">
                                 <div class="col-12">
-                                    <p><p>Keith Brown Sr. joined The Immunization Partnership&nbsp;after a long career in ministry, most recently serving as the Executive Pastor of the Bayview Baptist Church in San Diego. Keith was Assistant Pension Manager and Cash Manager of the Treasure Department for his hometown, the city of Wichita, Kansas, and went on to becoming a stockbroker with Dean Witter. As a church leader he has led fundraising campaigns to support the work of his churches as well as for scholarships and foreign mission churches in Africa. He is no stranger to the vaccine landscape, having led his church to become a premier COVID testing site first and then a vaccination center in the Southeast part of San Diego.</p></p>
+                                    <p>{{item.Bio}}</p>
 
                                 </div>
                             </div>
@@ -126,322 +124,8 @@ banner-image: assets/forms/aboutusbanner.jpg
                     </div>
                 </div>
                 <!-- End Staff Modal -->
-            
+            {% endfor %}
 
-                <!-- Start Staff Card -->
-                <div class="col-md-4 mb-4 p-4">
-                    <!-- <a href="#bio301" data-modal-target="#bio301" data-modal-effect="blur"> <img
-                            class="img-fluid w-100 rounded d-flex h-85" src="/media/web_app_images/forms/Mug 4 3.jpg"
-                            alt="Image Description"></a> -->
-                    <div class="card border-0 shadow-sm mt-n6">
-                        <div class="card-body text-center p-4">
-                            <a href="#bio301" data-modal-target="#bio301" data-modal-effect="blur">
-                                <h3 class="h5 mb-1">Terri Burke</h3>
-                            </a>
-                            <p class="font-size-1 mb-0 green">Executive Director</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Card -->
-                <!-- Start Staff Modal -->
-                <div id="bio301" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                    <div class="card">
-                        <header class="card-header bg-light py-3 px-5">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h4 class="modal-title">Terri Burke<br/> <a class="text-primary"
-                                                                               style="font-size: small !important"
-                                                                               href="mailto:tburke@immunizeusa.org"
-                                                                               target="_blank">tburke@immunizeusa.org</a></h4>
-
-                                <button type="button" class="close" aria-label="Close"
-                                        onclick="Custombox.modal.close();">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                        </header>
-                        <div class="card-body p-5">
-                            <div class="row">
-                                <div class="col-12">
-                                    <p><p>Terri Burke is the former executive director of the ACLU of Texas, a position she held for nearly 13 years. Terri had a 32-year career in journalism prior to joining the ACLU of Texas. She held senior editor roles at The Hartford Courant, The Dallas Morning News, the Austin American-Statesman, and the Albuquerque Tribune. She also was editor-in-chief of the Abilene Reporter-News.</p>
-
-<p>She is a fourth-generation Texan and a Houston native. She has served on the Greater Houston Partnership&rsquo;s Quality of Place Committee; volunteered with the Sunshine Coalition that worked with state legislators to increase transparency in government; and is a member of the Philosophical Society of Texas.</p>
-
-<p>&nbsp;</p>
-
-<p>Terri studied journalism and political science at The University of Texas at Austin and received a Bachelor of Arts degree in political science from Lamar University.</p></p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-end">
-                            <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                    onclick="Custombox.modal.close();">Close
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Modal -->
-            
-
-                <!-- Start Staff Card -->
-                <div class="col-md-4 mb-4 p-4">
-                    <!-- <a href="#bio13" data-modal-target="#bio13" data-modal-effect="blur"> <img
-                            class="img-fluid w-100 rounded d-flex h-85" src="/media/web_app_images/forms/staff_katy.jpg"
-                            alt="Image Description"></a> -->
-                    <div class="card border-0 shadow-sm mt-n6">
-                        <div class="card-body text-center p-4">
-                            <a href="#bio13" data-modal-target="#bio13" data-modal-effect="blur">
-                                <h3 class="h5 mb-1">Katy Gore, M.P.H.</h3>
-                            </a>
-                            <p class="font-size-1 mb-0 green">Coalitions and Education Program Manager</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Card -->
-                <!-- Start Staff Modal -->
-                <div id="bio13" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                    <div class="card">
-                        <header class="card-header bg-light py-3 px-5">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h4 class="modal-title">Katy Gore, M.P.H.<br/> <a class="text-primary"
-                                                                               style="font-size: small !important"
-                                                                               href="mailto:kgore@immunizeusa.org"
-                                                                               target="_blank">kgore@immunizeusa.org</a></h4>
-
-                                <button type="button" class="close" aria-label="Close"
-                                        onclick="Custombox.modal.close();">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                        </header>
-                        <div class="card-body p-5">
-                            <div class="row">
-                                <div class="col-12">
-                                    <p><p>Katy Gore is Coalition and Education Program Manager of the Immunization Partnership where she conducts community and provider forums to educate the public on the latest in vaccine-related science and builds the capacity of community-based immunization coalitions.</p>
-
-<p>Prior to joining TIP she served as Program Analyst for the National Association of County and City Health Officials (NACCHO). Her experience includes working with local health departments on raising HPV vaccination rates by guiding coalitions through a process of creating a mission and vision statement, partnership building, and the development of an action plan.</p>
-
-<p>Prior to her work with HPV coalitions, Gore worked with the Mobilizing for Action through Planning and Partnerships (MAPP) framework, which guides local health departments through a process of community engagement and strategic partnership building with the goal of creating a Community Health Improvement Plan for Accreditation of their local health department. She spent a year with AmeriCorps Community HealthCorps working with teens on health education. She also served as a Reproductive Educational Advocate at Planned Parenthood.</p>
-
-<p>Gore received her Bachelor of Arts in Psychology and Education from American University and her Master of Public Health from The University of Texas Health Science Center at Houston (UTHealth) School of Public Health.</p></p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-end">
-                            <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                    onclick="Custombox.modal.close();">Close
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Modal -->
-            
-
-                <!-- Start Staff Card -->
-                <div class="col-md-4 mb-4 p-4">
-                    <!-- <a href="#bio14" data-modal-target="#bio14" data-modal-effect="blur"> <img
-                            class="img-fluid w-100 rounded d-flex h-85" src="/media/web_app_images/forms/staff_rekha.jpg"
-                            alt="Image Description"></a> -->
-                    <div class="card border-0 shadow-sm mt-n6">
-                        <div class="card-body text-center p-4">
-                            <a href="#bio14" data-modal-target="#bio14" data-modal-effect="blur">
-                                <h3 class="h5 mb-1">Rekha Lakshmanan, M.H.A.</h3>
-                            </a>
-                            <p class="font-size-1 mb-0 green">Chief Strategy Officer</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Card -->
-                <!-- Start Staff Modal -->
-                <div id="bio14" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                    <div class="card">
-                        <header class="card-header bg-light py-3 px-5">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h4 class="modal-title">Rekha Lakshmanan, M.H.A.<br/> <a class="text-primary"
-                                                                               style="font-size: small !important"
-                                                                               href="mailto:rlakshmanan@immunizeusa.org"
-                                                                               target="_blank">rlakshmanan@immunizeusa.org</a></h4>
-
-                                <button type="button" class="close" aria-label="Close"
-                                        onclick="Custombox.modal.close();">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                        </header>
-                        <div class="card-body p-5">
-                            <div class="row">
-                                <div class="col-12">
-                                    <p><p>Rekha Lakshmanan, M.H.A.&nbsp;is Chief Strategy Officer for The Immunization Partnership, serving in the role since 2014. Rekha develops and implements the organization&rsquo;s public policy and advocacy strategy at the Texas Legislature. She has worked three state legislative cycles and successfully passed legislation to improve access to care and health outcomes. Previous to The Immunization Partnership, Rekha spent over twelve years in the private sector helping health care organizations develop preventative and chronic care protocols to improve health outcomes. Rekha is also a contributing expert to Rice University&rsquo;s Baker Institute for Public Policy. She holds a master&rsquo;s degree in health care administration from Texas Woman&rsquo;s University- Houston Medical Center and a B.A. in government from The University of Texas in Austin. Rekha&nbsp;is a graduate of Harvard Kennedy School&rsquo;s Leadership, Organizing and Action: Leading Change program.</p></p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-end">
-                            <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                    onclick="Custombox.modal.close();">Close
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Modal -->
-            
-
-                <!-- Start Staff Card -->
-                <div class="col-md-4 mb-4 p-4">
-                    <!-- <a href="#bio11" data-modal-target="#bio11" data-modal-effect="blur"> <img
-                            class="img-fluid w-100 rounded d-flex h-85" src="/media/web_app_images/forms/staff_hill.jpg"
-                            alt="Image Description"></a> -->
-                    <div class="card border-0 shadow-sm mt-n6">
-                        <div class="card-body text-center p-4">
-                            <a href="#bio11" data-modal-target="#bio11" data-modal-effect="blur">
-                                <h3 class="h5 mb-1">Hill Powell, J.D.</h3>
-                            </a>
-                            <p class="font-size-1 mb-0 green">Chief Operating and Financial Officer</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Card -->
-                <!-- Start Staff Modal -->
-                <div id="bio11" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                    <div class="card">
-                        <header class="card-header bg-light py-3 px-5">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h4 class="modal-title">Hill Powell, J.D.<br/> <a class="text-primary"
-                                                                               style="font-size: small !important"
-                                                                               href="mailto:hpowell@immunizeusa.org"
-                                                                               target="_blank">hpowell@immunizeusa.org</a></h4>
-
-                                <button type="button" class="close" aria-label="Close"
-                                        onclick="Custombox.modal.close();">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                        </header>
-                        <div class="card-body p-5">
-                            <div class="row">
-                                <div class="col-12">
-                                    <p><p>Hill Powell is the Chief Operating and Financial Officer for The Immunization Partnership where she manages daily program and administrative operations. She oversees program development, implementation, and evaluation to ensure existing and emerging community needs are met.</p>
-
-<p>She is a licensed attorney and certified mediator. Before joining the TIP team, Powell spent eight years working in the public health and government sector. She has experience in several leadership positions, including administering ten departments ranging from compliance and auditing to HIPAA privacy and security.</p>
-
-<p>Powell earned her Bachelor of Business Administration in marketing research and analysis and sales management from the University of Houston and her Juris Doctor from South Texas College of Law.</p></p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-end">
-                            <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                    onclick="Custombox.modal.close();">Close
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Modal -->
-            
-
-                <!-- Start Staff Card -->
-                <div class="col-md-4 mb-4 p-4">
-                    <!-- <a href="#bio344" data-modal-target="#bio344" data-modal-effect="blur"> <img
-                            class="img-fluid w-100 rounded d-flex h-85" src="/media/web_app_images/forms/Celinda Provost Photo.png"
-                            alt="Image Description"></a> -->
-                    <div class="card border-0 shadow-sm mt-n6">
-                        <div class="card-body text-center p-4">
-                            <a href="#bio344" data-modal-target="#bio344" data-modal-effect="blur">
-                                <h3 class="h5 mb-1">Celinda Provost</h3>
-                            </a>
-                            <p class="font-size-1 mb-0 green">Communications Director</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Card -->
-                <!-- Start Staff Modal -->
-                <div id="bio344" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                    <div class="card">
-                        <header class="card-header bg-light py-3 px-5">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h4 class="modal-title">Celinda Provost<br/> <a class="text-primary"
-                                                                               style="font-size: small !important"
-                                                                               href="mailto:cprovost@immunizeusa.org"
-                                                                               target="_blank">cprovost@immunizeusa.org</a></h4>
-
-                                <button type="button" class="close" aria-label="Close"
-                                        onclick="Custombox.modal.close();">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                        </header>
-                        <div class="card-body p-5">
-                            <div class="row">
-                                <div class="col-12">
-                                    <p><p>Celinda Provost is Communications Director for The Immunization Partnership where she oversees design and implementation of the organization&rsquo;s overall communications program to increase public education about vaccines and drive advocacy for vaccination.&nbsp;</p>
-
-<p>Before joining the TIP team, Celinda directed Net Victories, an integrated communications consulting firm. She has over 20 years of experience in strategic communication at the national, state, and local level, working extensively on mission-driven issue campaigns, public policy, community outreach, and program management. &nbsp;</p>
-
-<p>Celinda earned a Masters of Arts degree in Journalism &amp; Public Affairs from American University in Washington, D.C, and a Bachelor of Arts degree in History and Political Science from Auburn University.</p></p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-end">
-                            <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                    onclick="Custombox.modal.close();">Close
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Modal -->
-            
-
-                <!-- Start Staff Card -->
-                <div class="col-md-4 mb-4 p-4">
-                    <!-- <a href="#bio347" data-modal-target="#bio347" data-modal-effect="blur"> <img
-                            class="img-fluid w-100 rounded d-flex h-85" src="/media/web_app_images/"
-                            alt="Image Description"></a> -->
-                    <div class="card border-0 shadow-sm mt-n6">
-                        <div class="card-body text-center p-4">
-                            <a href="#bio347" data-modal-target="#bio347" data-modal-effect="blur">
-                                <h3 class="h5 mb-1">Erica Sanchez</h3>
-                            </a>
-                            <p class="font-size-1 mb-0 green">Executive Assistant</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Card -->
-                <!-- Start Staff Modal -->
-                <div id="bio347" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                    <div class="card">
-                        <header class="card-header bg-light py-3 px-5">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h4 class="modal-title">Erica Sanchez<br/> <a class="text-primary"
-                                                                               style="font-size: small !important"
-                                                                               href="mailto:esanchez@immunizeusa.org"
-                                                                               target="_blank">esanchez@immunizeusa.org</a></h4>
-
-                                <button type="button" class="close" aria-label="Close"
-                                        onclick="Custombox.modal.close();">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                        </header>
-                        <div class="card-body p-5">
-                            <div class="row">
-                                <div class="col-12">
-                                    <p><p>Erica Sanchez is the Executive Assistant for The Immunization Partnership where she oversees the day-to-day operations of the organization and supports&nbsp;our leadership staff. Prior to Erica joining our team she was an Administrative Associate at the ACLU of Texas where she wore many hats and assisted with everything from operations, support, IT, internships, and the onboarding and training of new employees.</p>
-
-<p>Prior to the ACLU she was a Sr. Administrative Assistant at the MD Anderson Cancer Center for 14 years where she provided Administrative and Clinical support to a team of 12 physicians.</p></p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-end">
-                            <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                    onclick="Custombox.modal.close();">Close
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Staff Modal -->
             
         </div>
         <!-- Accordion -->
@@ -470,33 +154,7 @@ banner-image: assets/forms/aboutusbanner.jpg
                             <!-- Board Details -->
                             <h6>Executive Committee</h6><br/>
                             <div class="row">
-                                
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
+                             
                                         <div class="col-sm-4 mb-2 mb-sm-0">
                                             <h4 class="h6 mb-1">John T. Dugan III, M.D.</h4>
                                             <p class="small">
