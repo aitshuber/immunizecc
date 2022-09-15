@@ -3,7 +3,7 @@
   Button-Text: Go to Link
   Button-Link: "https://github.com"
   External-Link: true
-  Button_Position_select:
-    left: left
-    center: center
-    right: right
+  Button_Positions:
+    - left
+    - center
+    - right
