@@ -1,18 +1,18 @@
-email: chat@ohhsnapbooth.com
-logo_image: assets/img/ohhsnap.svg
+email: info@immunizeUSA.org
+logo_image: /assets/img/tip.svg
+phone: 281-937-7228
+address: P.O. Box 346 Houston, TX 77001
 social:
   - name: instagram
-    link: https://instagram.com/ohhsnapbooth
+    link: https://instagram.com/Immunize_USA
     icon: fa-instagram
   - name: facebook
-    link: https://facebook.com/ohhsnapbooth
+    link: https://www.facebook.com/immunizeusa
     icon: fa-facebook
-  - name: twitter
+  - name: Twitter
+    link: https://twitter.com/Immunize_USA
+    icon: fa-twitter
+  - name: Linkedin
     link: https://twitter.com/ohhsnapbooth
     icon: fa-twitter
-  - name: pinterest
-    link: https://pinterest.com/ohhsnapbooth
-    icon: fa-pinterest
-  - name: tiktok
-    link: https://tiktok.com/@ohhsnapbooth
-    icon: fa-tiktok
+
