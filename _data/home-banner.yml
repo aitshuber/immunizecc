@@ -3,20 +3,9 @@
   Button-Text: Go to Link
   Button-Link: "https://github.com"
   External-Link: true
-  colors:
-	- Red
-  ssgs:
-   - hugo
-   - 11ty
+  Button-Position: center
   _select_data:
-	colors:
-	  - Red
-	  - Blue
-	ssgs:
-	  jekyll: Jekyll
-	  hugo: Hugo
-	  11ty: Eleventy
-  Positions:
-      - left
-      - center
-      - right
+    Button-Position:
+    - left
+    - center
+    - right
