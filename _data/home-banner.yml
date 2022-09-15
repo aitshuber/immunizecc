@@ -4,7 +4,7 @@
   Button-Link: "https://github.com"
   External-Link: true
   Button-Position: 
-	  - center
+	- center
   _select_data:
     Button-Position:
     - left
