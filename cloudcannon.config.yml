@@ -5,9 +5,6 @@ collections_config:
     - visual
     - content
     - data
-  posts:
-  path: _posts
-  output: true
 paths:
   # The default location for newly uploaded files, relative to source
   uploads: assets/img
