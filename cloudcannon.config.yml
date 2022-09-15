@@ -25,6 +25,8 @@ collections_config:
 	# Collection-level configuration
 	name: Personnel
 	_enabled_editors:
+	  - visual
+	  - content
 	  - data
   posts:
 	path: _posts
