@@ -16,6 +16,7 @@ data_config:
   Button-Position:
     type: select
     options:
-      values: left
-      values: center
-      value: right
+      values: 
+        - left
+        - center
+        - right
