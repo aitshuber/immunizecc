@@ -1,0 +1,34 @@
+source_editor:
+# Base path to your site source files, same as source for Jekyll
+source: site
+
+# Populates collections for navigation and metadata in the editor
+collections_config:
+	# Whether this collection produces output files or not
+	output: true
+
+	# Collection-level configuration
+	_enabled_editors:
+	  - visual
+	  - content
+	  - data
+  posts:
+	path: _posts
+	output: true
+  pages:
+
+paths:
+  # The default location for newly uploaded files, relative to source
+  uploads: assets/img
+
+  # The path to the root collections folder, relative to source
+  collections: items
+
+  # The path to site data files, relative to source
+  data: _data
+
+  # The path to site layout files, relative to source
+  layouts: _layouts
+
+  # The path to site include files, relative to source
+  includes: _includes
