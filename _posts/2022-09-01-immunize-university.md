@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Immunization University (IZU)
-description:
-keywords:
+description: >-
+  IZU is an online platform providing nursing educational courses/modules for
+  professional continuing education credit for nursing approved credits through
+  a partnership with Cizik School of Nursing at UTHealth.
+keywords: IZU, UTHealth, Cizik School of Nursing
 date: 2022-08-31 19:00:00 -0500
 published: true
 categories:
