@@ -3,6 +3,15 @@
   Button-Text: Go to Link
   Button-Link: "https://github.com"
   External-Link: true
+  spare_part: Bolt
+  _inputs:
+	spare_part:
+	  type: choice
+	  options:
+		values:
+		  - Bolt
+		  - Nut
+		  - Gear
   Positions:
       - left
       - center
