@@ -1,21 +1,108 @@
 - Type: Community Organizations
   Organizations:
-  - Partner: Colors of Pride San Antonio
-  - Partner: Children at Risk
-  - Partner: Vaccinate Your Family
-  - Partner: Network for Public Health Law
-  - Partner: SA2020
-  - Partner: YMCA of Houston
-  - Partner: Rotary Club of Brazos River
-  - Partner: Silver Haired Legislators
+    - Partner: Colors of Pride San Antonio
+    - Partner: Children at Risk
+    - Partner: Vaccinate Your Family
+    - Partner: Network for Public Health Law
+    - Partner: SA2020
+    - Partner: YMCA of Houston
+    - Partner: Rotary Club of Brazos River
+    - Partner: Silver Haired Legislators
 - Type: Coalitions
   Organizations:
-  - Partner: Andrews County Immunization Coalition
-  - Partner: IZSA Coalition (San Antonio)
-  - Partner: South Plains Immunization Network (SPIN) (Lubbock)
-  - Partner: Vaccine Awareness Coalition (VAC) (Gregg County)
-  - Partner: El Paso Immunization Coalition (EPIC)
-  - Partner: Midland County Immunization Coalition
-  - Partner: South Texas Immunization Coalition (STIC) (McAllen)
-  - Partner: Immunization Collaboration of Tarrant County
-
+    - Partner: Andrews County Immunization Coalition
+    - Partner: IZSA Coalition (San Antonio)
+    - Partner: South Plains Immunization Network (SPIN) (Lubbock)
+    - Partner: Vaccine Awareness Coalition (VAC) (Gregg County)
+    - Partner: El Paso Immunization Coalition (EPIC)
+    - Partner: Midland County Immunization Coalition
+    - Partner: South Texas Immunization Coalition (STIC) (McAllen)
+    - Partner: Immunization Collaboration of Tarrant County
+    - Partner: Immunization Coalition of Greater Houston (ICOGH)
+    - Partner: North East Texas Immunization Coalition (NET Health)
+    - Partner: Texas Public Health Coalition
+- Type: Schools
+  Organizations:
+    - Partner: American College of Healthcare Executives, South Texas Chapter
+    - Partner: Rice University
+    - Partner: San Antonio Independent School District (SAISD)
+    - Partner: The University of Texas at Austin
+    - Partner: Baylor College of Medicine
+    - Partner: River Oaks Baptist School
+    - Partner: University of Houston Law Center
+    - Partner: >-
+        The University of Texas Health Science Center at Houston School of
+        Public Health
+    - Partner: Prairie View A&M
+    - Partner: Sam Houston State University
+    - Partner: The University of Texas Health Science Center at San Antonio
+- Type: Associations
+  Organizations:
+    - Partner: Association of State and Territorial Health Officials (ASTHO)
+    - Partner: Texas Nurses Association
+    - Partner: Texas Pediatric Society (TPS)
+    - Partner: Texas School Nurse Organization
+    - Partner: Project ECHO (Extension for Community Healthcare Outcomes)
+    - Partner: Texas Hospital Association
+    - Partner: Texas Medical Association (TMA)
+    - Partner: Texas PTA
+    - Partner: Association of Immunization Managers
+    - Partner: Children’s Hospital Association of Texas
+    - Partner: Texas Association of City and County Health Officials (TAACHO)
+    - Partner: Texas Public Health Association
+- Type: Foundations
+  Organizations:
+    - Partner: Houston Endowment
+    - Partner: Elizabeth & David Grzebinski Fund
+    - Partner: Harry S. and Isabel C. Cameron Foundation
+    - Partner: Methodist Healthcare Ministries
+    - Partner: Spirit Golf Association
+    - Partner: The Brown Foundation
+    - Partner: The Paul and Mary McEvoy Fund
+    - Partner: John P. McGovern Foundation
+    - Partner: Episcopal Health Foundation
+    - Partner: The Ellwood Foundation
+    - Partner: Permian Basin Area Foundation
+    - Partner: St. Luke's Lutheran Health Ministries
+    - Partner: The JAMIE Group
+    - Partner: Koons Fuller Family Law Foundation
+    - Partner: Florence and William K. McGee Jr. Family Foundation
+    - Partner: The Cullen Trust for Health Care
+    - Partner: Rockwell Fund
+    - Partner: Strake Foundation
+    - Partner: The Meadows Foundation
+- Type: Government Entities
+  Organizations:
+    - Partner: City of San Antonio
+    - Partner: San Antonio City Council
+    - Partner: Harris County Public Health
+    - Partner: San Antonio Metro Health Department
+    - Partner: Houston Health Department
+    - Partner: Texas Department of State Health Services (DSHS)
+- Type: Hospitals
+  Organizations:
+    - Partner: Children's Memorial Hermann Hospital
+    - Partner: Kelsey-Seybold Clinic
+    - Partner: The University of Texas Health Science Center at Houston (UTHealth)
+    - Partner: HCA Houston Healthcare
+    - Partner: Methodist Hospital
+    - Partner: The University of Texas MD Anderson Cancer Center
+    - Partner: Houston Methodist
+    - Partner: Texas Children's Hospital
+- Type: Corporations
+  Organizations:
+    - Partner: AmazonSmile
+    - Partner: Deloitte
+    - Partner: GlaxoSmithKline (GSK)
+    - Partner: Pfizer
+    - Partner: Anthem-Amerigroup
+    - Partner: Edelman
+    - Partner: HEB
+    - Partner: Walgreens
+    - Partner: Ascension
+    - Partner: Ernst & Young
+    - Partner: Merck
+- Type: Insurance Providers
+  Organizations:
+    - Partner: Community Health Choice
+    - Partner: Star Health Management
