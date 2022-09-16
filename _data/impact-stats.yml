@@ -1,6 +1,28 @@
-- Title: Lives Saved by Vaccines Worldwide
-  Text: Immunization prevents 4.5 million deaths every year.
-  Number: 3
-  Innertext: Preventions
-  Amount: Million
-  MaxValue: 4.5
+- title: Lives Saved by Vaccines Worldwide
+  mainValue: 3
+  maxValue: 4.5
+  lowertext: Million
+  innertext: Preventions
+  color-picker: "#d986ba"
+  text: Immunization prevents 4.5 million deaths every year.
+- title: Non-Medical Exemptions <br> in Texas
+  mainValue: 3044
+  maxValue: 3044
+  additional-text: "% Increase"
+  lowertext: non-medical exemption
+  color-picker: "#2dccd3"
+  text: The non-medical exemption rate has increased 3,044% from 2,314 non-medical exemptions to 72,743 between the 2003-04 and 2019-20 school years.
+- title: Immunization Advocacy <br> in Texas
+  mainValue: 24
+  maxValue: 24
+  additional-text: ""
+  lowertext: Bills Passed
+  color-picker: "#78be20"
+  text: Since 2007, 24 immunization related bills have passed as a result of TIP's and other immunization advocates' efforts.
+- title: Meningitis Cases <br> in Texas
+  mainValue: 71
+  maxValue: 100
+  additional-text: "%"
+  lowertext: Decrease
+  color-picker: "#0085ca"
+  text: Texas has seen a 71% decrease in meningitis cases since the 2011 law expanding the meningitis vaccine requirement.

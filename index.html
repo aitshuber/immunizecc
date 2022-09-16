@@ -17,7 +17,6 @@ permalink: "/"
              data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
              data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">   
              {% for item in site.data.home-banner %}
-              
                 <div class="js-slide">
                 <!-- Slide #1 -->
                 <div class="d-lg-flex align-items-lg-center u-hero-v1__main"
@@ -33,13 +32,9 @@ permalink: "/"
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        
-                    
+                        </div>
                 </div>
-
             {% endfor %}
-            
         </div>
         <!-- End Hero Carousel Main -->
     </div>
@@ -72,146 +67,38 @@ permalink: "/"
                 <!-- End Title -->
 
                 <div class="row mb-9">
+                    {% for item in site.data.impact-stats %}
                     <div class="col-sm-6 col-lg-3 mb-7 mb-lg-4">
-                        
-                        
-                        
-                            <h6 class="text-center">Lives Saved by Vaccines Worldwide</h6>
+                            <h6 class="text-center">{{item.title}}</h6>
                             <div class="u-stats-progress position-relative d-flex align-items-center justify-content-center">
                                 <!-- Pie Circle -->
-
                                 <div class="js-pie text-center"
                                      data-circles-text-class="u-stats-progress__info"
-                                     data-circles-value="3"
-                                     data-circles-max-value="4.5"
+                                     data-circles-value="{{item.mainValue}}"
+                                     data-circles-max-value="{{item.maxValue}}"
                                      data-circles-bg-color="#f8fafd"
-                                     data-circles-fg-color="#d986ba"
+                                     data-circles-fg-color="{{item.color-picker}}"
                                      data-circles-fg-stroke-linecap="round"
                                      data-circles-fg-stroke-miterlimit="10"
                                      data-circles-radius="100"
                                      data-circles-stroke-width="8"
-                                     data-circles-additional-text=" Million"
+                                     data-circles-additional-text="{{item.additional-text}}"
                                      data-circles-duration="2000"
                                      data-circles-scroll-animate="true"
-                                     data-circles-color="#d986ba"
+                                     data-circles-color="{{item.color-picker}}"
                                      data-circles-font-size="24"
                                      data-circles-font-weight="500"
-                                     data-circles-secondary-text="Preventions"
+                                     data-circles-secondary-text="{{item.lowertext}}"
                                      data-circles-secondary-color="#77838f"
                                      data-circles-secondary-font-size="13"
                                      data-circles-secondary-font-weight="400"
                                      data-circles-divider-space="10"></div>
                                 <!-- End Pie Circle -->
                             </div>
-                            
-                            <p class="text-muted pt-5">Immunization prevents 4.5 million deaths every year.</p>
+                          <p class="text-muted pt-5">{{item.text}}</p>
                             </div>
-                        
-
-                    
-                    
-                        <div class="col-sm-6 col-lg-3 mb-7 mb-lg-4">
-                            <h6 class="text-center">Non-Medical Exemptions <br> in Texas</h6>
-                            
-                            <div class="u-stats-progress position-relative d-flex align-items-center justify-content-center">
-                                <!-- Pie Circle -->
-                                <div class="js-pie text-center"
-                                     data-circles-text-class="u-stats-progress__info"
-                                     data-circles-value="3044"
-                                     data-circles-max-value="3044"
-                                     data-circles-bg-color="#f8fafd"
-                                     data-circles-fg-color="#2dccd3"
-                                     data-circles-fg-stroke-linecap="round"
-                                     data-circles-fg-stroke-miterlimit="10"
-                                     data-circles-radius="100"
-                                     data-circles-stroke-width="8"
-                                     data-circles-additional-text="% Increase"
-                                     data-circles-duration="2000"
-                                     data-circles-scroll-animate="true"
-                                     data-circles-color="#2dccd3"
-                                     data-circles-font-size="24"
-                                     data-circles-font-weight="500"
-                                     data-circles-secondary-text="non-medical exemption"
-                                     data-circles-secondary-color="#77838f"
-                                     data-circles-secondary-font-size="13"
-                                     data-circles-secondary-font-weight="400"
-                                     data-circles-divider-space="10"></div>
-                                <!-- End Pie Circle -->
-                            </div>
-                            <p class="text-muted pt-5">The non-medical exemption rate has increased 3,044% from 2,314 non-medical exemptions to 72,743 between the 2003-04 and 2019-20 school years.</p>
-                        </div>
-                    
-
-                    
-                    
-                        <div class="col-sm-6 col-lg-3 mb-7 mb-lg-4">
-                            
-                            <h6 class="text-center">Immunization Advocacy <br> in Texas</h6>
-                            <div class="u-stats-progress position-relative d-flex align-items-center justify-content-center">
-                                <!-- Pie Circle -->
-                                <div class="js-pie text-center"
-                                     data-circles-text-class="u-stats-progress__info"
-                                     data-circles-value="24"
-                                     data-circles-max-value="24"
-                                     data-circles-bg-color="#f8fafd"
-                                     data-circles-fg-color="#78be20"
-                                     data-circles-fg-stroke-linecap="round"
-                                     data-circles-fg-stroke-miterlimit="10"
-                                     data-circles-radius="100"
-                                     data-circles-stroke-width="8"
-                                     data-circles-additional-text=""
-                                     data-circles-duration="2000"
-                                     data-circles-scroll-animate="true"
-                                     data-circles-color="#78be20"
-                                     data-circles-font-size="24"
-                                     data-circles-font-weight="500"
-                                     data-circles-secondary-text="Bills Passed"
-                                     data-circles-secondary-color="#77838f"
-                                     data-circles-secondary-font-size="13"
-                                     data-circles-secondary-font-weight="400"
-                                     data-circles-divider-space="10"></div>
-                                <!-- End Pie Circle -->
-                            </div>
-                            
-                            <p class="text-muted pt-5">Since 2007, 24 immunization related bills have passed as a result of TIP’s and other immunization advocates’ efforts.</p>
-                        </div>
-                    
-
-                    
-                    
-                        <div class="col-sm-6 col-lg-3 mb-7 mb-lg-4">
-                            
-                            <h6 class="text-center">Meningitis Cases <br> in Texas</h6>
-
-                            <div class="u-stats-progress position-relative d-flex align-items-center justify-content-center">
-                                <!-- Pie Circle -->
-                                <div class="js-pie text-center"
-                                     data-circles-text-class="u-stats-progress__info"
-                                     data-circles-value="71"
-                                     data-circles-max-value="100"
-                                     data-circles-bg-color="#f8fafd"
-                                     data-circles-fg-color="#0085ca"
-                                     data-circles-fg-stroke-linecap="round"
-                                     data-circles-fg-stroke-miterlimit="10"
-                                     data-circles-radius="100"
-                                     data-circles-stroke-width="8"
-                                     data-circles-additional-text="%"
-                                     data-circles-duration="2000"
-                                     data-circles-scroll-animate="true"
-                                     data-circles-color="#0085ca"
-                                     data-circles-font-size="24"
-                                     data-circles-font-weight="500"
-                                     data-circles-secondary-text="Decrease"
-                                     data-circles-secondary-color="#77838f"
-                                     data-circles-secondary-font-size="13"
-                                     data-circles-secondary-font-weight="400"
-                                     data-circles-divider-space="10"></div>
-                                <!-- End Pie Circle -->
-                            </div>
-                            
-                            <p class="text-muted pt-5">Texas has seen a 71% decrease in meningitis cases since the 2011 law expanding the meningitis vaccine requirement.</p>
-                        </div>
-                    
+                       {% endfor %}
+                      
                 </div>
             </div>
 
