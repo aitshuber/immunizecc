@@ -14,10 +14,10 @@ banner-image: assets/forms/immunize-get-involved.jpg
                
               {% assign day = 'now' | date_to_xmlschema %} 
                {% for item in site.data.events %}
-               {% assign activeUpcoming = false %}
+               {% assign activeUpcoming == false %}
                {% assign eventStartDate = item.date | date_to_xmlschema %}
                {% if eventStartDate >= day %}
-               {% assign activeUpcoming = true %}
+               {% assign activeUpcoming == true %}
                <div class="col-4">
                <div class="u-blog-thumb-minimal bg-blue">
                    <a class="media" href="{{item.link}}" {% if item.external-link != true %}{% else %}target="_blank"{% endif %}>
@@ -120,8 +120,12 @@ banner-image: assets/forms/immunize-get-involved.jpg
                             <div class="card-body p-5 text-left editable">
                                 <h3 class="h3 font-weight-medium text-white editable">Volunteer at TIP</h3>
                                 
-                                <p style="color: rgba(255, 255, 255);">TIP offers a variety of projects where your help would be invaluable:</p>
-                                <ul><li><p style="color: rgba(255, 255, 255);">Help us advocate (e.g., Walking the halls at the Texas Capitol)</p></li><li><p style="color: rgba(255, 255, 255);">Write an op-ed for newspapers and publications statewide</p></li><li><p style="color: rgba(255, 255, 255);">Assist with conducting vital immunization research</p></li></ul>
+                                <p class="editable" style="color: rgba(255, 255, 255);">TIP offers a variety of projects where your help would be invaluable:</p>
+                                <ul class="editable">
+                                  <li>Help us advocate (e.g., Walking the halls at the Texas Capitol)</li>
+                                  <li>Write an op-ed for newspapers and publications statewide</li>
+                                  <li>Assist with conducting vital immunization research
+                                  </ul>
                                 
                             </div>
                             <div class="card-footer text-left border-0 py-4 px-5 bg-teal">
@@ -141,7 +145,12 @@ banner-image: assets/forms/immunize-get-involved.jpg
                             <div class="card-body p-5 text-left">
                                 <h3 class="h3 font-weight-medium text-white editable">Internship Opportunities</h3>
                                 
-                                <p class="editable"><p style="color: rgba(255, 255, 255);">The internship opportunities at TIP allow students to explore the ins and outs of immunization advocacy and education. These opportunities are open to a wide range of students:</p></p><ul><li><p style="color: rgba(255, 255, 255);">Recent high school graduates entering college</p></li><li><p style="color: rgba(255, 255, 255);">Undergraduate students</p></li><li><p style="color: rgba(255, 255, 255);">Graduate students (e.g., J.D., M.B.A., M.D., M.P.H., Ph.D.)</p></li></ul>
+                                <p class="editable">The internship opportunities at TIP allow students to explore the ins and outs of immunization advocacy and education. These opportunities are open to a wide range of students:</p>
+                                <ul class="editable">
+                                  <li>Recent high school graduates entering college</li>
+                                  <li>Undergraduate students</li>
+                                  <li>Graduate students (e.g., J.D., M.B.A., M.D., M.P.H., Ph.D.)</li>
+                                </ul>
                                 
                             </div>
                             <div class="card-footer text-left border-0 py-4 px-5 bg-yellow">
@@ -161,7 +170,13 @@ banner-image: assets/forms/immunize-get-involved.jpg
                             <div class="card-body p-5 text-left">
                                 <h3 class="h3 font-weight-medium text-white editable">Guest Speaker</h3>
                                 
-                                <p class="editable"><p style="color: rgba(255, 255, 255);">TIP organizes and hosts impactful events that can only be successful with the assistance of those who dedicate their time and efforts to our mission. We need speakers at a variety of events including:</p></p><ul><li><p style="color: rgba(255, 255, 255);">Our annual Community Immunity Luncheon</p></li><li><p style="color: rgba(255, 255, 255);">Educational webinars</p></li><li><p style="color: rgba(255, 255, 255);">In-person forums (e.g., School Nurse Forum) </p></li><li><p style="color: rgba(255, 255, 255);">Conferences (e.g., Texas Immunization Conference)</p></li></ul>
+                                <p class="editable">TIP organizes and hosts impactful events that can only be successful with the assistance of those who dedicate their time and efforts to our mission. We need speakers at a variety of events including:</p>
+                                <ul class="editable">
+                                  <li>Our annual Community Immunity Luncheon</li>
+                                  <li>Educational webinars</li>
+                                  <li>In-person forums (e.g., School Nurse Forum)</li>
+                                  <li>Conferences (e.g., Texas Immunization Conference)</li>
+                                </ul>
                                 
                             </div>
                             <div class="card-footer text-left border-0 py-4 px-5 bg-pink">
@@ -266,9 +281,9 @@ banner-image: assets/forms/immunize-get-involved.jpg
     <div class="gradient-half-warning-v1 text-white text-center mt-10" id="employment">
         <div class="container space-1">
     <span class="h4 d-block d-lg-inline-block font-weight-light mb-lg-0 text-primary">
-              <span class="text-primary font-weight-semi-bold">Join Our</span> Mailing List</span>
+              <span class="text-primary font-weight-semi-bold editable">Join Our</span> Mailing List</span>
 
-            <a class="btn btn-sm btn-white text-primary transition-3d-hover font-weight-normal ml-3"
+            <a class="btn btn-sm btn-white text-primary transition-3d-hover font-weight-normal ml-3 editable"
                href="https://immunizeusa.salsalabs.org/mailinglistsign-up/index.html">Learn More</a>
         </div>
     </div>
