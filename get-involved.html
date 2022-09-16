@@ -14,10 +14,10 @@ banner-image: assets/forms/immunize-get-involved.jpg
                
               {% assign day = 'now' | date_to_xmlschema %} 
                {% for item in site.data.events %}
+               {% assign activeUpcoming = false %}
                {% assign eventStartDate = item.date | date_to_xmlschema %}
                {% if eventStartDate >= day %}
-
-              
+               {% assign activeUpcoming = true %}
                <div class="col-4">
                <div class="u-blog-thumb-minimal bg-blue">
                    <a class="media" href="{{item.link}}" {% if item.external-link != true %}{% else %}target="_blank"{% endif %}>
@@ -33,11 +33,11 @@ banner-image: assets/forms/immunize-get-involved.jpg
                    </a>
                </div>
                </div>
-               {% else %}
-               <p>nothing here </p>
-
                {% endif %}
                {% endfor %}
+              {% if activeUpcoming == false %}
+              <p>We do not have an upcoming events. Please check back for an updated schedule.</p>
+              {% endif %}
             </div>
         </div>
           

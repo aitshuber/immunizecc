@@ -1,0 +1,16 @@
+- title: Home
+  url: "/"
+- title: About Us
+  url: "about"
+- title: Covid
+  url: covid
+- title: Advocacy
+  url: advocacy
+- title: Impact
+  url: impact
+- title: Get Involved
+  url: getinvolved
+- title: Partners
+  url: partners
+- title: Donate
+  url: donate
