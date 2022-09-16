@@ -1,34 +1,80 @@
-- title: >-
-    Harness the power of community voices for vaccines. 2022 Immunization
-    Stakeholder meetings
+- title: Austin 2022 Immunization Stakeholder Meeting
   date: 2022-05-26 00:00:00 -0500
   description: >-
-    TIP is excited to announce our first immunization art exhibit entitled, The
-    Art of Awareness: A Community’s Self-Portrait of Immunization Health, taking
-    place from May 6th - May 27th, which highlights pieces created by local
-    Houston artists. The purpose of the exhibit is to showcase and prompt a
-    dialogue about the important role vaccines play as a part of a person’s
-    holistic health and the health of the community. In collaboration with MECA
-    Dow Campus located in historic 6th Ward, our goal is to enrich the community
-    through engagement, art, and direct action.
+    Austin. Harness the power of community voices for vaccines. 
+
+
+    Every other year, The Immunization Partnership travels across the state to
+    hear from immunization stakeholders about the successes and challenges to
+    keeping high immunization rates in our community. You are a partner to help
+    shape what policies TIP advocates for the next legislative session. 
+
+
+    Special thanks to Methodist Healthcare Ministries of South Texas, Inc. for
+    supporting this event. 
   location: Austin, TX
   link: https://immunizeusa.salsalabs.org/austinsm2022/index.html
   external-link: true
   enabled: true
-- title: >-
-    Test Event
-  date: 2022-1-26 00:00:00 -0500
+- title: DFW area 2022 Immunization Stakeholder Meeting
+  date: 2022-12-25 11:00:00 -0600
   description: >-
-    TIP is excited to announce our first immunization art exhibit entitled, The
-    Art of Awareness: A Community’s Self-Portrait of Immunization Health, taking
-    place from May 6th - May 27th, which highlights pieces created by local
-    Houston artists. The purpose of the exhibit is to showcase and prompt a
-    dialogue about the important role vaccines play as a part of a person’s
-    holistic health and the health of the community. In collaboration with MECA
-    Dow Campus located in historic 6th Ward, our goal is to enrich the community
-    through engagement, art, and direct action.
-  location: Austin, TX
-  link: https://immunizeusa.salsalabs.org/austinsm2022/index.html
+    Dallas/Fort Worth. Harness the power of community voices for vaccines. 
+
+
+    Every other year, The Immunization Partnership travels across the state to
+    hear from immunization stakeholders about the successes and challenges to
+    keeping high immunization rates in our community. You are a partner to help
+    shape what policies TIP advocates for the next legislative session. 
+
+
+    Special thanks to Methodist Healthcare Ministries of South Texas, Inc. for
+    supporting this event. 
+  location: Grand Prairie, Texas
+  link: https://immunizeusa.salsalabs.org/dfwsm2022/index.html
   external-link: true
   enabled: true
-  
+- title: El Paso 2022 Immunization Stakeholder Meeting
+  date: 2022-05-17 11:30:00 -0500
+  description: >-
+    El Paso. Harness the power of community voices for vaccines.  
+
+
+    Every other year, The Immunization Partnership travels across the state to
+    hear from immunization stakeholders about the successes and challenges to
+    keeping high immunization rates in our community. You are a partner to help
+    shape what policies the organization will advocate for next legislative
+    session. 
+
+
+    Thank you to the UT- El Paso chapter of the American Pharmacist Association-
+    Academy of Student Pharmacists (APHA-ASP) and the UT-El Paso chapter of the
+    American Society of Health System Pharmacists-Student Society Health System
+    Pharmacists (ASHP-SSHP) for partnering with TIP on this event. 
+
+
+    Special thanks to Methodist Healthcare Ministries of South Texas, Inc. for
+    supporting this event. 
+  location: El Paso, Texas
+  link: https://immunizeusa.salsalabs.org/elpasosm2022/index.html
+  external-link: true
+  enabled: true
+- title: Lubbock 2022 Immunization Stakeholder Meeting
+  date: 2022-05-12 10:00:00 -0500
+  description: >-
+    Lubbock. Harness the power of community voices for vaccines. 
+
+
+    Every other year, The Immunization Partnership travels across the state to
+    hear from immunization stakeholders about the successes and challenges to
+    keeping high immunization rates in our community. You are a partner to help
+    shape what policies the organization will advocate for the next legislative
+    session. 
+
+
+    Special thanks to Methodist Healthcare Ministries of South Texas, Inc. for
+    supporting this event. 
+  location: Lubbock, Texas
+  link: https://immunizeusa.salsalabs.org/lubbock2022/index.html
+  external-link: true
+  enabled: true
