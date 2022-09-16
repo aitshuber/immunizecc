@@ -43,31 +43,31 @@ banner-image: assets/forms/immunize-advocacy.jpg
 
             
             
-                
+                {% for item in site.data.advocate-stories %}
                 <!-- Advocate -->
                 <div class="js-slide px-3">
                     <div class="row">
                         <div class="col-sm-6 d-sm-flex align-content-sm-start flex-sm-column text-center text-sm-left mb-7 mb-sm-0 align-middle">
                             <div class="w-100">
-                                <h3 class="h5 mb-4">Jamie Schanbaum</h3>
+                                <h3 class="h5 mb-4">{{item.Name}}</h3>
                             </div>
-                            <p class="font-size-1">Jamie Schanbaum was a sophomore at the University of Texas when she contracted meningococcal septicemia, a severe blood infection caused by the same bacteria as meningitis.</p>
-                            <a href="#Jamie" data-modal-target="#Jamie" data-modal-effect="blur">
+                            <p class="font-size-1">{{item.Text | truncatewords: 22, ""}}</p>
+                            <a href="#{{item.Name | downcase | truncatewords:1, ""}}" data-modal-target="#{{item.Name | downcase | truncatewords:1, ""}}" data-modal-effect="blur">
                                 <p>Read More</p>
                             </a>
                         </div>
                         <div class="col-sm-6">
                             <img class="img-fluid rounded mx-auto" style="width: 20em;height: 20em; object-fit:cover"
-                                 src="assets/forms/advocate-jamie.webp" alt="Image">
+                                 src="{{item.Image}}" alt="Image">
                         </div>
                     </div>
 
                     <!-- Start Modal -->
-                    <div id="Jamie" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
+                    <div id="{{item.Name | downcase | truncatewords:1, ""}}" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
                         <div class="card">
                             <header class="card-header bg-light py-3 px-5">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="h6 mb-0">Jamie Schanbaum</h3>
+                                    <h3 class="h6 mb-0">{{item.Name}}</h3>
 
                                     <button type="button" class="close" aria-label="Close"
                                             onclick="Custombox.modal.close();">
@@ -80,11 +80,11 @@ banner-image: assets/forms/immunize-advocacy.jpg
                                     <div class="col-12 col-md-3">
                                         <img class="img-fluid rounded mx-auto"
                                              style="width: 20em;height: 20em; object-fit:cover"
-                                             src="assets/forms/advocate-jamie.webp"
-                                             alt="Image">
+                                             src="{{item.Image}}"
+                                             alt="{{item.Name}}">
                                     </div>
                                     <div class="col-12 col-md-9">
-                                        <p><p>Jamie Schanbaum was a sophomore at The University of Texas at Austin (UT) when she contracted meningococcal septicemia, a severe blood infection caused by the same bacteria as meningitis. The symptoms appeared in the evening and by the next day she was unable to move her legs. The loss of blood flow to Jamie&rsquo;s extremities allowed for bacteria to gradually kill her limbs, resulting in amputation of her fingers and both legs below the knee. Jamie and her family advocated with TIP and others to require meningitis vaccinations for all incoming freshmen. The Jamie Schanbaum Nicolis Williams Act creates awareness to the threat of bacterial meningitis and brings us one step closer to preventing unnecessary deaths and suffering. Thankfully, her tragedy did not stop her. She won a gold medal in the USA Cycling Paralympic Road National Championships. Jamie graduated from UT with a degree in Human and Family Development. Today, she works diligently across the country to advocate for meningitis awareness and vaccination uptake. Learn more at www.thejamiegroup.org.</p></p>
+                                        <p>{{item.Text}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -98,290 +98,7 @@ banner-image: assets/forms/immunize-advocacy.jpg
                     <!-- End Modal -->
                 </div>
                 <!-- End Advocate -->
-            
-                
-                <!-- Advocate -->
-                <div class="js-slide px-3">
-                    <div class="row">
-                        <div class="col-sm-6 d-sm-flex align-content-sm-start flex-sm-column text-center text-sm-left mb-7 mb-sm-0 align-middle">
-                            <div class="w-100">
-                                <h3 class="h5 mb-4">Greg Williams</h3>
-                            </div>
-                            <p class="font-size-1">Greg Williams is the father to Nicolis “Nico” Williams. Nico was a student at Texas A&amp;M who died February 11, 2011, from bacterial meningitis.</p>
-                            <a href="#Greg" data-modal-target="#Greg" data-modal-effect="blur">
-                                <p>Read More</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <img class="img-fluid rounded mx-auto" style="width: 20em;height: 20em; object-fit:cover"
-                                 src="assets/forms/advocate-greg.webp" alt="Image">
-                        </div>
-                    </div>
-
-                    <!-- Start Modal -->
-                    <div id="Greg" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                        <div class="card">
-                            <header class="card-header bg-light py-3 px-5">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="h6 mb-0">Greg Williams</h3>
-
-                                    <button type="button" class="close" aria-label="Close"
-                                            onclick="Custombox.modal.close();">
-                                        <span aria-hidden="true">×</span>
-                                    </button>
-                                </div>
-                            </header>
-                            <div class="card-body p-5">
-                                <div class="row">
-                                    <div class="col-12 col-md-3">
-                                        <img class="img-fluid rounded mx-auto"
-                                             style="width: 20em;height: 20em; object-fit:cover"
-                                             src="assets/forms/advocate-greg.webp"
-                                             alt="Image">
-                                    </div>
-                                    <div class="col-12 col-md-9">
-                                        <p><p>Greg Williams is the father of Nicolis &ldquo;Nico&rdquo; Williams, a Texas A&amp;M student who died February 11, 2011, from bacterial meningitis. Prior to Nico&rsquo;s death, Texas only required students living in dorms to have meningitis vaccinations. Even though Nico did not live in a dorm, the limited vaccine requirement was a contributing factor to his death. Greg and his family advocated with TIP and others to require meningitis vaccinations for all incoming freshmen. The Jamie Schanbaum Nicolis Williams Act creates awareness to the threat of bacterial meningitis and brings us one step closer to preventing unnecessary deaths and suffering. You can learn more about Nico and his family at www.nicowilliamsfoundation.org.</p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer d-flex justify-content-end">
-                                <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                        onclick="Custombox.modal.close();">Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Modal -->
-                </div>
-                <!-- End Advocate -->
-            
-                
-                <!-- Advocate -->
-                <div class="js-slide px-3">
-                    <div class="row">
-                        <div class="col-sm-6 d-sm-flex align-content-sm-start flex-sm-column text-center text-sm-left mb-7 mb-sm-0 align-middle">
-                            <div class="w-100">
-                                <h3 class="h5 mb-4">Riki Graves</h3>
-                            </div>
-                            <p class="font-size-1">Riki is the mother of a daughter who was the youngest heart transplant recipient at Texas Children’s Hospital.</p>
-                            <a href="#Riki" data-modal-target="#Riki" data-modal-effect="blur">
-                                <p>Read More</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <img class="img-fluid rounded mx-auto" style="width: 20em;height: 20em; object-fit:cover"
-                                 src="assets/forms/advocate-riki.webp" alt="Image">
-                        </div>
-                    </div>
-
-                    <!-- Start Modal -->
-                    <div id="Riki" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                        <div class="card">
-                            <header class="card-header bg-light py-3 px-5">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="h6 mb-0">Riki Graves</h3>
-
-                                    <button type="button" class="close" aria-label="Close"
-                                            onclick="Custombox.modal.close();">
-                                        <span aria-hidden="true">×</span>
-                                    </button>
-                                </div>
-                            </header>
-                            <div class="card-body p-5">
-                                <div class="row">
-                                    <div class="col-12 col-md-3">
-                                        <img class="img-fluid rounded mx-auto"
-                                             style="width: 20em;height: 20em; object-fit:cover"
-                                             src="assets/forms/advocate-riki.webp"
-                                             alt="Image">
-                                    </div>
-                                    <div class="col-12 col-md-9">
-                                        <p><p>Riki is the mother of a daughter who, at 17-days-old, was the youngest heart transplant recipient at Texas Children&rsquo;s Hospital. Because she is a transplant recipient and cannot receive certain vaccines, immunization and community immunity are critical to her health and survival. Riki partnered with TIP and Immunize Texas to walk the halls of the Texas Capitol and educate lawmakers about the life-saving and life-changing importance of vaccines. TIP worked with Riki to provide testimony during public hearings to support pro-vaccine bills and to oppose anti-vaccine legislative efforts.</p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer d-flex justify-content-end">
-                                <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                        onclick="Custombox.modal.close();">Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Modal -->
-                </div>
-                <!-- End Advocate -->
-            
-                
-                <!-- Advocate -->
-                <div class="js-slide px-3">
-                    <div class="row">
-                        <div class="col-sm-6 d-sm-flex align-content-sm-start flex-sm-column text-center text-sm-left mb-7 mb-sm-0 align-middle">
-                            <div class="w-100">
-                                <h3 class="h5 mb-4">Lindy McGee, M.D.</h3>
-                            </div>
-                            <p class="font-size-1">Lindy McGee, M.D., is a pediatrician who is a strong advocate for vaccination. Dr. McGee received her medical degree and completed her residency at Baylor College of Medicine (BCM), and is currently a faculty member at BCM as well.</p>
-                            <a href="#Lindy" data-modal-target="#Lindy" data-modal-effect="blur">
-                                <p>Read More</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <img class="img-fluid rounded mx-auto" style="width: 20em;height: 20em; object-fit:cover"
-                                 src="assets/forms/advocate-lindy.webp" alt="Image">
-                        </div>
-                    </div>
-
-                    <!-- Start Modal -->
-                    <div id="Lindy" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                        <div class="card">
-                            <header class="card-header bg-light py-3 px-5">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="h6 mb-0">Lindy McGee, M.D.</h3>
-
-                                    <button type="button" class="close" aria-label="Close"
-                                            onclick="Custombox.modal.close();">
-                                        <span aria-hidden="true">×</span>
-                                    </button>
-                                </div>
-                            </header>
-                            <div class="card-body p-5">
-                                <div class="row">
-                                    <div class="col-12 col-md-3">
-                                        <img class="img-fluid rounded mx-auto"
-                                             style="width: 20em;height: 20em; object-fit:cover"
-                                             src="assets/forms/advocate-lindy.webp"
-                                             alt="Image">
-                                    </div>
-                                    <div class="col-12 col-md-9">
-                                        <p><p>Lindy McGee, M.D., is a pediatrician and a strong advocate for vaccination. Dr. McGee received her medical degree and completed her residency at Baylor College of Medicine (BCM), where she serves on the facultyl. She demonstrates her passion for immunizations through her practice, hosting parent groups focused on immunizations and testifying at the Texas State Capitol on behalf of pro-immunization bills. Dr. McGee has served on The Immunization Partnership Board of Directors since 2010 where her leadership has played a vital role in our continued success. Additionally, Dr. McGee is a member of the Academic General Pediatrics Department at Texas Children&rsquo;s Hospital. Her research focuses ways to increase HPV vaccination rates in the Harris Health System.</p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer d-flex justify-content-end">
-                                <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                        onclick="Custombox.modal.close();">Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Modal -->
-                </div>
-                <!-- End Advocate -->
-            
-                
-                <!-- Advocate -->
-                <div class="js-slide px-3">
-                    <div class="row">
-                        <div class="col-sm-6 d-sm-flex align-content-sm-start flex-sm-column text-center text-sm-left mb-7 mb-sm-0 align-middle">
-                            <div class="w-100">
-                                <h3 class="h5 mb-4">Melanie Mouzoon, M.D.</h3>
-                            </div>
-                            <p class="font-size-1">Melanie Mouzoon, M.D., is a pediatrician and Managing Physician for Immunization Practices at Kelsey-Seybold Clinic.</p>
-                            <a href="#Melanie" data-modal-target="#Melanie" data-modal-effect="blur">
-                                <p>Read More</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <img class="img-fluid rounded mx-auto" style="width: 20em;height: 20em; object-fit:cover"
-                                 src="assets/forms/advocate-melanie.webp" alt="Image">
-                        </div>
-                    </div>
-
-                    <!-- Start Modal -->
-                    <div id="Melanie" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                        <div class="card">
-                            <header class="card-header bg-light py-3 px-5">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="h6 mb-0">Melanie Mouzoon, M.D.</h3>
-
-                                    <button type="button" class="close" aria-label="Close"
-                                            onclick="Custombox.modal.close();">
-                                        <span aria-hidden="true">×</span>
-                                    </button>
-                                </div>
-                            </header>
-                            <div class="card-body p-5">
-                                <div class="row">
-                                    <div class="col-12 col-md-3">
-                                        <img class="img-fluid rounded mx-auto"
-                                             style="width: 20em;height: 20em; object-fit:cover"
-                                             src="assets/forms/advocate-melanie.webp"
-                                             alt="Image">
-                                    </div>
-                                    <div class="col-12 col-md-9">
-                                        <p><p>Melanie Mouzoon, M.D., is a pediatrician and Managing Physician for Immunization Practices at Kelsey-Seybold Clinic. Dr. Mouzoon received her medical degree and completed her residency at The University of Texas Health Science Center at Houston (UTHealth). She has passionately served on The Immunization Partnership&rsquo;s Board of Directors since 2006. Dr. Mouzoon also is an Academy of Breastfeeding Medicine fellow. She is an active member of several organizations including the Houston Pediatric Associates, Texas Pediatric Society, and International Society for Travel Medicine</p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer d-flex justify-content-end">
-                                <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                        onclick="Custombox.modal.close();">Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Modal -->
-                </div>
-                <!-- End Advocate -->
-            
-                
-                <!-- Advocate -->
-                <div class="js-slide px-3">
-                    <div class="row">
-                        <div class="col-sm-6 d-sm-flex align-content-sm-start flex-sm-column text-center text-sm-left mb-7 mb-sm-0 align-middle">
-                            <div class="w-100">
-                                <h3 class="h5 mb-4">Peter Hotez, M.D., Ph.D.</h3>
-                            </div>
-                            <p class="font-size-1">Peter Hotez, M.D., Ph.D., is an internationally-recognized physician and scientist whose has expertise in vaccine development and neglected tropical diseases, which affect hundreds of millions of people every year.</p>
-                            <a href="#Peter" data-modal-target="#Peter" data-modal-effect="blur">
-                                <p>Read More</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <img class="img-fluid rounded mx-auto" style="width: 20em;height: 20em; object-fit:cover"
-                                 src="assets/forms/advocate-peter.webp" alt="Image">
-                        </div>
-                    </div>
-
-                    <!-- Start Modal -->
-                    <div id="Peter" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
-                        <div class="card">
-                            <header class="card-header bg-light py-3 px-5">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="h6 mb-0">Peter Hotez, M.D., Ph.D.</h3>
-
-                                    <button type="button" class="close" aria-label="Close"
-                                            onclick="Custombox.modal.close();">
-                                        <span aria-hidden="true">×</span>
-                                    </button>
-                                </div>
-                            </header>
-                            <div class="card-body p-5">
-                                <div class="row">
-                                    <div class="col-12 col-md-3">
-                                        <img class="img-fluid rounded mx-auto"
-                                             style="width: 20em;height: 20em; object-fit:cover"
-                                             src="assets/forms/advocate-peter.webp"
-                                             alt="Image">
-                                    </div>
-                                    <div class="col-12 col-md-9">
-                                        <p><p>Peter Hotez, M.D., Ph.D., is an internationally recognized physician and scientist who has expertise in vaccine development and neglected tropical diseases, which affect hundreds of millions of people every year. Dr. Hotez is the father of an autistic daughter and advocates the science that negates the myths touted from the anti-vaccine movement. He leads national efforts to highlight the importance of vaccines and the growing national threat of the anti-vaccine movement.</p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer d-flex justify-content-end">
-                                <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                        onclick="Custombox.modal.close();">Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Modal -->
-                </div>
-                <!-- End Advocate -->
-            
-
-            
-
+                {% endfor %}
             
         </div>
         <!-- End Slick Carousel -->
@@ -392,7 +109,7 @@ banner-image: assets/forms/immunize-advocacy.jpg
 
     <!-- CTA -->
     <div class="gradient-overlay-half-green-v1 bg-img-hero hidden"
-         style="background-image: url(../static/img/demo.jpg);">
+         style="background-image: url(/assets/img/demo.jpg);">
         <div class="container space-2">
             <div class="row align-items-md-center">
                 <div class="col-md-8 mb-7 mb-md-0">
@@ -413,7 +130,7 @@ banner-image: assets/forms/immunize-advocacy.jpg
 
                 <div class="col-md-4 text-md-right">
                     <!-- Button Link -->
-                    <a class="btn text-primary btn-white transition-3d-hover" href="../becomeanadvocate/index.html">
+                    <a class="btn text-primary btn-white transition-3d-hover" href="/becomeanadvocate/">
                         Become an Advocate
                         <span class="fas fa-angle-right ml-2"></span>
                     </a>
@@ -816,7 +533,7 @@ banner-image: assets/forms/immunize-advocacy.jpg
             <div class="col-md-6 mb-5">
                 <!-- Blog Card -->
                 <article class="card  h-100 bg-teal">
-                    <img class="card-img-top" src="../static/img/Advocacy_OurAdvocatesStories_Final.jpg"
+                    <img class="card-img-top" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg"
                          alt="Image Description">
                     <div class="card-body p-5">
 
@@ -835,7 +552,7 @@ banner-image: assets/forms/immunize-advocacy.jpg
             <div class="col-md-6 mb-5">
                 <!-- Blog Card -->
                 <article class="card  h-100 bg-orange">
-                    <img class="card-img-top" src="../static/img/Advocacy_HowtoAdvocate_Final.jpg"
+                    <img class="card-img-top" src="/assets/img/Advocacy_HowtoAdvocate_Final.jpg"
                          alt="Image Description">
                     <div class="card-body p-5">
 
