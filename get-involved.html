@@ -11,6 +11,33 @@ banner-image: assets/forms/immunize-get-involved.jpg
         <div class="row">
             <div class="col-12 space-bottom-2 text-center">
 	             <h2 class="h1 text-primary immunizetitle text-center font-weight-light">Upcoming <span class="font-weight-bold">Events</span></h2>
+               
+              {% assign day = 'now' | date_to_xmlschema %} 
+               {% for item in site.data.events %}
+               {% assign eventStartDate = item.date | date_to_xmlschema %}
+               {% if eventStartDate >= day %}
+
+              
+               <div class="col-4">
+               <div class="u-blog-thumb-minimal bg-blue">
+                   <a class="media" href="{{item.link}}" {% if item.external-link != true %}{% else %}target="_blank"{% endif %}>
+                       <span class="u-blog-thumb-minimal__img-wrapper mr-3 border-right text-center">
+                           
+                           <h3 class="text-white immunizetitle mb-0" style="font-size: 1.5em">{{item.date | date: '%b'}}</h3>
+                           
+                           <p class="text-white">{{item.date | date: '%d, %Y'}}</p>
+                       </span>
+                          
+                           <span class="d-block h6 text-white mb-1 text-left">{{item.title}}</span>
+                            
+                   </a>
+               </div>
+               </div>
+               {% else %}
+               <p>nothing here </p>
+
+               {% endif %}
+               {% endfor %}
             </div>
         </div>
           
@@ -45,15 +72,17 @@ banner-image: assets/forms/immunize-get-involved.jpg
                  data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-inner u-slick__arrow-inner--right">
 
                 {% for item in site.data.events %}
+                {% assign eventStartDate = item.date | date_to_xmlschema %}
+                 {% if eventStartDate <= day %}
                 <!-- Start Event -->
                 <div class="js-slide">
                     <div class="u-blog-thumb-minimal">
-                        <a class="media" href="{{item.link}}">
+                        <a class="media" href="{{item.link}}" {% if item.external-link != true %}{% else %}target="_blank"{% endif %}>
                             <span class="u-blog-thumb-minimal__img-wrapper mr-3 border-right text-center">
                                 
                                 <h3 class="text-white immunizetitle mb-0" style="font-size: 1.5em">{{item.date | date: '%b'}}</h3>
                                 
-                                <p class="text-white">{{item.date | date: '%d, %Y"'}}</p>
+                                <p class="text-white">{{item.date | date: '%d, %Y'}}</p>
                             </span>
                                 <span class="media-body align-middle">
                                 <span class="d-block h6 text-white mb-1">{{item.title}}</span>
@@ -63,6 +92,7 @@ banner-image: assets/forms/immunize-get-involved.jpg
                     </div>
                 </div>
                 <!-- End Event -->
+                {% endif %}
                 {% endfor %}
                
                 
