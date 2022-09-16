@@ -154,63 +154,17 @@ banner-image: assets/forms/aboutusbanner.jpg
                             <!-- Board Details -->
                             <h6>Executive Committee</h6><br/>
                             <div class="row">
-                             
+                                {% for item in site.data.board-of-directors %}
+                                {% if item.type == 'Executive Committee' %}
                                         <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">John T. Dugan III, M.D.</h4>
+                                            <h4 class="h6 mb-1">{{item.name}}</h4>
                                             <p class="small">
-                                                Chair<br/>
-                                                Gastroenterologist, Medical Clinic of Houston, LLP
+                                                {{item.title}}<br/>
+                                               {{item.position}}
                                             </p>
                                         </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Brooke McNeil, C.P.A.</h4>
-                                            <p class="small">
-                                                Finance Chair<br/>
-                                                Tax Senior Manager, Deloitte
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Lindy McGee, M.D.</h4>
-                                            <p class="small">
-                                                Secretary<br/>
-                                                Assistant Professor, Baylor College of Medicine; Academic General Pediatrics Department, Texas Children’s Hospital; Faculty Clinician, Harris Health
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Ken Letkeman</h4>
-                                            <p class="small">
-                                                At Large<br/>
-                                                Senior Vice President, Chief Information Officer, Houston Methodist
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Nidhi Malpani, M.P.H.</h4>
-                                            <p class="small">
-                                                At Large<br/>
-                                                AVP Strategy Planning, HCA Healthcare Gulf Coast Division
-                                            </p>
-                                        </div>
-                                    
+                                        {% endif %}
+                                    {% endfor %}
                                 
                             </div>
                             <!-- End Card Details -->
@@ -218,155 +172,17 @@ banner-image: assets/forms/aboutusbanner.jpg
                             <br/>
                             <h6>Directors</h6><br/>
                             <div class="row">
-                                
-                                
-                                    
+                                {% for item in site.data.board-of-directors %}
+                                {% if item.type == 'Directors' %}
                                         <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Beth Colle, M.S., C.P.A.</h4>
+                                            <h4 class="h6 mb-1">{{item.name}}</h4>
                                             <p class="small">
-                                                Partner<br/>Ernst &amp; Young, LLP
+                                                {{item.title}}<br/>
+                                               {{item.position}}
                                             </p>
                                         </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">C. Mary Healy, M.D.</h4>
-                                            <p class="small">
-                                                Associate Professor, Pediatrics-Infectious Disease, Baylor College of Medicine<br/>
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Autumn Pruette, M.D.</h4>
-                                            <p class="small">
-                                                Pediatrician<br/>Texas Children&#39;s Pediatrics Baytown
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Julie Davidson, M.B.A.</h4>
-                                            <p class="small">
-                                                Senior Manager<br/>Cheniere Energy
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Nick Janik, M.B.A</h4>
-                                            <p class="small">
-                                                Director of Business Development<br/>Children&#39;s Memorial Hermann Hospital
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Kenneth Russo, M.B.A., CHEP</h4>
-                                            <p class="small">
-                                                Chief Financial Officer<br/>HCA Healthcare Houston West
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Lisa L. Ehrlich, M.D.</h4>
-                                            <p class="small">
-                                                Physician<br/>L. Ehrlich &amp; Associates Medical Clinic PLLC
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Brandi Johnson</h4>
-                                            <p class="small">
-                                                Regional Vice President<br/>Medicaid Plan Marketing, Amerigroup
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Kalyani B. Sonawane, Ph.D.</h4>
-                                            <p class="small">
-                                                Assistant Professor<br/>The University of Texas Health Science Center at Houston (UTHealth) School of Public Health
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Lisa R. Fuller, M.D.</h4>
-                                            <p class="small">
-                                                Medical Director, Utilization Management  Texas Children’s Health Plan<br/>
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">David R. Lairson, Ph.D.</h4>
-                                            <p class="small">
-                                                Professor of Management and Policy Sciences<br/>The University of Texas Health Science Center at Houston (UTHealth) School of Public Health
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Cassandra A. Wertz, M.D.</h4>
-                                            <p class="small">
-                                                Internal Medicine, Obesity Medicine<br/>First Primary Care
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Stephanie Magers (Ex-Officio)</h4>
-                                            <p class="small">
-                                                Contracts Administration Manager<br/>Chevron
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Gwen Emmett</h4>
-                                            <p class="small">
-                                                Director Emerita<br/>
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                        <div class="col-sm-4 mb-2 mb-sm-0">
-                                            <h4 class="h6 mb-1">Melanie E. Mouzoon, M.D.</h4>
-                                            <p class="small">
-                                                Director Emerita<br/>
-                                            </p>
-                                        </div>
-                                    
-                                
-                                    
-                                
-                                    
-                                
-                                    
-                                
+                                        {% endif %}
+                                    {% endfor %}
                             </div>
                         </div>
                     </div>
@@ -394,71 +210,15 @@ banner-image: assets/forms/aboutusbanner.jpg
                         <div class="card-body px-4">
                             <!-- Board Details -->
                             <div class="row">
-                                
-                                
-                                    <div class="col-sm-4 mb-2 mb-sm-0">
-                                        <h4 class="h6 mb-1">Julie A. Boom, M.D.</h4>
-                                        <p class="small">
-                                            Director, Immunization Project, Texas Children&#39;s Hospital
-                                        </p>
-                                    </div>
+                                {% for item in site.data.scientific-advisory %}
                                 
                                     <div class="col-sm-4 mb-2 mb-sm-0">
-                                        <h4 class="h6 mb-1">Maria Elena Bottazzi, Ph.D.</h4>
+                                        <h4 class="h6 mb-1">{{item.name}}</h4>
                                         <p class="small">
-                                            Baylor College of Medicine, Texas Children&#39;s Hospital Center for Vaccine Development
+                                            {{item.position}}
                                         </p>
                                     </div>
-                                
-                                    <div class="col-sm-4 mb-2 mb-sm-0">
-                                        <h4 class="h6 mb-1">William Decker, Ph.D.</h4>
-                                        <p class="small">
-                                            Associate Professor, Pathology and Immunology, Baylor College of Medicine
-                                        </p>
-                                    </div>
-                                
-                                    <div class="col-sm-4 mb-2 mb-sm-0">
-                                        <h4 class="h6 mb-1">Peter J. Hotez, M.D., Ph.D.</h4>
-                                        <p class="small">
-                                            Baylor College of Medicine, Texas Children’s Hospital, Sabin Vaccine Institute
-                                        </p>
-                                    </div>
-                                
-                                    <div class="col-sm-4 mb-2 mb-sm-0">
-                                        <h4 class="h6 mb-1">Albert G. Karam, M.D.</h4>
-                                        <p class="small">
-                                            Professor of Clinical Pediatrics UTSW School of Medicine Dallas, TX; President and Owner Karam Pediatric Group
-                                        </p>
-                                    </div>
-                                
-                                    <div class="col-sm-4 mb-2 mb-sm-0">
-                                        <h4 class="h6 mb-1">Lindy McGee, M.D.</h4>
-                                        <p class="small">
-                                            Baylor College of Medicine, Texas Children’s Hospital, Pediatrics Around the Bend
-                                        </p>
-                                    </div>
-                                
-                                    <div class="col-sm-4 mb-2 mb-sm-0">
-                                        <h4 class="h6 mb-1">Melanie Mouzoon, M.D.</h4>
-                                        <p class="small">
-                                            Managing Physician for Immunization Practices, Kelsey-Seybold Clinics
-                                        </p>
-                                    </div>
-                                
-                                    <div class="col-sm-4 mb-2 mb-sm-0">
-                                        <h4 class="h6 mb-1">Stanley Spinner, M.D.</h4>
-                                        <p class="small">
-                                            Texas Children’s Pediatrics
-                                        </p>
-                                    </div>
-                                
-                                    <div class="col-sm-4 mb-2 mb-sm-0">
-                                        <h4 class="h6 mb-1">Susan Wootton, M.D.</h4>
-                                        <p class="small">
-                                            McGovern Medical School at UTHealth, Memorial Hermann
-                                        </p>
-                                    </div>
-                                
+                                {% endfor %}
                             </div>
                             <!-- End Card Details -->
                         </div>
@@ -516,30 +276,22 @@ banner-image: assets/forms/aboutusbanner.jpg
                     <h2 class="text-white mb-2 immunizetitle pb-3">Past Annual & Financial Reports</h2>
                     <!-- Info -->
                     <ul class="list-unstyled">
+                        {% for item in site.data.annual-report %}
                         <li class="media pb-3 justify-content-around">
                         <span class="btn btn-icon btn-xs btn-soft-white rounded-circle mr-3">
                           <span class="fas fa-angle-right btn-icon__inner"></span>
                         </span>
                             <div class="media-body">
-                                <a class="text-white-70" href="https://www.immunizeusa.org/static/media/web_app_images/forms/Annual-Report-FY-2020.pdf"
+                                <a class="text-white-70" href="{{item.file}}"
                                    target="_blank">
-                                    FY 2020
+                                    {{item.year}}
                                 </a>
                             </div>
                         </li>
-                        <li class="media border-top border-darkgrey py-3 justify-content-around">
-                        <span class="btn btn-icon btn-xs btn-soft-white rounded-circle mr-3">
-                          <span class="fas fa-angle-right btn-icon__inner"></span>
-                        </span>
-                            <div class="media-body">
-                                <a class="text-white-70" href="assets/img/Annual-Report-FY-2019.pdf"
-                                   target="_blank">
-                                    FY 2019
-                                </a>
-                            </div>
-                        </li>
+                        {% endfor %}
+                        
                        
-                        <li class="media"><a href="../annualreport/index.html" class="text-white-70 mb-0 mt-5">View all
+                        <li class="media"><a href="/annualreport/" class="text-white-70 mb-0 mt-5">View all
                             Annual & Financial Reports</a></li>
                     </ul>
                     <!-- End Info -->

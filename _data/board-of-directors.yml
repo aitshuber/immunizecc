@@ -1,3 +1,8 @@
-- Name: John T. Dugan III, M.D.
-  Title: Chair
-  Position: Gastroenterologist, Medical Clinic of Houston, LLP
+- name: John T. Dugan III, M.D.
+  title: Chair
+  position: Gastroenterologist, Medical Clinic of Houston, LLP
+  type: Executive Committee
+- name: "Beth Colle, M.S., C.P.A."
+  title: Partner
+  position: Ernst & Young, LLP
+  type: Directors
