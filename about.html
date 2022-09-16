@@ -6,7 +6,6 @@ layout: sub-page
 permalink: "about"
 banner-image: assets/forms/aboutusbanner.jpg
 ---
-
     <!-- Video Section -->
     <div class="container space-2">
         <div class="row justify-content-sm-center">
@@ -15,7 +14,7 @@ banner-image: assets/forms/aboutusbanner.jpg
                 <!-- Video Block -->
                 <div id="youTubeVideoPlayerExample1" class="u-video-player">
                     <!-- Cover Image -->
-                    <img class="img-fluid u-video-player__preview"
+                    <img class="img-fluid u-video-player__preview editable"
                          src="assets/img/AboutUs_VideoStill_Final.jpg" alt="Image">
                     <!-- End Cover Image -->
 
@@ -48,7 +47,7 @@ banner-image: assets/forms/aboutusbanner.jpg
 <div class="gradient-half-warning-v1 text-white text-center" id="employment">
         <div class="container space-1">
                 <span class="h4 d-block d-lg-inline-block font-weight-light mb-lg-0 text-primary">
-                  <span class="text-primary font-weight-semi-bold">Join Our Team</span> – Employment Opportunities.
+                  <span class="text-primary font-weight-semi-bold editable">Join Our Team</span> – Employment Opportunities.
                 </span>
                 <br/>
                 <br/>
@@ -63,10 +62,10 @@ banner-image: assets/forms/aboutusbanner.jpg
         <!-- Title -->
         <div class="w-lg-80 mx-lg-auto">
             <div class="mb-11">
-                <h2 class="h1 text-primary immunizetitle text-center font-weight-light">Our <span
+                <h2 class="h1 text-primary immunizetitle text-center font-weight-light editable">Our <span
                         class="font-weight-bold">Team</span></h2>
                 
-                <p>The Immunization Partnership is made up of an outstanding team of knowledgeable individuals whose backgrounds comprise public health, policy, law, and finance expertise. We value the collaboration of distinct ideas in an effort to launch advocacy initiatives, establish long-lasting partnerships, support immunization best practices, and conduct grassroots community education programs. We are all committed to the mission of eradicating vaccine-preventable diseases.</p>
+                <p class="editable">The Immunization Partnership is made up of an outstanding team of knowledgeable individuals whose backgrounds comprise public health, policy, law, and finance expertise. We value the collaboration of distinct ideas in an effort to launch advocacy initiatives, establish long-lasting partnerships, support immunization best practices, and conduct grassroots community education programs. We are all committed to the mission of eradicating vaccine-preventable diseases.</p>
                 
             </div>
         </div>
@@ -141,7 +140,7 @@ banner-image: assets/forms/aboutusbanner.jpg
                                     data-target="#cardOne"
                                     aria-expanded="false"
                                     aria-controls="cardOne">
-                                <span class="h5">Board of Directors</span>
+                                <span class="h5 editable">Board of Directors</span>
                                 <span class="card-btn-arrow text-white" style="float: right">
 		                            <span class="fas fa-arrow-down small"></span>
 		                          </span>
@@ -152,7 +151,7 @@ banner-image: assets/forms/aboutusbanner.jpg
                     <div id="cardOne" class="collapse" aria-labelledby="cardHeadingOne" data-parent="#board">
                         <div class="card-body px-4">
                             <!-- Board Details -->
-                            <h6>Executive Committee</h6><br/>
+                            <h6 class="editable">Executive Committee</h6><br/>
                             <div class="row">
                                 {% for item in site.data.board-of-directors %}
                                 {% if item.type == 'Executive Committee' %}
@@ -170,7 +169,7 @@ banner-image: assets/forms/aboutusbanner.jpg
                             <!-- End Card Details -->
                             <hr/>
                             <br/>
-                            <h6>Directors</h6><br/>
+                            <h6 class="editable">Directors</h6><br/>
                             <div class="row">
                                 {% for item in site.data.board-of-directors %}
                                 {% if item.type == 'Directors' %}
@@ -199,7 +198,7 @@ banner-image: assets/forms/aboutusbanner.jpg
                                     data-target="#cardTwo"
                                     aria-expanded="false"
                                     aria-controls="cardTwo">
-                                <span class="h5">Scientific Advisory Council</span>
+                                <span class="h5 editable">Scientific Advisory Council</span>
                                 <span class="card-btn-arrow text-white" style="float: right">
 									<span class="fas fa-arrow-down small"></span>
 									</span>
@@ -233,9 +232,9 @@ banner-image: assets/forms/aboutusbanner.jpg
     <div class="gradient-half-warning-v1 text-white text-center" id="employment">
         <div class="container space-1">
                 <span class="h4 d-block d-lg-inline-block font-weight-light mb-lg-0 text-primary">
-                  <span class="text-primary font-weight-semi-bold">Strategic Plan Summary for FY 2021 – 2022.</span>
+                  <span class="text-primary font-weight-semi-bold editable">Strategic Plan Summary for FY 2021 – 2022.</span>
                 </span>
-            <a class="btn btn-sm btn-white text-primary transition-3d-hover font-weight-normal ml-3"
+            <a class="btn btn-sm btn-white text-primary transition-3d-hover font-weight-normal ml-3 editable"
                href="assets/img/resources/strategic-plan-summary.pdf">Read the summary.</a>
         </div>
     </div>
@@ -249,7 +248,7 @@ banner-image: assets/forms/aboutusbanner.jpg
     <div class="container space-2 space-lg-2">
         <!-- Title -->
         <div class="w-lg-50 text-center mx-lg-auto mb-9">
-            <h2 class="h1 text-primary immunizetitle text-center font-weight-light">Annual and Financial <span
+            <h2 class="h1 text-primary immunizetitle text-center font-weight-light editable">Annual and Financial <span
                     class="font-weight-bold">Reports</span></h2>
         </div>
         <!-- End Title -->
@@ -260,12 +259,12 @@ banner-image: assets/forms/aboutusbanner.jpg
                 <div class="text-center py-5 px-4 px-sm-9">
                     <header class="mb-5 d-flex justify-content-center">
                         <div class="col-sm-8 ">
-                            <img class="img-fluid rounded shadow shadow-soft" src="assets/img/TIP-2021-Annual-Report-1.jpg" alt="Image Description">
+                            <img class="img-fluid rounded shadow shadow-soft editable" src="assets/img/TIP-2021-Annual-Report-1.jpg" alt="Immunize Annual Reports">
                         </div>
                     </header>
-                    <p>FY 2021 Annual Report</p>
+                    <p class="editable">FY 2021 Annual Report</p>
                     <a href="assets/img/TIP-2021-Annual-Report.pdf" target="_blank"
-                       class="btn btn-secondary btn-wide transition-3d-hover">
+                       class="btn btn-secondary btn-wide transition-3d-hover editable">
                         Download
                     </a>
                 </div>
@@ -273,7 +272,7 @@ banner-image: assets/forms/aboutusbanner.jpg
 
             <div class="col-lg-5 bg-green rounded">
                 <div class="py-11 px-5 px-sm-9">
-                    <h2 class="text-white mb-2 immunizetitle pb-3">Past Annual & Financial Reports</h2>
+                    <h2 class="text-white mb-2 immunizetitle pb-3 editable">Past Annual & Financial Reports</h2>
                     <!-- Info -->
                     <ul class="list-unstyled">
                         {% for item in site.data.annual-report %}
@@ -291,7 +290,7 @@ banner-image: assets/forms/aboutusbanner.jpg
                         {% endfor %}
                         
                        
-                        <li class="media"><a href="/annualreport/" class="text-white-70 mb-0 mt-5">View all
+                        <li class="media"><a href="/annualreport/" class="text-white-70 mb-0 mt-5 editable">View all
                             Annual & Financial Reports</a></li>
                     </ul>
                     <!-- End Info -->
@@ -299,7 +298,7 @@ banner-image: assets/forms/aboutusbanner.jpg
             </div>
         </div>
         <div class="text-center mb-3">
-           <a href="https://www.guidestar.org/profile/76-0695612" target="_blank"><img src="https://widgets.guidestar.org/TransparencySeal/8203185" /></a>
+           <a href="https://www.guidestar.org/profile/76-0695612" target="_blank" class="editable"><img src="https://widgets.guidestar.org/TransparencySeal/8203185" class="editable" /></a>
         </div>
         <!-- End Pricing -->
     </div>
@@ -308,9 +307,9 @@ banner-image: assets/forms/aboutusbanner.jpg
     <div class="gradient-half-warning-v1 text-white text-center" id="opportunities">
         <div class="container space-1">
                 <span class="h4 d-block d-lg-inline-block font-weight-light mb-lg-0 text-primary">
-                  <span class="text-primary font-weight-semi-bold">Join Our Team</span> – Employment Opportunities.
+                  <span class="text-primary font-weight-semi-bold editable">Join Our Team</span> – Employment Opportunities.
                 </span>
-            <a class="btn btn-sm btn-white text-primary transition-3d-hover font-weight-normal ml-3"
+            <a class="btn btn-sm btn-white text-primary transition-3d-hover font-weight-normal ml-3 editable"
                href="mailto:careers@immunizeUSA.org">Send your résumé.</a>
         </div>
     </div>
