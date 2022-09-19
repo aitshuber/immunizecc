@@ -1,6 +1,21 @@
     <header id="header" class="u-header u-header--abs-top-md  u-header--show-hide-md"
         data-header-fix-moment="500"
         data-header-fix-effect="slide">
+        {% for item in site.data.homepage-notice %}
+            {% if item.Position == "Top Navigation" or item.enabled == true %}
+                  <!-- nav bar notice -->
+                  <div class="container-fluid navbar-expand-md py-2 bg-green">
+                      <div class="d-block text-center align-items-center">
+                          <div class="container list-inline my-0 top-message">
+                              <p class="text-white "> 
+                                  {{ item.Text }} test
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- End navbar notice -->
+              {% endif %}
+          {% endfor %}
     <!-- Search -->
     <div id="searchPushTop" class="u-search-push-top">
         <div class="container position-relative">

@@ -5,4 +5,5 @@
   Button_link:
   Publish_date:
   Expiration_Date:
-  Position:
+  Position: Popup
+  enabled: true
