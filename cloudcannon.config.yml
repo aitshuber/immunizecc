@@ -12,8 +12,8 @@ _enabled_editors:
   - visual
   - content
   - data
- spare_parts:
-    - Bolt
+spare_parts: 
+  - Bolt
   _inputs:
     spare_part:
       type: multiselect
