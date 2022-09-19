@@ -1,4 +1,4 @@
-- Title: Art exhibit
+- Title: Art exhibit 
   Image:
   Text:
   Buttons_Text:
@@ -8,12 +8,12 @@
   Position: Popup
   enabled: true
   spare_parts:
-  - Bolt
+    - Bolt
   _inputs:
-  spare_part:
-    type: multiselect
-    options:
-      values:
-        - Bolt
-        - Nut
-        - Gear
+    spare_part:
+      type: multiselect
+      options:
+        values:
+          - Bolt
+          - Nut
+          - Gear
