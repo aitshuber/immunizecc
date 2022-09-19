@@ -39,7 +39,7 @@ permalink: "/"
         </div>
         <!-- End Hero Carousel Main -->
     </div>
-   {% for item in site.data.homepage-notice %}
+   {% for item in site.data.homepage-notice limit:1 %}
    {% if item.Position == "Below Image" or item.enabled == true %}
             <div class="bg-danger">
                 <div class="container space-1">
@@ -235,7 +235,7 @@ permalink: "/"
                href="https://www.immunizeusa.org/finder">Learn More</a>
             </div>
         </div>
-    {% for item in site.data.homepage-notice %}
+    {% for item in site.data.homepage-notice limit:1 %}
         {% if item.Position == "Popup" or item.enabled == true %}
             <!-- After Some Time Modal -->
     
