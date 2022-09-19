@@ -5,15 +5,8 @@
   Button_link:
   Publish_date:
   Expiration_Date:
-  Position: Popup
+  Position: 
+    - PopUp
+    - Top Navigation
+    - Below Image
   enabled: true
-  spare_parts:
-    - Bolt
-  _inputs:
-    spare_part:
-      type: multiselect
-      options:
-        values:
-          - Bolt
-          - Nut
-          - Gear
