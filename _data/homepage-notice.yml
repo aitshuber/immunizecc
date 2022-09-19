@@ -9,7 +9,7 @@
   enabled: true
   color: Red
   ssg: jekyll
-_select_data:
+  _select_data:
   colors:
     - Red
     - Blue
