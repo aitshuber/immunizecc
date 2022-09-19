@@ -1,4 +1,4 @@
-- Title: Art exhibit 
+- Title: Art exhibit
   Image:
   Text:
   Buttons_Text:
@@ -7,13 +7,13 @@
   Expiration_Date:
   Position: Popup
   enabled: true
-  color: Red
-  ssg: jekyll
-  _select_data:
-  colors:
-    - Red
-    - Blue
-  ssgs:
-    jekyll: Jekyll
-    hugo: Hugo
-    11ty: Eleventy
+  spare_parts:
+  - Bolt
+  _inputs:
+  spare_part:
+    type: multiselect
+    options:
+      values:
+        - Bolt
+        - Nut
+        - Gear
