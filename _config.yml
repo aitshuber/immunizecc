@@ -16,16 +16,6 @@ paginate: 3
 paginate_path: '/page:num/'
 # Permalinks
 permalink: "/:title/"
-spare_parts:
-  - Bolt
-_inputs:
-  spare_part:
-    type: multiselect
-    options:
-      values:
-        - Bolt
-        - Nut
-        - Gear
 plugins:
   #- jekyll-paginate
   - jekyll-sitemap
