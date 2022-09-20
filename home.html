@@ -4,6 +4,10 @@ description: To eradicate vaccine preventable diseases by educating the communit
 keywords: 
 layout: default
 permalink: "/"
+hot-spot:
+  - title:
+  - image:
+  - url: 
 ---
     <!-- Hero v1 Section -->
     <div class="u-hero-v1">
@@ -193,47 +197,47 @@ permalink: "/"
     <!-- End Ready to get involved? Section -->
     <!--Twitter-->
     <div class="container space-2 px-lg-7" style="margin-top: 0% !important">
-            <div class="row">
-                <!-- Title -->
-                <div class="w-md-80 w-lg-50 mx-md-auto mb-9">
-                    <h2 class="h1 text-primary immunizetitle  text-center editable">Follow Us on Social Media</h2>
-                </div>
-                <!-- End Title -->
-            </div>
+            
             <div class="row justify-content-center">
-                <div class="col-md-4" style="overflow: auto; height: 300px;">
-                    <div class="fb-page"
-                         data-href="https://www.facebook.com/immunizeusa"
-                         data-tabs="timeline"
-                         data-width="500"
-                         data-height="500">
-                        <blockquote cite="https://www.facebook.com/unify2dev" class="fb-xfbml-parse-ignore">
-                            <a href="https://www.facebook.com/unify2dev">Facebook</a>
-                        </blockquote>
+               <div class="col-md-6 col-12">
+                  <h2 class="h3 text-primary text-left editable font-weight-bold">Latest News</h2>
+           {% for post in site.posts limit:1 -%}
+           <article class="h-100">
+              
+              <div class="">
+                 <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
+                  <p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
+              </div>
+              <div class=" border-0 py-4">
+                      <a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
+                          More
+                          <small class="fas fa-arrow-right ml-1"></small>
+                      </a>
+                  </div>
+            </article>
+           {% endfor %}
+               </div>
+               <div class="col-md-6 col-12">
+                  <article class="h-100">
+                    
+                    <div class="p-5">
+                       <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
+                        <p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
                     </div>
-                </div>
-                <div class="col-md-4" style="overflow: auto; height: 300px;">
-                    <a class="twitter-timeline" href="https://twitter.com/Immunize_USA">@Immunize_USA</a>
-                </div>
-
-                <div class="col-md-4 hidden" style="overflow: auto; height: 300px;">
-                    <a class="twitter-timeline" href="https://twitter.com/Immunize_USA">@Immunize_USA</a>
-                </div>
-
+                    <div class="card-footer border-0 py-4 px-5">
+                            <a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
+                                More
+                                <small class="fas fa-arrow-right ml-1"></small>
+                            </a>
+                        </div>
+                  </article>
+               </div>
             </div>
         </div>
 
     <script src="https://platform.twitter.com/widgets.js" charset="utf-8" async></script>
 
-    <div class="gradient-half-warning-v1 text-white text-center" id="employment">
-            <div class="container space-1">
-    <span class="h4 d-block d-lg-inline-block font-weight-light mb-lg-0 text-primary">
-              <span class="text-primary font-weight-semi-bold editable">Vaccine Finder and Schedule Calculator.</span>
-
-            <a class="btn btn-sm btn-white text-primary transition-3d-hover font-weight-normal ml-3 editable"
-               href="https://www.immunizeusa.org/finder">Learn More</a>
-            </div>
-        </div>
+   
     {% for item in site.data.homepage-notice limit:1 %}
         {% if item.Position == "Popup" or item.enabled == true %}
             <!-- After Some Time Modal -->
