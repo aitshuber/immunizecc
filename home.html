@@ -4,10 +4,14 @@ description: To eradicate vaccine preventable diseases by educating the communit
 keywords: 
 layout: default
 permalink: "/"
-hot-spot:
+main-topic:
  title: Top issue title here
  image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
  url: /about/
+call-to-action:
+  text: Texas strength depends on the health of its citizens. we work everyday for a stronger Texas. Join Us.
+  image: /assets/img/vaccination-with-patient-doctor.jpg
+  url: /about/
 ---
     <!-- Hero v1 Section -->
     <div class="u-hero-v1">
@@ -42,6 +46,7 @@ hot-spot:
         </div>
         <!-- End Hero Carousel Main -->
     </div>
+    
    {% for item in site.data.homepage-notice limit:1 %}
    {% if item.Position == "Below Image" or item.enabled == true %}
             <div class="bg-danger">
@@ -72,129 +77,84 @@ hot-spot:
         {% endif %}
     {% endfor %}
     <!-- End Hero Carousel Main -->
-    <!-- Icon Blocks Section -->
-    <div class="gradient-half-primary-v2">
-            <div class="container space-top-3 space-bottom-md-2 space-bottom-2">
-                <!-- Title -->
-                <div class="row">
-                    <div class="col-12 text-center mx-md-auto mb-9">
-                        <img src="assets/img/tagline.svg"/>
-                    </div>
-                </div>
-                <!-- End Title -->
-                <!-- Title -->
-                <div class="w-md-80 w-lg-80 mx-md-auto space-2">
-                    <div id="svgArrows" class="">
-                        <h2 class="h1 text-primary immunizetitle text-center font-weight-light editable">Impact <span
-                                class="font-weight-bold">Statistics</span></h2>
-                        
-                        <p class="editable">The Immunization Partnership&#x27;s work includes supporting the development of new vaccines and making sure we have a strong public health infrastructure to distribute recommended vaccines. Each new vaccine is another critical disease-fighting tool that gets us closer to our vision of a community protected from vaccine-preventable diseases.</p>
-                    </div>
-
-                </div>
-                <!-- End Title -->
-
-                <div class="row mb-9">
-                    {% for item in site.data.impact-stats %}
-                    <div class="col-sm-6 col-lg-3 mb-7 mb-lg-4">
-                            <h6 class="text-center">{{item.title}}</h6>
-                            <div class="u-stats-progress position-relative d-flex align-items-center justify-content-center">
-                                <!-- Pie Circle -->
-                                <div class="js-pie text-center"
-                                     data-circles-text-class="u-stats-progress__info"
-                                     data-circles-value="{{item.mainValue}}"
-                                     data-circles-max-value="{{item.maxValue}}"
-                                     data-circles-bg-color="#f8fafd"
-                                     data-circles-fg-color="{{item.color-picker}}"
-                                     data-circles-fg-stroke-linecap="round"
-                                     data-circles-fg-stroke-miterlimit="10"
-                                     data-circles-radius="100"
-                                     data-circles-stroke-width="8"
-                                     data-circles-additional-text="{{item.additional-text}}"
-                                     data-circles-duration="2000"
-                                     data-circles-scroll-animate="true"
-                                     data-circles-color="{{item.color-picker}}"
-                                     data-circles-font-size="24"
-                                     data-circles-font-weight="500"
-                                     data-circles-secondary-text="{{item.lowertext}}"
-                                     data-circles-secondary-color="#77838f"
-                                     data-circles-secondary-font-size="13"
-                                     data-circles-secondary-font-weight="400"
-                                     data-circles-divider-space="10"></div>
-                                <!-- End Pie Circle -->
-                            </div>
-                          <p class="text-muted pt-5">{{item.text}}</p>
-                            </div>
-                       {% endfor %}
-                      
-                </div>
-            </div>
-
-
+    <div class="container space-1">
+    <div class="row justify-content-lg-between">
+       <div class="col-md-12 mx-md-auto space-2 text-center">
+                <h2 class="h1 text-primary immunizetitle text-center font-weight-light editable">We're a voice for Texans who want to prevent disease</h2>
+                <p class="editable">Providing access. to vaccines and increasing immunization rates keeps Texans safe from preventable diseases.</p>
         </div>
-    <!-- Vision & Mission Section -->
-    <div class="position-relative gradient-half-primary-v1 ">
-            <div class="container position-relative z-index-2">
-                <div class="row">
-
-                    <div class="col-lg-6">
-                        <!-- Mission -->
-                        <div class="d-flex align-items-center space-1 space-bottom-1 min-height-155 pr-lg-7">
-                            <div class="d-block">
-                                <h2 class="text-white immunizetitle editable">Vision</h2>
-                                
-                                <p class="editable" style="color: rgba(255, 255, 255);">A community protected from vaccine-preventable diseases.</p>
-                                
-                            </div>
-                        </div>
-                        <!-- End Mission -->
-                    </div>
-
-                    <div class="col-lg-6">
-                        <!-- Vision -->
-                        <div class="d-flex align-items-center space-1 space-bottom-1 min-height-155 pl-lg-7">
-                            <div class="d-block">
-                                <h2 class="text-white immunizetitle editable">Mission</h2>
-                                
-                                <p class="editable" style="color: rgba(255, 255, 255);">TIP advocates for disease prevention using an impactful network of vaccine champions who promote education and evidence-based public policy on the health benefits of childhood and adult vaccinations. TIP aspires to be the trusted resource for increasing immunization rates to create healthier communities.</p>
-                                
-                            </div>
-                        </div>
-                        <!-- End Vision -->
-                    </div>
-                </div>
+   <div class="editable"> <div class="col-md-4 mb-2">
+        <!-- Blog Card -->
+        <article class="card h-100 bg-teal">
+            <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
+            <div class="card-body p-5">
+    
+                <h2 class="h5 font-weight-bold mb-2 editable">
+                    Stakeholder Meetings
+                </h2>
+                
+                <p class="editable">TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
+                
             </div>
-
-            <div class="col-lg-6 gradient-half-primary-v3 position-absolute top-0 left-0 h-100"></div>
+    
+        </article>
+        <!-- End Blog Card -->
+    </div></div>
+    <div class="col-md-4 mb-2">
+         <!-- Blog Card -->
+         <article class="card h-100 bg-teal">
+             <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
+             <div class="card-body p-5">
+     
+                 <h2 class="h5 font-weight-bold mb-2 editable">
+                     Stakeholder Meetings
+                 </h2>
+                 
+                 <p class="editable">TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
+                 
+             </div>
+     
+         </article>
+         <!-- End Blog Card -->
+     </div>
+     <div class="col-md-4 mb-2">
+          <!-- Blog Card -->
+          <article class="card h-100 bg-teal">
+              <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
+              <div class="card-body p-5">
+      
+                  <h2 class="h5 font-weight-bold mb-2 editable">
+                      Stakeholder Meetings
+                  </h2>
+                  
+                  <p class="editable">TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
+                  
+              </div>
+      
+          </article>
+          <!-- End Blog Card -->
+      </div>
+    </div>
+    </div>
+  
+    <!-- Banner -->
+    <div class="container-fluid p-0 bg-primary">
+       <div class="bg-img-hero" style="background: url({{page.call-to-action.image}}) center center no-repeat;">
+       <div class="container space-1">
+       <div class="row">
+        <div class="w-lg-65 py-8 px-6">
+          <p class="lead text-white mb-0 font-size-2">{{page.call-to-action.text}}</p>
         </div>
-    <!-- Vision & Mission Section -->
-
-    <!-- History Section -->
-    <div class="container space-top-3 space-bottom-1">
-            <div class="row justify-content-lg-between">
-                <div class="w-lg-80 mx-md-auto mb-7">
-                    <h2 class="h1 text-primary immunizetitle text-center font-weight-light editable">Our <span
-                            class="font-weight-bold">History</span></h2>
-                    
-                    <p class="editable">The Immunization Partnership (TIP) is a nonprofit organization that evolved from the partnership originally dedicated to supporting the Houston-Harris County Immunization Registry.</p><p></p><p>Recognizing the importance of expanding the range of strategies in order to achieve and sustain high immunization rates, in 2007 the Houston-Harris County Immunization Registry Board of Directors developed a new name and mission that truly reflects the broader scope of the organization. The organization became The Immunization Partnership (TIP).</p><p></p><p>The Partnership aims to eradicate vaccine-preventable diseases by developing and coordinating our communities&#x27; resources through public and private partnerships.</p><p></p><p>As part of its evolution into an organization that supports broader immunization issues, TIP has developed a community-wide program to educate individuals, parents and providers about the importance of on-time immunizations. TIP also advocates for evidence-based public policy and fosters collaborative efforts among the immunization partners.</p>
-                    
-                </div>
-                <div>
-                </div>
-            </div>
-        </div>
-    <!-- End History Section -->
-    <!-- Ready to get involved? Section -->
-    <div class="gradient-half-warning-v1 text-white text-center" id="employment">
-            <div class="container space-1">
-    <span class="h4 d-block d-lg-inline-block font-weight-light mb-lg-0 text-primary">
-              <span class="text-primary font-weight-semi-bold editable">Join Our</span> Mailing List</span>
-
-                <a class="btn btn-sm btn-white text-primary transition-3d-hover font-weight-normal ml-3 editable"
-                   href="https://immunizeusa.salsalabs.org/mailinglistsign-up/index.html">Learn More</a>
-            </div>
-        </div>
-    <!-- End Ready to get involved? Section -->
+        <div class="w-lg-35 py-8 px-6">
+            <a href="{{page.call-to-action.url}}" class="btn btn-sm btn-primary transition-3d-hover mt-2 float-right btn-pill" tabindex="0">
+                 Action Call
+             </a>
+          </div>
+       </div>
+       </div>
+      </div>
+    </div>
+    <!-- End Banner -->
     <!--Twitter-->
     <div class="container space-2 px-lg-7" style="margin-top: 0% !important">
             
@@ -203,7 +163,6 @@ hot-spot:
                   <h2 class="h3 text-primary text-left editable font-weight-bold">Latest News</h2>
            {% for post in site.posts limit:1 -%}
            <article class="h-100">
-              
               <div class="">
                  <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
                   <p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
@@ -218,15 +177,14 @@ hot-spot:
            {% endfor %}
                </div>
                <div class="col-md-6 col-12">
+                  <h2 class="h3 text-primary text-left editable font-weight-bold">Hot Spot</h2>
                   <article class="h-100">
-                    
-                    <div class="p-5">
-                       <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
-                        <p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
+                    <div class="">
+                       <a href="{{ page.main-topic.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ page.main-topic.title }}</h4></a>
+                       <img class="card-img-top max-h-225" src="{{ page.main-topic.image }}" alt="Image Description">
                     </div>
-                    <div class="card-footer border-0 py-4 px-5">
-                            <a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
-                                More
+                    <div class="border-0 py-4">
+                            <a href="{{ page.main-topic.url | absolute_url }}" class="text-primary">Find Out More
                                 <small class="fas fa-arrow-right ml-1"></small>
                             </a>
                         </div>
