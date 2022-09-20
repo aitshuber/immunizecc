@@ -6,7 +6,7 @@
   Publish_date:
   Expiration_Date:
   Position: PopUp
-  enabled: true
+  enabled: false
 - Title: Item 2
   Image: 
   Text: 
@@ -15,7 +15,7 @@
   Publish_date: 
   Expiration_Date: 
   Position: Below Image
-  enabled: true
+  enabled: false
 - Title: item 3
   Image: 
   Text: 
@@ -24,4 +24,4 @@
   Publish_date: 
   Expiration_Date: 
   Position: Top Navigation
-  enabled: true
+  enabled: false

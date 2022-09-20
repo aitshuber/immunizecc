@@ -16,12 +16,15 @@ paginate: 3
 paginate_path: '/page:num/'
 # Permalinks
 permalink: "/:title/"
+bookshop_locations:
+  - component-library
 plugins:
   #- jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-bookshop
 
 # exclude:
   #   - .sass-cache/
