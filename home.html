@@ -4,14 +4,15 @@ description: To eradicate vaccine preventable diseases by educating the communit
 keywords: 
 layout: default
 permalink: "/"
-main-topic:
- title: Top issue title here
- image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
- url: /about/
 call-to-action:
   text: Texas strength depends on the health of its citizens. we work everyday for a stronger Texas. Join Us.
   image: /assets/img/vaccination-with-patient-doctor.jpg
   url: /about/
+main-topic:
+  title: Top issue title here
+  image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
+  url: /about/
+hero_text: "Hello World"
 ---
     <!-- Hero v1 Section -->
     <div class="u-hero-v1">
@@ -76,6 +77,9 @@ call-to-action:
             </div>
         {% endif %}
     {% endfor %}
+    {% bookshop hero text=page.hero_text %}
+    
+    {% assign my_title = hero_text %}
     <!-- End Hero Carousel Main -->
     <div class="container space-1">
     <div class="row justify-content-lg-between">
@@ -104,13 +108,13 @@ call-to-action:
          <!-- Blog Card -->
          <article class="card h-100 bg-teal">
              <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
-             <div class="card-body p-5">
+             <div class="card-body p-5 editable">
      
-                 <h2 class="h5 font-weight-bold mb-2 editable">
+                 <h2 class="h5 font-weight-bold mb-2">
                      Stakeholder Meetings
                  </h2>
                  
-                 <p class="editable">TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
+                 <p>TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
                  
              </div>
      
@@ -121,13 +125,13 @@ call-to-action:
           <!-- Blog Card -->
           <article class="card h-100 bg-teal">
               <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
-              <div class="card-body p-5">
+              <div class="card-body p-5 editable">
       
-                  <h2 class="h5 font-weight-bold mb-2 editable">
+                  <h2 class="h5 font-weight-bold mb-2">
                       Stakeholder Meetings
                   </h2>
                   
-                  <p class="editable">TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
+                  <p>TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
                   
               </div>
       
