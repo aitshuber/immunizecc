@@ -1,3 +1,42 @@
+- year: 2006
+  form-name: IRS Form 990
+  url: /assets/forms/2006-IRS-Form-990.pdf
+- year: 2007
+  form-name: IRS Form 990
+  url: /assets/forms/2007-IRS-Form-990.pdf
+- year: 2008
+  form-name: IRS Form 990
+  url: /assets/forms/2008-IRS-Form-990.pdf
+- year: 2009
+  form-name: IRS Form 990
+  url: /assets/forms/2009-IRS-Form-990.pdf
+- year: 2010
+  form-name: IRS Form 990
+  url: /assets/forms/2010-IRS-Form-990.pdf
+- year: 2011
+  form-name: IRS Form 990
+  url: /assets/forms/2011-IRS-Form-990.pdf
+- year: 2012
+  form-name: IRS Form 990
+  url: /assets/forms/2012-IRS-Form-990.pdf
+- year: 2013
+  form-name: IRS Form 990
+  url: /assets/forms/2013-IRS-Form-990.pdf
+- year: 2014
+  form-name: IRS Form 990
+  url: /assets/forms/2014-IRS-Form-990.pdf
+- year: 2015
+  form-name: IRS Form 990
+  url: /assets/forms/2015-IRS-Form-990.pdf
+- year: 2016
+  form-name: IRS Form 990
+  url: /assets/forms/2016-IRS-Form-990.pdf
+- year: 2017
+  form-name: IRS Form 990
+  url: /assets/forms/2017-IRS-Form-990.pdf
+- year: 2018
+  form-name: IRS Form 990
+  url: /assets/forms/2018-IRS-Form-990.pdf
 - year: 2019
   form-name: IRS Form 990
   url: /assets/forms/2019-IRS-Form-990.pdf
