@@ -6,47 +6,180 @@ layout: sub-page
 permalink: "who-we-are"
 banner-image: assets/forms/aboutusbanner.jpg
 ---
-  <div class="container space-1">
-<div class="row justify-content-lg-between">
-   <div class="col-md-12 mx-md-auto space-2 text-center">
-			<h2 class="h1 text-primary immunizetitle text-center font-weight-light editable">We're a voice for Texans who want to prevent disease</h2>
-			<p class="editable">Providing access. to vaccines and increasing immunization rates keeps Texans safe from preventable diseases.</p>
-	</div>
-<div class="col-md-4 mb-2">
-	<!-- Blog Card -->
-	<article class="card h-100">
-		<img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
-		<div class="card-body p-5 editable">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			<a href="" class="btn btn-sm-wide btn-primary btn-pill">How We Connect</a>
-		</div>
-	</article>
-	<!-- End Blog Card -->
-</div>
-<div class="col-md-4 mb-2">
-	 <!-- Blog Card -->
-	 <article class="card h-100">
-		 <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
-		 <div class="card-body p-5 editable">
-		 
-			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			 <a href="" class="btn btn-sm-wide btn-primary btn-pill">How We Educate</a>
-		 </div>
-
-	 </article>
-	 <!-- End Blog Card -->
- </div>
- <div class="col-md-4 mb-2">
-	  <!-- Blog Card -->
-	  <article class="card h-100">
-		  <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
-		  <div class="card-body p-5 editable">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			  <a href="" class="btn btn-sm-wide btn-primary btn-pill">How We Advocate</a>
+  <div class="container content-space-2 content-space-lg-3">
+	<div class="row align-items-lg-center">
+	  <div class="col-lg-5 mb-5 mb-lg-0 card">
+		<div class="p-lg-6 editable">
+		  <div class="mb-4">
+			<h2 class="h1 text-primary immunizetitle">Who we are</h2>
 		  </div>
   
-	  </article>
-	  <!-- End Blog Card -->
+  
+		  <div class="mb-4">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		  </div>
+		</div>
+	  </div>
+	  <!-- End Col -->
+  
+	  <div class="col-lg-7">
+	  <!-- Accordion -->
+	  <div id="committees">
+		  <div id="board" class="accordion mb-9">
+			  <!-- Card -->
+			  <div class="card">
+				  <div class="card-header card-collapse" id="cardHeadingOne">
+					  <h5 class="mb-0">
+						  <button class="btn btn-link btn-block justify-content-between collapsed card-btn p-3 tip-bg-blue"
+								  role="button"
+								  data-toggle="collapse"
+								  data-target="#cardOne"
+								  aria-expanded="false"
+								  aria-controls="cardOne">
+							  <span class="h5 editable">Board of Directors</span>
+							  <span class="card-btn-arrow text-white" style="float: right">
+								  <span class="fas fa-arrow-down small"></span>
+								</span>
+						  </button>
+					  </h5>
+				  </div>
+	  
+				  <div id="cardOne" class="collapse" aria-labelledby="cardHeadingOne" data-parent="#board">
+					  <div class="card-body px-4">
+						  <!-- Board Details -->
+						  <h6 class="editable">Executive Committee</h6><br/>
+						  <div class="row">
+							  {% for item in site.data.board-of-directors %}
+							  {% if item.type == 'Executive Committee' %}
+									  <div class="col-sm-4 mb-2 mb-sm-0">
+										  <h4 class="h6 mb-1">{{item.name}}</h4>
+										  <p class="small">
+											  {{item.title}}<br/>
+											 {{item.position}}
+										  </p>
+									  </div>
+									  {% endif %}
+								  {% endfor %}
+							  
+						  </div>
+						  <!-- End Card Details -->
+						  <hr/>
+						  <br/>
+						  <h6 class="editable">Directors</h6><br/>
+						  <div class="row">
+							  {% for item in site.data.board-of-directors %}
+							  {% if item.type == 'Directors' %}
+									  <div class="col-sm-4 mb-2 mb-sm-0">
+										  <h4 class="h6 mb-1">{{item.name}}</h4>
+										  <p class="small">
+											  {{item.title}}<br/>
+											 {{item.position}}
+										  </p>
+									  </div>
+									  {% endif %}
+								  {% endfor %}
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+			  <!-- End Card -->
+	  
+			  <!-- Card -->
+			  <div class="card">
+				  <div class="card-header card-collapse" id="cardHeadingTwo">
+					  <h5 class="mb-0">
+						  <button class="btn btn-link btn-block collapsed justify-content-between card-btn p-3 tip-bg-blue"
+								  role="button"
+								  data-toggle="collapse"
+								  data-target="#cardTwo"
+								  aria-expanded="false"
+								  aria-controls="cardTwo">
+							  <span class="h5 editable">Scientific Advisory Council</span>
+							  <span class="card-btn-arrow text-white" style="float: right">
+								  <span class="fas fa-arrow-down small"></span>
+								  </span>
+						  </button>
+					  </h5>
+				  </div>
+				  <div id="cardTwo" class="collapse" aria-labelledby="cardHeadingTwo" data-parent="#board">
+					  <div class="card-body px-4">
+						  <!-- Board Details -->
+						  <div class="row">
+							  {% for item in site.data.scientific-advisory %}
+								  <div class="col-sm-4 mb-2 mb-sm-0">
+									  <h4 class="h6 mb-1">{{item.name}}</h4>
+									  <p class="small">
+										  {{item.position}}
+									  </p>
+								  </div>
+							  {% endfor %}
+						  </div>
+						  <!-- End Card Details -->
+					  </div>
+				  </div>
+			  </div>
+			  <!-- End Card -->
+		  </div>
+	  </div>
+	  <!-- End Accordion -->
+	  </div>
+	  <!-- End Col -->
+	</div>
+	<!-- End Row -->
   </div>
-</div>
-</div>
+  <div class="container-fluid space-2 bg-soft-secondary">
+	  <div class="container">
+	  <div class="row text-center">
+		  <div class="col-md-12">
+			  <h2 class="immunizetitle text-primary">Our Mission and Vision</h2>
+			  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		  </div>
+	  </div>
+	  </div>
+  </div>
+  <div class="gradient-y-overlay-lg-white bg-img-start content-space-2" style="background-image: url(/assets/forms/immunize-advocacy.jpg);background-size:cover">
+	<div class="container">
+	  <div class="row text-center space-top-3">
+		<div class="col-md-7 col-lg-8 mx-auto mt-5">
+		  <h1 class="text-white immunizetitle editable" style="line-height:1em;">The immunization partnership has a goal to reach ## of texans and empower a million people by 2024</h1>
+		</div>
+		<!-- End Col -->
+	  </div>
+	  <!-- End Row -->
+	</div>
+  </div>
+  <div class="container space-2 px-lg-7" style="margin-top: 0% !important">
+	  
+	  <div class="row justify-content-center">
+		 <div class="col-md-6 col-12">
+			<h2 class="h3 text-primary text-left editable font-weight-bold">Our Strategy</h2>
+	 {% for post in site.posts limit:1 -%}
+	 <article class="h-100">
+		<div class="">
+		   <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
+			<p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
+		</div>
+		<div class=" border-0 py-4">
+				<a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
+					More
+					<small class="fas fa-arrow-right ml-1"></small>
+				</a>
+			</div>
+	  </article>
+	 {% endfor %}
+		 </div>
+		 <div class="col-md-6 col-12">
+			<h2 class="h3 text-primary text-left editable font-weight-bold">Our Origins</h2>
+			<article class="h-100">
+			  <div class="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			  </div>
+			  <div class="border-0 py-4">
+					  <a href="{{ page.main-topic.url | absolute_url }}" class="text-primary">Find Out More
+						  <small class="fas fa-arrow-right ml-1"></small>
+					  </a>
+				  </div>
+			</article>
+		 </div>
+	  </div>
+  </div>
