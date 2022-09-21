@@ -545,3 +545,109 @@ main{
   line-height: .5em;
 }
 /* partners list */
+ul.partners-list {
+  --radius: 70vh;
+}
+
+/* mandatory items initialization */
+ul.partners-list li {
+  --count:{% assign amount = 0 %} {% for item in site.data.partners %}{% capture amount %}{{ amount | plus:1 }}{% endcapture %}{% endfor %}{{ amount }}
+}
+{% for item in site.data.partners %}
+li:nth-of-type({{forloop.index}}) { --item: {{forloop.index}} }
+{% endfor %}
+
+/* circle styles */
+ul.partners-list {
+  background-color: rgba(14, 131, 202, 0.197);
+  border-radius: 50%;
+  height: 50vh;
+  height: var(--radius);
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+  position: relative;
+  width: 50vh;
+  width: var(--radius);
+}
+ul.partners-list p{
+ position: relative;
+ top: 30%;
+ color: white;
+ margin-left: auto;
+ margin-right: auto;
+ width: 60%;
+ text-align: center;
+ font-size: 3.5em;
+ font-family: 'Sanchez', serif !important;
+ font-weight: 600 !important;
+ line-height: 1em;
+ align-items: center;
+ vertical-align: middle;
+ justify-content: center;
+ white-space: break-spaces;
+ overflow: hidden;
+}
+/* item styles */
+ul.partners-list li {
+  --size: calc(var(--radius) / var(--count) * 2.5);
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #fff inset;
+  color: #fff;
+  counter-increment: item;
+  display: flex;
+  font-size: 5vh;
+  font-weight: bold;
+  height: var(--size);
+  justify-content: center;
+  list-style: none;
+  overflow: hidden;
+  position: absolute;
+  width: var(--size);
+  font-size: 1em;
+  text-align: center;
+  white-space: break-spaces;
+}
+ul.partners-list li span{
+  width:75%;
+  margin-left:auto;
+  margin-right: auto;
+}
+ul.partners-list li a{
+  z-index: 1;
+  position: relative
+}
+ul.partners-list li::after {
+    background-color: #fff;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .2s ease;
+  }
+ul.partners-list li:hover::after {
+    opacity: .2;
+  }
+
+/* computation */
+ul.partners-list li {
+  --center: calc(var(--radius) / 2 - var(--size) / 2);
+
+  --angle: 360 / var(--count) * 1deg;
+  --offset: calc(-90deg - var(--angle));
+
+  --rotate: calc(var(--angle) * var(--item) + var(--offset));
+  --negative-rotate: calc(var(--rotate) * -1);
+
+  --translate: calc(var(--radius) / 2);
+
+  left: var(--center);
+  top: var(--center);
+  transform: rotate(var(--rotate)) translate(var(--translate)) rotate(var(--negative-rotate));
+}
