@@ -31,11 +31,15 @@ main-topic:
                             <div class="container space-3 space-top-md-5 space-top-lg-3">
                                 <div class="row justify-content-center">
                                     <div class="col-md-12 position-relative">
-                                        <h1 style="text-align:{{item.Position}}">{{item.Text}}</h1>
+                                      {% if item.Text %}
+                                        <h1 style="text-align:{{item.Position}}" class="immunizetitle text-primary">{{item.Text}}</h1>
+                                        {% endif %}
                                         <div class="text-center">
-                                        <a href="{{item.Button-Text}}" class="btn btn-sm btn-primary transition-3d-hover mt-2" {% if item.external-link != true  %}{% else %}target="_blank"{% endif %}>
+                                          {% if item.Button-Text %}
+                                        <a href="{{item.Button-Text}}" class="btn btn-sm btn-primary transition-3d-hover mt-2 btn-pill" {% if item.external-link != true  %}{% else %}target="_blank"{% endif %}>
                                             {{item.Button-Text}}
                                         </a>
+                                        {% endif %}
                                         </div>
                                     </div>
                                 </div>
@@ -85,50 +89,35 @@ main-topic:
         </div>
     <div class="col-md-4 mb-2">
         <!-- Blog Card -->
-        <article class="card h-100 bg-teal">
+        <article class="card h-100">
             <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
             <div class="card-body p-5 editable">
-    
-                <h2 class="h5 font-weight-bold mb-2">
-                    Stakeholder Meetings
-                </h2>
-                
-                <p>TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
-                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <a href="" class="btn btn-sm-wide btn-success btn-pill">How We Connect</a>
             </div>
-    
         </article>
         <!-- End Blog Card -->
     </div>
     <div class="col-md-4 mb-2">
          <!-- Blog Card -->
-         <article class="card h-100 bg-teal">
+         <article class="card h-100">
              <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
              <div class="card-body p-5 editable">
-     
-                 <h2 class="h5 font-weight-bold mb-2">
-                     Stakeholder Meetings
-                 </h2>
-                 
-                 <p>TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
-                 
+             
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                 <a href="" class="btn btn-sm-wide btn-success btn-pill">How We Educate</a>
              </div>
-     
+
          </article>
          <!-- End Blog Card -->
      </div>
      <div class="col-md-4 mb-2">
           <!-- Blog Card -->
-          <article class="card h-100 bg-teal">
+          <article class="card h-100">
               <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
               <div class="card-body p-5 editable">
-      
-                  <h2 class="h5 font-weight-bold mb-2">
-                      Stakeholder Meetings
-                  </h2>
-                  
-                  <p>TIP invited immunization stakeholders to attend town hall meetings throughout the state. Stakeholders learn about the current immunization policy landscape in Texas and share successes and challenges to maintaining and improving immunization rates. Information gathered from these meetings help develop upcoming legislative priorities.</p>
-                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <a href="" class="btn btn-sm-wide btn-success btn-pill">How We Advocate</a>
               </div>
       
           </article>

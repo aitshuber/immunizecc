@@ -3,7 +3,7 @@ title: The Immunization Partnership
 description: To eradicate vaccine preventable diseases by educating the community, advocating for evidence-based public policy and supporting immunization best practices.
 keywords: 
 layout: sub-page
-permalink: "partners"
+permalink: "how-we-work"
 banner-image: assets/forms/immunize-partners.jpg
 ---
 
@@ -21,7 +21,13 @@ banner-image: assets/forms/immunize-partners.jpg
     </div>
         <div class="container-fluid space-bottom-1">
             <div class="row justify-content-center">
-               
+               <ul class="partners-list bg-soft-gray">
+                   {% for item in site.data.partners %}
+                      {% capture thecycle %} {% cycle "bg-teal", "bg-blue", "bg-yellow", "bg-pink", "bg-green" %}{% endcapture %}
+                <li> <a href="#" class="bg-teal">Item 1</a></li>
+                 {% endfor %}
+               </div>
+               {% comment %}
                 {% for item in site.data.partners %}
                {% capture thecycle %} {% cycle "bg-teal", "bg-blue", "bg-yellow", "bg-pink", "bg-green" %}{% endcapture %}
                 <!-- Start {{item.Type}} -->
@@ -61,7 +67,7 @@ banner-image: assets/forms/immunize-partners.jpg
                 </div>
                 <!-- End {{item.Type}} -->
                 {% endfor %}
-                
+                {% endcomment %}
               </div>
         </div>
     </div>
