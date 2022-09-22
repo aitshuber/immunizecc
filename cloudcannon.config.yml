@@ -14,6 +14,7 @@ _enabled_editors:
   - data
 data_config:
   home-banner: true
+  homepage-notice: true
 _inputs:
   Button_Positions:
     type: select
@@ -22,3 +23,10 @@ _inputs:
         - left
         - center
         - right
+  Position:
+    type: select
+    options:
+      values:
+        - Below Image
+        - Top Navigation
+        - PopUp

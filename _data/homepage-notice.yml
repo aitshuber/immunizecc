@@ -7,6 +7,11 @@
   Expiration_Date:
   Position: PopUp
   enabled: false
+  _select_data:
+    Position:
+    - Below Image
+    - Top Navigation
+    - PopUp
 - Title: Item 2
   Image: 
   Text: 
@@ -16,6 +21,11 @@
   Expiration_Date: 
   Position: Below Image
   enabled: false
+  _select_data:
+    Position:
+    - Below Image
+    - Top Navigation
+    - PopUp
 - Title: item 3
   Image: 
   Text: 
@@ -25,3 +35,8 @@
   Expiration_Date: 
   Position: Top Navigation
   enabled: false
+  _select_data:
+    Position:
+    - Below Image
+    - Top Navigation
+    - PopUp
