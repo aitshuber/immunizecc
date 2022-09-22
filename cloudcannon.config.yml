@@ -12,3 +12,5 @@ _enabled_editors:
   - visual
   - content
   - data
+ data_config:
+  board-of-directors: true
