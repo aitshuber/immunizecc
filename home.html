@@ -186,7 +186,7 @@ main-topic:
 
    
     {% for item in site.data.homepage-notice limit:1 %}
-        {% if item.Position == "Popup" or item.enabled == true %}
+        {% if item.Position == "Popup" and item.enabled == true %}
             <!-- After Some Time Modal -->
     
             <div id="aftersometimeModal" class="js-modal-window u-modal-window text-center"

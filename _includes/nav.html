@@ -2,7 +2,7 @@
         data-header-fix-moment="500"
         data-header-fix-effect="slide">
         {% for item in site.data.homepage-notice limit:1 %}
-            {% if item.Position == "Top Navigation" or item.enabled == true %}
+            {% if item.Position == "Top Navigation" and item.enabled == true %}
                   <!-- nav bar notice -->
                   <div class="container-fluid navbar-expand-md py-2 bg-green">
                       <div class="d-block text-center align-items-center">
