@@ -3,10 +3,8 @@
   Text:
   Buttons_Text:
   Button_link:
-  Publish_date: 2022-09-21 00:00:00 -0500
-  Expiration_Date: 2022-09-23 00:00:00 -0500
   Position: PopUp
-  enabled: true
+  enabled: false
   _select_data:
     Position:
       - Below Image
@@ -17,8 +15,6 @@
   Text:
   Buttons_Text:
   Button_link:
-  Publish_date: 2022-09-21 00:00:00 -0500
-  Expiration_Date: 2022-09-23 00:00:00 -0500
   Position: Below Image
   enabled: false
   _select_data:
@@ -31,8 +27,6 @@
   Text:
   Buttons_Text:
   Button_link:
-  Publish_date:
-  Expiration_Date:
   Position: Top Navigation
   enabled: false
   _select_data:

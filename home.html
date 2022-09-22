@@ -13,6 +13,7 @@ main-topic:
   image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
   url: /about/
 ---
+
     <!-- Hero v1 Section -->
     <div class="u-hero-v1">
         <!-- Hero Carousel Main -->
@@ -51,8 +52,9 @@ main-topic:
         <!-- End Hero Carousel Main -->
     </div>
     
-   {% for item in site.data.homepage-notice limit:1 %}
-   {% if item.Position == "Below Image" and item.enabled == true %}
+   {% for item in site.data.homepage-notice %}
+   {% if item.Position == 'Below Image' %}
+   {% if item.enabled == true %}
             <div class="bg-danger">
                 <div class="container space-1">
                     <div class="row align-items-md-center">
@@ -78,6 +80,7 @@ main-topic:
                     </div>
                 </div>
             </div>
+        {% endif %}
         {% endif %}
     {% endfor %}
     <!-- End Hero Carousel Main -->
@@ -184,11 +187,10 @@ main-topic:
 
     <script src="https://platform.twitter.com/widgets.js" charset="utf-8" async></script>
 
-   {% assign day = 'now' | date_to_xmlschema %}
-    {% for item in site.data.homepage-notice limit:1 %}
-    {% assign published == false %}
-     {% assign pubDate = item.Publish_date | date_to_xmlschema %}
-     {% if pubDate >= day and item.Position == "Popup" %}
+   
+   {% for item in site.data.homepage-notice %}
+    {% if item.Position == 'PopUp' %}
+         {% if item.enabled == true %}
             <!-- After Some Time Modal -->
     
             <div id="aftersometimeModal" class="js-modal-window u-modal-window text-center"
@@ -215,7 +217,7 @@ main-topic:
                         {% if item.Image %}
                         <img src="{{ item.Image }}"/>
                         {% endif %}
-                        {% if item.Text %}
+                        {% if notitemice.Text %}
                         {{ item.Text }}
                         {% endif %}
                     </div>
@@ -233,5 +235,6 @@ main-topic:
             </div>
     
             <!-- End After Some Time Modal -->
-        {% endif %}
+            {% endif %}
+      {% endif %}
     {% endfor %}
