@@ -184,9 +184,11 @@ main-topic:
 
     <script src="https://platform.twitter.com/widgets.js" charset="utf-8" async></script>
 
-   
+   {% assign day = 'now' | date_to_xmlschema %}
     {% for item in site.data.homepage-notice limit:1 %}
-        {% if item.Position == "Popup" and item.enabled == true %}
+    {% assign published == false %}
+     {% assign pubDate = item.Publish_date | date_to_xmlschema %}
+     {% if pubDate >= day and item.Position == "Popup" %}
             <!-- After Some Time Modal -->
     
             <div id="aftersometimeModal" class="js-modal-window u-modal-window text-center"
