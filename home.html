@@ -52,7 +52,7 @@ main-topic:
     </div>
     
    {% for item in site.data.homepage-notice limit:1 %}
-   {% if item.Position == "Below Image" or item.enabled == true %}
+   {% if item.Position == "Below Image" and item.enabled == true %}
             <div class="bg-danger">
                 <div class="container space-1">
                     <div class="row align-items-md-center">
