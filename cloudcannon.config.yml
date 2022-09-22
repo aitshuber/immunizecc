@@ -17,3 +17,7 @@ data_config:
 _inputs:
   Button_Positions:
     type: select
+    options:
+      value: left
+      value: center
+      value: right
