@@ -18,6 +18,6 @@ _inputs:
   Button_Positions:
     type: select
     options:
-      valuse: left
+      values: left
       values: center
       values: right
