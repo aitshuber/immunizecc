@@ -12,5 +12,8 @@ _enabled_editors:
   - visual
   - content
   - data
- data_config:
+data_config:
   board-of-directors: true
+_inputs:
+  director:
+    type: select
