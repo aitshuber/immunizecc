@@ -13,7 +13,7 @@ _enabled_editors:
   - content
   - data
 data_config:
-  board-of-directors: true
+  home-banner: true
 _inputs:
-  director:
+  Button_Positions:
     type: select
