@@ -545,109 +545,60 @@ main{
   line-height: .5em;
 }
 /* partners list */
-ul.partners-list {
-  --radius: 70vh;
-}
 
-/* mandatory items initialization */
-ul.partners-list li {
-  --count:{% assign amount = 0 %} {% for item in site.data.partners %}{% capture amount %}{{ amount | plus:1 }}{% endcapture %}{% endfor %}{{ amount }}
-}
-{% for item in site.data.partners %}
-li:nth-of-type({{forloop.index}}) { --item: {{forloop.index}} }
-{% endfor %}
-
-/* circle styles */
-ul.partners-list {
-  background-color: rgba(14, 131, 202, 0.197);
-  border-radius: 50%;
-  height: 50vh;
-  height: var(--radius);
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-left: 0;
+{% assign amount = 0 %} {% for item in site.data.partners %}{% capture amount %}{{ amount | plus:1 }}{% endcapture %}{% endfor %}
+.circle-nav {
   position: relative;
-  width: 50vh;
-  width: var(--radius);
-}
-ul.partners-list p{
- position: relative;
- top: 30%;
- color: white;
- margin-left: auto;
- margin-right: auto;
- width: 60%;
- text-align: center;
- font-size: 3.5em;
- font-family: 'Sanchez', serif !important;
- font-weight: 600 !important;
- line-height: 1em;
- align-items: center;
- vertical-align: middle;
- justify-content: center;
- white-space: break-spaces;
- overflow: hidden;
-}
-/* item styles */
-ul.partners-list li {
-  --size: calc(var(--radius) / var(--count) * 2.5);
-  align-items: center;
+  width: 24vw;
+  height: 24vw;
   border-radius: 50%;
-  box-shadow: 0 0 0 2px #fff inset;
-  color: #fff;
-  counter-increment: item;
-  display: flex;
-  font-size: 5vh;
-  font-weight: bold;
-  height: var(--size);
-  justify-content: center;
-  list-style: none;
+  background-color: rgba(112, 164, 216, 0.247);
+  margin: 0;
+  transform: rotate(calc(-90deg - ({{amount}} * 10deg)));
+  display: block
+}
+.circle-nav a {
+  display: block;
   overflow: hidden;
   position: absolute;
-  width: var(--size);
-  font-size: 1em;
+  top: 50%;
+  left: 50%;
+  width: 8vw;
+  height: 8vw;
+  margin: calc( (8vw / 2) * -1 );
+  /* negative half the width of .nav-item*/
+}
+.circle-nav a.center {
+  transform: rotate(calc(90deg + ({{amount}} * 10deg)));
+  width: 50%;
+ margin-left: -6em;
+}
+.circle-nav a.center img{
+  width:13em;
+}
+.circle-nav .circle {
+  width: 8vw;
+  height: 8vw;
+  line-height: 8vw;
   text-align: center;
-  white-space: break-spaces;
+  border-radius: 50%;
+  display: block;
 }
-ul.partners-list li span{
-  width:75%;
-  margin-left:auto;
-  margin-right: auto;
+{% for item in site.data.partners %}
+.circle-nav .nav-item-{{forloop.index}} {
+  z-index: 0;
+  transform: rotate(calc((360deg / {{amount}}) * {{forloop.index}})) translate(calc(25vw / 2)) rotate(calc((360deg / {{amount}}) * {{forloop.index}} * -1)) rotate(calc(90deg + ({{amount}} * 10deg)));
 }
-ul.partners-list li a{
-  z-index: 1;
-  position: relative
+.circle-nav .nav-item-{{forloop.index}}:before {
+  content: "{{item.Type}}";
+  color: white;
+  font-size: 1vw;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
-ul.partners-list li::after {
-    background-color: #fff;
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-    bottom: 0;
-    content: '';
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: opacity .2s ease;
-  }
-ul.partners-list li:hover::after {
-    opacity: .2;
-  }
-
-/* computation */
-ul.partners-list li {
-  --center: calc(var(--radius) / 2 - var(--size) / 2);
-
-  --angle: 360 / var(--count) * 1deg;
-  --offset: calc(-90deg - var(--angle));
-
-  --rotate: calc(var(--angle) * var(--item) + var(--offset));
-  --negative-rotate: calc(var(--rotate) * -1);
-
-  --translate: calc(var(--radius) / 2);
-
-  left: var(--center);
-  top: var(--center);
-  transform: rotate(var(--rotate)) translate(var(--translate)) rotate(var(--negative-rotate));
+{% endfor %}
+@media (min-width: 992px) {
 }

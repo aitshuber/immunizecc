@@ -1,5 +1,5 @@
 - title: Home
-  url: /
+  url: 
 - title: About Us
   url: about
 - title: Covid
@@ -10,7 +10,7 @@
   url: impact
 - title: Get Involved
   url: getinvolved
-- title: Partners
-  url: partners
+- title: How We Work
+  url: how-we-work
 - title: Donate
   url: donate

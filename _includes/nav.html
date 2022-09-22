@@ -39,18 +39,10 @@
         </div>
     </div>
     <!-- End Search -->
-    
-  
-
     <div class="u-header__section">
-   
             <!-- Topbar -->
           <div class="container u-header__hide-content pt-2">
                 <div class="d-flex align-items-center">
-            
-          
-                
-          
                   <ul class="list-inline ml-auto mb-0">
                  <!-- Search -->
                  <li class="list-inline-item">
@@ -59,7 +51,6 @@
                    </a>
                  </li>
                  <!-- End Search -->
-      
                  <!-- Shopping Cart -->
                  <li class="list-inline-item position-relative">
                    <a  class="btn btn-xs btn-icon btn-text-secondary"  data-toggle="tooltip" data-placement="top" title="Courses" href="products/collection/courses-1">
@@ -74,16 +65,10 @@
                    </div>
                  </li>
                  <!-- End Shopping Cart -->
-      
                  <!-- Account Login -->
-                 
                  <li class="list-inline-item position-relative">
-                      <a href="account/login" class="btn btn-xs btn-icon"><sopan class="fa fa-user btn-icon__inner "
-                                                                            aria-hidden="true"></span></a>
+                      <a href="account/login" class="btn btn-xs btn-icon"><sopan class="fa fa-user btn-icon__inner " aria-hidden="true"></span></a>
                   </li>
-      
-              
-               
                  <!-- End Account Login -->
                </ul>
              </div>
@@ -98,7 +83,6 @@
                     <img src="{{ site.baseurl }}/assets/img/tip.svg">
                 </a>
                 <!-- End Logo -->
-
                 <!-- Responsive Toggle Button -->
                 <button type="button" class="navbar-toggler btn u-hamburger"
                         aria-label="Toggle navigation"
@@ -118,7 +102,7 @@
                         {% for item in site.data.navigation %}
                         <!-- Home -->
                         <li class="nav-item  u-header__nav-item">
-                            <a class="{% if item.title == 'Donate' %}btn btn-sm btn-outline-success{% else %}nav-link u-header__nav-link{% endif %}" href="{{ site.baseurl }}{{item.url}}">{{item.title}}</a>
+                            <a class="{% if item.title == 'Donate' %}btn btn-sm btn-outline-success{% else %}nav-link u-header__nav-link{% endif %}" href="{{ site.baseurl }}/{{item.url}}">{{item.title}}</a>
                         </li>
                         <!-- End Home -->
                         {% endfor %}
