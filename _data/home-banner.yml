@@ -1,9 +1,9 @@
 - Image: /assets/forms/immunize-hands.jpg
-  Text: "Test Text"
+  Text: Test Text
   Button-Text: Go to Link
-  Button-Link: "https://github.com"
+  Button-Link: https://github.com
   External-Link: true
-  Button_Positions: center
+  Button_Positions: left
   _select_data:
     Button_Positions:
       - left
