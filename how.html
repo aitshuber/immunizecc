@@ -1,37 +1,39 @@
 ---
 title: The Immunization Partnership
-description: To eradicate vaccine preventable diseases by educating the community, advocating for evidence-based public policy and supporting immunization best practices.
-keywords: 
+description: >-
+  To eradicate vaccine preventable diseases by educating the community,
+  advocating for evidence-based public policy and supporting immunization best
+  practices.
+keywords:
 layout: sub-page
-permalink: "how-we-work"
+permalink: how-we-work
 banner-image: /assets/forms/immunize-partners.jpg
 ---
-    <div class="position-relative">
+<div class="position-relative">
     <div class="container space-2">
         <div class="row">
             <div class="col-12 space-bottom-1 editable">
                 <h2 class="h1 text-primary immunizetitle text-center font-weight-light editable">Our <span class="font-weight-bold">Partners</span></h2>
                 
-                <div style="font-size: 1.25rem;font-weight: 500;line-height: 1.7em;margin-bottom: 0.5rem;">TIP partners with a wide variety of stakeholders to effectively collaborate on eradicating vaccine-preventable diseases across Texas.</div>
+                <div class="editable" style="font-size: 1.25rem;font-weight: 500;line-height: 1.7em;margin-bottom: 0.5rem;">TIP partners with a wide variety of stakeholders to effectively collaborate on eradicating vaccine-preventable diseases across Texas.</div>
                 
             </div>
         </div>
     </div>
         <div class="container-fluid space-bottom-1">
+            <a class="editor-link btn btn-sm btn-warning transition-3d-hover mt-2 float-right btn-pill" href="cloudcannon:collections/_data/partners.yml"><strong>&#9998;</strong> Edit partners</a>
             <div class="row justify-content-center d-none">
                <ul class="partners-list bg-soft-gray">
                   <p>The Immunization Partnership</p>
                    {% for item in site.data.partners %}
                       {% capture thecycle %} {% cycle "bg-teal", "bg-blue", "bg-yellow", "bg-pink", "bg-green" %}{% endcapture %}
-            <li class="{{thecycle}}"> <a class="text-white py-8 px-4" href="#{{item.Type | downcase | truncatewords:1, ""}}" data-modal-target="#{{item.Type | downcase | truncatewords:1, ""}}"
-                  data-modal-effect="blur">  <span>{{item.Type}}</span></a></li>
+            <li class="{{thecycle}}"> <a class="text-white py-8 px-4" href="#{{item.Type | downcase | truncatewords:1, ""}}" data-modal-target="#{{item.Type | downcase | truncatewords:1, ""}}" data-modal-effect="blur">  <span>{{item.Type}}</span></a></li>
                <div id="{{item.Type | downcase | truncatewords:1, ""}}" class="js-modal-window u-modal-window window-lg" style="width: 85%;">
                    <div class="card">
                        <header class="card-header bg-light py-3 px-5">
                            <div class="d-flex justify-content-between align-items-center">
                                <h3 class="h6 mb-0 font-weight-bold">{{item.Type}} Partners</h3>
-                               <button type="button" class="close" aria-label="Close"
-                                       onclick="Custombox.modal.close();">
+                               <button type="button" class="close" aria-label="Close" onclick="Custombox.modal.close();">
                                    <span aria-hidden="true">×</span>
                                </button>
                            </div>
@@ -53,12 +55,11 @@ banner-image: /assets/forms/immunize-partners.jpg
                <div class="row justify-content-center">
                  <nav class='circle-nav'>
                    <a href='#' class='center'>
-                   <img class="circle" src='/assets/img/tip.svg'>
+                   <img class="circle" src='/assets/img/tip.svg' />
                  </a>
                  {% for item in site.data.partners %}
                    {% capture thecycle %} {% cycle "bg-teal", "bg-blue", "bg-yellow", "bg-pink", "bg-green" %}{% endcapture %}
-                   <a href="#{{item.Type | downcase | truncatewords:1, ""}}" data-modal-target="#{{item.Type | downcase | truncatewords:1, ""}}"
-                     data-modal-effect="blur" class='circle nav-item-{{forloop.index}} {{thecycle}}'></a>
+                   <a href="#{{item.Type | downcase | truncatewords:1, ""}}" data-modal-target="#{{item.Type | downcase | truncatewords:1, ""}}" data-modal-effect="blur" class='circle nav-item-{{forloop.index}} {{thecycle}}'></a>
                   {% endfor %}
                  </nav>
                </div>
@@ -71,8 +72,7 @@ banner-image: /assets/forms/immunize-partners.jpg
                         <article class="card {{thecycle}} border-0 text-center h-100 transition-3d-hover">
                     
         
-                        <a class="card-body py-8 px-4" href="#community" data-modal-target="#{{item.Type | downcase | truncatewords:1, ""}}"
-                           data-modal-effect="blur">
+                        <a class="card-body py-8 px-4" href="#community" data-modal-target="#{{item.Type | downcase | truncatewords:1, ""}}" data-modal-effect="blur">
                             <h3 class="immunizetitle h4 font-weight-bold text-white mb-1">{{item.Type}}</h3>
                             <small class="d-block text-white-70">Click To View Partners</small>
                         </a>
@@ -83,8 +83,7 @@ banner-image: /assets/forms/immunize-partners.jpg
                         <header class="card-header bg-light py-3 px-5">
                             <div class="d-flex justify-content-between align-items-center">
                                 <h3 class="h6 mb-0 font-weight-bold">{{item.Type}} Partners</h3>
-                                <button type="button" class="close" aria-label="Close"
-                                        onclick="Custombox.modal.close();">
+                                <button type="button" class="close" aria-label="Close" onclick="Custombox.modal.close();">
                                     <span aria-hidden="true">×</span>
                                 </button>
                             </div>
@@ -105,14 +104,14 @@ banner-image: /assets/forms/immunize-partners.jpg
                {% endcomment %}
               </div>
         </div>
-    </div>
+    
 
     <!--Become a partner-->
     <div class="container space-top-2">
         <div class="row">
-            <div class=" col-12 col-md-9 mx-auto w-md-80 w-lg-80 mb-9 space-top-1">
+            <div class=" col-12 col-md-9 mx-auto w-md-80 w-lg-80 mb-9 space-top-1 editable">
                 
-                <p>The Immunization Partnership takes pride in our diverse alliances with 85+ organizations and companies focused on helping us eradicate vaccine-preventable diseases statewide. The organization owes much of its impact to these strong partnerships.</p><p></p><p>If you are interested in becoming a partner, please tell us about yourself below. We will get in touch with you as soon as possible. Thank you for your interest!</p>
+                <p>The Immunization Partnership takes pride in our diverse alliances with 85+ organizations and companies focused on helping us eradicate vaccine-preventable diseases statewide. The organization owes much of its impact to these strong partnerships.</p><p></p>If you are interested in becoming a partner, please tell us about yourself below. We will get in touch with you as soon as possible. Thank you for your interest!<p></p>
                 
             </div>
         </div>
