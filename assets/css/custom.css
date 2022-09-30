@@ -608,6 +608,7 @@ main{
   float: left !important;
   margin-left: 16px;
   width: 150px;
+  display:none;
 }
 
 .cms-editor-active .editor-link {
