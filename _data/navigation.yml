@@ -1,16 +1,12 @@
-- title: Home
+- title: Why We're Here
   url:
-- title: 'About '
+- title: What We Do
   url: about
-- title: Covid
+- title: Who We Are
   url: covid
-- title: Advocacy
-  url: advocacy
-- title: Impact
-  url: impact
-- title: Get Involved
-  url: getinvolved
 - title: How We Work
   url: how-we-work
+- title: Contact Us
+  url: impact
 - title: Donate
   url: donate
