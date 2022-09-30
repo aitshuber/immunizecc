@@ -159,7 +159,7 @@ main-topic:
            <article class="h-100">
               <div class="">
                  <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
-                  <p class="text-primary">{{ post.content | strip | strip_html | truncatewords:25 }} </p>
+                  <p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
               </div>
               <div class=" border-0 py-4">
                       <a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
