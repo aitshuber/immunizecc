@@ -8,12 +8,12 @@ call-to-action:
   text: Texas strength depends on the health of its citizens. we work everyday for a stronger Texas. Join Us.
   image: /assets/img/vaccination-with-patient-doctor.jpg
   url: /about/
+  button-text: Call to Action
 main-topic:
   title: Top issue title here
   image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
   url: /about/
 ---
-
     <!-- Hero v1 Section -->
     <div class="u-hero-v1">
         <!-- Hero Carousel Main -->
@@ -29,7 +29,7 @@ main-topic:
                 <!-- Slide #1 -->
                 <div class="d-lg-flex align-items-lg-center u-hero-v1__main"
                      style="background-image: url({{item.Image}});">
-                            <div class="container space-3 space-top-md-5 space-top-lg-3">
+                            <div class="container space-1 space-top-md-2 space-top-lg-2">
                                 <div class="row justify-content-center">
                                     <div class="col-md-12 position-relative">
                                       {% if item.Text %}
@@ -51,6 +51,7 @@ main-topic:
         </div>
         <!-- End Hero Carousel Main -->
     </div>
+    <a class="editor-link btn btn-sm btn-warning transition-3d-hover mt-2 float-right btn-pill" href="cloudcannon:collections/_data/home-banner.yml" class="btn"><strong>&#9998;</strong> Edit Banner</a>
     
    {% for item in site.data.homepage-notice %}
    {% if item.Position == 'Below Image' %}
@@ -84,9 +85,9 @@ main-topic:
         {% endif %}
     {% endfor %}
     <!-- End Hero Carousel Main -->
-    <div class="container space-1">
+    <div class="container">
     <div class="row justify-content-lg-between">
-       <div class="col-md-12 mx-md-auto space-2 text-center">
+       <div class="col-md-12 mx-md-auto space-1 text-center">
                 <h2 class="h1 text-primary immunizetitle text-center font-weight-light editable">We're a voice for Texans who want to prevent disease</h2>
                 <p class="editable">Providing access. to vaccines and increasing immunization rates keeps Texans safe from preventable diseases.</p>
         </div>
@@ -139,30 +140,26 @@ main-topic:
         </div>
         <div class="w-lg-35 py-8 px-6">
             <a href="{{page.call-to-action.url}}" class="btn btn-sm btn-primary transition-3d-hover mt-2 float-right btn-pill" tabindex="0">
-                 Action Call
+                 {{page.call-to-action.button-text}}
              </a>
           </div>
        </div>
        </div>
       </div>
-      <a class="editor-link btn btn-sm btn-warning transition-3d-hover mt-2 float-right btn-pill" style="    position: relative;
-    /* margin-bottom: 1em; */
-    bottom: 2em;
-    float: left !important;
-    margin-left: 16px;" href="cloudcannon:collections/_data/home-banner.yml" class="btn"><strong>&#9998;</strong> Edit Banner</a>
     </div>
     <!-- End Banner -->
     <!--Twitter-->
     <div class="container space-2 px-lg-7" style="margin-top: 0% !important">
-            
             <div class="row justify-content-center">
+              
                <div class="col-md-6 col-12">
                   <h2 class="h3 text-primary text-left editable font-weight-bold">Latest News</h2>
+                 
            {% for post in site.posts limit:1 -%}
            <article class="h-100">
               <div class="">
                  <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
-                  <p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
+                  <p class="text-primary">{{ post.content | strip | strip_html | truncatewords:25 }} </p>
               </div>
               <div class=" border-0 py-4">
                       <a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
@@ -243,3 +240,4 @@ main-topic:
             {% endif %}
       {% endif %}
     {% endfor %}
+    

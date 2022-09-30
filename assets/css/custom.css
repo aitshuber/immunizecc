@@ -602,3 +602,26 @@ main{
 {% endfor %}
 @media (min-width: 992px) {
 }
+.editor-link {
+  position: relative;
+  bottom: 2em;
+  float: left !important;
+  margin-left: 16px;
+  width: 150px;
+}
+
+.cms-editor-active .editor-link {
+  display: block;
+}
+
+.cms-editor-active .editor-link {
+  display: inline-block;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+}
+
+.cms-editor-active nav .editor-link {
+  display: inline;
+  margin: 0;
+  padding: 20px 15px;
+}
