@@ -1,11 +1,16 @@
 ---
 title: The Immunization Partnership
-description: To eradicate vaccine preventable diseases by educating the community, advocating for evidence-based public policy and supporting immunization best practices.
-keywords: 
+description: >-
+  To eradicate vaccine preventable diseases by educating the community,
+  advocating for evidence-based public policy and supporting immunization best
+  practices.
+keywords:
 layout: default
-permalink: "/"
+permalink: /
 call-to-action:
-  text: Texas strength depends on the health of its citizens. we work everyday for a stronger Texas. Join Us.
+  text: >-
+    Texas strength depends on the health of its citizens. we work everyday for a
+    stronger Texas. Join Us.
   image: /assets/img/vaccination-with-patient-doctor.jpg
   url: /about/
   button-text: Call to Action
@@ -14,21 +19,14 @@ main-topic:
   image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
   url: /about/
 ---
-    <!-- Hero v1 Section -->
+<!-- Hero v1 Section -->
     <div class="u-hero-v1">
         <!-- Hero Carousel Main -->
-        <div id="heroNav" class="js-slick-carousel u-slick"
-             data-autoplay="true"
-             data-speed="80000"
-             data-adaptive-height="true"
-             data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
-             data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
-             data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">   
+        <div id="heroNav" class="js-slick-carousel u-slick" data-autoplay="true" data-speed="80000" data-adaptive-height="true" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle" data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">   
              {% for item in site.data.home-banner %}
                 <div class="js-slide">
                 <!-- Slide #1 -->
-                <div class="d-lg-flex align-items-lg-center u-hero-v1__main"
-                     style="background-image: url({{item.Image}});">
+                <div class="d-lg-flex align-items-lg-center u-hero-v1__main" style="background-image: url({{item.Image}});">
                             <div class="container space-1 space-top-md-2 space-top-lg-2">
                                 <div class="row justify-content-center">
                                     <div class="col-md-12 position-relative">
@@ -51,7 +49,7 @@ main-topic:
         </div>
         <!-- End Hero Carousel Main -->
     </div>
-    <a class="editor-link btn btn-sm btn-warning transition-3d-hover mt-2 float-right btn-pill" href="cloudcannon:collections/_data/home-banner.yml" class="btn"><strong>&#9998;</strong> Edit Banner</a>
+    <a class="editor-link btn btn-sm btn-warning transition-3d-hover mt-2 float-right btn-pill" href="cloudcannon:collections/_data/home-banner.yml"><strong>&#9998;</strong> Edit Banner</a>
     
    {% for item in site.data.homepage-notice %}
    {% if item.Position == 'Below Image' %}
@@ -94,10 +92,10 @@ main-topic:
     <div class="col-md-4 mb-2">
         <!-- Blog Card -->
         <article class="card h-100">
-            <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
+            <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description" />
             <div class="card-body p-5 editable">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <a href="" class="btn btn-sm-wide btn-success btn-pill">How We Connect</a>
+              <p>We draw from access to leading health research, industry expertise and specialized knowledge<br />&nbsp;</p>
+              <p><a class="btn btn-sm-wide btn-success btn-pill" href="">How We Connect</a></p>
             </div>
         </article>
         <!-- End Blog Card -->
@@ -105,11 +103,10 @@ main-topic:
     <div class="col-md-4 mb-2">
          <!-- Blog Card -->
          <article class="card h-100">
-             <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
+             <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description" />
              <div class="card-body p-5 editable">
-             
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                 <a href="" class="btn btn-sm-wide btn-success btn-pill">How We Educate</a>
+               <p>We inform communities about immunization benefits and advise them how they can affect change.&nbsp;</p>
+               <p><a class="btn btn-sm-wide btn-success btn-pill" href="">How We Educate</a></p>
              </div>
 
          </article>
@@ -118,10 +115,10 @@ main-topic:
      <div class="col-md-4 mb-2">
           <!-- Blog Card -->
           <article class="card h-100">
-              <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description">
+              <img class="card-img-top editable" src="/assets/img/Advocacy_OurAdvocatesStories_Final.jpg" alt="Image Description" />
               <div class="card-body p-5 editable">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                  <a href="" class="btn btn-sm-wide btn-success btn-pill">How We Advocate</a>
+                <p>We promote policy a the Texas Legislature to increase access to vaccines and permit providers to build healthy communities&nbsp;</p>
+                <p><a class="btn btn-sm-wide btn-success btn-pill" href="">How We Advocate</a></p>
               </div>
       
           </article>
@@ -157,7 +154,7 @@ main-topic:
                  
            {% for post in site.posts limit:1 -%}
            <article class="h-100">
-              <div class="">
+              <div>
                  <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
                   <p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
               </div>
@@ -175,9 +172,9 @@ main-topic:
                <div class="col-md-6 col-12">
                   <h2 class="h3 text-primary text-left editable font-weight-bold">Hot Spot</h2>
                   <article class="h-100">
-                    <div class="">
+                    <div>
                        <a href="{{ page.main-topic.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ page.main-topic.title }}</h4></a>
-                       <img class="card-img-top max-h-225" src="{{ page.main-topic.image }}" alt="Image Description">
+                       <img class="card-img-top max-h-225" src="{{ page.main-topic.image }}" alt="Image Description" />
                     </div>
                     <div class="border-0 py-4">
                             <a href="{{ page.main-topic.url | absolute_url }}" class="text-primary">Find Out More
@@ -197,17 +194,13 @@ main-topic:
          {% if item.enabled == true %}
             <!-- After Some Time Modal -->
     
-            <div id="aftersometimeModal" class="js-modal-window u-modal-window text-center"
-                 data-modal-type="aftersometime" data-open-effect="zoomIn" data-close-effect="zoomOut"
-                 data-breakpoint="1000" data-speed="500"
-                 style="width: 80%">
+            <div id="aftersometimeModal" class="js-modal-window u-modal-window text-center" data-modal-type="aftersometime" data-open-effect="zoomIn" data-close-effect="zoomOut" data-breakpoint="1000" data-speed="500" style="width: 80%">
                 <div class="card">
                     <!-- Header -->
                     <header class="card-header py-3 px-5">
                         <div class="text-right">
     
-                            <button type="button" class="close" aria-label="Close"
-                                    onclick="Custombox.modal.close();">
+                            <button type="button" class="close" aria-label="Close" onclick="Custombox.modal.close();">
                         <span aria-hidden="true">
                             <i class="fal fas fa-times"></i>
                         </span>
@@ -219,7 +212,7 @@ main-topic:
                     <!-- Body -->
                     <div class="card-body p-5">
                         {% if item.Image %}
-                        <img src="{{ item.Image }}"/>
+                        <img src="{{ item.Image }}" />
                         {% endif %}
                         {% if notitemice.Text %}
                         {{ item.Text }}
@@ -229,14 +222,13 @@ main-topic:
     
                     <!-- Footer -->
                     <div class="card-footer d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover"
-                                onclick="Custombox.modal.close();">Close
+                        <button type="button" class="btn btn-sm btn-soft-secondary transition-3d-hover" onclick="Custombox.modal.close();">Close
                         </button>
                     </div>
                     <!-- End Footer -->
                 </div>
             </div>
-            </div>
+            
     
             <!-- End After Some Time Modal -->
             {% endif %}
