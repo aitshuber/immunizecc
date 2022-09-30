@@ -15,5 +15,5 @@ categories:
 tags:
   - blog
   - featured
-image:
+image: /assets/img/blurredcrowd.jpg
 ---
