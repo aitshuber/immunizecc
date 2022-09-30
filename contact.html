@@ -15,8 +15,9 @@ banner-image: /assets/forms/aboutusbanner.jpg
 <div class="col-md-4 mb-2">
 
 		<div class="p-5 editable">
-		  <h3><strong>WE'D LIKE TO HEAR FROM YOU</strong></h3>
+		  <h3 class="text-primary immunizetitle"><strong>WE'D LIKE TO HEAR FROM YOU</strong></h3>
 		  <p>The Immunization Partnership success results from our strong relationships. Through collaboration with individuals and organizations, we are able to ensure that more Texans are protected from disease.</p>
+			
 		</div>
 </div>
 <div class="col-md-4 mb-2">
@@ -27,10 +28,15 @@ banner-image: /assets/forms/aboutusbanner.jpg
 		<li class="list-group-item list-group-item-action"><span class="list-group-item-action editable"><b>Email</b> <a class="list-group-item-action" href="mailto:{{site.data.company_details.mediaEmail}}">{{site.data.company_details.mediaEmail}}</a></span> 
 		</li> 
 	
+		<li class="list-group-item list-group-item-action"><span 
+				class="list-group-item-action editable"><b><i class="far fa-envelope"></i></b> <a class="list-group-item-action" 
+															   href="mailto:{{site.data.company_details.mediaEmail}}">{{site.data.company_details.mediaEmail}}</a></span> 
+		</li> 
+	<li class="list-group-item list-group-item-action"><span 
+			class="list-group-item-action editable"><b><i class="fas fa-map-pin"></i></b> {{site.data.company_details.address}}</span> 
+	</li> 
 	</ul> 
 	<div class="editable">
-	  <h3><strong>MEDIA INQUIRIES</strong></h3>
-	  <p>We pride ourselves on being a reliable resource for journalists, offering expertise and compelling information. Please reach out to us at Communications@ImmunizeUSA.org.<br />&nbsp;</p>
 	  <h3><strong>PARTNERSHIP INQUIRIES&nbsp;</strong></h3>
 	  <p>If you are interested in becoming a partner, please tell us about yourself [LINK]. Our Partnerships Manager will contact you straight away.&nbsp;</p>
 	</div>
@@ -45,8 +51,10 @@ banner-image: /assets/forms/aboutusbanner.jpg
 		 {% endfor %}  
 	 </ul> 
  </div>
- <div class="col-md-4 mb-2">
-	 <h2> {{site.data.company_details.address}} </h2>
+ <div class="col-md-4 mb-2 text-center justify-content-center">
+	 <div class="col-md-8 mx-auto">
+	<a href="" class="d-flex align-middle align-items-center"><i class="fas fa-map-marker-alt fa-5x"></i> <span class="ml-1 text-left">{{site.data.company_details.address}} </span></a>
+	 </div>
 	<div>
 		<img class="u-lg-avatar rounded-circle" src="assets/img/img10.png" style="width:20em;height:20em;" alt="Image Description" />
 	  </div>
