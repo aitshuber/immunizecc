@@ -1,12 +1,15 @@
 ---
 title: The Immunization Partnership
-description: To eradicate vaccine preventable diseases by educating the community, advocating for evidence-based public policy and supporting immunization best practices.
-keywords: 
+description: >-
+  To eradicate vaccine preventable diseases by educating the community,
+  advocating for evidence-based public policy and supporting immunization best
+  practices.
+keywords:
 layout: sub-page
-permalink: "who-we-are"
+permalink: who-we-are
 banner-image: assets/forms/aboutusbanner.jpg
 ---
-  <div class="container content-space-2 content-space-lg-3">
+<div class="container content-space-2 content-space-lg-3">
 	<div class="row align-items-lg-center">
 	  <div class="col-lg-5 mb-5 mb-lg-0 card">
 		<div class="p-lg-6 editable">
@@ -30,12 +33,7 @@ banner-image: assets/forms/aboutusbanner.jpg
 			  <div class="card">
 				  <div class="card-header card-collapse" id="cardHeadingOne">
 					  <h5 class="mb-0">
-						  <button class="btn btn-link btn-block justify-content-between collapsed card-btn p-3 tip-bg-blue"
-								  role="button"
-								  data-toggle="collapse"
-								  data-target="#cardOne"
-								  aria-expanded="false"
-								  aria-controls="cardOne">
+						  <button class="btn btn-link btn-block justify-content-between collapsed card-btn p-3 tip-bg-blue" role="button" data-toggle="collapse" data-target="#cardOne" aria-expanded="false" aria-controls="cardOne">
 							  <span class="h5 editable">Board of Directors</span>
 							  <span class="card-btn-arrow text-white" style="float: right">
 								  <span class="fas fa-arrow-down small"></span>
@@ -47,14 +45,14 @@ banner-image: assets/forms/aboutusbanner.jpg
 				  <div id="cardOne" class="collapse" aria-labelledby="cardHeadingOne" data-parent="#board">
 					  <div class="card-body px-4">
 						  <!-- Board Details -->
-						  <h6 class="editable">Executive Committee</h6><br/>
+						  <h6 class="editable">Executive Committee</h6><br />
 						  <div class="row">
 							  {% for item in site.data.board-of-directors %}
 							  {% if item.type == 'Executive Committee' %}
 									  <div class="col-sm-4 mb-2 mb-sm-0">
 										  <h4 class="h6 mb-1">{{item.name}}</h4>
 										  <p class="small">
-											  {{item.title}}<br/>
+											  {{item.title}}<br />
 											 {{item.position}}
 										  </p>
 									  </div>
@@ -63,16 +61,16 @@ banner-image: assets/forms/aboutusbanner.jpg
 							  
 						  </div>
 						  <!-- End Card Details -->
-						  <hr/>
-						  <br/>
-						  <h6 class="editable">Directors</h6><br/>
+						  <hr />
+						  <br />
+						  <h6 class="editable">Directors</h6><br />
 						  <div class="row">
 							  {% for item in site.data.board-of-directors %}
 							  {% if item.type == 'Directors' %}
 									  <div class="col-sm-4 mb-2 mb-sm-0">
 										  <h4 class="h6 mb-1">{{item.name}}</h4>
 										  <p class="small">
-											  {{item.title}}<br/>
+											  {{item.title}}<br />
 											 {{item.position}}
 										  </p>
 									  </div>
@@ -88,12 +86,7 @@ banner-image: assets/forms/aboutusbanner.jpg
 			  <div class="card">
 				  <div class="card-header card-collapse" id="cardHeadingTwo">
 					  <h5 class="mb-0">
-						  <button class="btn btn-link btn-block collapsed justify-content-between card-btn p-3 tip-bg-blue"
-								  role="button"
-								  data-toggle="collapse"
-								  data-target="#cardTwo"
-								  aria-expanded="false"
-								  aria-controls="cardTwo">
+						  <button class="btn btn-link btn-block collapsed justify-content-between card-btn p-3 tip-bg-blue" role="button" data-toggle="collapse" data-target="#cardTwo" aria-expanded="false" aria-controls="cardTwo">
 							  <span class="h5 editable">Scientific Advisory Council</span>
 							  <span class="card-btn-arrow text-white" style="float: right">
 								  <span class="fas fa-arrow-down small"></span>
@@ -131,8 +124,9 @@ banner-image: assets/forms/aboutusbanner.jpg
 	  <div class="container">
 	  <div class="row text-center">
 		  <div class="col-md-12 editable">
-			  <h2 class="immunizetitle text-primary">Our Mission and Vision</h2>
-			  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		    <h2 class="immunizetitle text-primary">OUR MISSION AND VISION</h2>
+		    <p class="lead">The Immunization Partnership advocates for disease prevention using an impactful network of vaccine champions who promote education and evidence-based public policy on the health benefits of childhood and adult vaccinations. TIP aspires to be the trusted resource for increasing immunization rates to create healthier communities.</p>
+		    <p class="lead">Our long-term vision is to [---] a community protected from vaccine-preventable diseases.</p>
 		  </div>
 	  </div>
 	  </div>
@@ -155,7 +149,7 @@ banner-image: assets/forms/aboutusbanner.jpg
 			<h2 class="h3 text-primary text-left editable font-weight-bold">Our Strategy</h2>
 	 {% for post in site.posts limit:1 -%}
 	 <article class="h-100">
-		<div class="">
+		<div>
 		   <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
 			<p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
 		</div>
