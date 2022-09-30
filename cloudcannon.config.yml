@@ -9,8 +9,8 @@ source_editor:
   theme: 'Accolades'
 timezone: "America/Chicago"
 _enabled_editors:
-  - visual
   - content
+  - visual
   - data
 data_config:
   home-banner: true
