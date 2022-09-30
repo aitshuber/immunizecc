@@ -14,5 +14,6 @@ categories:
   - blog
 tags:
   - blog
+  - featured
 image:
 ---
