@@ -1,12 +1,12 @@
 - title: Why We're Here
-  url:
+  url: /why-were-here
 - title: What We Do
-  url: about
+  url: /what-we-do
 - title: Who We Are
-  url: covid
+  url: /who-we-are
 - title: How We Work
   url: how-we-work
 - title: Contact Us
-  url: impact
+  url: /contact
 - title: Donate
   url: donate
