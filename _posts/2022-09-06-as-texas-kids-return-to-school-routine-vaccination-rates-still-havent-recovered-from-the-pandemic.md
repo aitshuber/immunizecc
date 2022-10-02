@@ -20,7 +20,7 @@ Sampract’s older children – her 5-year-old daughter, Skylar, and 4-year-old 
 
 “Her health is very important to me, and also my other children,” she said. “With everything going on in this world, I feel like she needs her shots to keep her healthy and keep her growing.”
 
-While the vast majority of Texas parents and guardians share Sanpract’s point of view, health care providers and vaccine advocates say a concerning trend has emerged among a growing minority. The coverage rate for routine childhood vaccines – or the percentage of kids getting them – dropped during the COVID-19 pandemic and have yet to recover, according to statistics from the&nbsp;[Texas Department of State Health Services](https://www.dshs.texas.gov/immunize/coverage/schools/).
+While the vast majority of Texas parents and guardians share Sanpract’s point of view, health care providers and vaccine advocates say a concerning trend has emerged among a growing minority. The coverage rate for routine childhood vaccines – or the percentage of kids getting them – dropped during the COVID-19 pandemic and have yet to recover, according to statistics from the [Texas Department of State Health Services](https://www.dshs.texas.gov/immunize/coverage/schools/).
 
 Health care providers said many families skipped doctor’s visits during the pandemic to avoid exposure to the virus. But the drop is also due to a rise in “conscientious exemptions,” or parents and guardians who refuse to get their children vaccinated for religious, moral or philosophical reasons.
 
@@ -28,13 +28,13 @@ While anti-vaccine movements have existed since the smallpox vaccine debuted in 
 
 “I think that, certainly, \[the pandemic\] is a good explanation for this,” said Terri Burke, the executive director of the Houston nonprofit The Immunization Partnership. “But there is no question that the vaccine hesitancy, skepticism, misinformation \[and\] disinformation that circulates around the COVID vaccine has bled over into childhood vaccines.”
 
-[A study published in the journal Vaccine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8078904/)&nbsp;found that from 2019 to 2020, immunization rates fell 47 percent among 5-month-olds and 58 percent among 16-month-olds.
+[A study published in the journal Vaccine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8078904/) found that from 2019 to 2020, immunization rates fell 47 percent among 5-month-olds and 58 percent among 16-month-olds.
 
 Texas did see a slight increase in vaccination rates earlier this year, but they still remain below pre-pandemic levels, said Tasmiah Nuzhath, a Texas A&M School of Public Health doctoral candidate who led the study. That's a concern because regardless of the reason, a lower percentage of vaccinated children means heightened for outbreaks of a disease like the measles, she said.
 
 “Even a few-percentage dip in vaccination rates will put children at risk of getting sick, and could affect community protections against serious diseases,” Nuzhath said.
 
-For some, an infection of a disease like the measles could lead to some serious complications. One in five unvaccinated Americans who are infected with the measles will need to be hospitalized, and one in 1,000 will develop brain swelling that could cause deafness or an intellectual disability, according to the&nbsp;[U.S. Centers for Disease Control and Prevention](https://www.cdc.gov/measles/about/parents-top4.html).
+For some, an infection of a disease like the measles could lead to some serious complications. One in five unvaccinated Americans who are infected with the measles will need to be hospitalized, and one in 1,000 will develop brain swelling that could cause deafness or an intellectual disability, according to the [U.S. Centers for Disease Control and Prevention](https://www.cdc.gov/measles/about/parents-top4.html).
 
 “I think a lot of people have this perception that it's just a rash \[or\] just a fever, and they'll recover,” said Dr. Lauren Krenek, a pediatrician for the HOPE Clinic community health center in Houston. “But measles is one that can be really scary, because you can have lifelong damaging effects.”
 
@@ -44,7 +44,7 @@ In the Houston area, there are some signs that coverage rates may be slowly reco
 
 The Immunization Clinic in Stafford has also seen more children coming in for their vaccines this year, but coverage rates are “still not where \[they\] should be,” Nursing Director Yvette Cheeks said.
 
-[During the 2011-12 school year](https://www.dshs.texas.gov/immunize/coverage/pdf/2011-12_Kg_assess.doc), coverage rates were at least 97.4 percent for each of the routine vaccines required for kindergarten students, and at least 96.6 percent for each required for seventh grade. &nbsp;[By 2021-22](https://www.dshs.texas.gov/immunize/coverage/docs/2021-2022-Results-of-Annual-Report-of-Immunization-Status.pdf), rates fell to a range of 93.5 percent to 95.9 percent for kindergarten, and 91.9 percent to 98 percent for seventh grade.
+[During the 2011-12 school year](https://www.dshs.texas.gov/immunize/coverage/pdf/2011-12_Kg_assess.doc), coverage rates were at least 97.4 percent for each of the routine vaccines required for kindergarten students, and at least 96.6 percent for each required for seventh grade. [By 2021-22](https://www.dshs.texas.gov/immunize/coverage/docs/2021-2022-Results-of-Annual-Report-of-Immunization-Status.pdf), rates fell to a range of 93.5 percent to 95.9 percent for kindergarten, and 91.9 percent to 98 percent for seventh grade.
 
 Some of the decline can be attributed to children who haven't gotten their shots yet, but may do so later. Those “delinquency” rates topped 3 percent for the chickenpox, polio and DTaP (diphtheria, tetanus and acellular pertussis) vaccines for kindergarten and around 6 percent for the meningitis and DTaP vaccines for seventh grade.
 
@@ -52,7 +52,7 @@ It's also due to a rise in conscientious exemptions. Ten years ago, the chickenp
 
 Those percentages may not seem like a lot, but they represent an increase from 28,432 conscientious objections across Texas in 2011-12 to 85,726 last year, according to TDSHS statistics.
 
-Green and Cheeks believe coverage rates could increase through better access to the vaccines. Both the HOPE Clinic and the Immunization Clinic offer vaccines to lower-income and uninsured patients.&nbsp;
+Green and Cheeks believe coverage rates could increase through better access to the vaccines. Both the HOPE Clinic and the Immunization Clinic offer vaccines to lower-income and uninsured patients.
 
 However, Green noted that the HOPE Clinic sees families cancel their child’s vaccine appointment due to issues such as a lack of transportation, or not having child care for their other children. Pop-up vaccination clinics at Houston schools or other community sites could help increase uptake, she said.
 
