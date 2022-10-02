@@ -20,3 +20,25 @@
       - left
       - center
       - right
+- Image: /assets/img/3.png
+  Text:
+  Button-Text:
+  Button-Link:
+  External-Link: true
+  Button_Positions:
+  _select_data:
+    Button_Positions:
+      - left
+      - center
+      - right
+- Image: /assets/img/4.png
+  Text:
+  Button-Text:
+  Button-Link:
+  External-Link: true
+  Button_Positions:
+  _select_data:
+    Button_Positions:
+      - left
+      - center
+      - right
