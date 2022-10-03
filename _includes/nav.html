@@ -105,7 +105,7 @@
                         {% for item in site.data.navigation %}
                         <!-- Home -->
                         <li class="nav-item  u-header__nav-item">
-                            <a class="{% if item.title == 'Donate' %}btn btn-sm btn-outline-success{% else %}nav-link u-header__nav-link{% endif %}" href="{{item.url}}">{{item.title}}</a>
+                            <a class="{% if item.title == 'Donate' %}btn btn-sm btn-outline-success{% else %}nav-link u-header__nav-link{% endif %}" href="{% include relative-src.html src=item.url %}">{{item.title}}</a>
                         </li>
                         <!-- End Home -->
                         {% endfor %}
