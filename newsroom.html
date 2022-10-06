@@ -1,0 +1,48 @@
+---
+title: The Immunization Partnership
+description: To eradicate vaccine preventable diseases by educating the community, advocating for evidence-based public policy and supporting immunization best practices.
+keywords: 
+layout: sub-page
+permalink: "newsroom"
+banner-image: assets/forms/immunize-impact.jpg
+---
+  
+
+	<div class="container space-2">
+		<div class="w-md-100 mx-md-auto">
+			<div class="mb-5">
+				<h2 class="h1 font-weight-semi-bold immunizetitle text-center text-primary editable">Impact</h2>
+				
+				<div class="editable" style="font-size: 1.25rem;font-weight: 500;line-height: 1.7em;margin-bottom: 0.5rem;">The Immunization Partnership interacts with communities across Texas to raise awareness, spread knowledge, and promote legislative change about the importance of immunizations. Check out the wide range of on-going projects and programs that TIP leads, along with valuable resources and publications.</div>
+				
+			</div>
+
+		</div>
+	</div>
+		<!-- News Section -->
+		<div class="container space-2">
+		<div class="row">
+				{% for post in site.posts -%}
+				 <div class="col-md-6 col-lg-4 mb-5">
+					<!-- Blog News -->
+					  <article class="card h-100">
+						
+							<img class="card-img-top max-h-225" src="{{ post.image }}" alt="Image Description">
+						
+						<div class="card-body p-5">
+						   <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
+							<p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
+						</div>
+						<div class="card-footer border-0 py-4 px-5">
+								<a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
+									More
+									<small class="fas fa-arrow-right ml-1"></small>
+								</a>
+							</div>
+					  </article>
+					<!-- End Blog News -->
+				</div>
+			{% endfor %}
+			
+		</div>
+	</div>
