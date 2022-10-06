@@ -7,6 +7,8 @@ description:
 keywords: School, vaccines
 date: 2022-09-06 07:00:00 -0500
 published: true
+source: CNN
+source-url: https://cnn.com
 categories:
   - blog
 tags:

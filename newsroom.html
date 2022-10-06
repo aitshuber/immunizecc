@@ -23,11 +23,9 @@ banner-image: assets/forms/immunize-impact.jpg
 		<div class="container space-2">
 		<div class="row">
 				{% for post in site.posts -%}
-				 <div class="col-md-6 col-lg-4 mb-5">
+				 <div class="col-md-12">
 					<!-- Blog News -->
-					  <article class="card h-100">
-						
-							<img class="card-img-top max-h-225" src="{{ post.image }}" alt="Image Description">
+					  <article class="h-100">
 						
 						<div class="card-body p-5">
 						   <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>

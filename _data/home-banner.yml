@@ -1,44 +1,29 @@
-- Image: /assets/img/1.png
-  Text: Test Text
-  Button-Text: Go to Link
+- Background-Image: /assets/forms/immunize-impact.jpg
+  Image: /assets/forms/immunize-get-involved.jpg
+  Title: Test Text
+  Sub-Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  Button-Text: Learn More
   Button-Link: https://github.com
   External-Link: true
-  Button_Positions: center
-  _select_data:
-    Button_Positions:
-      - left
-      - center
-      - right
-- Image: /assets/img/2.png
-  Text:
-  Button-Text:
+- Background-Image: /assets/forms/immunize-impact.jpg
+  Image: /assets/img/2.png
+  Title: Test Text
+  Sub-Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  Button-Text: Learn More
   Button-Link:
   External-Link: true
-  Button_Positions:
-  _select_data:
-    Button_Positions:
-      - left
-      - center
-      - right
-- Image: /assets/img/3.png
-  Text:
-  Button-Text:
+- Background-Image: /assets/forms/immunize-impact.jpg
+  Image: /assets/img/3.png
+  Title: Test Text
+  Sub-Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  Button-Text: Learn More
   Button-Link:
   External-Link: true
-  Button_Positions:
-  _select_data:
-    Button_Positions:
-      - left
-      - center
-      - right
-- Image: /assets/img/4.png
-  Text:
-  Button-Text:
+- Background-Image: /assets/forms/immunize-impact.jpg
+  Image: /assets/img/4.png
+  Title: Test Text
+  Sub-Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  Button-Text: Learn More
   Button-Link:
   External-Link: true
-  Button_Positions:
-  _select_data:
-    Button_Positions:
-      - left
-      - center
-      - right
+

@@ -6749,7 +6749,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #010e1b !important;
+  background-color: #0e83ca !important;
 }
 .bg-green {
   background-color: #78be20 !important;
@@ -14412,6 +14412,11 @@ button:focus {
     padding-bottom: 1.5rem;
     padding-right: 0.875rem;
     padding-left: 0.875rem;
+    
+  }
+  a.u-header__nav-link{
+  font-size: .75em;
+  font-weight: 600
   }
   .navbar-expand-sm .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #0e83ca;
@@ -14496,8 +14501,8 @@ button:focus {
     padding-right: 0;
   }
   .navbar-expand-md .u-header__navbar-nav .u-header__nav-link {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-right: 0.875rem;
     padding-left: 0.875rem;
   }
@@ -21496,7 +21501,7 @@ a.blog-search-btn{
   background-color: transparent;
   width: 2.5rem;
   height: 2.5rem;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
