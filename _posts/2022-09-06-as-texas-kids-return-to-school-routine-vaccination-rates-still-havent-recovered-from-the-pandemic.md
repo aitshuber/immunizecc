@@ -7,14 +7,15 @@ description:
 keywords: School, vaccines
 date: 2022-09-06 07:00:00 -0500
 published: true
-source: CNN
-source-url: https://cnn.com
+source: Houston Chronicle
+source-url: >-
+  https://www.houstonchronicle.com/lifestyle/renew-houston/health/article/As-Texas-kids-return-to-school-routine-17415720.php
 categories:
   - blog
 tags:
   - blog
   - featured
-image: /assets/img/blurredcrowd.jpg
+image:
 ---
 For Houston mother Keaunni Sampract, the decision to have her 2-month-old daughter, Kh’alani Stewart, receive routine childhood vaccines was an easy one.
 
