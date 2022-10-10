@@ -21,12 +21,12 @@
   Button-Text: Learn More
   Button-Link:
   External-Link: true
-- Background-Image: /assets/forms/immunize-impact.jpg
-  Image: /assets/img/4.png
-  Title: Test Text
+- Background-Image: /assets/img/welcome-to-the-board-adfasdf-1.png
+  Image: /assets/img/izu-final-svc9e6p.png
+  Title: We've just launched our newest course!
   Sub-Text: >-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    Learn how HPV effects vulnerable populations and ways to prevent the
+    disease.
   Button-Text: Learn More
-  Button-Link:
+  Button-Link: https://www.immunizeusa.org/IZU
   External-Link: true
