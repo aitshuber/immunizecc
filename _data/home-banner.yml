@@ -1,29 +1,34 @@
 - Background-Image: /assets/forms/immunize-impact.jpg
   Image: /assets/forms/immunize-get-involved.jpg
   Title: Test Text
-  Sub-Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  Sub-Text: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
   Button-Text: Learn More
   Button-Link: https://github.com
   External-Link: true
-- Background-Image: /assets/forms/immunize-impact.jpg
-  Image: /assets/img/2.png
-  Title: Test Text
-  Sub-Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+- Background-Image: /assets/img/the-immunization-partnership/6.png
+  Image: /assets/img/bakerhall-interiordonors-1.jpg
+  Title: Register now for the Texas Vaccine Policy Symposium
+  Sub-Text: Co-hosted by the Baker Institute and the Immunization Partnership
   Button-Text: Learn More
-  Button-Link:
+  Button-Link: https://www.bakerinstitute.org/event/2022-texas-vaccine-policy-symposium
   External-Link: true
 - Background-Image: /assets/forms/immunize-impact.jpg
   Image: /assets/img/3.png
   Title: Test Text
-  Sub-Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  Sub-Text: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
   Button-Text: Learn More
   Button-Link:
   External-Link: true
 - Background-Image: /assets/forms/immunize-impact.jpg
   Image: /assets/img/4.png
   Title: Test Text
-  Sub-Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  Sub-Text: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
   Button-Text: Learn More
   Button-Link:
   External-Link: true
-
