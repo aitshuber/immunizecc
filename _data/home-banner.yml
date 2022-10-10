@@ -1,9 +1,10 @@
-- Background-Image: /assets/forms/immunize-impact.jpg
+- Background-Image: /assets/img/welcome-to-the-board-adfasdf-2.png
   Image: /assets/forms/immunize-get-involved.jpg
-  Title: Test Text
+  Title: Welcome to the Board!
   Sub-Text: >-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    We welcome five new members to The Immunization Partnership Board of
+    Directors. Their exceptional skills will be a valuable contribution to help
+    protect Texans against disease.
   Button-Text: Learn More
   Button-Link: https://github.com
   External-Link: true
