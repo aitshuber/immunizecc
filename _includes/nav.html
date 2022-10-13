@@ -104,8 +104,8 @@
                     <ul class="navbar-nav u-header__navbar-nav">
                         {% for item in site.data.navigation %}
                         <!-- Home -->
-                        <li class="nav-item  u-header__nav-item">
-                            <a class="{% if item.title == 'Donate' %}btn btn-sm btn-outline-success{% else %}nav-link u-header__nav-link{% endif %}" href="{% include relative-src.html src=item.url %}">{{item.title}}</a>
+                        <li class="nav-item  u-header__nav-item {% if item.title == 'Contact Us' %}mr-3{% endif %}">
+                            <a class="{% if item.title == 'Donate' %}btn btn-sm btn-outline-success ms-2{% else %}nav-link u-header__nav-link{% endif %}" href="{% include relative-src.html src=item.url %}">{{item.title}}</a>
                         </li>
                         <!-- End Home -->
                         {% endfor %}

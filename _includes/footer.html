@@ -1,14 +1,20 @@
  <footer class="gradient-half-primary-v1">
     <div class="container-fluid p-lg-8 p-6">
 
-        <div class="row justify-content-lg-start p-lg-10 p-1">
+        <div class="row justify-content-lg-start px-lg-10 p-1">
             <div class="col-sm-12 col-lg-5">
+                <div class="row">
+                    <div class="col-2">
                 <!-- Logo -->
                 <a href="{{ site.baseurl }}">
-                    <img src="{{ site.baseurl }}/assets/img/tip-svg-logo-white.svg" style="width: 65%" />
+                    <img src="{{ site.baseurl }}{{site.data.company_details.logo_image}}" class="pb-2 img-fluid" />
                 </a>
-                <!-- End Logo -->
-                <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-4 footer-data">
+                    </div>
+                    <div class="col-8 pl-0">
+                <a href="{{ site.baseurl }}">
+                    <img src="{{ site.baseurl }}{{site.data.company_details.logo_text}}" class="pb-2 img-fluid w-65" />
+                </a>
+                <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-4 footer-data pt-3">
                     <li class="list-group-item list-group-item-action">
                         <span class="list-group-item-action editable"><b>EMAIL</b><a class="list-group-item-action" href="mailto:{{site.data.company_details.email}}">{{site.data.company_details.email}}</a></span>
                     </li>
@@ -20,9 +26,18 @@
                     </li>
                     
                 </ul>
-                <p class="editable font-size-1 text-white-70">The Immunization Partnership is a 501(c)(3) non-profit organization. Donations made to this organization are fully deductible to the extent allowed by law.<br />  © Copyright {{ 'now' | date: '%Y' }} All Rights Reserved. | Site by <a href="https://accoladesit.com" target="_blank" title="Accolades - Website Design Lafayette Louisiana" class="text-white-70">Accolades IT</a></p>
-               
+               <ul class="list-inline mb-0 mt-3"> 
+                    {% for item in site.data.company_details.social %} 
+                    <li class="list-inline-item"> 
+                        <a class="btn btn-sm btn-icon text-white btn-bg-transparent mr-3" href="{{item.link}}"> 
+                            <span class="fab {{item.icon}} btn-icon__inner fa-2x"></span> 
+                        </a> 
+                    </li> 
+                    {% endfor %}  
+                </ul> 
+                </div>
                 
+            </div>
             </div>
             <div class="col-md-6 col-sm-12 ml-lg-auto">
                 <div class="row">
@@ -35,14 +50,13 @@
                       <input type="text" class="form-control mb-3 col-5 mr-1" placeholder="First Name" aria-label="First Name" />
                       <input type="text" class="form-control mb-3 col-5" placeholder="Last Name" aria-label="Last Name" />
                       <input type="text" class="form-control mb-3 col-5 mr-1" placeholder="Email" aria-label="email" />
-                      <input type="text" class="form-control mb-3 col-5" placeholder="zip Code" aria-label="Zipcode" />
+                      <button type="button" class="btn btn-success btn-pill btn-sm-wide col-5" style="height:3.25em">Join Us</button>
                 </div>
                 <div class="row">
-                    <div class="col-12 pl-0">
-                    <button type="button" class="btn btn-primary btn-pill btn-sm-wide">Submit</button>
-                    </div>
+                    <div class="col-md-4 px-0 mb-2"><img src="/assets/img/goldstar.svg" class="img-fluid w-25"/></div>
+                    <p class="editable font-size-1 text-white-70">The Immunization Partnership is a 501(c)(3) non-profit organization. Donations made to this organization are fully deductible to the extent allowed by law.<br />  © Copyright {{ 'now' | date: '%Y' }} All Rights Reserved. | Site by <a href="https://accoladesit.com" target="_blank" title="Accolades - Website Design Lafayette Louisiana" class="text-white-70">Accolades IT</a></p>
                 </div>
-                  </div>
+                </div>
                   <!-- End Input Card -->
                 </div>
             </div>

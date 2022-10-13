@@ -14415,7 +14415,7 @@ button:focus {
     
   }
   a.u-header__nav-link{
-  font-size: .75em;
+  font-size: .83em;
   font-weight: 600
   }
   .navbar-expand-sm .u-header__navbar-nav .u-header__sub-menu {
@@ -14503,8 +14503,8 @@ button:focus {
   .navbar-expand-md .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-right: 0.875rem;
-    padding-left: 0.875rem;
+    padding-right: 0.65rem;
+    padding-left: 0.65rem;
   }
   .navbar-expand-md .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #0e83ca;
@@ -19513,7 +19513,7 @@ label.btn {
 
 @media (min-width: 992px) {
   .u-hero-v1__main {
-    height: 70vh;
+    height: 60vh;
   }
 }
 

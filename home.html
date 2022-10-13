@@ -23,22 +23,22 @@ main-topic:
 <!-- Hero v1 Section -->
     <div class="u-hero-v1">
         <!-- Hero Carousel Main -->
-        <div id="heroNav" class="js-slick-carousel u-slick" data-infinite="true" data-autoplay="true" data-speed="80000" data-adaptive-height="true" data-pagi-classes="text-center position-absolute position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--primary mb-5" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow u-slick__arrow-centered--y rounded-circle" data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-inner u-slick__arrow-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-inner u-slick__arrow-inner--right mr-lg-2 mr-xl-4"> 
+        <div id="heroNav" class="js-slick-carousel u-slick" data-infinite="true" data-autoplay="true" data-speed="80000" data-adaptive-height="true" data-pagi-classes="text-center position-absolute position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--primary" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow u-slick__arrow-centered--y rounded-circle" data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-inner u-slick__arrow-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-inner u-slick__arrow-inner--right mr-lg-2 mr-xl-4"> 
              {% for item in site.data.home-banner %}
                 <div class="js-slide">
                 <!-- Slide #1 -->
-                <div class="d-lg-flex align-items-lg-center u-hero-v1__main" style="background-image: url({{item.Background-Image}});">
+                <div class="d-lg-flex align-items-lg-center u-hero-v1__main" style="background-image: url({{item.Background-Image}});margin-bottom: -2em;">
                             <div class="container">
                                 <div class="row justify-content-center">
-                                  <div class="col-md-5">
-                                    <img src="{{item.Image}}" class="img-fluid" />
+                                  <div class="col-md-5 h-300p">
+                                    <img src="{{item.Image}}" class="img-fluid h-100 object-cover" />
                                   </div>
                                     <div class="col-md-5 position-relative ml-5">
                                       {% if item.Title %}
-                                        <h1 class="immunizetitle text-primary">{{item.Title}}</h1>
+                                        <h2 class="immunizetitle text-primary text-lh-sm">{{item.Title}}</h2>
                                         {% endif %}
                                         {% if item.Sub-Text %}
-                                        <p>{{item.Sub-Text}}</p>
+                                        <p class="font-weight-bold">{{item.Sub-Text}}</p>
                                         {% endif %}
                                         <div>
                                           {% if item.Button-Text %}
@@ -100,36 +100,40 @@ main-topic:
         </div>
     <div class="col-md-4 mb-2">
         <!-- Blog Card -->
-        <article class="card h-100">
+        <article class="card h-100 border border-primary">
             <img class="card-img-top editable" alt="Image Description" src="/assets/img/the-immunization-partnership/452265335.jpg" width="5616" />
             <div class="card-body p-5 editable">
-              <p>We draw from access to leading health research, industry expertise and specialized knowledge<br />&nbsp;</p>
-              <p><a class="btn btn-sm-wide btn-success btn-pill" href="/how-we-work">How We Connect</a></p>
+              <p class="font-weight-bold">We draw from access to leading health research, industry expertise and specialized knowledge<br />&nbsp;</p>
+            </div>
+            <div class="card-footer border-0">
+              <a class="btn btn-sm-wide font-weight-bold btn-success btn-pill" href="/how-we-work">How We Connect</a>
             </div>
         </article>
         <!-- End Blog Card -->
     </div>
     <div class="col-md-4 mb-2">
          <!-- Blog Card -->
-         <article class="card h-100">
+         <article class="card h-100 border border-primary">
              <img class="card-img-top editable" alt="Image Description" src="/assets/img/the-immunization-partnership/457700023.jpg" width="5616" />
              <div class="card-body p-5 editable">
-               <p>We inform communities about immunization benefits and advise th<a href="/we-educate">...</a>em how they can affect change.&nbsp;</p>
-               <p><a class="btn btn-sm-wide btn-success btn-pill" href="we-educate">How We Educate</a></p>
+               <p class="font-weight-bold">We inform communities about immunization benefits and advise th<a href="/we-educate">...</a>em how they can affect change.&nbsp;</p>
              </div>
-
+             <div class="card-footer border-0">
+               <a class="btn btn-sm-wide btn-success font-weight-bold btn-pill" href="we-educate">How We Educate</a>
+             </div>
          </article>
          <!-- End Blog Card -->
      </div>
      <div class="col-md-4 mb-2">
           <!-- Blog Card -->
-          <article class="card h-100">
+          <article class="card h-100 border border-primary">
               <img class="card-img-top editable" alt="Image Description" src="/assets/img/the-immunization-partnership/150564218-1.jpg" width="5616" />
               <div class="card-body p-5 editable">
-                <p>State law directs public health practices and can create effective interventions for increasing immunization.</p>
-                <p><a class="btn btn-sm-wide btn-success btn-pill" href="we-advocate">How We Advocate</a></p>
+                <p class="font-weight-bold">State law directs public health practices and can create effective interventions for increasing immunization.</p>
               </div>
-      
+              <div class="card-footer border-0">
+                <a class="btn btn-sm-wide font-weight-bold btn-success btn-pill" href="we-advocate">How We Advocate</a>
+              </div>
           </article>
           <!-- End Blog Card -->
       </div>
@@ -138,17 +142,20 @@ main-topic:
   
     <!-- Banner -->
     <div class="container-fluid p-0 bg-primary">
-       <div class="bg-img-hero" style="background: url({{page.call-to-action.image}}) center center no-repeat;">
+       <div class="bg-img-hero" style="background: url({{page.call-to-action.image}}) center center no-repeat;background-size:cover">
        <div class="container space-1">
-       <div class="row">
-        <div class="w-lg-65 py-8 px-6">
+       <div class="row text-center">
+        <div class="col-8 pt-8 mx-auto">
           <p class="lead text-white mb-0 font-size-2">{{page.call-to-action.text}}</p>
         </div>
-        <div class="w-lg-35 py-8 px-6">
-            <a href="{{page.call-to-action.url}}" class="btn btn-success transition-3d-hover mt-2 float-right btn-pill" tabindex="0">
+       </div>
+        <div class="row text-center">
+        <div class="col-8 pb-8 mx-auto">
+            <a href="{{page.call-to-action.url}}" class="btn btn-success transition-3d-hover mt-3 btn-pill btn-sm-wide" tabindex="0">
                  {{page.call-to-action.button-text}}
              </a>
           </div>
+        </div>
        </div>
        </div>
       </div>
@@ -158,19 +165,19 @@ main-topic:
     <div class="container space-2 px-lg-7" style="margin-top: 0% !important">
             <div class="row justify-content-center">
               
-               <div class="col-md-6 col-12">
+               <div class="col-md-6 col-12 px-5">
                   <h2 class="h3 text-primary text-left editable font-weight-bold">Latest News</h2>
                  
            {% for post in site.posts limit:1 -%}
            <article class="h-100">
               <div>
                  <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
-               <div class="d-flex w-100 justify-content-between"> <h6 class="d-flex float-left">{{post.date | date: "%b %-d %Y"}}</h6> <h6 class="bg-primary text-white pl-4 col-3 d-flex text-center justify-content-center"><a href="{{ post.source-url }}" class="text-center">{{ post.source }}</a> </h6></div>
-                  <p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
+               <div class="d-flex w-100 justify-content-between"><h6 class="text-primary d-flex text-center justify-content-center font-italic"><a href="{{ post.source-url }}" class="text-center">{{ post.source }}</a> </h6> <h6 class="d-flex font-size-1">{{post.date | date: "%b %-d %Y"}}</h6> </div>
+                  <p>{{ post.content | strip | strip_html | truncatewords:25 }} <a href="{{ post.url | absolute_url }}" class="text-success">Read More</a></p>
+                  
               </div>
               <div class=" border-0 py-4">
-                      <a href="{{ post.url | absolute_url }}" class="text-primary">Read More
-                          More
+                      <a href="/newsroom" class="text-success font-weight-bold">Visit Newsroom
                           <small class="fas fa-arrow-right ml-1"></small>
                       </a>
                   </div>
@@ -179,7 +186,7 @@ main-topic:
            {% endfor %}
            
                </div>
-               <div class="col-md-6 col-12">
+               <div class="col-md-6 col-12 px-5">
                   <h2 class="h3 text-primary text-left editable font-weight-bold">Hot Spot</h2>
                   <article class="h-100">
                     <div>

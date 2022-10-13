@@ -626,3 +626,7 @@ main{
   margin: 0;
   padding: 20px 15px;
 }
+.object-cover{object-fit: cover}
+.object-contain{object-fit: contain}
+.object-fill{object-fit: fill}
+.h-300p{height: 300px}
