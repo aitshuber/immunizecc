@@ -541,9 +541,7 @@ main{
     width: 100%;
     height: 100%;
 }
-.footer-data{
-  line-height: .5em;
-}
+
 /* partners list */
 
 {% assign amount = 0 %} {% for item in site.data.partners %}{% capture amount %}{{ amount | plus:1 }}{% endcapture %}{% endfor %}
@@ -629,4 +627,4 @@ main{
 .object-cover{object-fit: cover}
 .object-contain{object-fit: contain}
 .object-fill{object-fit: fill}
-.h-300p{height: 300px}
+.h-300p{height: }
