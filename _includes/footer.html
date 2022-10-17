@@ -16,20 +16,20 @@
                 </a>
                 <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-4 footer-data pt-3">
                     <li class="list-group-item list-group-item-action">
-                        <span class="list-group-item-action editable"><b>EMAIL</b><a class="list-group-item-action" href="mailto:{{site.data.company_details.email}}">{{site.data.company_details.email}}</a></span>
+                        <span class="list-group-item-action editable"><b>EMAIL</b><a class="list-group-item-action" href="mailto:{{site.data.company_details.email}}"> {{site.data.company_details.email}}</a></span>
                     </li>
                     <li class="list-group-item list-group-item-action">
-                        <span class="list-group-item-action editable"><b>ADDRESS</b>{{site.data.company_details.address}}</span>
+                        <span class="list-group-item-action editable"><b>ADDRESS</b> {{site.data.company_details.address}}</span>
                     </li>
                     <li class="list-group-item list-group-item-action">
-                        <span class="list-group-item-action editable"><b>PHONE</b><a class="phone" href="tel:{{site.data.company_details.contact-phone}}">{{site.data.company_details.contact-phone}}</a></span>
+                        <span class="list-group-item-action editable"><b>PHONE</b><a class="phone" href="tel:{{site.data.company_details.contact-phone}}"> {{site.data.company_details.contact-phone}}</a></span>
                     </li>
                     
                 </ul>
-               <ul class="list-inline mb-0 mt-3"> 
+               <ul class="list-inline mb-0 mt-3 ml-0"> 
                     {% for item in site.data.company_details.social %} 
                     <li class="list-inline-item"> 
-                        <a class="btn btn-sm btn-icon text-white btn-bg-transparent mr-3" href="{{item.link}}"> 
+                        <a class="btn btn-sm btn-icon text-white btn-bg-transparent mr-3"  style="width:1.5em" href="{{item.link}}"> 
                             <span class="fab {{item.icon}} btn-icon__inner fa-2x"></span> 
                         </a> 
                     </li> 
@@ -47,9 +47,9 @@
                 </div>
                 <div class="row mb-3">
                 <!-- Input Card -->
-                      <input type="text" class="form-control mb-3 col-5 mr-1" placeholder="First Name" aria-label="First Name" />
-                      <input type="text" class="form-control mb-3 col-5" placeholder="Last Name" aria-label="Last Name" />
-                      <input type="text" class="form-control mb-3 col-5 mr-1" placeholder="Email" aria-label="email" />
+                      <input type="text" class="form-control mb-3 col-5 mr-1" placeholder="Full Name" aria-label="Full Name" />
+                      <input type="text" class="form-control mb-3 col-5" placeholder="Email" aria-label="Email" />
+                      <input type="text" class="form-control mb-3 col-5 mr-1" placeholder="Zip Code" aria-label="Zip Code" />
                       <button type="button" class="btn btn-success btn-pill btn-sm-wide col-5" style="height:3.25em">Join Us</button>
                 </div>
                 <div class="row">

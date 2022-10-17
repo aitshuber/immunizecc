@@ -7,12 +7,13 @@ description: >-
 keywords:
 layout: sub-page
 permalink: who-we-are
+CTA-image: /assets/forms/immunize-advocacy.jpg
 banner-image: >-
   /assets/img/the-immunization-partnership/screen-shot-2022-10-16-at-11-57-02-am.png
 ---
-<div class="container content-space-2 content-space-lg-3">
+<div class="container space-1 space-lg-2">
 	<div class="row align-items-lg-center">
-	  <div class="col-lg-5 mb-5 mb-lg-0 card">
+	  <div class="col-lg-5 mb-5 mb-lg-0 card shadow bg-soft-primary rounded-lg">
 		<div class="p-lg-6 editable">
 		  <div class="mb-4">
 		    <h2 class="h1 text-primary immunizetitle">Who We Are</h2>
@@ -29,10 +30,44 @@ banner-image: >-
 	  <div id="committees">
 		  <div id="board" class="accordion mb-9">
 			  <!-- Card -->
+				<div class="card">
+					<div class="card-header card-collapse" id="cardHeadingOne">
+						<h5 class="mb-0">
+							<button class="btn btn-link btn-block justify-content-between collapsed card-btn p-3 tip-bg-blue" role="button" data-toggle="collapse" data-target="#cardOne" aria-expanded="false" aria-controls="cardOne">
+								<span class="h5 editable">Staff</span>
+								<span class="card-btn-arrow text-white" style="float: right">
+									<span class="fas fa-arrow-down small"></span>
+								  </span>
+							</button>
+						</h5>
+					</div>
+			  
+					<div id="cardOne" class="collapse" aria-labelledby="cardHeadingOne" data-parent="#board">
+						<div class="card-body px-4">
+							<!-- Board Details -->
+							<div class="row">
+								{% for item in site.data.staff %}
+
+										<div class="col-sm-4 mb-2 mb-sm-0">
+											<h4 class="h6 mb-1">{{item.Name}}</h4>
+											<p class="small">
+												{{item.Position}}
+											</p>
+										</div>
+									{% endfor %}
+								
+							</div>
+							<!-- End Card Details -->
+						
+						</div>
+					</div>
+				</div>
+				<!-- End Card -->
+			  <!-- Card -->
 			  <div class="card">
-				  <div class="card-header card-collapse" id="cardHeadingOne">
+				  <div class="card-header card-collapse" id="cardHeadingTwo">
 					  <h5 class="mb-0">
-						  <button class="btn btn-link btn-block justify-content-between collapsed card-btn p-3 tip-bg-blue" role="button" data-toggle="collapse" data-target="#cardOne" aria-expanded="false" aria-controls="cardOne">
+						  <button class="btn btn-link btn-block justify-content-between collapsed card-btn p-3 tip-bg-blue" role="button" data-toggle="collapse" data-target="#cardTwo" aria-expanded="false" aria-controls="cardTwo">
 							  <span class="h5 editable">Board of Directors</span>
 							  <span class="card-btn-arrow text-white" style="float: right">
 								  <span class="fas fa-arrow-down small"></span>
@@ -41,7 +76,7 @@ banner-image: >-
 					  </h5>
 				  </div>
 	  
-				  <div id="cardOne" class="collapse" aria-labelledby="cardHeadingOne" data-parent="#board">
+				  <div id="cardTwo" class="collapse" aria-labelledby="cardHeadingTwo" data-parent="#board">
 					  <div class="card-body px-4">
 						  <!-- Board Details -->
 						  <h6 class="editable">Executive Committee</h6><br />
@@ -83,9 +118,9 @@ banner-image: >-
 	  
 			  <!-- Card -->
 			  <div class="card">
-				  <div class="card-header card-collapse" id="cardHeadingTwo">
+				  <div class="card-header card-collapse" id="cardHeadingThree">
 					  <h5 class="mb-0">
-						  <button class="btn btn-link btn-block collapsed justify-content-between card-btn p-3 tip-bg-blue" role="button" data-toggle="collapse" data-target="#cardTwo" aria-expanded="false" aria-controls="cardTwo">
+						  <button class="btn btn-link btn-block collapsed justify-content-between card-btn p-3 tip-bg-blue" role="button" data-toggle="collapse" data-target="#cardThree" aria-expanded="false" aria-controls="cardThree">
 							  <span class="h5 editable">Scientific Advisory Council</span>
 							  <span class="card-btn-arrow text-white" style="float: right">
 								  <span class="fas fa-arrow-down small"></span>
@@ -93,7 +128,7 @@ banner-image: >-
 						  </button>
 					  </h5>
 				  </div>
-				  <div id="cardTwo" class="collapse" aria-labelledby="cardHeadingTwo" data-parent="#board">
+				  <div id="cardThree" class="collapse" aria-labelledby="cardHeadingThree" data-parent="#board">
 					  <div class="card-body px-4">
 						  <!-- Board Details -->
 						  <div class="row">
@@ -129,7 +164,7 @@ banner-image: >-
 	  </div>
 	  </div>
   </div>
-  <div class="gradient-y-overlay-lg-white bg-img-start content-space-2" style="background-image: url(/assets/forms/immunize-advocacy.jpg);background-size:cover">
+  <div class="gradient-y-overlay-lg-white bg-img-start content-space-2" style="background-image: url({{page.CTA-image}});background-size:cover">
 	<div class="container">
 	  <div class="row text-center space-top-3">
 		<div class="col-md-7 col-lg-8 mx-auto mt-5">
