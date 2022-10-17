@@ -13,7 +13,7 @@ banner-image: >-
 <div class="container space-1">
 <div class="row justify-content-lg-between">
 
-<div class="col-md-4 mb-2">
+<div class="col-md-4 mb-2 card shadow bg-soft-primary rounded-lg">
 
 		<div class="p-5 pt-md-0 editable">
 		  <h3 class="text-primary immunizetitle">WE'D LIKE TO HEAR FROM YOU</h3>
@@ -23,37 +23,34 @@ banner-image: >-
 <div class="col-md-4 mb-2">
 	<!-- List Group --> 
 	<ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0"> 
-		<li class="list-group-item list-group-item-action"><span class="list-group-item-action editable"><b>EMAIL:&nbsp;&nbsp;info@immunizeUSA.org</b><a class="phone" href="tel:{{site.data.company_details.media-phone}}">{{site.data.company_details.media-phone}}</a></span></li> 
-		<li class="list-group-item list-group-item-action"><span class="list-group-item-action editable"><b>PHONE:&nbsp;&nbsp;281-400-3689</b><a class="list-group-item-action" href="mailto:{{site.data.company_details.mediaEmail}}">{{site.data.company_details.mediaEmail}}</a></span> 
+		<li class="list-group-item list-group-item-action"><span class="list-group-item-action"><b>EMAIL:</b><a class="list-group-item-action font-weight-bold" href="mailto:{{site.data.company_details.mediaEmail}}"> {{site.data.company_details.mediaEmail}}</a></span> 
 		</li> 
+		<li class="list-group-item list-group-item-action"><span class="list-group-item-action"><b>PHONE:</b><a class="phone font-weight-bold" href="tel:{{site.data.company_details.media-phone}}"> {{site.data.company_details.media-phone}}</a></span></li> 
+		
 	
-		<li class="list-group-item list-group-item-action"><span class="list-group-item-action editable"><b><i class="far fa-envelope"><br /></i></b><a class="list-group-item-action" href="mailto:{{site.data.company_details.mediaEmail}}">{{site.data.company_details.mediaEmail}}</a></span> 
+		<li class="list-group-item list-group-item-action"><span class="list-group-item-action"><b><i class="far fa-envelope"><br /></i></b><a class="list-group-item-action font-weight-bold" href="mailto:{{site.data.company_details.mediaEmail}}"> {{site.data.company_details.mediaEmail}}</a></span> 
 		</li> 
-	<li class="list-group-item list-group-item-action"><span class="list-group-item-action editable"><b><i class="fas fa-map-pin"></i></b> {{site.data.company_details.address}}</span> 
+	<li class="list-group-item list-group-item-action"><span class="list-group-item-action"><b><i class="fas fa-map-pin"></i></b> {{site.data.company_details.address}}</span> 
 	</li> 
 	</ul> 
-	<div class="editable">
+	
+</div>
+	<div class="col-md-4 mb-2">
 	  <h3><strong>PARTNERSHIP INQUIRIES&nbsp;</strong></h3>
 	  <p>If you are interested in becoming a partner, please submit your information [LINK]. Our Partnerships Manager will contact you straight away.&nbsp;</p>
+	  <h3>Find us on social</h3>
+	   <ul class="list-inline mb-0 mt-3"> 
+		   {% for item in site.data.company_details.social %} 
+		   <li class="list-inline-item"> 
+			   <a class="btn btn-sm btn-icon btn-soft-primary btn-bg-transparent mr-3" href="{{item.link}}"> 
+				   <span class="fab {{item.icon}} btn-icon__inner fa-2x"></span> 
+			   </a> 
+		   </li> 
+		   {% endfor %}  
+	   </ul> 
 	</div>
-	<h3>Find us on social</h3>
-	 <ul class="list-inline mb-0 mt-3"> 
-		 {% for item in site.data.company_details.social %} 
-		 <li class="list-inline-item"> 
-			 <a class="btn btn-sm btn-icon btn-soft-primary btn-bg-transparent mr-3" href="{{item.link}}"> 
-				 <span class="fab {{item.icon}} btn-icon__inner fa-2x"></span> 
-			 </a> 
-		 </li> 
-		 {% endfor %}  
-	 </ul> 
+	
  </div>
- <div class="col-md-4 mb-2 text-center justify-content-center">
-	 <div class="col-md-8 mx-auto">
-	<a href="" class="d-flex align-middle align-items-center"><i class="fas fa-map-marker-alt fa-5x"></i> <span class="ml-1 text-left">{{site.data.company_details.address}} </span></a>
-	 </div>
-	<div>
-		<img class="u-lg-avatar rounded-circle" src="/assets/img/img10.png" style="width:20em;height:20em;" alt="Image Description" />
-	  </div>
-  </div>
+
 </div>
 </div>
