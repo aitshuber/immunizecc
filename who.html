@@ -24,7 +24,6 @@ banner-image: >-
 		</div>
 	  </div>
 	  <!-- End Col -->
-  
 	  <div class="col-lg-7">
 	  <!-- Accordion -->
 	  <div id="committees">
@@ -115,7 +114,6 @@ banner-image: >-
 				  </div>
 			  </div>
 			  <!-- End Card -->
-	  
 			  <!-- Card -->
 			  <div class="card">
 				  <div class="card-header card-collapse" id="cardHeadingThree">
@@ -146,6 +144,40 @@ banner-image: >-
 				  </div>
 			  </div>
 			  <!-- End Card -->
+			  
+			  {% if site.data.job-listing != empty %}
+			  <!-- Card -->
+				<div class="card">
+					<div class="card-header card-collapse" id="cardHeadingFour">
+						<h5 class="mb-0">
+							<button class="btn btn-link btn-block collapsed justify-content-between card-btn p-3 tip-bg-blue" role="button" data-toggle="collapse" data-target="#cardFour" aria-expanded="false" aria-controls="cardFour">
+								<span class="h5 editable">Job Openings & Internships</span>
+								<span class="card-btn-arrow text-white" style="float: right">
+									<span class="fas fa-arrow-down small"></span>
+									</span>
+							</button>
+						</h5>
+					</div>
+					<div id="cardFour" class="collapse" aria-labelledby="cardHeadingFour" data-parent="#board">
+						<div class="card-body px-4">
+							<!-- Board Details -->
+							<div class="row">
+								{% for item in site.data.job-listing %}
+									<div class="col-sm-12 mb-2 mb-sm-0">
+										<h4 class="h6 mb-1">{{item.Job_Title}}</h4>
+										<p class="small">
+											<a href="{{item.url}}">Description</a>
+										</p>
+										{% if forloop.index == 1 %}{% else %}<hr/>{% endif %}
+									</div>
+								{% endfor %}
+							</div>
+							<!-- End Card Details -->
+						</div>
+					</div>
+				</div>
+				<!-- End Card -->
+				{% endif %}
 		  </div>
 	  </div>
 	  <!-- End Accordion -->
@@ -182,20 +214,20 @@ banner-image: >-
 			<h2 class="h3 text-primary text-left editable font-weight-bold">
 			  OUR STRATEGY
 			</h2>
-	 {% for post in site.posts limit:1 -%}
-	 <article class="h-100">
+
+	 <article class="h-100 editable">
 		<div>
-		   <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
-			<p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
+		   <a href="#"><h4 class="font-weight-semi-bold immunizetitle text-primary">As Texas kids return to school, routine vaccination rates still haven't recovered from the pandemic</h4></a>
+			<p>For Houston mother Keaunni Sampract, the decision to have her 2-month-old daughter, Kh’alani Stewart, receive routine childhood vaccines was an easy one. Sampract’s older children </p>
 		</div>
 		<div class=" border-0 py-4">
-				<a href="{{ post.url | absolute_url }}" class="text-primary">Find Out
+				<a href="#" class="text-primary">Find Out
 					More
 					<small class="fas fa-arrow-right ml-1"></small>
 				</a>
 			</div>
 	  </article>
-	 {% endfor %}
+
 		 </div>
 		 <div class="col-md-6 col-12">
 			<h2 class="h3 text-primary text-left editable font-weight-bold">
