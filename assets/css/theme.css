@@ -14414,9 +14414,13 @@ button:focus {
     padding-left: 0.875rem;
     
   }
+
   a.u-header__nav-link{
   font-size: .83em;
-  font-weight: 600
+  font-weight: 600;
+  transform: scaleY(1.25);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   }
   .navbar-expand-sm .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #0e83ca;

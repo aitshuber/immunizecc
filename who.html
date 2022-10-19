@@ -144,8 +144,12 @@ banner-image: >-
 				  </div>
 			  </div>
 			  <!-- End Card -->
-			  
-			  {% if site.data.job-listing != empty %}
+			{% capture jobenabled %}
+			{% for item in site.data.job-listing %}
+				{{item.enabled}}
+			{% endfor %}
+			{% endcapture %}
+			{% if jobenabled contains 'true' %}
 			  <!-- Card -->
 				<div class="card">
 					<div class="card-header card-collapse" id="cardHeadingFour">
@@ -163,6 +167,7 @@ banner-image: >-
 							<!-- Board Details -->
 							<div class="row">
 								{% for item in site.data.job-listing %}
+								{% if item.enabled == true %}
 									<div class="col-sm-12 mb-2 mb-sm-0">
 										<h4 class="h6 mb-1">{{item.Job_Title}}</h4>
 										<p class="small">
@@ -170,6 +175,7 @@ banner-image: >-
 										</p>
 										{% if forloop.index == 1 %}{% else %}<hr/>{% endif %}
 									</div>
+									{% endif %}
 								{% endfor %}
 							</div>
 							<!-- End Card Details -->
@@ -177,7 +183,7 @@ banner-image: >-
 					</div>
 				</div>
 				<!-- End Card -->
-				{% endif %}
+			{% endif %}
 		  </div>
 	  </div>
 	  <!-- End Accordion -->

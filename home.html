@@ -35,14 +35,14 @@ main-topic:
                                   </div>
                                     <div class="col-md-5 col-12 position-relative ml-5">
                                       {% if item.Title %}
-                                        <h2 class="immunizetitle text-primary text-lh-sm">{{item.Title}}</h2>
+                                        <h1 class="immunizetitle text-primary text-lh-sm">{{item.Title}}</h1>
                                         {% endif %}
                                         {% if item.Sub-Text %}
-                                        <p>{{item.Sub-Text}}</p>
+                                        <p class="mt-4">{{item.Sub-Text}}</p>
                                         {% endif %}
                                         <div>
                                           {% if item.Button-Text %}
-                                        <a href="{{item.Button-Text}}" class="btn btn-sm-wide btn-success transition-3d-hover mt-2 btn-pill" {% if item.external-link != true  %}{% else %}target="_blank"{% endif %}>
+                                        <a href="{{item.Button-Text}}" class="btn btn-sm-wide btn-success transition-3d-hover mt-4 btn-pill" {% if item.external-link != true  %}{% else %}target="_blank"{% endif %}>
                                             {{item.Button-Text}} >
                                         </a>
                                         {% endif %}
