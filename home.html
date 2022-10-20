@@ -16,7 +16,7 @@ call-to-action:
   url: https://immunizeusa.salsalabs.org/mailinglistsign-up/index.html
   button-text: JOIN US
 main-topic:
-  title: Top issue title here
+  title: The Flu is Back in Texas
   image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
   url: /about/
 ---
@@ -166,7 +166,9 @@ main-topic:
             <div class="row justify-content-center">
               
                <div class="col-md-6 col-12 px-5">
-                  <h2 class="h3 text-primary text-left editable font-weight-bold">Latest News</h2>
+                  <h2 class="h3 text-primary text-left editable font-weight-bold">
+                    LATEST NEWS
+                  </h2>
                  
            {% for post in site.posts limit:1 -%}
            <article class="h-100">
@@ -187,7 +189,9 @@ main-topic:
            
                </div>
                <div class="col-md-6 col-12 px-5">
-                  <h2 class="h3 text-primary text-left editable font-weight-bold">Hot Spot</h2>
+                  <h2 class="h3 text-primary text-left editable font-weight-bold">
+                    HOT SPOT
+                  </h2>
                   <article class="h-100">
                     <div>
                        <a href="{{ page.main-topic.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ page.main-topic.title }}</h4></a>
