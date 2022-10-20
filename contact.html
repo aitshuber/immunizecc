@@ -10,37 +10,30 @@ permalink: contact
 banner-image: >-
   /assets/img/the-immunization-partnership/screen-shot-2022-10-15-at-1-44-31-pm.png
 ---
-<div class="container space-1">
-<div class="row justify-content-lg-between">
+<div class="container-fluid space-1 p-10">
+<div class="row justify-content-lg-center px-10">
 
-<div class="col-md-4 mb-2 card shadow bg-soft-primary rounded-lg">
+<div class="col-md-3 mb-2 card shadow bg-soft-primary rounded-lg ms-3">
 
 		<div class="p-5 pt-md-0 editable">
 		  <h3 class="text-primary immunizetitle">WE'D LIKE TO HEAR FROM YOU</h3>
 		  <p>The Immunization Partnership success results from our strong relationships. Please contact us to discuss how we can ensure that more Texans are protected from disease.</p>
 		</div>
 </div>
-<div class="col-md-4 mb-2">
-	<h3><strong>MEDIA<br/> INQUIRIES&nbsp;</strong></h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<div class="col-md-4 px-7 mb-2 justify-content-center align-middle my-auto">
+	<div class="row py-2 text-black">
 	<!-- List Group --> 
-	<ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0"> 
-		<li class="list-group-item list-group-item-action"><span class="list-group-item-action"><b>EMAIL:</b><a class="list-group-item-action font-weight-bold" href="mailto:{{site.data.company_details.mediaEmail}}"> {{site.data.company_details.mediaEmail}}</a></span> 
-		</li> 
-		<li class="list-group-item list-group-item-action"><span class="list-group-item-action"><b>PHONE:</b><a class="phone font-weight-bold" href="tel:{{site.data.company_details.media-phone}}"> {{site.data.company_details.media-phone}}</a></span></li> 
-		
-	
-		<li class="list-group-item list-group-item-action"><span class="list-group-item-action"><b><i class="far fa-envelope"><br /></i></b><a class="list-group-item-action font-weight-bold" href="mailto:{{site.data.company_details.mediaEmail}}"> {{site.data.company_details.mediaEmail}}</a></span> 
-		</li> 
-	<li class="list-group-item list-group-item-action"><span class="list-group-item-action"><b><i class="fas fa-map-pin"></i></b> {{site.data.company_details.address}}</span> 
-	</li> 
-	</ul> 
-	
-</div>
-	<div class="col-md-3 mb-2">
-	  <h3><strong>PARTNERSHIP INQUIRIES&nbsp;</strong></h3>
-	  <p>If you are interested in becoming a partner, please submit your information [LINK]. Our Partnerships Manager will contact you straight away.&nbsp;</p>
-	  <h3>Find us on social</h3>
+	<b class="col-md-3">EMAIL:</b> <a class="col-md-4" href="mailto:{{site.data.company_details.mediaEmail}}"> {{site.data.company_details.mediaEmail}}</a>
+	</div>
+	<div class="row py-2 text-black">
+	<b class="col-md-3">PHONE:</b> <a class="phone col-md-9" href="tel:{{site.data.company_details.media-phone}}"> {{site.data.company_details.media-phone}}</a>
+	</div>
+	<div class="row py-2 text-black">
+	<b class="col-md-3">Address</b><span class="col-md-9"> {{site.data.company_details.address}}</span>
+	</div>
+	<div class="mx-auto justify-content-center d-flex pt-10">
+		<div class="">
+	<h3>Find us on social</h3>
 	   <ul class="list-inline mb-0 mt-3"> 
 		   {% for item in site.data.company_details.social %} 
 		   <li class="list-inline-item"> 
@@ -50,6 +43,15 @@ banner-image: >-
 		   </li> 
 		   {% endfor %}  
 	   </ul> 
+		</div>
+	</div>
+</div>
+	<div class="col-md-3 mb-2">
+		<h5><strong>MEDIA INQUIRIES</strong></h5>
+		<p class="editable">We welcome the opportunity to visit with journalists about the public health landscape in Texas and how immunization protects residents of our state. Please contact us at communication@immunizationUSA.org [link] and our Communications Director will be in touch.</p>
+	  <h5><strong>PARTNERSHIP INQUIRIES&nbsp;</strong></h5>
+	  <p class="editable">If you are interested in becoming a partner, please submit your information [LINK]. Our Partnerships Manager will contact you straight away.&nbsp;</p>
+	 
 	</div>
 	
  </div>
