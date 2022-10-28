@@ -9,7 +9,7 @@
                       <div class="d-block text-center align-items-center">
                           <div class="container list-inline my-0 top-message">
                               <p class="text-white "> 
-                                  {{ item.Text }} test
+                                  {{ item.Text }}
                               </p>
                           </div>
                       </div>
@@ -105,7 +105,7 @@
                         {% for item in site.data.navigation %}
                         <!-- Home -->
                         <li class="nav-item  u-header__nav-item {% if item.title == 'Contact Us' %}mr-3{% endif %}">
-                            <a class="{% if item.title == 'Donate' %}btn btn-sm btn-outline-success ms-2{% else %}nav-link u-header__nav-link{% endif %}" href="{% include relative-src.html src=item.url %}">{{item.title}}</a>
+                            <a class="{% if item.title == 'Donate' %}btn btn-sm btn-success text-white ms-2{% else %}nav-link u-header__nav-link{% endif %}" href="{% include relative-src.html src=item.url %}">{{item.title}}</a>
                         </li>
                         <!-- End Home -->
                         {% endfor %}

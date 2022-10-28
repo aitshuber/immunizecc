@@ -14,18 +14,30 @@
                 <a href="{{ site.baseurl }}">
                     <img src="{{ site.baseurl }}{{site.data.company_details.logo_text}}" class="pb-2 img-fluid w-65" />
                 </a>
-                <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-4 footer-data pt-3">
-                    <li class="list-group-item list-group-item-action">
-                        <span class="list-group-item-action editable"><b>EMAIL</b><a class="list-group-item-action" href="mailto:{{site.data.company_details.email}}"> {{site.data.company_details.email}}</a></span>
-                    </li>
-                    <li class="list-group-item list-group-item-action">
-                        <span class="list-group-item-action editable"><b>ADDRESS</b> {{site.data.company_details.address}}</span>
-                    </li>
-                    <li class="list-group-item list-group-item-action">
-                        <span class="list-group-item-action editable"><b>PHONE</b><a class="phone" href="tel:{{site.data.company_details.contact-phone}}"> {{site.data.company_details.contact-phone}}</a></span>
-                    </li>
-                    
-                </ul>
+                <div class="row mt-4 font-size-1">
+                <div class="col-md-3">
+                   <b class="text-white">EMAIL</b>
+                </div>
+                <div class="col-md-9">
+                    <a class="text-white-70" href="mailto:{{site.data.company_details.email}}"> {{site.data.company_details.email}}</a>
+                </div>
+                </div>
+                <div class="row mt-2 font-size-1">
+                <div class="col-md-3">
+                  <b class="text-white">ADDRESS</b> 
+                </div>
+                <div class="col-md-9">
+                  <span class="text-white">{{site.data.company_details.address}}</span>
+                </div>
+                </div>
+                <div class="row mt-2 font-size-1">
+                <div class="col-md-3">
+                    <b class="text-white">PHONE</b>
+                </div>
+                <div class="col-md-9">
+                    <a class="phone text-white" href="tel:{{site.data.company_details.contact-phone}}"> {{site.data.company_details.contact-phone}}</a>
+                </div>   
+                </div>
                <ul class="list-inline mb-0 mt-3 ml-0"> 
                     {% for item in site.data.company_details.social %} 
                     <li class="list-inline-item"> 
@@ -53,8 +65,10 @@
                       <button type="button" class="btn btn-success btn-pill btn-sm-wide col-5" style="height:3.25em">Join Us</button>
                 </div>
                 <div class="row">
+                    <div class="d-flex">
+                    <p class="editable text-white-70 col-md-8 px-0 copywrite">The Immunization Partnership is a 501(c)(3) non-profit organization. Donations made to this organization are fully deductible to the extent allowed by law.<br />  © Copyright {{ 'now' | date: '%Y' }} All Rights Reserved. | Site by <a href="https://accoladesit.com" target="_blank" title="Accolades - Website Design Lafayette Louisiana" class="text-white-70">Accolades IT</a></p>
                     <div class="col-md-4 px-0 mb-2"><img src="/assets/img/goldstar.svg" class="img-fluid w-25"/></div>
-                    <p class="editable font-size-1 text-white-70">The Immunization Partnership is a 501(c)(3) non-profit organization. Donations made to this organization are fully deductible to the extent allowed by law.<br />  © Copyright {{ 'now' | date: '%Y' }} All Rights Reserved. | Site by <a href="https://accoladesit.com" target="_blank" title="Accolades - Website Design Lafayette Louisiana" class="text-white-70">Accolades IT</a></p>
+                    </div>
                 </div>
                 </div>
                   <!-- End Input Card -->
