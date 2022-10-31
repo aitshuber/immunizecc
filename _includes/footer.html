@@ -1,19 +1,15 @@
  <footer class="gradient-half-primary-v1">
-    <div class="container-fluid p-lg-8 p-6">
+    <div class="container py-lg-8 py-6">
 
         <div class="row justify-content-lg-start px-lg-10 p-1">
-            <div class="col-sm-12 col-lg-5">
+            <div class="col-sm-12 col-lg-6">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-md-12">
                 <!-- Logo -->
-                <a href="{{ site.baseurl }}">
-                    <img src="{{ site.baseurl }}{{site.data.company_details.logo_image}}" class="pb-2 img-fluid" />
+                <a href="/">
+                    <img src="{{ site.baseurl }}{{site.data.company_details.white_logo}}" class="pb-2 img-fluid w-65" />
                 </a>
-                    </div>
-                    <div class="col-8 pl-0">
-                <a href="{{ site.baseurl }}">
-                    <img src="{{ site.baseurl }}{{site.data.company_details.logo_text}}" class="pb-2 img-fluid w-65" />
-                </a>
+                <div class="col-9 pl-0">
                 <div class="row mt-4 font-size-1">
                 <div class="col-md-3">
                    <b class="text-white">EMAIL</b>
@@ -38,7 +34,7 @@
                     <a class="phone text-white" href="tel:{{site.data.company_details.contact-phone}}"> {{site.data.company_details.contact-phone}}</a>
                 </div>   
                 </div>
-               <ul class="list-inline mb-0 mt-3 ml-0"> 
+                    <ul class="list-inline mb-0 mt-3 ml-0"> 
                     {% for item in site.data.company_details.social %} 
                     <li class="list-inline-item"> 
                         <a class="btn btn-sm btn-icon text-white btn-bg-transparent mr-3"  style="width:1.5em" href="{{item.link}}"> 
@@ -48,7 +44,7 @@
                     {% endfor %}  
                 </ul> 
                 </div>
-                
+                    </div>
             </div>
             </div>
             <div class="col-md-6 col-sm-12 ml-lg-auto mt-5 mt-md-0">
@@ -57,21 +53,21 @@
                 <h3 class="h4 font-weight-bold text-white editable">Join Us</h3>
                 </div>
                 </div>
-                <div class="row mb-3">
+            <div class="row mb-3">
                 <!-- Input Card -->
                       <input type="text" class="form-control mb-3 col-5 mr-1" placeholder="Full Name" aria-label="Full Name" />
                       <input type="text" class="form-control mb-3 col-5" placeholder="Email" aria-label="Email" />
                       <input type="text" class="form-control mb-3 col-5 mr-1" placeholder="Zip Code" aria-label="Zip Code" />
                       <button type="button" class="btn btn-success btn-pill btn-sm-wide col-5" style="height:3.25em">Join Us</button>
                 </div>
-                <div class="row">
+            <div class="row">
                     <div class="d-flex">
                     <p class="editable text-white-70 col-md-8 px-0 copywrite">The Immunization Partnership is a 501(c)(3) non-profit organization. Donations made to this organization are fully deductible to the extent allowed by law.<br />  © Copyright {{ 'now' | date: '%Y' }} All Rights Reserved. | Site by <a href="https://accoladesit.com" target="_blank" title="Accolades - Website Design Lafayette Louisiana" class="text-white-70">Accolades IT</a></p>
                     <div class="col-md-4 px-0 mb-2"><img src="/assets/img/goldstar.svg" class="img-fluid w-25"/></div>
                     </div>
                 </div>
-                </div>
-                  <!-- End Input Card -->
+            </div>
+                 <!-- End Input Card -->
                 </div>
             </div>
 

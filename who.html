@@ -48,7 +48,10 @@ banner-image: >-
 							<div class="row">
 								{% for item in site.data.staff %}
 
-										<div class="col-sm-4 mb-2 mb-sm-0">
+										<div class="col-sm-4 mb-2 mb-sm-0 text-center">
+											{% if item.Image %}
+											<img src="{{item.Image}}" class="img-fluid card" />
+											{% endif %}
 											<h4 class="h6 mb-1">{{item.Name}}</h4>
 											<p class="small">
 												{{item.Position}}
