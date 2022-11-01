@@ -4,8 +4,8 @@
 		 "from": "/Building-Coalitions-across-Texas/",
 		 "to": "/Building-Coalitions-across-Texas/",
 		 "status": 301,
-		 "substitutions": true,
-		 "forced": true
+		 "substitutions": false,
+		 "forced": false
 	  },
 	  {
 		 "from": "/category/*",
