@@ -1,15 +1,8 @@
 {
-  "routes": [
-	{
-	  "from": "/Building-Coalitions-across-Texas",
-	  "to": "/Building-Coalitions-across-Texa",
-	  "status": 302
-	},
-  ]
    "routes": [
 	  {
 		 "from": "/Building-Coalitions-across-Texas/",
-		 "to": "/Building-Coalitions-across-Texa/",
+		 "to": "/Building-Coalitions-across-Texas/",
 		 "status": 301,
 		 "substitutions": false,
 		 "forced": false
