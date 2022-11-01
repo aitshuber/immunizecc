@@ -1,7 +1,7 @@
 ---
 timezone: America/Chicago
 baseurl: ""
-include: ['_posts', '_data','login.html','login','.htaccess']
+include: ['_posts', '_data','login.html','login','_redirects']
 relative_permalinks: false
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
