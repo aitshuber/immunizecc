@@ -175,8 +175,7 @@ main-topic:
            <article class="h-100">
               <div>
                  <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
-               <div><h6 class="text-primary font-italic"><a href="{{ post.source-url }}" class="text-center">{{ post.source }}</a> </h6> <h6 class="font-size-1">{{post.date | date: "%b %-d %Y"}}</h6> </div>
-                  <p>{{ post.content | strip | strip_html | truncatewords:25 }} <a href="{{ post.url | absolute_url }}" class="text-success">Read More</a></p>
+               
 
                <div class=""><h6 class="text-primary font-italic"><a href="{{ post.source-url }}" class="text-center">{{ post.source }}</a> </h6> <h6 class="font-size-1">{{post.date | date: "%b %-d %Y"}}</h6> </div>
                   <p>{{ post.content | strip | strip_html | truncatewords:25 }} <a href="{{ post.url | absolute_url }}" class="text-success font-weight-bold">Read More</a></p>
