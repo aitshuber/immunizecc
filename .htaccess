@@ -4,3 +4,7 @@ DirectoryIndex home.html
 
 RewriteEngine On
 RewriteBase /
+
+{% for item in site.data.redirects %}
+  RewriteRule ^{{ item.redirect_from }} {{ item.redirect_to }} [R=301,L]
+{% endfor %}
