@@ -6,4 +6,27 @@
 	  "status": 302
 	},
   ]
+   "routes": [
+	  {
+		 "from": "/Building-Coalitions-across-Texas/",
+		 "to": "/Building-Coalitions-across-Texa/",
+		 "status": 301,
+		 "substitutions": false,
+		 "forced": false
+	  },
+	  {
+		 "from": "/category/*",
+		 "to": "/new-category",
+		 "status": 301,
+		 "substitutions": false,
+		 "forced": false
+	  },
+	  {
+		 "from": "/should-have-been-elsewhere/",
+		 "to": "https://example.com",
+		 "status": 301,
+		 "substitutions": false,
+		 "forced": false
+	  }
+   ]
 }
