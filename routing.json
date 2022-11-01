@@ -2,7 +2,7 @@
   "routes": [
 	{
 	  "from": "/Building-Coalitions-across-Texas",
-	  "to": "Building-Coalitions-across-Texa",
+	  "to": "/Building-Coalitions-across-Texa",
 	  "status": 301
 	},
   ]
