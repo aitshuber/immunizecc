@@ -108,6 +108,9 @@ banner-image: >-
 							  {% for item in site.data.board-of-directors %}
 							  {% if item.type == 'Directors' %}
 									  <div class="col-sm-4 mb-2 mb-sm-0">
+										  {% if item.Image %}
+										  <img src="{{item.Image}}" class="img-fluid card staff" />
+										  {% endif %}
 										  <h4 class="h6 mb-1">{{item.name}}</h4>
 										  <p class="small">
 											  {{item.title}}<br />
