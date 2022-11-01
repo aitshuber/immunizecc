@@ -1,8 +1,8 @@
 {
   "routes": [
 	{
-	  "from": "",
-	  "to": "",
+	  "from": "/Building-Coalitions-across-Texas",
+	  "to": "Building-Coalitions-across-Texa",
 	  "status": 301
 	},
   ]
