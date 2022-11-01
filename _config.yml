@@ -1,7 +1,7 @@
 ---
 timezone: America/Chicago
 baseurl: ""
-include: ['_posts', '_data','login.html','login']
+include: ['_posts', '_data','login.html','login','.htaccess']
 relative_permalinks: false
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
@@ -25,6 +25,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-bookshop
+  - jekyll-redirect-from
 
 # exclude:
   #   - .sass-cache/

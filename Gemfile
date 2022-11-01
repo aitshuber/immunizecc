@@ -36,4 +36,5 @@ group :jekyll_plugins do
     gem 'tzinfo-data'
     gem 'tzinfo'
     gem "jekyll-bookshop", "3.3.0"
+    gem 'jekyll-redirect-from'
 end

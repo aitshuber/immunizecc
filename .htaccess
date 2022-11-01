@@ -1,0 +1,6 @@
+---
+---
+DirectoryIndex home.html
+
+RewriteEngine On
+RewriteBase /
