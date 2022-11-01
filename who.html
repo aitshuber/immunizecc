@@ -50,7 +50,7 @@ banner-image: >-
 
 										<div class="col-sm-4 mb-2 mb-sm-0 text-center">
 											{% if item.Image %}
-											<img src="{{item.Image}}" class="img-fluid card" />
+											<img src="{{item.Image}}" class="img-fluid card staff" />
 											{% endif %}
 											<h4 class="h6 mb-1">{{item.Name}}</h4>
 											<p class="small">
@@ -87,6 +87,9 @@ banner-image: >-
 							  {% for item in site.data.board-of-directors %}
 							  {% if item.type == 'Executive Committee' %}
 									  <div class="col-sm-4 mb-2 mb-sm-0">
+										  {% if item.Image %}
+										  <img src="{{item.Image}}" class="img-fluid card staff" />
+										  {% endif %}
 										  <h4 class="h6 mb-1">{{item.name}}</h4>
 										  <p class="small">
 											  {{item.title}}<br />
