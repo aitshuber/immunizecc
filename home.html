@@ -120,7 +120,7 @@ main-topic:
                  <p class="mb-0">Well informed communities are critical in helping to improve vaccine confidence and advance immunization practice.</p>
              </div>
              <div class="card-footer border-0">
-               <a class="btn btn-sm-wide btn-primary btn-pill editable" href="we-educate">How We Educate</a>
+               <a class="btn btn-sm-wide btn-primary btn-pill editable" href="how-we-educate">How We Educate</a>
              </div>
          </article>
          <!-- End Blog Card -->
@@ -133,7 +133,7 @@ main-topic:
                 <p class="mb-0">State law directs public health practices and can create effective interventions for increasing immunization rates.</p>
               </div>
               <div class="card-footer border-0">
-                <a class="btn btn-sm-wide btn-primary btn-pill editable" href="we-advocate">How We Advocate</a>
+                <a class="btn btn-sm-wide btn-primary btn-pill editable" href="how-we-advocate">How We Advocate</a>
               </div>
           </article>
           <!-- End Blog Card -->
@@ -177,7 +177,7 @@ main-topic:
                  <a href="{{ post.url | absolute_url }}"><h5 class="font-weight-semi-bold text-primary" style="line-height:1.2em">{{ post.title }}</h5></a>
                
 
-               <div class=""><h6 class="text-primary font-italic"><a href="{{ post.source-url }}" class="text-center">{{ post.source }}</a> </h6> <h6 class="font-size-1">{{post.date | date: "%b %-d %Y"}}</h6> </div>
+               <div><h6 class="text-primary font-italic"><a href="{{ post.source-url }}" class="text-center">{{ post.source }}</a> </h6> <h6 class="font-size-1">{{post.date | date: "%b %-d %Y"}}</h6> </div>
                   <p>{{ post.content | strip | strip_html | truncatewords:25 }} <a href="{{ post.url | absolute_url }}" class="text-success font-weight-bold">Read More</a></p>
               </div>
               <div class=" border-0 py-4">
