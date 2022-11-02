@@ -449,6 +449,7 @@ h6, .h6 {
   font-weight:700;
   line-height: 1.25em;
 }
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -22469,7 +22470,7 @@ a.blog-search-btn{
 }
 
 .bg-soft-white {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .bg-soft-indigo {

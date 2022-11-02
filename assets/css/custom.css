@@ -630,3 +630,12 @@ main{
 .h-300p{min-height:300px }
 .copywrite{font-size:.65em}
 .staff{width:170px;height: 200px;object-fit: cover;}
+.text-shadow{
+ text-shadow: 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+ }
