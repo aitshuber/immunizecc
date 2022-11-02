@@ -2,12 +2,7 @@
   title: Chair
   position: Gastroenterologist, Medical Clinic of Houston, LLP
   type: Executive Committee
-  Image:
-- name: Beth Colle, M.S., C.P.A.
-  title: Partner
-  position: Ernst & Young, LLP
-  type: Directors
-  Image:
+  Image: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
 - name: Ken Letkeman
   title: At Large
   position: Senior Vice President, Chief Information Officer, Houston Methodist
@@ -29,11 +24,6 @@
     Assistant Professor, Baylor College of Medicine; Academic General Pediatrics
     Department, Texas Children’s Hospital; Faculty Clinician, Harris Health
   type: Executive Committee
-  Image:
-- name: Beth Colle, M.S., C.P.A.
-  title: Partner
-  position: Ernst & Young, LLP
-  type: Directors
   Image:
 - name: Julie Davidson, M.B.A.
   title: Senior Manager
@@ -64,7 +54,7 @@
   title: Director of Business Development
   position: Children's Memorial Hermann Hospital
   type: Directors
-  Image:
+  Image: /assets/img/director-of-business-development/rob-greer-221011-184759-2-2.jpg
 - name: Brandi Johnson
   title: Regional Vice President
   position: Medicaid Plan Marketing, Amerigroup
@@ -82,21 +72,9 @@
   position:
   type: Directors
   Image:
-- name: Autumn Pruette, M.D.
-  title: Pediatrician
-  position: Texas Children's Pediatrics Baytown
-  type: Directors
-  Image:
 - name: Kenneth Russo, M.B.A., CHEP
   title: Chief Financial Officer
   position: HCA Healthcare Houston West
-  type: Directors
-  Image:
-- name: Kalyani B. Sonawane, Ph.D.
-  title: Assistant Professor
-  position: >-
-    The University of Texas Health Science Center at Houston (UTHealth) School
-    of Public Health
   type: Directors
   Image:
 - name: Cassandra A. Wertz, M.D.
