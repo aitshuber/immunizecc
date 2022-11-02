@@ -2,7 +2,7 @@
   Position: Development Director
   Bio: "Keith Brown Sr. joined The Immunization Partnership\_after a long career in ministry, most recently serving as the Executive Pastor of the Bayview Baptist Church in San Diego. Keith was Assistant Pension Manager and Cash Manager of the Treasure Department for his hometown, the city of Wichita, Kansas, and went on to becoming a stockbroker with Dean Witter. As a church leader he has led fundraising campaigns to support the work of his churches as well as for scholarships and foreign mission churches in Africa. He is no stranger to the vaccine landscape, having led his church to become a premier COVID testing site first and then a vaccination center in the Southeast part of San Diego."
   Email: kbrown@immunizeusa.org
-  Image: /assets/img/demo.jpg
+  Image: /assets/img/keith-brown.jpg
   Weight: '0'
 - Name: Terri Burke
   Position: Executive Director
@@ -21,7 +21,7 @@
     Austin and received a Bachelor of Arts degree in political science from
     Lamar University.
   Email: tburke@immunizeusa.org
-  Image: /assets/img/terri-1.jpg
+  Image: /assets/img/terri-burke.png
   Weight: '1'
 - Name: Katy Gore
   Position: Coalitions and Education Program Manager
@@ -46,7 +46,7 @@
     her Master of Public Health from The University of Texas Health Science
     Center at Houston (UTHealth) School of Public Health.
   Email: kgore@immunizeusa.org
-  Image:
+  Image: /assets/img/katy-gore.png
   Weight: '3'
 - Name: Rekha Lakshmanan
   Position: Chief Strategy Officer
@@ -65,7 +65,7 @@
     University of Texas in Austin. Rekha is a graduate of Harvard Kennedy
     School’s Leadership, Organizing and Action: Leading Change program.
   Email: rlakshmanan@immunizeusa.org
-  Image:
+  Image: /assets/img/rekha.png
   Weight: '4'
 - Name: Hill Powell
   Position: Chief Operating and Financial Officer
@@ -99,5 +99,5 @@
     University in Washington, D.C, and a Bachelor of Arts degree in History and
     Political Science from Auburn University.
   Email: cprovost@immunizeusa.org
-  Image:
+  Image: /assets/img/celinda.png
   Weight: '5'
