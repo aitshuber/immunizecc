@@ -142,7 +142,7 @@ main-topic:
     </div>
   
     <!-- Banner -->
-    <div class="container-fluid mt-9 bg-primary">
+    <div class="container-fluid mt-9 bg-primary px-0">
        <div class="bg-img-hero" style="background: url({{page.call-to-action.image}}) center center no-repeat;background-size:cover">
        <div class="container space-1">
        <div class="row text-center">
@@ -174,7 +174,7 @@ main-topic:
            {% for post in site.posts limit:1 -%}
            <article class="h-100">
               <div>
-                 <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold immunizetitle text-primary">{{ post.title }}</h4></a>
+                 <a href="{{ post.url | absolute_url }}"><h5 class="font-weight-semi-bold text-primary" style="line-height:1.2em">{{ post.title }}</h5></a>
                
 
                <div class=""><h6 class="text-primary font-italic"><a href="{{ post.source-url }}" class="text-center">{{ post.source }}</a> </h6> <h6 class="font-size-1">{{post.date | date: "%b %-d %Y"}}</h6> </div>
