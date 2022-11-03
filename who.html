@@ -17,7 +17,7 @@ banner-image: >-
 	  <div class="col-lg-5 mb-5 mb-lg-0 card shadow bg-soft-primary rounded-lg">
 		<div class="p-lg-6 editable">
 		  <div class="mb-4">
-		    <h2 class="h1 text-primary immunizetitle">WHO WE ARE</h2>
+		    <h2 class="h1 text-primary font-weight-semi-bold">WHO WE ARE</h2>
 		  </div>
 		  <div class="mb-4">
 		    <p>The Immunization Partnership (TIP) leverages a collective knowledge and an unmatched expertise that puts us in the unique position to not only be an effective voice at the Texas Legislature, but to show how others can use their voice, too.</p>
@@ -52,8 +52,8 @@ banner-image: >-
 											{% if item.Image %}
 											<img src="{{item.Image}}" class="img-fluid card staff" />
 											{% endif %}
-											<h4 class="h6 mb-1">{{item.Name}}</h4>
-											<p class="small">
+											<h4 class="h6 my-1">{{item.Name}}</h4>
+											<p class="small text-center">
 												{{item.Position}}
 											</p>
 										</div>
@@ -82,16 +82,16 @@ banner-image: >-
 				  <div id="cardTwo" class="collapse" aria-labelledby="cardHeadingTwo" data-parent="#board">
 					  <div class="card-body px-4">
 						  <!-- Board Details -->
-						  <h6 class="editable">Executive Committee</h6><br />
+						  <h6 class="editable py-1">Executive Committee</h6>
 						  <div class="row">
 							  {% for item in site.data.board-of-directors %}
 							  {% if item.type == 'Executive Committee' %}
-									  <div class="col-sm-4 col-6 mb-2 mb-sm-0">
+									  <div class="col-sm-4 col-6 mb-2 mb-sm-0 text-center">
 										  {% if item.Image %}
 										  <img src="{{item.Image}}" class="img-fluid card staff" />
 										  {% endif %}
-										  <h4 class="h6 mb-1">{{item.name}}</h4>
-										  <p class="small">
+										  <h4 class="h6 my-1">{{item.name}}</h4>
+										  <p class="small text-center">
 											  {{item.title}}<br />
 											 {{item.position}}
 										  </p>
@@ -102,17 +102,16 @@ banner-image: >-
 						  </div>
 						  <!-- End Card Details -->
 						  <hr />
-						  <br />
-						  <h6 class="editable">Directors</h6><br />
+						  <h6 class="editable py-1">Directors</h6>
 						  <div class="row">
 							  {% for item in site.data.board-of-directors %}
 							  {% if item.type == 'Directors' %}
-									  <div class="col-sm-4 col-6 mb-2 mb-sm-0">
+									  <div class="col-sm-4 col-6 mb-2 mb-sm-0 text-center">
 										  {% if item.Image %}
 										  <img src="{{item.Image}}" class="img-fluid card staff" />
 										  {% endif %}
-										  <h4 class="h6 mb-1">{{item.name}}</h4>
-										  <p class="small">
+										  <h4 class="h6 my-1">{{item.name}}</h4>
+										  <p class="small text-center">
 											  {{item.title}}<br />
 											 {{item.position}}
 										  </p>
@@ -206,8 +205,8 @@ banner-image: >-
 	  <div class="container">
 	  <div class="row text-center">
 		  <div class="col-md-12 editable">
-		    <h2 class="immunizetitle text-primary">OUR MISSION</h2>
-		    <p class="lead mb-0">The Immunization Partnership advocates for disease prevention using an impactful network of vaccine champions who promote education and evidence-based public policy on the health benefits of childhood and adult vaccinations. TIP aspires to be the trusted resource for increasing immunization rates to create healthier communities.</p>
+		    <h2 class="h1 font-weight-semi-bold text-primary">OUR MISSION</h2>
+		    <p class="mb-0">The Immunization Partnership advocates for disease prevention using an impactful network of vaccine champions who promote education and evidence-based public policy on the health benefits of childhood and adult vaccinations. TIP aspires to be the trusted resource for increasing immunization rates to create healthier communities.</p>
 		  </div>
 	  </div>
 	  </div>
@@ -225,29 +224,26 @@ banner-image: >-
 	  <!-- End Row -->
 	</div>
   </div>
-  <div class="container space-2 px-lg-7" style="margin-top: 0% !important">
+  <div class="container">
 	  
-	  <div class="row justify-content-center">
+	  <div class="row space-1 justify-content-center">
 		 <div class="col-md-6 col-12">
-			<h2 class="h3 text-primary text-left editable font-weight-bold">
+			<h2 class="h1 text-primary text-left editable font-weight-semi-bold">
 			  OUR STRATEGY
 			</h2>
-
 	 <article class="h-100">
 	   <div>
-	     <h5 class="font-weight-semi-bold immunizetitle text-primary editable">
-	       
-	     </h5>
+
 	     <p class="editable">
 	       Texans want to be protected from disease. Vaccine Champions from across the state help us advocate for public policy that protects our fellow citizens against preventable disease through increased immunization access and rates.<br /><br />We will engage and activate pro-vaccine influencers in key communities to inspire fact-based vaccine decision-making through trusted sources. Our work is focused on inclusivity, equity, and safety for all Texans.
 	     </p>
 	   </div>
-	   <div class="border-0 py-4"><a class="text-primary" href="#">Find Out More <small class="fas fa-arrow-right ml-1"></small> </a></div>
+	
 	 </article>
 
 		 </div>
 		 <div class="col-md-6 col-12">
-			<h2 class="h3 text-primary text-left editable font-weight-bold">
+			<h2 class="h1 text-primary text-left editable font-weight-semi-bold">
 			  OUR ORIGINS
 			</h2>
 			<article class="h-100">
