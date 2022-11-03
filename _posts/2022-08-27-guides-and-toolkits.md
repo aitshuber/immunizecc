@@ -5,7 +5,7 @@ description:
 keywords: 'Vaccination rate '
 date: 2022-08-14 19:00:00 -0500
 published: true
-source:
+source: LUBBOCK AVALANCHE-JOURNAL
 source-url:
 categories:
   - blog
