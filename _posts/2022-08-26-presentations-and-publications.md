@@ -13,7 +13,7 @@ categories:
   - blog
 tags:
   - blog
-image: /assets/img/Impact_PresentationsandPublications.jpg
+image:
 ---
 Health experts in Texas said they are concerned fewer children are getting vaccinated for the new school year, and that some parents are getting incorrect information online about vaccines.
 
