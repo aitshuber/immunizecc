@@ -7,7 +7,7 @@ description:
 keywords: School, vaccines
 date: 2022-09-06 07:00:00 -0500
 published: true
-source: Houston Chronicle
+source: HOUSTON CHRONICLE
 source-url: >-
   https://www.houstonchronicle.com/lifestyle/renew-houston/health/article/As-Texas-kids-return-to-school-routine-17415720.php
 categories:
