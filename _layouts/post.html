@@ -8,16 +8,17 @@ permalink: ":title/"
 ---
   {% assign author = site.authors[page.author] %}
   <div class="container space-top-lg-3 space-bottom-1">
-  <div class="w-lg-80 mx-lg-auto">
+  <div class="w-lg-90 mx-lg-auto">
     <div class="p-7">
     <div class="my-2">
-                   <h2 class="h1 font-weight-semi-bold immunizetitle text-center text-primary">{{ page.title }}</h2><h5 class="text-center">{{page.date | date: "%b %-d %Y"}}</h5>
+                   <h2 class="h1 font-weight-semi-bold text-left text-primary">{{ page.title }}</h2>
+                   <div class="d-flex">
+                  <h6 class="font-size-1 immunizetitle">{{ page.source }}</h6> <h6 class="font-size-1 immunizetitle {% if page.source %}ml-2{% endif %} ">| {{page.date | date: "%b %-d %Y"}}</h6>
+                   </div>
     </div> 
     {% if page.image %}
     <div class="my-2">
-                    
-                        <img class="img-fluid col-12" alt="Mobi vs. The Shield " src="{{ page.image }}" />
-                     
+     <img class="img-fluid col-12" alt="Mobi vs. The Shield " src="{{ page.image }}" />            
     </div>
     {% endif %}
     <div class="blog">
