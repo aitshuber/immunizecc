@@ -14,7 +14,7 @@ categories:
   - blog
 tags:
   - blog
-image: /assets/img/Impact_PresentationsandPublications.jpg
+image:
 ---
 A Texas bill that would scrap all school vaccine requirements — not just for COVID-19 — died in committee last year, but public health advocates and anti-mandate groups are expecting round two when lawmakers convene in Austin next year.
 
