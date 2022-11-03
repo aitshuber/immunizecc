@@ -7,7 +7,7 @@ description:
 keywords: Health, decline, vaccinations, Texas
 date: 2022-10-17 19:00:00 -0500
 published: true
-source: Washington Times
+source: WASHINGTON TIMES
 source-url: >-
   https://www.washingtontimes.com/news/2022/oct/17/measles-polio-reemerge-us-covid-19-vaccine-uproar-/
 categories:
