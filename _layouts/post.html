@@ -13,7 +13,7 @@ permalink: ":title/"
     <div class="my-2">
                    <h2 class="h1 font-weight-semi-bold text-left text-primary">{{ page.title }}</h2>
                    <div class="d-flex">
-                  <h6 class="font-size-1 immunizetitle">{{ page.source }}</h6> <h6 class="font-size-1 immunizetitle {% if page.source %}ml-2{% endif %} ">| {{page.date | date: "%b %-d %Y"}}</h6>
+                  <h6 class="font-size-1 immunizesubtitle">{{ page.source }}</h6> <h6 class="font-size-1 immunizesubtitle {% if page.source %}ml-2{% endif %} ">| {{page.date | date: "%b %-d %Y"}}</h6>
                    </div>
     </div> 
     {% if page.image %}
