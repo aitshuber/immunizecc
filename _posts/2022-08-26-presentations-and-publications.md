@@ -66,7 +66,3 @@ Regan said social media has played a big part in a lot of information and she en
 "Bring that data that you are reading on the internet to your physician or pediatrician office and have a discussion about what fears are preventing you from vaccinating your child."
 
 Before the pandemic, doctors said there were measles cases in Mexico, but the rates have declined.
-
-&nbsp;
-
-&nbsp;
