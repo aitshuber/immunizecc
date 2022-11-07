@@ -13,7 +13,7 @@ tags:
   - blog
 image:
 ---
-Some of our strongest and most dedicated supporters are our Board of Directors. Our board consists of extraordinary individuals dedicated to strengthening our state by protecting Texans against preventable disease. The Immunization Partnership is proud to bring together a diverse group of individuals to best represent the people we serve. We have brought on five new board members in the past month, all of whom we thank in advance for their commitment to dedicate their time and strategic guidance.
+Some of our strongest and most dedicated supporters are our Board of Directors. Our board consists of extraordinary individuals dedicated to strengthening our state by protecting Texans against preventable disease. The Immunization Partnership brings together a diverse group of individuals to best represent the people we serve. We appointed five new board members in the past month, all of whom we thank in advance for their commitment to dedicate their time and their strategic guidance.
 
 **Colin Caughran**<br>*Senior Vice President, Macquarie Group*<br>Mr. Caughran specializes in energy marketing and financial modeling in the energy markets. He graduated with an MBA from Rice University, and a BSE degree in Biomedical and Mechanical Engineering from Duke University.
 
