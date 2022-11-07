@@ -16,6 +16,7 @@ call-to-action:
   button-text: JOIN US
 main-topic:
   title: The Flu is Back in Texas
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
   image: >-
     /assets/img/the-flu-is-back-in-texas/screen-shot-2022-10-20-at-9-48-46-am.png
   url: /about/
@@ -42,7 +43,7 @@ main-topic:
                                         {% endif %}
                                         <div>
                                           {% if item.Button-Text %}
-                                        <a href="{{item.Button-Text}}" class="btn btn-sm-wide btn-primary transition-3d-hover mt-2 btn-pill" {% if item.external-link != true  %}{% else %}target="_blank"{% endif %}>
+                                        <a href="{{item.Button-Link}}" class="btn btn-sm-wide btn-primary transition-3d-hover mt-2 btn-pill" {% if item.external-link != true  %}{% else %}target="_blank"{% endif %}>
                                             {{item.Button-Text}} >
                                         </a>
                                         {% endif %}
@@ -146,7 +147,7 @@ main-topic:
        <div class="container space-1">
        <div class="row text-center">
         <div class="col-8 pt-8 mx-auto">
-          <p class="lead text-white mb-0 font-size-2 text-shadow text-center">{{page.call-to-action.text}}</p>
+          <h1 class="mb-0 immunizetitle text-white text-shadow text-center">{{page.call-to-action.text}}</h1>
         </div>
        </div>
         <div class="row text-center">
@@ -166,15 +167,17 @@ main-topic:
             <div class="row justify-content-center">
               
                <div class="col-md-6 col-12">
-                  <h2 class="h1 text-primary text-left editable font-weight-semi-bold">
+                  <h2 class="h2 immunizetitle text-primary text-left editable font-weight-semi-bold">
                     LATEST NEWS
                   </h2>
                  
            {% for post in site.posts limit:1 -%}
            <article class="h-100">
               <div>
-                 <a href="{{ post.url | absolute_url }}"><h5 class="font-weight-semi-bold text-primary" style="line-height:1.2em">{{ post.title }}</h5></a>
-               <div><h6 class="text-primary font-italic"><a href="{{ post.source-url }}" class="text-center">{{ post.source }}</a> </h6> <h6 class="font-size-1">{{post.date | date: "%b %-d %Y"}}</h6> </div>
+                 <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold font-size-3 text-primary">{{ post.title }}</h4></a>
+              <div class="d-flex">
+               <h6 class="font-size-1 immunizesubtitle">{{ post.source }}</h6> <h6 class="immunizesubtitle {% if post.source %}ml-2{% endif %} font-size-1">|  {{post.date | date: "%b %-d %Y"}}</h6>
+               </div>
                   <p class="text-left">{{ post.content | strip | strip_html | truncatewords:25 }} <a href="{{ post.url | absolute_url }}" class="text-success font-weight-bold">Read More</a></p>
               </div>
               <div class=" border-0 py-4">
@@ -187,13 +190,16 @@ main-topic:
            {% endfor %}
                </div>
                <div class="col-lg-6 col-12">
-                 <h2 class="h1 text-primary text-left editable font-weight-semi-bold">
+                 <h2 class="h2 text-primary text-left editable font-weight-semi-bold">
                    HOT SPOT
                  </h2>
                    <div class="p-lg-2 pt-md-0 editable card shadow bg-soft-primary rounded-lg">
                      <img class="card-img-top max-h-225" src="{{ page.main-topic.image }}" />
                      <div class="card-body">
                      <a href="{{ page.main-topic.url | absolute_url }}"><h3 class="font-weight-semi-bold immunizetitle text-primary">{{ page.main-topic.title }}</h3></a>
+                     <p>
+                       {{ page.main-topic.text }}
+                     </p>
                      </div>
                      <div class="card-footer bg-transparent border-0">
                      <a href="{{ page.main-topic.url | absolute_url }}" class="text-success font-weight-bold bottom-0 position-absolute py-2">Visit
