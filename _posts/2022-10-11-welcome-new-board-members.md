@@ -21,7 +21,7 @@ Some of our strongest and most dedicated supporters are our Board of Directors. 
 
 **Dishajoyti Nath**<br>*Program Manager at CDC Foundation*<br>Ms. Nath specializes in program planning and implementation to improve the health outcomes by eliminating disparities. Her experience includes data-guided activities designed to bring about immediate improvements in health care delivery, resulting in better patient outcomes and better system performance.
 
-**Dileep Rao**<br>*Senior Attorney, Kearney, McWilliams & Davis, PLLC*<br>Mr. Rao focuses on Intellectual Property law, leveraging business and engineering experience. He earned a Biomedical Engineering degree at Northwestern University, and completed an executive MBA program at Louisiana State University, before earning a JD at University of Houston.
+**Dileep Rao**<br>*Senior Attorney, Kearney, McWilliams & Davis, PLLC*<br>Mr. Rao focuses on Intellectual Property law, leveraging his business and engineering experience. He earned a Biomedical Engineering degree at Northwestern University, and completed an executive MBA program at Louisiana State University before earning a JD at University of Houston.
 
 **Hilary Ware**<br>*Senior Vice President, Human Resources, Cheniere Energy, Inc.*<br>Ms. Ware’s depth and breadth of professional experience includes Human Resources, Information Technology, Shared Services for Business Support in IT, Finance and HR, Government Affairs, Corporate Communications, Global Philanthropy and Community outreach with specific experience in large scale business change and transformation.
 
