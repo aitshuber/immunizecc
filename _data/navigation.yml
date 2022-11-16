@@ -1,14 +1,14 @@
 - title: "Why We're Here"
-  url: /why-were-here
+  link: /why-were-here
 - title: What We Do
-  url: /what-we-do
+  link: /what-we-do
 - title: Who We Are
-  url: /who-we-are
+  link: /who-we-are
 - title: How We Work
-  url: /how-we-work
+  link: /how-we-work
 - title: Newsroom
-  url: /newsroom
+  link: /newsroom
 - title: Contact Us
-  url: /contact
+  link: /contact
 - title: Donate
-  url: donate
+  link: donate
