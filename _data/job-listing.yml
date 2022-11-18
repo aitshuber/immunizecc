@@ -6,3 +6,7 @@
   url: /assets/img/INTERNSHIPS/Internship-Program---Education-2022.docx
   weight: '3'
   enabled: false
+- Job_Title: 'Internship: DEVELOPMENT'
+  url: /assets/img/INTERNSHIPS/Internship-Program---Development-2022.docx
+  weight: '2'
+  enabled: false
