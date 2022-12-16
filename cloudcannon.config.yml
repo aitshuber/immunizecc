@@ -72,3 +72,7 @@ _inputs:
       values:
         - default
         - sub-page
+collections_config:
+  pages:
+    create:
+      path: '[relative_base_path]/{title|slugify}.html'
