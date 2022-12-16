@@ -4,6 +4,7 @@ paths:
   data: _data
   layouts: _layouts
   includes: _includes
+  pages: /
 source_editor:
   tab_size: 3
   theme: 'Accolades'
