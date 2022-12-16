@@ -1,3 +1,5 @@
+source: src
+base_url: immunizeusa.org
 paths:
   uploads: "assets/img/:title"
   collections: items
