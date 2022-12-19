@@ -69,8 +69,8 @@ _inputs:
     type: select
     options:
       values:
-        - default
         - sub-page
+        - default
 collections_config:
   pages:
     create:
