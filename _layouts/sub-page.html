@@ -5,7 +5,7 @@
     <!-- Schema other -->
  {% capture seo %}
  {% seo %}
- <meta name="keywords" content="{{page.keywords}}">
+ <meta name="keywords" content="{{page.keywords}}" />
  {% endcapture %}
  {{seo | remove: "Jekyll"}}
 
@@ -28,7 +28,9 @@
     <div class="container">
        <div class="row">
           <div class="col-md-12 editable content">
-                 {{ content }}
+            <p>
+              {{ content }}test
+            </p>
           </div>
        </div>
     </div>
