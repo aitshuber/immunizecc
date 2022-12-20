@@ -47,6 +47,11 @@ _editables:
     left: align-left
     center: align-center
     right: align-right
+collections_config:
+  pages:
+    schemas:
+      default:
+        path: schemas/page.md
 data_config:
   home-banner: true
   homepage-notice: true
