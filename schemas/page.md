@@ -2,7 +2,9 @@
 title: 
 description: >-
 keywords:
-layout: sub-page
+layout: 
+  - sub-page
+  - default
 permalink: 
 banner-image:
 ---
