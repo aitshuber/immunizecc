@@ -3,8 +3,11 @@ title:
 description: >-
 keywords:
 layout: 
-  - sub-page
-  - default
+   type: select
+    options:
+      values:
+        - sub-page
+        - default
 permalink: 
 banner-image:
 ---
