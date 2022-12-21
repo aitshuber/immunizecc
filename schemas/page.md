@@ -2,12 +2,7 @@
 title: 
 description: >-
 keywords:
-layout: 
-   type: select
-    options:
-      values:
-        - sub-page
-        - default
+layout: sub-page
 permalink: 
 banner-image:
 ---
