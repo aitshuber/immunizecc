@@ -1,0 +1,23 @@
+---
+title: Immunize pdf repo
+description: >-
+  A catch all of Immunize pdf's
+keywords:
+layout: default
+permalink: forms
+---
+<div class="container">
+<div class="row align-items-lg-center space-1">
+{% for image in site.static_files %}
+  {% if image.path contains '/assets/forms' %}
+  {% if image.path contains 'pdf'%}
+  <div class="col-lg-5 mb-4">
+    <a class="editable" href="{{ site.baseurl }}{{ image.path }}" target="_blank">{{ image.name }}</a>
+  </div>
+  {% endif %}
+  {% endif %}
+{% endfor %}
+</div>
+</div>
+
+ 
