@@ -3,7 +3,7 @@
   Text:
   Buttons_Text:
   Button_link:
-  Position: PopUp
+  Location: PopUp
   enabled: false
   _select_data:
     Position:
@@ -15,7 +15,7 @@
   Text:
   Buttons_Text:
   Button_link:
-  Position: Below Image
+  Location: Below Image
   enabled: false
   _select_data:
     Position:
@@ -27,7 +27,7 @@
   Text:
   Buttons_Text:
   Button_link:
-  Position: Top Navigation
+  Location: Top Navigation
   enabled: false
   _select_data:
     Position:
