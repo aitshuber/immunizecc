@@ -85,7 +85,7 @@
   Image: /assets/img/screen-shot-2022-11-02-at-12-40-49-pm.png
   Weight: '4'
 - Name: Denisha Prim
-  Position: Below Image
+  Position:
   Bio: Community Engagement Director
   Email: dprim@immunizeusa.org
   Image: /assets/img/tip-denisha-prim.png
