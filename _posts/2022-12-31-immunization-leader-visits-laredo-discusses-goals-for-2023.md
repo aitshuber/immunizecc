@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Immunization leader visits Laredo, discusses goals for 2023
+title: Immunization leader visits Laredo, discusses 2023 goals
 description:
 keywords: Health, decline, vaccinations, Texas
 date: 2022-12-31 19:00:00 -0600
