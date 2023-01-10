@@ -4,6 +4,6 @@ title: IZU
 description:
 keywords:
 layout: sub-page
-permalink:
+permalink: /izu
 banner-image:
 ---
