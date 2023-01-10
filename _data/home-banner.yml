@@ -1,3 +1,12 @@
+- Background-Image: /assets/img/welcome-to-the-board-adfasdf-2-1.png
+  Image: /assets/img/screen-shot-2023-01-10-at-11-40-42-am.png
+  Title: 2023 Texas Legislative Session is Underway
+  Sub-Text: >-
+    Our full focus will be working for sensible, reasonable immunization
+    policies that ensure Texans can live safe, healthy lives.
+  Button-Text: Learn More
+  Button-Link: https://immunizeusa.org/how-we-advocate
+  External-Link: true
 - Background-Image: /assets/img/welcome-to-the-board-adfasdf.png
   Image: /assets/img/luncheon2023/screen-shot-2022-11-21-at-4-01-34-pm.png
   Title: Save the Date!
@@ -6,15 +15,6 @@
     will honor three very special Houston medical heroes.
   Button-Text: Become a Sponsor
   Button-Link: https://immunizeusa.salsalabs.org/Luncheon2023
-  External-Link: true
-- Background-Image: /assets/img/welcome-to-the-board-adfasdf-2-1.png
-  Image: /assets/img/untitled-design-1.png
-  Title: TIP Cohosts Vaccine Policy Symposium
-  Sub-Text: >-
-    Health experts come together to discuss the current state and future of
-    vaccine policy in Texas.
-  Button-Text: Learn More
-  Button-Link: https://www.bakerinstitute.org/vaccine-project
   External-Link: true
 - Background-Image: /assets/img/welcome-to-the-board-adfasdf-6.png
   Image: /assets/img/untitled-design-3.png
