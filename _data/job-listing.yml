@@ -2,3 +2,8 @@
   url: /assets/img/Vaccine-Champions-Manager_Job-Description_2023.pdf
   weight: '1'
   enabled: true
+- Job_Title: Immunization Education Specialist
+  url: >-
+    /assets/img/INTERNSHIPS/Immunization-Education-Specialist_Job-Description_2023.pdf
+  weight:
+  enabled: true
