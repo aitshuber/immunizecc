@@ -19,7 +19,7 @@ The most influential messengers are neighbors, like you, talking to neighbors. P
 
 **GETTING STARTED**
 
-We will be excited to have you as a Booster, however much time you can devote and whatever activities you would like to do. Please provide us with your preferences below, and we'll be in touch shortly.&nbsp;&nbsp;
+Ready to make an impact? We will be excited to have you as a Booster, however much time you can devote and whatever activities you would like to do. Please provide us with your preferences below, and we'll be in touch shortly.&nbsp;&nbsp;
 
 ```
 <script
