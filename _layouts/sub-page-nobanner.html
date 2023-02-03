@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+  <!-- Schema other -->
+  {% capture seo %}
+  {% seo %}
+  <meta name="keywords" content="{{page.keywords}}" />
+  {% endcapture %}
+  {{seo | remove: "Jekyll"}}
+
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  {% include nav.html %}
+  <!-- Hero -->
+  <main id="content" role="main">
+
+    <div class="container pt-5 mt-5">
+      <div class="row">
+        <div class="col-md-12 editable content">
+
+          {{ content }}
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!-- FOOTER -->
+  {% include footer.html %}
+
+
+  <!-- JAVASCRIPT -->
+  {% include scripts.html %}
+
+
+</body>
+
+</html>

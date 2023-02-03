@@ -3,7 +3,7 @@ _schema: default
 title: Community Engagement
 description: ''
 keywords:
-layout: sub-page
+layout: sub-page-nobanner
 permalink: community-engagement
 banner-image:
 ---
@@ -20,19 +20,3 @@ The most influential messengers are neighbors, like you, talking to neighbors. P
 **GETTING STARTED**
 
 Ready to make an impact? We will be excited to have you as a Booster, however much time you can devote and whatever activities you would like to do. Please provide us with your preferences below, and we'll be in touch shortly.&nbsp;&nbsp;
-
-```
-<script
-
-    src=https://cdn.virtuoussoftware.com/virtuous.embed.min.js
-
-    data-vform="D8D52DC1-DE60-4EC9-84F2-FE35B5DF7CAA"
-
-    data-orgId="3832"
-
-    data-isGiving="false"
-
-    data-dependencies="[]">
-
-</script>
-```

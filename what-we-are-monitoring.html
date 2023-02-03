@@ -3,7 +3,7 @@ _schema: default
 title: What We Are Monitoring
 description: ''
 keywords:
-layout: sub-page-nobanner
+layout: sub-page
 permalink: what-we-are-monitoring
 banner-image:
 ---
