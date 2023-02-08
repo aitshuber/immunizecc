@@ -1,0 +1,45 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+  label: "Info-card"
+  description: A simple informational card with button and image. 
+  icon: call_to_action
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  text: 
+  image:
+    src:
+    alt: 
+    width: 
+  button: bookshop:generic/button-link
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  text: The overload of information, and misinformation, about vaccines requires insight from a qualified network of scientific experts.
+  image:
+    src: /assets/img/the-immunization-partnership/452265335.jpg
+    alt: Image Description
+    width: 5616
+  button: bookshop:generic/button-link
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  text:
+    label: Text
+    comment: The text content of the card.
+    type: markdown
+  src:
+    label: Src
+    comment: The path to the image.
+    type: url
+  alt:
+    label: Image Alt
+    comment: A description of the image.
+    type: text
+  width:
+    label: Width
+    comment: The width of the image.
+    type: number
+

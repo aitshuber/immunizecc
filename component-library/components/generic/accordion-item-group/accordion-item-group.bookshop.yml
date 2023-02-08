@@ -1,0 +1,25 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+  label: "Accordion Item Group"
+  description:
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title:
+  border_bottom: false
+  accordion_items: [bookshop:generic/accordion-item]
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: Executive Committee
+  border_bottom: false
+  accordion_items:
+    - bookshop:generic/accordion-item
+    - bookshop:generic/accordion-item
+    - bookshop:generic/accordion-item
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

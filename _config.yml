@@ -32,6 +32,12 @@ plugins:
   - jekyll-bookshop
   - jekyll-redirect-from
 
+collections:
+  posts:
+    output: true
+
+
+
 # exclude:
   #   - .sass-cache/
   #   - .jekyll-cache/

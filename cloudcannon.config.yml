@@ -1,5 +1,5 @@
 paths:
-  uploads: "assets/img/:title"
+  uploads: 'assets/img/:title'
   collections: items
   data: _data
   layouts: _layouts
@@ -7,11 +7,7 @@ paths:
 source_editor:
   tab_size: 3
   theme: 'Accolades'
-timezone: "America/Chicago"
-_enabled_editors:
-  - content
-  - visual
-  - data
+timezone: 'America/Chicago'
 _editables:
   block:
     blockquote: true
@@ -50,11 +46,20 @@ _editables:
 collections_config:
   pages:
     schemas:
-      default:
+      block_page:
         path: schemas/page.md
+        _enabled_editors:
+          - visual
+      content_page:
+        path: schemas/content-page.md
+        _enabled_editors:
+          - content
+          - visual
 data_config:
   home-banner: true
   homepage-notice: true
+  navigation: true
+  posts: true
 _inputs:
   Button_Positions:
     type: select
@@ -76,5 +81,10 @@ _inputs:
       values:
         - sub-page
         - default
-        - sub-page-fullwidth
-        - sub-page-nobanner
+        - content-page
+
+_structures:
+  content_blocks:
+    style: 'modal'
+  left-right-hero:
+    style: 'select'

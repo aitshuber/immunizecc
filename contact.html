@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: The Immunization Partnership
 description: >-
   We provide expertise in reducing preventable disease; we educate to advance
@@ -9,59 +10,28 @@ layout: sub-page
 permalink: contact
 banner-image: >-
   /assets/img/the-immunization-partnership/screen-shot-2022-11-01-at-4-05-21-pm.png
+content_blocks:
+  - _bookshop_name: section/contact-us-section
+    left-column:
+      heading: We would like to hear from you.
+      body_text: >-
+        Our success results from our strong relationships. Please contact us to
+        discuss how we can, together, ensure that more Texans are protected from
+        disease.
+    right-column:
+      - block: >-
+          ##### **MEDIA INQUIRIES**
+
+
+          If you are a member of the media seeking information or would like to
+          request an interview, please contact us
+          at&nbsp;[communications@ImmunizeUSA.org](mailto:communications@immunizeusa.org).&nbsp;
+
+
+          ##### **PARTNERSHIP INQUIRIES&nbsp;**
+
+
+          If you are interested in becoming a partner, please&nbsp;[submit your
+          information](mailto:info@immunizeUSA.org)&nbsp;and our Partnerships
+          Manager will contact you straight away.&nbsp;
 ---
-<div class="container space-0 space-sm-1 space-lg-2 px-md-0 px-lg-0">
-<div class="row">
-
-<div class="col-lg-4 col-12 mb-2 card shadow bg-soft-primary rounded-lg">
-		<div class="p-lg-6 pt-md-0">
-		  <h2 class="h1 text-primary font-weight-semi-bold">
-		    We would like to hear from you.
-		  </h2>
-		  <p class="editable">
-		    Our success results from our strong relationships. Please contact us to discuss how we can, together, ensure that more Texans are protected from disease.
-		  </p>
-		</div>
-</div>
-<div class="col-lg-4 col-12 mb-2 justify-content-center align-middle my-auto">
-	<div class="row py-1 text-black">
-	<!-- List Group --> 
-	<b class="col-md-3">EMAIL:</b> <a class="col-md-4" href="mailto:{{site.data.company_details.email}}"> {{site.data.company_details.email}}</a>
-	</div>
-	<div class="row py-1 text-black">
-	<b class="col-md-3">PHONE:</b> <a class="phone col-md-9" href="tel:{{site.data.company_details.media-phone}}"> {{site.data.company_details.media-phone}}</a>
-	</div>
-	<div class="row py-1 text-black">
-	<b class="col-md-3">Address</b><span class="col-md-9"> {{site.data.company_details.address}}</span>
-	</div>
-	<div class="mx-auto justify-content-center d-flex pt-6">
-		<div>
-	<h3>Find us on social</h3>
-	   <ul class="list-inline mb-0 mt-3"> 
-		   {% for item in site.data.company_details.social %} 
-		   <li class="list-inline-item"> 
-			   <a class="btn btn-sm btn-icon btn-soft-primary btn-bg-transparent mr-3" href="{{item.link}}"> 
-				   <span class="fab {{item.icon}} btn-icon__inner fa-2x"></span> 
-			   </a> 
-		   </li> 
-		   {% endfor %}  
-	   </ul> 
-		</div>
-	</div>
-</div>
-	<div class="col-lg-4 col-12 mb-2">
-		<h5><strong>MEDIA INQUIRIES</strong></h5>
-		<p class="editable">
-		  If you are a member of the media seeking information or would like to request an interview, please contact us at&nbsp;<br /><a href="mailto:communications@immunizeusa.org">communications@ImmunizeUSA.org</a>.<br />&nbsp;
-		</p>
-	  <h5><strong>PARTNERSHIP INQUIRIES&nbsp;</strong></h5>
-	  <p class="editable">
-	    If you are interested in becoming a partner, please <a href="mailto:info@immunizeUSA.org">submit your information</a>&nbsp;and our Partnerships Manager will contact you straight away.&nbsp;
-	  </p>
-	 
-	</div>
-	
- </div>
-
-</div>
-

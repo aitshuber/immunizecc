@@ -1,0 +1,6 @@
+<div class="c-left-right-two-third-section container">
+    {% for block in include.left_right_block %}
+        {% bookshop simple/left-right-two-third bind=block %}
+        <hr>
+    {% endfor %}
+</div>

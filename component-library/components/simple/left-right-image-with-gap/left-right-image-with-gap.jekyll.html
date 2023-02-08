@@ -1,0 +1,34 @@
+<div class="c-left-right-image-with-gap row justify-content-lg-between mb-4"> 
+  {% if include.image_align_left %}
+    <div class="col-md-5">
+      <img alt="{{ include.image_alt}}" class="img-fluid" src="{{ include.image }}" width="1600">
+    </div>
+    <div class="col-md-5">
+      <div class="mb-4">
+        <h2 class="h2 text-primary immunizetitle">
+          {{ include.title}}
+        </h2>
+      </div>
+      <p>
+          {{ include.body_content | markdownify }}
+      </p>    
+    </div>
+
+    {% else %}
+    <div class="col-md-5">
+      <div class="mb-4">
+        <h2 class="h2 text-primary immunizetitle">
+          {{ include.title}}
+        </h2>
+      </div>
+      <p>
+          {{ include.body_content | markdownify }}
+      </p>
+    </div>
+    <div class="col-md-5">
+      <img alt="{{ include.image_alt}}" class="img-fluid" src="{{ include.image }}" width="1600">
+    </div>
+
+    {% endif %}
+  </div>
+

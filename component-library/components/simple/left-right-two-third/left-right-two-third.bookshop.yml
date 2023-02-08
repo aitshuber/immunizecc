@@ -1,0 +1,39 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+  label: 'Left-right-two-third'
+  description:
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: 
+  text:
+  image:
+    src: 
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: Because Texans need accurate resources
+  text:
+    Lack of easy access to vaccines continues to affect vaccination rates, but
+    misinformation campaigns about COVID-19 vaccination has spilled over to
+    further deter routine immunizations.
+  image:
+    src: /assets/img/why-were-here/screen-shot-2022-11-02-at-11-08-09-am.png
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  title:
+    label: Title
+    comment: Section Title
+    type: text
+  text:
+    label: Text
+    comment: The text content of the section.
+    type: markdown
+  src:
+    label: Image Source
+    comment: The address of the image to be displayed.
+    type: url
