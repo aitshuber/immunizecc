@@ -50,6 +50,7 @@ collections_config:
         path: schemas/page.md
         _enabled_editors:
           - visual
+          - content
       content_page:
         path: schemas/content-page.md
         _enabled_editors:
