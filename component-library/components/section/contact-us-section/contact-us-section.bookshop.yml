@@ -1,0 +1,31 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Contact-us-section"
+  description:
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  left-column:
+    heading:
+    body_text: 
+  right-column:
+    - block:
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  left-column:
+    heading: We would like to hear from you.
+    body_text: Our success results from our strong relationships. Please contact us to discuss how we can, together, ensure that more Texans are protected from disease.
+  right-column:
+   - block: >- 
+      Lorem ipsum dolor sit amet, consectetur adipi
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  block:
+    type: markdown
+
+  

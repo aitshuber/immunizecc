@@ -1,0 +1,27 @@
+<div class="container space-0 space-sm-1 space-lg-2">
+    <div class="row align-items-lg-center">
+      <div class="col-lg-5 mb-5 mb-lg-0 card shadow {% if include.left_section.colored_background == true %} bg-soft-primary {% endif %} rounded-lg">
+        <div class="p-lg-6">
+          <div class="mb-4">
+            <h2 class="h1 text-primary {% if include.left_section.bold_title == true %} immunizetitle {% else %} font-weight-semi-bold {% endif %}">
+              {{ include.left_section.title }}
+            </h2>
+          </div>
+          <div class="mb-4">
+            <p class="">
+              {{ include.left_section.text }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End Col -->
+      <div class="col-md-7">
+          {% if include.right_section %}
+            {% bookshop {{include.right_section._bookshop_name}} bind=include.right_section %}
+          {% endif %}
+      </div>
+
+      <!-- End Col -->
+    </div>
+    <!-- End Row -->
+  </div>

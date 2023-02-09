@@ -71,9 +71,6 @@
                  <li class="list-inline-item position-relative">
                       <a href="https://app.immunizeusa.org/account/login/" class="btn btn-xs btn-icon"><sopan class="fa fa-user btn-icon__inner " aria-hidden="true"></span></a>
                   </li>
-                  <li class="list-inline-item position-relative">
-                      <a class="btn btn-xs btn-success text-white ms-2" href="https://immunizeusa.salsalabs.org/donatetotip2023">Donate</a>
-                  </li>
                  <!-- End Account Login -->
                </ul>
              </div>
@@ -85,7 +82,7 @@
                 <!-- Logo -->
                 <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center"
                    href="/">
-                    <img src="{{ site.baseurl }}/assets/img/tip.svg" class="{% for item in site.data.navigation %}{% if forloop.index > 7 %}w-85{% endif %}{% endfor %}">
+                    <img src="{{ site.baseurl }}/assets/img/tip.svg">
                 </a>
                 <!-- End Logo -->
                 <!-- Responsive Toggle Button -->
@@ -107,7 +104,7 @@
                     <ul class="navbar-nav u-header__navbar-nav pt-2">
                         {% for item in site.data.navigation %}
                         <!-- Home -->
-                        <li class="nav-item  u-header__nav-item {% if item.title == 'Contact Us' %}mr-3{% endif %} {% if item.title == 'Donate' %}d-none{% endif %}">
+                        <li class="nav-item  u-header__nav-item {% if item.title == 'Contact Us' %}mr-3{% endif %}">
                             <a class="{% if item.title == 'Donate' %}btn btn-sm btn-success text-white ms-2{% else %}nav-link u-header__nav-link{% endif %}" href="{% include relative-src.html src=item.url %}">{{item.title}}</a>
                         </li>
                         <!-- End Home -->

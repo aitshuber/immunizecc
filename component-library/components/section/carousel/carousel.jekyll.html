@@ -1,0 +1,16 @@
+<div class="u-hero-v1 c-carousel">
+    <!-- Hero Carousel Main -->
+    <div id="heroNav" class="js-slick-carousel u-slick" data-infinite="true" data-autoplay="true" data-adaptive-height="true" data-speed="80000" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow u-slick__arrow-centered--y rounded-circle" data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-inner u-slick__arrow-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-inner u-slick__arrow-inner--right mr-lg-2 mr-xl-4"> 
+        {% if env_bookshop_live %}
+            <h2 style="text-align:center">The carousel component isn't live editable. <br>
+                This is fallback text while live editing</h2>
+        {% else %}
+            {% for card in include.cards %}
+                <div class="js-slide">
+                <!-- Slide #1 -->
+                {% bookshop simple/carousel-card bind=card %}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>            
+    

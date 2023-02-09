@@ -1,0 +1,29 @@
+<div class="c-become-a-partner-section">
+    <p>{{ include.text }}</p>
+</div>
+
+
+    {% if include.extra_space_top %}
+    <!--Become a partner-->
+    <div class="container">
+        <div class="row space-1">
+            <div class="col-12 mx-auto editable">
+              
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    <!--Become a partner-->
+    <div class="container">
+        <div class="row space-1">
+            <div class="mx-md-auto">
+               <h2 class="h1 font-weight-semi-bold text-center text-primary">Become a Partner </h2>
+                
+                <p>{{ include.body_text }}</p>
+                
+            </div>
+        </div>
+
+        {% bookshop simple/become-a-partner-form %}
+
+    </div>

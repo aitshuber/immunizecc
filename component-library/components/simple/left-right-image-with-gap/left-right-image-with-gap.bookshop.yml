@@ -1,0 +1,29 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+  label: "Left-right-image-with-gap"
+  description: Left right content card with a gap in between.
+  icon: vertical_split
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  image: 
+  image_alt:
+  title:
+  body_content:
+  image_align_left: false
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  image: https://placebear.com/500/500
+  image_alt: Alt tag
+  title: Title 
+  body_content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit mi elit. Pellentesque bibendum dolor ante, vitae vehicula eros ornare a. Praesent fermentum convallis velit.
+  image_align_left: false
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  body_content:
+    label: Text Content
+    type: markdown

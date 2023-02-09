@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card-header card-collapse" id="cardHeading-{{- include.index }}">
+        <h5 class="mb-0">
+            <button class="btn btn-link btn-block justify-content-between collapsed card-btn p-3 tip-bg-blue" role="button" data-toggle="collapse" data-target="#card-{{- include.index }}" aria-expanded="false" aria-controls="card-{{- include.index }}">
+                <span class="h5 editable">{{ include.title }}</span>
+                <span class="card-btn-arrow text-white" style="float: right">
+                    <span class="fas fa-arrow-down small"></span>
+                  </span>
+            </button>
+        </h5>
+    </div>
+    <div id="card-{{- include.index }}" class="open collapse" aria-labelledby="cardHeading-{{- include.index }}" data-parent="#board">
+        <div class="card-body px-4">
+                {% for accordion_item_group in include.accordion_item_groups %}
+                    {% bookshop generic/accordion-item-group bind=accordion_item_group %}
+                {% endfor %}
+        </div>
+    </div>
+</div>

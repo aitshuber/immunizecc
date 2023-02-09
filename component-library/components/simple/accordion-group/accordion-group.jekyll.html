@@ -1,0 +1,8 @@
+<div id="committees">
+    <div id="board" class="accordion mb-9">
+        {% for accordion_row in include.accordion_rows %}
+            {% bookshop generic/accordion-row title=accordion_row.title accordion_item_groups=accordion_row.accordion_item_groups index=forloop.index %}
+        {% endfor %}
+    </div>
+</div>
+

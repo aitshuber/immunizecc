@@ -5,7 +5,7 @@ description: >-
   immunization practice; and we advocate for public policy to increase
   vaccination coverage.
 keywords:
-layout: sub-page
+layout: content-page
 permalink: newsroom
 banner-image: /assets/img/newsroom/screen-shot-2022-11-04-at-11-30-17-am.png
 ---
@@ -22,21 +22,9 @@ banner-image: /assets/img/newsroom/screen-shot-2022-11-04-at-11-30-17-am.png
 				{% for post in site.posts -%}
 				 <div class="col-md-12 {% if forloop.last %}mb-5{% endif %}"> 
 					<!-- Blog News -->
-					  <article class="h-100">
-						
-						<div class="card-body px-5 pb-0">
-						   <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold font-size-3 text-primary">{{ post.title }}</h4></a>
-						   <div class="d-flex">
-						   <h6 class="font-size-1 immunizesubtitle">{{ post.source }}</h6> <h6 class="immunizesubtitle {% if post.source %}ml-2{% endif %} font-size-1">|  {{post.date | date: "%b %-d %Y"}}</h6>
-						   </div>
-							<p>{{ post.content | strip | strip_html | truncatewords:25 }} </p>
-						</div>
-						<div class="card-footer border-0 pb-5 px-5 pt-0">
-								<a href="{{ post.url | absolute_url }}" class="text-primary">Read More
-									<small class="fas fa-arrow-right ml-1"></small>
-								</a>
-							</div>
-					  </article>
+					
+					{% bookshop simple/news-list-item post=post %}
+
 					<!-- End Blog News -->
 				</div>
 			{% endfor %}

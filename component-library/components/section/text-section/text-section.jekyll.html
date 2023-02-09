@@ -1,0 +1,12 @@
+<div class="container-fluid space-2 {% if include.colored_background == true %} bg-soft-secondary {% endif %}">
+  <div class="c-section-text-section ">
+      <div class="row {% if include.centered == true %} text-center {% endif %}">
+          <div class="col-md-12">
+            <h2 class="h1 text-primary font-weight-semi-bold editable">
+              {{ include.title }}
+            </h2>
+            <p class="editable">{{ include.text }}</p>
+          </div>
+        </div>
+  </div>
+</div>

@@ -1,42 +1,78 @@
 ---
-layout: default
+layout: post
 archive: false
-description: 
-keywords: 
+description:
+keywords:
 pagename: post
-permalink: ":title/"
+permalink: ':title/'
 ---
-  {% assign author = site.authors[page.author] %}
-  <div class="container space-top-lg-3 space-bottom-1">
-  <div class="w-lg-90 mx-lg-auto">
-    <div class="p-7">
-    <div class="my-2">
-                   <h2 class="h1 font-weight-semi-bold text-left text-primary">{{ page.title }}</h2>
-                   <div class="d-flex">
-                  <h6 class="font-size-1 immunizesubtitle">{{ page.source }}</h6> <h6 class="font-size-1 immunizesubtitle {% if page.source %}ml-2{% endif %} ">| {{page.date | date: "%b %-d %Y"}}</h6>
-                   </div>
-    </div> 
-    {% if page.image %}
-    <div class="my-2">
-     <img class="img-fluid col-12" alt="Mobi vs. The Shield " src="{{ page.image }}" />            
-    </div>
-    {% endif %}
-    <div class="blog">
-    {{content}}
-    </div>
-    <div class="article__share text-center border-top row">
-      <div class="{% if page.source %}col-6 justify-content-start text-left{% else %}col-md-12 text-center{% endif %}">
-          <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb9921f24e43acc"></script>
-          <h6 class="pb-1 font-weight-bold mt-5"> Share this </h6><div class="addthis_inline_share_toolbox"></div>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    <!-- Schema other -->
+    {% capture seo %} {% seo %}
+    <meta name="keywords" content="{{page.keywords}}" />
+    {% endcapture %} {{seo | remove: "Jekyll"}}
+  </head>
+  <body>
+    {% include nav.html %} {% assign author = site.authors[page.author] %}
+    <div class="container space-top-lg-3 space-bottom-1">
+      <div class="w-lg-90 mx-lg-auto">
+        <div class="p-7">
+          <div class="my-2">
+            <h2 class="h1 font-weight-semi-bold text-left text-primary">
+              {{ page.title }}
+            </h2>
+            <div class="d-flex">
+              <h6 class="font-size-1 immunizesubtitle">{{ page.source }}</h6>
+              <h6
+                class="font-size-1 immunizesubtitle {% if page.source %}ml-2{% endif %}"
+              >
+                | {{page.date | date: "%b %-d %Y"}}
+              </h6>
+            </div>
+          </div>
+          {% if page.image %}
+          <div class="my-2">
+            <img
+              class="img-fluid col-12"
+              alt="Mobi vs. The Shield "
+              src="{{ page.image }}"
+            />
+          </div>
+          {% endif %}
+          <div class="blog">{{content}}</div>
+          <div class="article__share text-center border-top row">
+            <div
+              class="{% if page.source %}col-6 justify-content-start text-left{% else %}col-md-12 text-center{% endif %}"
+            >
+              <script
+                type="text/javascript"
+                src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb9921f24e43acc"
+              ></script>
+              <h6 class="pb-1 font-weight-bold mt-5">Share this</h6>
+              <div class="addthis_inline_share_toolbox"></div>
+            </div>
+            {% if page.source %}
+            <div class="col-6 justify-content-end text-right">
+              <h6 class="pb-1 mt-5 font-weight-bold">Source</h6>
+              <h6>
+                <a href="{{page.source-url}}" target="_blank"
+                  >{{page.source}}</a
+                >
+              </h6>
+            </div>
+            {% endif %}
+          </div>
+        </div>
       </div>
-      {% if page.source %}
-      <div class="col-6 justify-content-end text-right">
-        <h6 class="pb-1 mt-5 font-weight-bold">Source</h6>
-        <h6><a href="{{page.source-url}}" target="_blank">{{page.source}}</a></h6>
-      </div>
-      {% endif %}
     </div>
-  </div>
-  </div>
-  </div>
-   
+    <!-- FOOTER -->
+    {% include footer.html %}
+
+    <!-- JAVASCRIPT -->
+    {% include scripts.html %}
+  </body>
+</html>

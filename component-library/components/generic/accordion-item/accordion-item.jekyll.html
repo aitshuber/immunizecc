@@ -1,0 +1,46 @@
+{% if include.type == "staff" %}
+<div class="col-sm-4 col-6 mb-2 mb-sm-0 text-center">
+    {% if include.image %}
+    <img src="{{include.image}}" class="img-fluid card staff" />
+    {% endif %}
+    <h4 class="h6 my-1">{{include.name}}</h4>
+    <p class="small text-center">{{include.position}}</p>
+</div>
+{% endif %}
+
+{% if include.type == "director" %}
+
+<div class="col-sm-4 col-6 mb-2 mb-sm-0 text-center">
+    {% if include.image %}
+    <img src="{{include.image}}" class="img-fluid card staff" />
+    {% endif %}
+    <h4 class="h6 my-1">{{include.name}}</h4>
+    <p class="small text-center">
+        {{include.title}}<br />
+       {{include.position}}
+    </p>
+</div>
+
+{% endif %}
+
+{% if include.type == "scientific-advisory" %}
+
+<div class="col-sm-4 mb-2 mb-sm-0">
+    <h4 class="h6 mb-1">{{include.name}}</h4>
+    <p class="small">
+        {{include.position}}
+    </p>
+</div>
+
+{% endif %}
+
+{% if include.type == "job-listing" %}
+
+<div class="col-sm-12 mb-2 mb-sm-0">
+    <h4 class="h6 mb-1">{{include.name}}</h4>
+    <p class="small">
+        <a href="{{include.url}}">Description</a>
+    </p>
+</div>
+
+{% endif %}

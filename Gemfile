@@ -36,6 +36,9 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'tzinfo-data'
     gem 'tzinfo'
-    gem "jekyll-bookshop", "3.3.0"
+    gem "jekyll-bookshop", "3.3.3"
     gem 'jekyll-redirect-from'
 end
+gem "webrick", "~> 1.7"
+
+

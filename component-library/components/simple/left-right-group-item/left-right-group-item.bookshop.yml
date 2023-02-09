@@ -1,0 +1,29 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+  label: 'Left-right-group-item'
+  description: Fills left-right-group
+  icon: vertical_split
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: 
+  text: 
+  button: bookshop:generic/button-link
+  image: 
+  flipped: false
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: We increase immunization through CONNECTION
+  text: By leveraging expertise we gain serving as the connection for a
+    coalition of researchers, clinicians, community organizations and
+    government entities - - we represent a uniquely knowledgeable, credible
+    voice in Austin, and equip others to be powerful voices, too.
+  button: bookshop:generic/button-link
+  image: /assets/img/the-immunization-partnership/we-connect.jpg
+  flipped: false
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

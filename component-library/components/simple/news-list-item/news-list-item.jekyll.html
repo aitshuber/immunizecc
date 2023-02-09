@@ -1,0 +1,17 @@
+<article class="h-100 c-news-list-item">				
+    <div class="card-body px-5 pb-0">
+       <a href="{{ include.post.url | absolute_url }}"><h4 class="font-weight-semi-bold font-size-3 text-primary">{{ include.post.title }}</h4></a>
+       <div class="d-flex">
+       <h6 class="font-size-1 immunizesubtitle">{{ include.post.source }}</h6> <h6 class="immunizesubtitle {% if include.post.source %}ml-2{% endif %} font-size-1">|  {{ include.post.date | date: "%b %-d %Y"}}</h6>
+    </div>
+    <p>{{ include.post.content | strip | strip_html | truncatewords:25 }} </p>
+    </div>
+    <div class="card-footer border-0 pb-5 px-5 pt-0">
+        <a href="{{ include.post.url | absolute_url }}" class="text-primary">Read More
+            <small class="fas fa-arrow-right ml-1"></small>
+        </a>
+    </div>
+</article>
+
+
+

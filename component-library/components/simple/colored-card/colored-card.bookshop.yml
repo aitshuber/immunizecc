@@ -1,0 +1,51 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+  label: 'Colored-card'
+  description: A card with colored background and a non-button link
+  icon: call_to_action
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: 
+  link: 
+    src: 
+    text: 
+  image: 
+  text:
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: The Flu is Back in Texas
+  link: 
+    src: https://www.khou.com/article/news/health/flu-rsv-cases-surge-hosuton-texas/285-e52eb79f-4670-45b2-98ea-cc6908841dcd
+    link_text: Visit
+  image: /assets/img/the-flu-is-back-in-texas/screen-shot-2022-10-20-at-9-48-46-am.png
+  text:
+    The influenza epidemic is sending people to hospitals in every region of the
+    state, resulting in few available beds - and increasing hospital staff
+    shortages.
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  title:
+    label: Title
+    comment: The card title.
+    type: text
+  src:
+    label: Url
+    comment: The address to link to.
+    type: url
+  link_text:
+    label: Link Text
+    comment: The text to use for the link.
+    type: text
+  image:
+    label: Image URL
+    comment: The address of the image to display at the top of the card.
+    type: url
+  text:
+    label: Card Text
+    comment: The main text content of the card.
+    type: markdown

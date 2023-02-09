@@ -1,0 +1,39 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+  label: "Accordion-item"
+  description:
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  type: staff 
+  image:
+  name:
+  position:
+  title:
+  url: ""
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  type: staff 
+  image: /assets/img/screen-shot-2022-11-02-at-11-57-21-pm.png
+  name: Celinda Provost
+  position: Communications Director
+  title: CHAIR
+  url: ""
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  type:
+    label: Item Type
+    comment: Pick the appropriate type of accordion item for their relevant styles.
+    type: select
+    options:
+      values:
+        - staff
+        - director
+        - scientific-advisory
+        - job-listing
+

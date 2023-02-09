@@ -1,0 +1,12 @@
+{% if include.title %}
+    <h6 class="editable py-1">{{ include.title }}</h6> 
+{% endif %}
+<div class="row">
+    {% for accordion_item in include.accordion_items %}
+        {% bookshop generic/accordion-item bind=accordion_item %}
+    {% endfor %}
+</div>
+{% if include.border_bottom == true %}
+<hr />
+{% endif %}
+

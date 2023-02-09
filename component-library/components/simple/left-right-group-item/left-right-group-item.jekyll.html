@@ -1,0 +1,31 @@
+<div class="row justify-content-lg-between bg-white shadow mb-3">
+  {% if include.flipped == true %}
+    <div class="col-md-6 px-0 py-0">
+      <img
+        class="img-fluid editable object-cover h-100 editable"
+        src="{{ include.image }}"
+      />
+    </div>
+  {% endif %}
+  <div class="col-md-6 align-middle d-flex h-100 my-auto space-2">
+    <div class="d-block p-4">
+      <h2 class="h2 text-primary immunizetitle editable">
+        {{ include.title }}
+      </h2>
+      <p class="editable">
+       {{ include.text }}
+      </p>
+        <div class="mt-2">
+          {% bookshop generic/button-link bind=include.button %}
+        </div>
+    </div>
+  </div>
+  {% if include.flipped == false %}
+    <div class="col-md-6 px-0 py-0">
+      <img
+        class="img-fluid editable object-cover h-100 editable"
+        src="{{ include.image }}"
+      />
+    </div>
+  {% endif %}
+</div>

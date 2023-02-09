@@ -1,0 +1,50 @@
+<div class="c-contact-us-section container space-0 space-sm-1 space-lg-2 px-md-0 px-lg-0">
+    <div class="row">
+        <div class="col-lg-4 col-12 mb-2 card shadow bg-soft-primary rounded-lg">
+            <div class="p-lg-6 pt-md-0">
+              <h2 class="h1 text-primary font-weight-semi-bold">
+                {{ include.left-column.heading}}
+              </h2>
+              <p>
+                {{ include.left-column.body_text}}
+              </p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12 mb-2 justify-content-center align-middle my-auto">
+            <div class="row py-1 text-black">
+                <!-- List Group --> 
+                <b class="col-md-3">EMAIL:</b> <a class="col-md-4" href="mailto:{{site.data.company_details.email}}"> {{site.data.company_details.email}}</a>
+            </div>
+            <div class="row py-1 text-black">
+                <b class="col-md-3">PHONE:</b> <a class="phone col-md-9" href="tel:{{site.data.company_details.media-phone}}"> {{site.data.company_details.media-phone}}</a>
+            </div>
+            <div class="row py-1 text-black">
+                <b class="col-md-3">Address</b><span class="col-md-9"> {{site.data.company_details.address}}</span>
+            </div>
+            <div class="mx-auto justify-content-center d-flex pt-6">
+                <div>
+                    <h3>Find us on social</h3>
+                    <ul class="list-inline mb-0 mt-3"> 
+                        {% for item in site.data.company_details.social %} 
+                        <li class="list-inline-item"> 
+                            <a class="btn btn-sm btn-icon btn-soft-primary btn-bg-transparent mr-3" href="{{item.link}}"> 
+                                <span class="fab {{item.icon}} btn-icon__inner fa-2x"></span> 
+                            </a> 
+                        </li> 
+                        {% endfor %}  
+                    </ul> 
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12 mb-2">
+            {% for block in include.right-column %}
+
+                {{ block.block | markdownify }}
+
+            {% endfor %}
+        
+        </div>
+        
+    </div>
+
+</div>

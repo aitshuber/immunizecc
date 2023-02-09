@@ -1,0 +1,7 @@
+<section class="bg-soft-primary">
+    <div class="container space-1">
+        {% for block in include.blocks %}
+            {% bookshop simple/left-right-group-item bind=block %}
+        {% endfor %}
+    </div>
+</section>
