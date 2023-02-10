@@ -31,7 +31,7 @@ content_blocks:
     <div class="container">
        <div class="row">
           <div class="col-md-12 content">
-           {{ content }}
+            {% bookshop_include page content_blocks=page.content_blocks %}
           </div>
        </div>
     </div>
@@ -39,11 +39,9 @@ content_blocks:
   </main>
     <!-- FOOTER -->
     {% include footer.html %}   
-   
-
+  
     <!-- JAVASCRIPT -->
     {% include scripts.html %}  
-   
 
   </body>
 </html>
