@@ -3,7 +3,7 @@ _schema: default
 title: Community Engagement
 description: ''
 keywords:
-layout: sub-page
+layout: default
 permalink: community-engagement
 banner-image:
 ---
