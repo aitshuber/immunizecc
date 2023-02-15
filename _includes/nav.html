@@ -82,7 +82,7 @@
                 <!-- Logo -->
                 <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center"
                    href="/">
-                    <img src="{{ site.baseurl }}/assets/img/tip.svg">
+                   <img src="{{ site.baseurl }}/assets/img/tip.svg" class="{% for item in site.data.navigation %}{% if forloop.index > 7 %}w-85{% endif %}{% endfor %}">
                 </a>
                 <!-- End Logo -->
                 <!-- Responsive Toggle Button -->
