@@ -13,13 +13,13 @@ content_blocks:
 
 | **Bill** | **Author** | **Companion** | **Caption** |
 | --- | --- | --- | --- |
-| HB 44 | Swanson | SB 303, by<br>Hall | Relating to provider discrimination against a Medicaid recipient or child health plan program enrollee based on immunization status. |
-| HB 81 | Harrison | SB 177, by Middleton | Relating to informed consent before the provision of certain medical treatments involving COVID-19 vaccination. |
-| HB 172 | Howard | SB 342, by<br>Zaffirini | Relating to the immunization data included in and excluded from the immunization registry. |
-| HB 280 | Toth |  | Relating to required submission of vaccine injury reports to the federal Vaccine Adverse Event Reporting System. |
-| HB 518 | Wu | SB 77, by<br>Johnson | Relating to notice of the health of children attending and adults employed by a child-care facility. |
-| HB 777 | Vasut |  | Relating to prohibiting face covering mandates for public school students, prohibiting public schools from requiring students to provide documentation regarding certain vaccinations, and allowing public schools to screen students regarding certain infections. |
-| HB 807 | Harrison |  | Relating to immunization requirements. |
+| [HB 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"} | Swanson | SB 303, by<br>Hall | Relating to provider discrimination against a Medicaid recipient or child health plan program enrollee based on immunization status. |
+| [HB 81](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB81){: target="_blank" rel="noopener"} | Harrison | SB 177, by Middleton | Relating to informed consent before the provision of certain medical treatments involving COVID-19 vaccination. |
+| [HB 172](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB172){: target="_blank" rel="noopener"} | Howard | SB 342, by<br>Zaffirini | Relating to the immunization data included in and excluded from the immunization registry. |
+| [HB 280](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB280){: target="_blank" rel="noopener"} | Toth |  | Relating to required submission of vaccine injury reports to the federal Vaccine Adverse Event Reporting System. |
+| [HB 518](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB518){: target="_blank" rel="noopener"} | Wu | SB 77, by<br>Johnson | Relating to notice of the health of children attending and adults employed by a child-care facility. |
+| [HB 777](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB777){: target="_blank" rel="noopener"} | Vasut |  | Relating to prohibiting face covering mandates for public school students, prohibiting public schools from requiring students to provide documentation regarding certain vaccinations, and allowing public schools to screen students regarding certain infections. |
+| [HB 807](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB807){: target="_blank" rel="noopener"} | Harrison |  | Relating to immunization requirements. |
 | HB 1015 | Vasut |  | Relating to a prohibition on receipt of state money by businesses that implement COVID-19 vaccination requirements |
 | HB 1032 | Noble |  | Relating to prohibited vaccination status discrimination and requirements for COVID-19 vaccines. |
 | HB 1063 | Guerra |  | Relating to the content of certain biennial legislative reports on immunizations issued by the Department of State Health Services. |
