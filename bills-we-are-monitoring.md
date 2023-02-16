@@ -4,7 +4,7 @@ title: Bills We Are Monitoring
 description: ''
 keywords:
 layout: content-page
-permalink: bills-we-are-monitoring
+permalink:
 banner-image:
 content_blocks:
 ---
