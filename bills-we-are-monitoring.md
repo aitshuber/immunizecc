@@ -22,20 +22,20 @@ content_blocks:
 | HB 1015 | Vasut |  | |
 | HB 1032 | Noble |  | |
 | HB 1063 | Guerra |  | |
-| HB 1105 |  |  | |
-| HB 1313 |  |  | |
-| HB 1419 |  |  | |
-| SB 265 |  |  | |
-| SB 298 |  |  | |
-| SB 302 |  |  | |
-| SB 304 |  |  | |
-| SB 305 |  |  | |
-| SB 308 |  |  | |
-| SB 314 |  |  | |
-| SB 390 |  |  | |
-| SB 403 |  |  | |
-| SB 626 |  |  | |
-| SB 641 |  |  | |
+| HB 1105 | Price |  | |
+| HB 1313 | Burrows |  | |
+| HB 1419 | Cain |  | |
+| SB 265 | Perry |  | |
+| SB 298 | Hall |  | |
+| SB 302 | Hall |  | |
+| SB 304 | Hall |  | |
+| SB 305 | Hall |  | |
+| SB 308 | Hall |  | |
+| SB 314 | Hall |  | |
+| SB 390 | Hall |  | |
+| SB 403 | Springer |  | |
+| SB 626 | Hall |  | |
+| SB 641 | Johnson |  | |
 |  |  |  | |
 |  |  |  | |
 
