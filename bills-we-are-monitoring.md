@@ -9,7 +9,7 @@ banner-image:
 content_blocks:
 ---
 ##### ​​​​​​2023 Texas Legislative Session<br>**BILLS WE ARE MONITORING**
-{: .align-center}
+{: .text-center}
 
 | **Bill** | **Author** | **Companion** | **Caption** |
 | --- | --- | --- | --- |
