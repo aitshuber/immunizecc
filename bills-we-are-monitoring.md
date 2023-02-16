@@ -9,34 +9,33 @@ banner-image:
 content_blocks:
 ---
 ​​​​​​2023 Texas Legislative Session<br>BILLS WE ARE MONITORING
+{: .align-center}
 
 | **Bill** | **Author** | **Companion** | **Caption** |
 | --- | --- | --- | --- |
-| HB 44 | Swanson | SB 303, by<br>Hall | |
-| HB 81 | Harrison | SB 177, by Middleton | |
-| HB 172 | Howard | SB 342, by<br>Zaffirini | |
-| HB 280 | Toth |  | |
-| HB 518 | Wu | SB 77, by<br>Johnson | |
-| HB 777 | Vasut |  | |
-| HB 807 | Harrison |  | |
-| HB 1015 | Vasut |  | |
-| HB 1032 | Noble |  | |
-| HB 1063 | Guerra |  | |
-| HB 1105 | Price |  | |
-| HB 1313 | Burrows | SB 403, by Springer | |
-| HB 1419 | Cain |  | |
-| SB 265 | Perry |  | |
-| SB 298 | Hall |  | |
-| SB 302 | Hall |  | |
-| SB 304 | Hall |  | |
-| SB 305 | Hall |  | |
-| SB 308 | Hall |  | |
-| SB 314 | Hall |  | |
-| SB 390 | Hall |  | |
-| SB 403 | Springer |  | |
-| SB 626 | Hall |  | |
-| SB 641 | Johnson |  | |
-|  |  |  | |
-|  |  |  | |
+| HB 44 | Swanson | SB 303, by<br>Hall | Relating to provider discrimination against a Medicaid recipient or child health plan program enrollee based on immunization status. |
+| HB 81 | Harrison | SB 177, by Middleton | Relating to informed consent before the provision of certain medical treatments involving COVID-19 vaccination. |
+| HB 172 | Howard | SB 342, by<br>Zaffirini | Relating to the immunization data included in and excluded from the immunization registry. |
+| HB 280 | Toth |  | Relating to required submission of vaccine injury reports to the federal Vaccine Adverse Event Reporting System. |
+| HB 518 | Wu | SB 77, by<br>Johnson | Relating to notice of the health of children attending and adults employed by a child-care facility. |
+| HB 777 | Vasut |  | Relating to prohibiting face covering mandates for public school students, prohibiting public schools from requiring students to provide documentation regarding certain vaccinations, and allowing public schools to screen students regarding certain infections. |
+| HB 807 | Harrison |  | Relating to immunization requirements. |
+| HB 1015 | Vasut |  | Relating to a prohibition on receipt of state money by businesses that implement COVID-19 vaccination requirements |
+| HB 1032 | Noble |  | Relating to prohibited vaccination status discrimination and requirements for COVID-19 vaccines. |
+| HB 1063 | Guerra |  | Relating to the content of certain biennial legislative reports on immunizations issued by the Department of State Health Services. |
+| HB 1105 | Price |  | Relating to the administration of a medication and the ordering and administration of an immunization or vaccination by a pharmacist |
+| HB 1313 | Burrows | SB 403, by Springer | Health & Human Services & Dept. State Health Services must conduct study to assess full and complete adverse reactions (including death) and effectiveness of each type of COVID 19 vaccine used in Texas |
+| HB 1419 | Cain |  | Relating to the repeal of certain limitations on bacterial meningitis vaccination exemptions for students at institutions of higher education. |
+| SB 265 | Perry |  | Relating to required reports of certain vaccine-related or drug-related injuries and adverse events. |
+| SB 298 | Hall |  | Relating to informed consent to immunizations for children and civil liability for failure to obtain the consent. |
+| SB 302 | Hall |  | Relating to employer civil liability for a vaccine requirement imposed on the employer's employees. |
+| SB 304 | Hall |  | Relating to prohibited immunization status discrimination and vaccine mandates; authorizing administrative penalties. |
+| SB 305 | Hall |  | Relating to vaccine administration requirements and protection of immunization exemptions for health reasons. |
+| SB 308 | Hall |  | Relating to prohibited vaccination status discrimination and requirements for COVID-19 vaccines; authorizing administrative penalties. |
+| SB 314 | Hall |  | Relating to required labeling of certain products that contain or are derived from aborted human fetal tissue |
+| SB 390 | Hall |  | Repealing authority to exclude non-vaccinated students from attending public school in emergency or epidemic |
+| SB 403 | Springer |  | Relating to a study on the side effects, adverse reactions, including death, and the effectiveness of vaccines against the SARS-CoV-2 virus (COVID-19) or its variants. |
+| SB 626 | Hall |  | Relating to the affidavit form provided by the Department of State Health Services for certain immunization exemptions. |
+| SB 641 | Johnson |  | Relating to the vaccination against bacterial meningitis of public school students. |
 
 &nbsp;
