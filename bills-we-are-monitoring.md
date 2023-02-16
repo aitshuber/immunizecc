@@ -12,16 +12,16 @@ content_blocks:
 
 | Bill | Author | Companion | Caption |
 | --- | --- | --- | --- |
-| HB 44 |  |  | |
-| HB 81 |  |  | |
-| HB 172 |  |  | |
-| HB 280 |  |  | |
-| HB 518 |  |  | |
-| HB 777 |  |  | |
-| HB 807 |  |  | |
-| HB 1015 |  |  | |
-| HB 1032 |  |  | |
-| HB 1063 |  |  | |
+| HB 44 | Swanson |  | |
+| HB 81 | Harrison |  | |
+| HB 172 | Howard |  | |
+| HB 280 | Toth |  | |
+| HB 518 | Wu |  | |
+| HB 777 | Vasut |  | |
+| HB 807 | Harrison |  | |
+| HB 1015 | Vasut |  | |
+| HB 1032 | Noble |  | |
+| HB 1063 | Guerra |  | |
 | HB 1105 |  |  | |
 | HB 1313 |  |  | |
 | HB 1419 |  |  | |
