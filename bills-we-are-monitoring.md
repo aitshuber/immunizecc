@@ -12,18 +12,18 @@ content_blocks:
 
 | Bill | Author | Companion | Caption |
 | --- | --- | --- | --- |
-| HB 44 | Swanson |  | |
-| HB 81 | Harrison |  | |
-| HB 172 | Howard |  | |
+| HB 44 | Swanson | SB 303, by<br>Hall | |
+| HB 81 | Harrison | SB 177, by Middleton | |
+| HB 172 | Howard | SB 342, by<br>Zaffirini<br> | |
 | HB 280 | Toth |  | |
-| HB 518 | Wu |  | |
+| HB 518 | Wu | SB 77, by<br>Johnson | |
 | HB 777 | Vasut |  | |
 | HB 807 | Harrison |  | |
 | HB 1015 | Vasut |  | |
 | HB 1032 | Noble |  | |
 | HB 1063 | Guerra |  | |
 | HB 1105 | Price |  | |
-| HB 1313 | Burrows |  | |
+| HB 1313 | Burrows | SB 403, by Springer | |
 | HB 1419 | Cain |  | |
 | SB 265 | Perry |  | |
 | SB 298 | Hall |  | |
