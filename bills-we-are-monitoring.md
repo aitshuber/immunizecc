@@ -10,11 +10,11 @@ content_blocks:
 ---
 ​​​​​​2023 Texas Legislative Session<br>BILLS WE ARE MONITORING
 
-| Bill | Author | Companion | Caption |
+| **Bill** | **Author** | **Companion** | **Caption** |
 | --- | --- | --- | --- |
 | HB 44 | Swanson | SB 303, by<br>Hall | |
 | HB 81 | Harrison | SB 177, by Middleton | |
-| HB 172 | Howard | SB 342, by<br>Zaffirini<br> | |
+| HB 172 | Howard | SB 342, by<br>Zaffirini | |
 | HB 280 | Toth |  | |
 | HB 518 | Wu | SB 77, by<br>Johnson | |
 | HB 777 | Vasut |  | |
