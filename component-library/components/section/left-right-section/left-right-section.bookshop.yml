@@ -12,6 +12,7 @@ blueprint:
   left:
     post_link_text: 
     left_title: 
+    text: 
   right:
     right_title: 
     card_title: 
@@ -24,6 +25,9 @@ preview:
   left:
     post_link_text: Visit Newsroom
     left_title: LATEST NEWS
+    text: >- 
+      Texans want to be protected from disease. Vaccine Champions from across the state help us advocate for public policy that protects our fellow citizens against preventable disease through increased immunization access and rates.
+      We will engage and activate pro-vaccine influencers in key communities to inspire fact-based vaccine decision-making through trusted sources. Our work is focused on inclusivity, equity, and safety for all Texans.
   right:
     right_title: HOT SPOT 
     card_title: The Flu is Back in Texas

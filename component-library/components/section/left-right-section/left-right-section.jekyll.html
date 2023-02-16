@@ -5,7 +5,10 @@
                   <h2 class="h2 immunizetitle text-primary text-left editable font-weight-semi-bold">
                     {{ include.left.left_title }}
                   </h2>
-                 
+                 <p>
+                        {{ include.left.text }}
+                      </p>
+                      {% comment %}
                   {% for post in site.posts limit:1 -%}
                   <article class="h-100">
                      <div>
@@ -22,12 +25,16 @@
                          </div>
                    </article>
                   {% endfor %}
-
+                  {% endcomment %}
                </div>
                <div class="col-lg-6 col-12">
                  <h2 class="h2 text-primary text-left editable font-weight-semi-bold">
                    {{ include.right.right_title }}
                  </h2>
+                 <p>
+                        {{ include.right.text }}
+                      </p>
+                {% comment %}
                    <div class="p-lg-2 pt-md-0 editable card shadow bg-soft-primary rounded-lg">
                      <img class="card-img-top max-h-225" src="{{ include.right.image }}" />
                      <div class="card-body">
@@ -42,6 +49,7 @@
                      </a>
                      </div>
                    </div>
+                   {% endcomment %}
                </div>
         
             </div>
