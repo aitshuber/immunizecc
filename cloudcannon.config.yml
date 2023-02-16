@@ -23,9 +23,9 @@ _editables:
     embed: true
     image: true
     table: true
-    left: align-left
-    center: align-center
-    right: align-right
+    left: true
+    center: true
+    right: true
   content:
     blockquote: true
     bold: true
