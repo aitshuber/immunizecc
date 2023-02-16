@@ -8,7 +8,7 @@ permalink:
 banner-image:
 content_blocks:
 ---
-##### ​​​​​​2023 Texas Legislative Session<br>**BILLS WE ARE MONITORING**<br>
+##### ​​​​​​2023 Texas Legislative Session<br>**BILLS WE ARE MONITORING**
 {: .align-center}
 
 | **Bill** | **Author** | **Companion** | **Caption** |
@@ -22,8 +22,8 @@ content_blocks:
 | **[HB 807](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB807){: target="_blank" rel="noopener"}** | Harrison |  | Relating to immunization requirements. |
 | **[HB 1015](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1015){: target="_blank" rel="noopener"}** | Vasut |  | Relating to a prohibition on receipt of state money by businesses that implement COVID-19 vaccination requirements |
 | **[HB 1032](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1032){: target="_blank" rel="noopener"}** | Noble |  | Relating to prohibited vaccination status discrimination and requirements for COVID-19 vaccines. |
-| **[HB 1063](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1063){: target="_blank" rel="noopener"}** | Guerra |  | Relating to the content of certain biennial legislative reports on immunizations issued by the Department of State Health Services. |
-| **[HB 1105](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1105){: target="_blank" rel="noopener"}** | Price |  | Relating to the administration of a medication and the ordering and administration of an immunization or vaccination by a pharmacist |
+| **[HB 1063](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1063){: target="_blank" rel="noopener"}** | Guerra | SB 852 by<br>Miles | Relating to the content of certain biennial legislative reports on immunizations issued by the Department of State Health Services. |
+| **[HB 1105](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1105){: target="_blank" rel="noopener"}** | Price | SB 749 by<br>Flores | Relating to the administration of a medication and the ordering and administration of an immunization or vaccination by a pharmacist |
 | **[HB 1313](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1313){: target="_blank" rel="noopener"}** | Burrows | SB 403, by Springer | Health & Human Services & Dept. State Health Services must conduct study to assess full and complete adverse reactions (including death) and effectiveness of each type of COVID 19 vaccine used in Texas |
 | **[HB 1419](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1419){: target="_blank" rel="noopener"}** | Cain |  | Relating to the repeal of certain limitations on bacterial meningitis vaccination exemptions for students at institutions of higher education. |
 | **[SB 265](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB265){: target="_blank" rel="noopener"}** | Perry |  | Relating to required reports of certain vaccine-related or drug-related injuries and adverse events. |
@@ -37,5 +37,3 @@ content_blocks:
 | **[SB 403](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB403){: target="_blank" rel="noopener"}** | Springer |  | Relating to a study on the side effects, adverse reactions, including death, and the effectiveness of vaccines against the SARS-CoV-2 virus (COVID-19) or its variants. |
 | **[SB 626](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB626){: target="_blank" rel="noopener"}** | Hall |  | Relating to the affidavit form provided by the Department of State Health Services for certain immunization exemptions. |
 | **[SB 641](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB641)** | Johnson |  | Relating to the vaccination against bacterial meningitis of public school students. |
-
-&nbsp;
