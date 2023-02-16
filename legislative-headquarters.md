@@ -3,7 +3,7 @@ _schema: default
 title: Legislative Headquarters
 description: ''
 keywords:
-layout: sub-page
+layout: content-page
 permalink: legislative-headquarters
 banner-image:
 ---
