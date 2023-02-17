@@ -643,4 +643,7 @@ main{
     max-width: 100%;
    height: auto;
 }
- 
+ .content p img:not{
+    max-width: 100%;
+   height: auto;
+} 
