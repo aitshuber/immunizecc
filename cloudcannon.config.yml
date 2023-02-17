@@ -29,6 +29,7 @@ _editables:
     right: text-right
     image_size_attributes: false
     expandable: true
+    resize_style: cover
   content:
     blockquote: true
     bold: true
@@ -48,6 +49,7 @@ _editables:
     expandable: true
     removeformat: true
     copyformatting: true 
+    resize_style: cover
     styles: /assets/css/theme.css
     left: text-left
     center: text-center
