@@ -23,9 +23,9 @@ _editables:
     embed: true
     image: true
     table: true
-    left: text-left
-    center: text-center
-    right: text-right
+    left: align-left
+    center: align-center
+    right: align-right
   content:
     blockquote: true
     bold: true
@@ -44,9 +44,9 @@ _editables:
     removeformat: true
     copyformatting: true 
     styles: /css/editor.css
-    left: text-left
-    center: text-center
-    right: text-right
+    left: align-left
+    center: align-center
+    right: align-right
 collections_config:
   pages:
     schemas:
