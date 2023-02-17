@@ -12,4 +12,9 @@ content_blocks:
     text: ''
     centered: true
     colored_background: false
+  - _bookshop_name: section/text-section
+    title:
+    text: '### **TEXAS LEGISLATURE 101**'
+    centered: false
+    colored_background: false
 ---
