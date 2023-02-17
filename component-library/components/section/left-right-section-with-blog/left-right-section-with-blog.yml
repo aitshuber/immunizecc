@@ -1,0 +1,41 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Left-right-section-with-blog"
+  description: Left-right block - left shows a preview of the latest entry in posts, right shows a card.
+  icon: label
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  left:
+    post_link_text: 
+    left_title: 
+    text: 
+  right:
+    right_title: 
+    card_title: 
+    text:
+    image:
+    url:
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  left:
+    post_link_text: Visit Newsroom
+    left_title: LATEST NEWS
+    text: >- 
+      Texans want to be protected from disease. Vaccine Champions from across the state help us advocate for public policy that protects our fellow citizens against preventable disease through increased immunization access and rates.
+      We will engage and activate pro-vaccine influencers in key communities to inspire fact-based vaccine decision-making through trusted sources. Our work is focused on inclusivity, equity, and safety for all Texans.
+  right:
+    right_title: HOT SPOT 
+    card_title: The Flu is Back in Texas
+    text:
+    image: >-
+      /assets/img/the-flu-is-back-in-texas/screen-shot-2022-10-20-at-9-48-46-am.png
+    url: >-
+      https://www.khou.com/article/news/health/flu-rsv-cases-surge-hosuton-texas/285-e52eb79f-4670-45b2-98ea-cc6908841dcd
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

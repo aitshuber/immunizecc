@@ -1,0 +1,52 @@
+<div class="container space-2 px-lg-7" style="margin-top: 0% !important">
+            <div class="row justify-content-center">
+              
+               <div class="col-md-6 col-12">
+                  <h2 class="h2 immunizetitle text-primary text-left editable font-weight-semi-bold">
+                    {{ include.left.left_title }}
+                  </h2>
+                 <p>
+                        {{ include.left.text }}
+                      </p>
+                    
+                  {% for post in site.posts limit:1 -%}
+                  <article class="h-100">
+                     <div>
+                        <a href="{{ post.url | absolute_url }}"><h4 class="font-weight-semi-bold font-size-3 text-primary">{{ post.title }}</h4></a>
+                     <div class="d-flex">
+                      <h6 class="font-size-1 immunizesubtitle">{{ post.source }}</h6> <h6 class="immunizesubtitle {% if post.source %}ml-2{% endif %} font-size-1">|  {{post.date | date: "%b %-d %Y"}}</h6>
+                      </div>
+                         <p class="text-left">{{ post.content | strip | strip_html | truncatewords:25 }} <a href="{{ post.url | absolute_url }}" class="text-success font-weight-bold">Read More</a></p>
+                     </div>
+                     <div class=" border-0 py-4">
+                             <a href="/newsroom" class="text-success font-weight-bold">{{ include.left.post_link_text }}
+                                 <small class="fas fa-arrow-right ml-1"></small>
+                             </a>
+                         </div>
+                   </article>
+                  {% endfor %}
+                
+               </div>
+               <div class="col-lg-6 col-12">
+                 <h2 class="h2 text-primary text-left editable font-weight-semi-bold">
+                   {{ include.right.right_title }}
+                 </h2>
+                   <div class="p-lg-2 pt-md-0 editable card shadow bg-soft-primary rounded-lg">
+                     <img class="card-img-top max-h-225" src="{{ include.right.image }}" />
+                     <div class="card-body">
+                     <a href="{{ include.right.url | absolute_url }}"><h3 class="font-weight-semi-bold immunizetitle text-primary">{{ include.right.card_title }}</h3></a>
+                     <p>
+                       {{ include.right.text }}
+                     </p>
+                     </div>
+                     <div class="card-footer bg-transparent border-0">
+                     <a href="{{ include.right.url | absolute_url }}" class="text-success font-weight-bold bottom-0 position-absolute py-2">Visit
+                         <small class="fas fa-arrow-right ml-1"></small>
+                     </a>
+                     </div>
+                   </div>
+              
+               </div>
+        
+            </div>
+        </div>
