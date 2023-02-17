@@ -5,7 +5,7 @@ description: ''
 keywords:
 layout: sub-page
 permalink: Test
-banner-image:
+banner-image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
 content_blocks:
   - _bookshop_name: section/background-image-section
     text: Test section
