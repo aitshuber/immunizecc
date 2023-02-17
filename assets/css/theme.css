@@ -1580,7 +1580,9 @@ table {
 
 table th,
 table td {
-  border: 1px solid #e7eaf3;
+   border: 1px solid #e7eaf3;
+        min-width: 9em;
+  
 }
 
 table thead th,
