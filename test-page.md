@@ -4,7 +4,7 @@ title: Test Page
 description: ''
 keywords:
 layout: sub-page
-permalink: Test
+permalink: carlos-test
 banner-image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
 content_blocks:
   - _bookshop_name: section/background-image-section
