@@ -57,9 +57,4 @@ content_blocks:
           animate_hover: false
   - _bookshop_name: section/hero-banner-image
     image: /assets/img/AboutUs_VideoStill_Final.jpg
-  - _bookshop_name: section/text-section
-    title: Title text
-    text: lorem
-    centered: true
-    colored_background: true
 ---
