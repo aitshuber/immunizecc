@@ -40,6 +40,10 @@ _editables:
     embed: true
     image: true
     table: true
+    redo: true 
+    removeformat: true
+    copyformatting: true 
+    styles: /css/editor.css
     left: text-left
     center: text-center
     right: text-right
