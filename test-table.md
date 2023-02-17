@@ -11,7 +11,7 @@ content_blocks:
 ##### ​​​​​​2023 Texas Legislative Session<br>**BILLS WE ARE MONITORING**
 {: .text-center}
 
-test
+&nbsp;
 
 | **Bill&nbsp;**  | **Author**  | **Companion**  | **Caption** |
 | --- | --- | --- | --- |
