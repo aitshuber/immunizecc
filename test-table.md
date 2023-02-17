@@ -11,6 +11,7 @@ content_blocks:
 ##### ​​​​​​2023 Texas Legislative Session<br>**BILLS WE ARE MONITORING**
 {: .text-center}
 
+
 | **Bill** | **Author** | **Companion** | **Caption** |
 | --- | --- | --- | --- |
 | **[HB 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}** | Swanson | SB 303, by<br>Hall | Relating to provider discrimination against a Medicaid recipient or child health plan program enrollee based on immunization status. |
