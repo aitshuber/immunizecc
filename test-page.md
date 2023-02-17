@@ -12,4 +12,54 @@ content_blocks:
     image: /assets/img/carlosashleyengagement048.jpg
     button:
     space-top: false
+  - _bookshop_name: section/card-section
+    title: test section
+    subtitle: love subtitle
+    cards:
+      - _bookshop_name: simple/info-card
+        text: great information
+        image:
+          src:
+          alt:
+          width:
+        button:
+          _bookshop_name: generic/button-link
+          text: click this button
+          url:
+          external_url: false
+          color_variation:
+          animate_hover: false
+      - _bookshop_name: simple/info-card
+        text: Second card of info
+        image:
+          src:
+          alt:
+          width:
+        button:
+          _bookshop_name: generic/button-link
+          text: click this button
+          url:
+          external_url: false
+          color_variation:
+          animate_hover: false
+      - _bookshop_name: simple/info-card
+        text: Easily built
+        image:
+          src:
+          alt:
+          width:
+        button:
+          _bookshop_name: generic/button-link
+          text: click this button
+          url:
+          external_url: false
+          color_variation:
+          animate_hover: false
+  - _bookshop_name: section/hero-banner-image
+    image: /assets/img/AboutUs_VideoStill_Final.jpg
+  - _bookshop_name: section/text-section
+    title: Title text
+    text: lorem
+    centered: true
+    colored_background: true
 ---
