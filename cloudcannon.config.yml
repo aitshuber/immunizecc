@@ -23,9 +23,11 @@ _editables:
     embed: true
     image: true
     table: true
+    styles: /assets/css/theme.css
     left: text-left
     center: text-center
     right: text-right
+    image_size_attributes: true
   content:
     blockquote: true
     bold: true
@@ -41,6 +43,7 @@ _editables:
     image: true
     table: true
     redo: true 
+    image_size_attributes: true
     removeformat: true
     copyformatting: true 
     styles: /assets/css/theme.css
