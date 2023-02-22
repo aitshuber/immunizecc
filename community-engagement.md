@@ -15,10 +15,8 @@ Immunization has protected the health of Texans for generations. Despite that lo
 # **BOOST TEXAS**
 {: .align-center}
 
-{: .align-center}
-
 <br>The Immunization Partnership launched BOOST TEXAS to grow a team of immunization supporters who will take action as reliable sources across the state to provide Texans with the immunization information they want and need,.
-{: .align-center}
+{: .align-center.align-center}
 
 The most influential messengers are neighbors, like you, talking to neighbors. Please join us.
 
@@ -26,4 +24,4 @@ The most influential messengers are neighbors, like you, talking to neighbors. P
 
 ​​​​​​Ready to make an impact? We will be excited to have you as a Booster, however much time you can devote and whatever activities you would like to do. Please provide us with your preferences below, and we'll be in touch shortly. &nbsp;
 
-<div class="cms-embed" data-cms-embed="PHNjcmlwdCBzcmM9Imh0dHBzOi8vY2RuLnZpcnR1b3Vzc29mdHdhcmUuY29tL3ZpcnR1b3VzLmVtYmVkLm1pbi5qcyIgZGF0YS12Zm9ybT0iZDhkNTJkYzEtZGU2MC00ZWM5LTg0ZjItZmUzNWI1ZGY3Y2FhIiBkYXRhLW9yZ0lkPSIzODMyIiBkYXRhLWlzR2l2aW5nPSJmYWxzZSIgZGF0YS1tZXJjaGFudFR5cGU9IiI+PC9zY3JpcHQ+"><script src="https://cdn.virtuoussoftware.com/virtuous.embed.min.js" data-vform="d8d52dc1-de60-4ec9-84f2-fe35b5df7caa" data-orgid="3832" data-isgiving="false" data-merchanttype=""></script></div>
+<div class="cms-embed" data-cms-embed="PHNjcmlwdCBzcmM9Imh0dHBzOi8vY2RuLnZpcnR1b3Vzc29mdHdhcmUuY29tL3ZpcnR1b3VzLmVtYmVkLm1pbi5qcyIgZGF0YS12Zm9ybT0iZDhkNTJkYzEtZGU2MC00ZWM5LTg0ZjItZmUzNWI1ZGY3Y2FhIiBkYXRhLW9yZ0lkPSIzODMyIiBkYXRhLWlzR2l2aW5nPSJmYWxzZSIgZGF0YS1kZXBlbmRlbmNpZXM9IltdIj48L3NjcmlwdD4="><script src="https://cdn.virtuoussoftware.com/virtuous.embed.min.js" data-vform="d8d52dc1-de60-4ec9-84f2-fe35b5df7caa" data-orgid="3832" data-isgiving="false" data-dependencies="[]"></script></div>
