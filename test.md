@@ -3,7 +3,7 @@ _schema: block_page
 title: TEST
 description: ''
 keywords:
-layout: sub-page
+layout: content-page
 permalink: test
 banner-image:
 content_blocks:
