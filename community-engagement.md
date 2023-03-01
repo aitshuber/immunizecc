@@ -7,7 +7,7 @@ layout: content-page
 permalink: community-engagement
 banner-image:
 ---
-#### **BUILDING PROTECTED COMMUNITIES**<br>*​​​*<br>
+#### **BUILDING PROTECTED COMMUNITIES**<br>*​​​*
 {: .align-center}
 
 ##### *The health of our communities is in jeopardy - but it doesn't have to be.*
