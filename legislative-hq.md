@@ -29,14 +29,14 @@ content_blocks:
       - _bookshop_name: simple/left-right-two-third
         title: TEXAS LEGISLATURE 101
         text: >-
-          /Texas state government is run by the Texas Legislature. Members of
+          Texas state government is run by the Texas Legislature. Members of
           the Legislature meet at the State Capitol for 150 days every two years
           for Texas for the Texas Legislative Session. Texas has a bicameral
           legislature, which means there are two chambers: the House and the
           Senate. The House has 150 members and the Senate has 31 members. The
           House is led by the Speaker, Dade Phelan, and the Senate is led by the
           Lieutenant Governor, Dan Patrick. ***Learn more about How The
-          Legislature Works***/
+          Legislature Works***
         image:
           src: /assets/img/how-we-advocate/dome.jpg
       - _bookshop_name: simple/left-right-two-third
