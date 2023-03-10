@@ -29,7 +29,7 @@ _inputs:
     type: text
   text:
     label: Text
-    comment: The text content of this section.
+    comment: "The text content of this section."
     type: markdown
   centered:
     label: Center Text
