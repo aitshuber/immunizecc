@@ -11,15 +11,17 @@ banner-image: /assets/img/Impact_PresentationsandPublications.jpg
 
 <div><div> </div></div>
 
-<div class="text-center"><strong><a style="font-family: var(--font-family); letter-spacing: 0.01rem;" href="https://immunizeusa.org/account/login/?next=/account/">Create your free IZU account&nbsp;</a></strong></div>
+##### **[Create your free IZU account&nbsp;](https://immunizeusa.org/account/login/?next=/account/)**
+{: .text-center}
 
-<div class="text-center"><strong><a style="font-family: var(--font-family); letter-spacing: 0.01rem;" href="https://immunizeusa.org/products/collection/courses-1/">Explore IZU courses</a></strong></div>
+##### **[Explore IZU courses](https://immunizeusa.org/products/collection/courses-1/)**
+{: .text-center}
 
 <div><div> </div></div>
 
-<div><div><strong>IZU COURSES</strong><br /> </div></div>
+<div><h5><strong>IZU COURSES</strong><br /> </h5></div>
 
-* <div><strong>Vaccine Safety</strong><br />(credit and non-credit)</div>
+* <div><strong>Vaccine Safety</strong><br />(credit and non-credit)<br /> </div>
 * <div><strong>Herd Immunity</strong><br />(credit<strong> </strong>and non-credit)</div>
 * <div><strong>Vaccine Myths and Misinformation</strong><br />(credit and non-credit)</div>
 * <div><strong>Immunization 101</strong><br />(non-credit)</div>
