@@ -3,7 +3,7 @@ _schema: default
 title: Immunization University
 description:
 keywords:
-layout: sub-page
+layout: content-page
 permalink: /IZU
 banner-image: /assets/img/Impact_PresentationsandPublications.jpg
 ---
