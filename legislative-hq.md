@@ -15,7 +15,7 @@ content_blocks:
         image:
           src:
       - _bookshop_name: simple/left-right-two-third
-        title: TEXAS LEGISLATURE 101
+        title: Texas Legislature 101
         text: >-
           Texas state lawmakers meet at the Capitol in Austin for 150 days every
           two years for the Legislative Session. Texas has a bicameral
@@ -29,7 +29,7 @@ content_blocks:
         image:
           src: /assets/img/texas-state-capitol.png
       - _bookshop_name: simple/left-right-two-third
-        title: OUR PRIORITIES
+        title: Our Priorities
         text: >-
           Texas state lawmakers meet at the Capitol in Austin for 150 days every
           two years for the Legislative Session. Texas has a bicameral
@@ -43,7 +43,7 @@ content_blocks:
         image:
           src: /assets/img/texas-state-capitol-(1).png
       - _bookshop_name: simple/left-right-two-third
-        title: BILLS WE ARE MONITORING
+        title: Bills We Are Monitoring
         text: >-
           Texas state lawmakers meet at the Capitol in Austin for 150 days every
           two years for the Legislative Session. Texas has a bicameral
