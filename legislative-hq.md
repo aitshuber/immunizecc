@@ -112,8 +112,8 @@ content_blocks:
         button:
           _bookshop_name: generic/button-link
           text: TESTIFY IN COMMITTEE
-          url:
+          url: https://mytxlegis.capitol.texas.gov/hwrspublic/about.aspx
           external_url: false
-          color_variation:
+          color_variation: green
           animate_hover: false
 ---
