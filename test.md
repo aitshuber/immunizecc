@@ -39,4 +39,45 @@ content_blocks:
           external_url: false
           color_variation:
           animate_hover: false
+      - _bookshop_name: simple/info-card
+        text: asfestasefaefewasfaws
+        image:
+          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
+          alt:
+          width:
+        button:
+          _bookshop_name: generic/button-link
+          text: test
+          url: /annualreport
+          external_url: false
+          color_variation:
+          animate_hover: false
+  - _bookshop_name: section/left-right-group
+    blocks:
+      - _bookshop_name: simple/left-right-group-item
+        title: wefwqef
+        text: qwerqwerqw
+        button:
+          _bookshop_name: generic/button-link
+          text: qwerqwr
+          url: /bills-we-are-monitoring/
+          external_url: false
+          color_variation: green
+          animate_hover: false
+        image: >-
+          /assets/img/medical-director-utilization-management/screen-shot-2022-11-10-at-11-19-39-am.png
+        flipped: false
+  - _bookshop_name: section/left-right-hero
+    left_section:
+      title:
+      text: |-
+        qwef
+
+        fdsafdf
+      colored_background: true
+      bold_title: true
+    right_section:
+      _bookshop_name: generic/left-right-hero-image
+      image: /assets/img/how-we-work/img-5195.jpg
+      image_alt: weqfeq
 ---
