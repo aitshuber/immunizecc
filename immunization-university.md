@@ -14,7 +14,7 @@ banner-image: /assets/img/Impact_PresentationsandPublications.jpg
 ##### **[Create your free IZU account&nbsp;](https://immunizeusa.org/account/login/?next=/account/)**
 {: .text-center}
 
-##### **[Explore IZU courses](https://immunizeusa.org/products/collection/courses-1/)**
+##### **[Explore IZU courses](https://app.immunizeusa.org/products/collection/courses-1/){: target="_blank" rel="noopener"}**
 {: .text-center}
 
 <div><div> </div></div>
