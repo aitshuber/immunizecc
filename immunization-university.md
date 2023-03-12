@@ -22,13 +22,13 @@ banner-image: /assets/img/Impact_PresentationsandPublications.jpg
 <div><h5><strong>IZU COURSES</strong><br /> </h5></div>
 
 * <div><strong>Vaccine Safety</strong><br />(credit and non-credit)<br /> </div>
-* <div><strong>Herd Immunity</strong><br />(credit<strong> </strong>and non-credit)</div>
-* <div><strong>Vaccine Myths and Misinformation</strong><br />(credit and non-credit)</div>
-* <div><strong>Immunization 101</strong><br />(non-credit)</div>
-* <div><strong>COVID-19 Myths and Misinformation</strong><br />(non-credit)</div>
-* <div><strong>COVID-19: Simplifying Vaccine Science</strong><br />(non-credit)</div>
-* <div><strong>How Vaccines Work</strong><br />(non-credit)</div>
-* <div><strong>History of Vaccines</strong><br />(non-credit)</div>
+* <div><strong>Herd Immunity</strong><br />(credit<strong> </strong>and non-credit)<br /> </div>
+* <div><strong>Vaccine Myths and Misinformation</strong><br />(credit and non-credit)<br /> </div>
+* <div><strong>Immunization 101</strong><br />(non-credit)<br /> </div>
+* <div><strong>COVID-19 Myths and Misinformation</strong><br />(non-credit)<br /> </div>
+* <div><strong>COVID-19: Simplifying Vaccine Science</strong><br />(non-credit)<br /> </div>
+* <div><strong>How Vaccines Work</strong><br />(non-credit)<br /> </div>
+* <div><strong>History of Vaccines</strong><br />(non-credit)<br /> </div>
 * <div><strong>Vaccine Preventable Diseases and Your Healthy Classroom</strong><br />(non-credit – designed for current and future Texas teachers and school administrators)</div>
 
 <div><div><br /> </div></div>
