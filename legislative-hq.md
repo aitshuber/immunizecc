@@ -58,6 +58,19 @@ content_blocks:
         image:
           src: /assets/img/texas-state-capitol-(2).png
       - _bookshop_name: simple/left-right-two-third
+        title: Resource Library
+        text: >-
+          Texas state lawmakers meet at the Capitol in Austin for 150 days every
+          two years for the Legislative Session. Texas has a bicameral
+          legislature, which means there are two chambers - the House and the
+          Senate.&nbsp; One hundred and fifty state lawmakers serve in the
+          House, and they are led by Speaker Dade Phelan. Lieutenant Governor
+          Dan Patrick presides in the 31 member Senate. \[VIEW THE
+          BILLS\](/bills-we-are-monitoring/)\{: target="\_blank"
+          rel="noopener"\}&nbsp;
+        image:
+          src: /assets/img/texas-state-capitol-(3).png
+      - _bookshop_name: simple/left-right-two-third
         title:
         text: ''
         image:
