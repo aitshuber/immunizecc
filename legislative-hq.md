@@ -33,7 +33,7 @@ content_blocks:
       - _bookshop_name: simple/info-card
         text: Learn who represents you in the Texas House and Texas Senate.
         image:
-          src: /assets/img/Screen-Shot-2023-03-12-at-1.23.49-PM.png
+          src: /assets/img/Screen-Shot-2023-03-12-at-2.15.59-PM.png
           alt:
           width:
         button:
@@ -48,7 +48,7 @@ content_blocks:
           Contact your legislator to inform them that you're a constituent and
           immunization supporter.
         image:
-          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
+          src: /assets/img/Screen-Shot-2023-03-12-at-2.16.11-PM.png
           alt:
           width:
         button:
