@@ -152,11 +152,8 @@ content_blocks:
           external_url: false
           color_variation: green
           animate_hover: false
-  - _bookshop_name: section/left-right-hero
-    left_section:
-      title:
-      text: ''
-      colored_background: true
-      bold_title: false
-    right_section:
+  - _bookshop_name: section/left-right-group
+    blocks: []
+  - _bookshop_name: section/left-right-two-third-section
+    left_right_block: []
 ---
