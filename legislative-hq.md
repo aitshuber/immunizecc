@@ -5,7 +5,7 @@ description: ''
 keywords:
 layout: sub-page
 permalink:
-banner-image: /assets/img/how-we-advocate/texas-capitol-4.jpg
+banner-image: /assets/img/legislative-hq/2023-legislative-session-headquarters.png
 content_blocks:
   - _bookshop_name: section/text-section
     title: 2023 LEGISLATIVE SESSION HEADQUARTERS
