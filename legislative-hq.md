@@ -13,8 +13,8 @@ content_blocks:
     centered: true
     colored_background: true
   - _bookshop_name: section/card-section
-    title: LEARN ABOUT THE LEGISLATURE
-    subtitle:
+    title: TAKE ACTION TO KEEP TEXANS SAFE FROM DISEASE
+    subtitle: TAKE ACTION TO KEEP TEXANS SAFE FROM DISEASE
     cards:
       - _bookshop_name: simple/info-card
         text: ADFADSFASDFADFASDF
@@ -23,6 +23,12 @@ content_blocks:
           alt:
           width:
         button:
+          _bookshop_name: generic/button-link
+          text: FIND YOUR LEGISLATOR
+          url:
+          external_url: false
+          color_variation:
+          animate_hover: false
       - _bookshop_name: simple/info-card
         text: ADFADSFASDFADFASDF
         image:
@@ -30,6 +36,12 @@ content_blocks:
           alt:
           width:
         button:
+          _bookshop_name: generic/button-link
+          text: INTRODUCE YOURSELF
+          url:
+          external_url: false
+          color_variation:
+          animate_hover: false
       - _bookshop_name: simple/info-card
         text: ADSFADFASDFASDF
         image:
@@ -37,6 +49,12 @@ content_blocks:
           alt:
           width:
         button:
+          _bookshop_name: generic/button-link
+          text: RECEIVE REPORTS
+          url:
+          external_url: false
+          color_variation:
+          animate_hover: false
   - _bookshop_name: section/text-section
     title:
     text: ''
@@ -47,12 +65,18 @@ content_blocks:
     subtitle:
     cards:
       - _bookshop_name: simple/info-card
-        text: ADFADSFASDFADFASDF
+        text: VOICE YOUR POSITION
         image:
           src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
           width:
         button:
+          _bookshop_name: generic/button-link
+          text: GET ON THE RECORD
+          url:
+          external_url: false
+          color_variation:
+          animate_hover: false
       - _bookshop_name: simple/info-card
         text: ''
         image:
@@ -60,6 +84,12 @@ content_blocks:
           alt:
           width:
         button:
+          _bookshop_name: generic/button-link
+          text: MEET WITH YOUR LEGISLATOR
+          url:
+          external_url: false
+          color_variation:
+          animate_hover: false
       - _bookshop_name: simple/info-card
         text: ''
         image:
@@ -67,6 +97,12 @@ content_blocks:
           alt:
           width:
         button:
+          _bookshop_name: generic/button-link
+          text: TESTIFY IN COMMITTEE
+          url:
+          external_url: false
+          color_variation:
+          animate_hover: false
   - _bookshop_name: section/left-right-two-third-section
     left_right_block:
       - _bookshop_name: simple/left-right-two-third
