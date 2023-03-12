@@ -10,6 +10,11 @@ content_blocks:
   - _bookshop_name: section/left-right-two-third-section
     left_right_block:
       - _bookshop_name: simple/left-right-two-third
+        title:
+        text: ''
+        image:
+          src:
+      - _bookshop_name: simple/left-right-two-third
         title: TEXAS LEGISLATURE 101
         text: >-
           Texas state lawmakers meet at the Capitol in Austin for 150 days every
