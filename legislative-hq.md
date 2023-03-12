@@ -17,7 +17,7 @@ content_blocks:
     subtitle: TAKE ACTION TO KEEP TEXANS SAFE FROM DISEASE
     cards:
       - _bookshop_name: simple/info-card
-        text: ADFADSFASDFADFASDF
+        text: Learn who represents you in the Texas House and Texas Senate.
         image:
           src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
@@ -30,7 +30,9 @@ content_blocks:
           color_variation:
           animate_hover: false
       - _bookshop_name: simple/info-card
-        text: ADFADSFASDFADFASDF
+        text: >-
+          Contact your legislator to inform them that you're a constituent and
+          immunization supporter.
         image:
           src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
@@ -43,7 +45,9 @@ content_blocks:
           color_variation:
           animate_hover: false
       - _bookshop_name: simple/info-card
-        text: ADSFADFASDFASDF
+        text: >-
+          Sign up for our legislative action alerts and keep informed of
+          breaking legislative news.
         image:
           src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
