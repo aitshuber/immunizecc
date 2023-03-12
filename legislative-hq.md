@@ -5,13 +5,8 @@ description: ''
 keywords:
 layout: sub-page
 permalink:
-banner-image: /assets/img/legislative-hq/2023-legislative-session-headquarters.png
+banner-image: /assets/img/legislative-hq/2023-legislative-session-headquarters-1.png
 content_blocks:
-  - _bookshop_name: section/text-section
-    title: 2023 LEGISLATIVE SESSION HEADQUARTERS
-    text: ''
-    centered: true
-    colored_background: true
   - _bookshop_name: section/left-right-two-third-section
     left_right_block:
       - _bookshop_name: simple/left-right-two-third
