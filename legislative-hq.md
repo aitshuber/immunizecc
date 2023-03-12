@@ -57,6 +57,11 @@ content_blocks:
           rel="noopener"}
         image:
           src: /assets/img/texas-state-capitol-(2).png
+      - _bookshop_name: simple/left-right-two-third
+        title:
+        text: ''
+        image:
+          src:
   - _bookshop_name: section/card-section
     title: TAKE ACTION TO KEEP TEXANS SAFE FROM DISEASE
     subtitle: TAKE ACTION TO KEEP TEXANS SAFE FROM DISEASE
@@ -147,4 +152,11 @@ content_blocks:
           external_url: false
           color_variation: green
           animate_hover: false
+  - _bookshop_name: section/left-right-hero
+    left_section:
+      title:
+      text: ''
+      colored_background: true
+      bold_title: false
+    right_section:
 ---
