@@ -8,10 +8,10 @@ permalink:
 banner-image: /assets/img/how-we-advocate/texas-capitol-4.jpg
 content_blocks:
   - _bookshop_name: section/text-section
-    title: 2023 Legislative  Headquarters
+    title: 2023 LEGISLATIVE SESSION HEADQUARTERS
     text: ''
     centered: true
-    colored_background: false
+    colored_background: true
   - _bookshop_name: section/card-section
     title: LEARN ABOUT THE LEGISLATURE
     subtitle:
@@ -19,21 +19,21 @@ content_blocks:
       - _bookshop_name: simple/info-card
         text: ADFADSFASDFADFASDF
         image:
-          src:
+          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
           width:
         button:
       - _bookshop_name: simple/info-card
         text: ADFADSFASDFADFASDF
         image:
-          src:
+          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
           width:
         button:
       - _bookshop_name: simple/info-card
         text: ADSFADFASDFASDF
         image:
-          src:
+          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
           width:
         button:
@@ -49,21 +49,21 @@ content_blocks:
       - _bookshop_name: simple/info-card
         text: ADFADSFASDFADFASDF
         image:
-          src:
+          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
           width:
         button:
       - _bookshop_name: simple/info-card
         text: ''
         image:
-          src:
+          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
           width:
         button:
       - _bookshop_name: simple/info-card
         text: ''
         image:
-          src:
+          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
           alt:
           width:
         button:
