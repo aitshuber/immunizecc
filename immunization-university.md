@@ -11,22 +11,22 @@ banner-image: /assets/img/Impact_PresentationsandPublications.jpg
 
 <div><div> </div></div>
 
-<div>Create your free IZU account&nbsp;<a style="font-family: var(--font-family); letter-spacing: 0.01rem;" href="https://immunizeusa.org/account/login/?next=/account/">here</a></div>
+<div class="text-center"><strong><a style="font-family: var(--font-family); letter-spacing: 0.01rem;" href="https://immunizeusa.org/account/login/?next=/account/">Create your free IZU account&nbsp;</a></strong></div>
 
-<div>Explore the IZU courses&nbsp;<a style="font-family: var(--font-family); letter-spacing: 0.01rem;" href="https://immunizeusa.org/products/collection/courses-1/">here</a></div>
+<div class="text-center"><strong><a style="font-family: var(--font-family); letter-spacing: 0.01rem;" href="https://immunizeusa.org/products/collection/courses-1/">Explore IZU courses</a></strong></div>
 
 <div><div> </div></div>
 
-<div><div>IZU courses</div></div>
+<div><div><strong>IZU COURSES</strong><br /> </div></div>
 
-* <div>Vaccine Safety (<strong>Credit </strong>and Non-credit)</div>
-* <div>Herd Immunity (<strong>Credit </strong>and Non-credit)</div>
-* <div>Vaccine Myths and Misinformation (<strong>Credit </strong>and Non-credit)</div>
-* <div>Immunization 101 (Non-credit)</div>
-* <div>COVID-19 Myths and Misinformation (Non-credit)</div>
-* <div>COVID-19: Simplifying Vaccine Science (Non-credit)</div>
-* <div>How Vaccines Work (Non-credit)</div>
-* <div>History of Vaccines (Non-credit)</div>
-* <div>Vaccine Preventable Diseases and Your Healthy Classroom (Non-credit – designed for Texas teachers, school administrators, and future teachers)</div>
+* <div><strong>Vaccine Safety</strong><br />(credit and non-credit)</div>
+* <div><strong>Herd Immunity</strong><br />(credit<strong> </strong>and non-credit)</div>
+* <div><strong>Vaccine Myths and Misinformation</strong><br />(credit and non-credit)</div>
+* <div><strong>Immunization 101</strong><br />(non-credit)</div>
+* <div><strong>COVID-19 Myths and Misinformation</strong><br />(non-credit)</div>
+* <div><strong>COVID-19: Simplifying Vaccine Science</strong><br />(non-credit)</div>
+* <div><strong>How Vaccines Work</strong><br />(non-credit)</div>
+* <div><strong>History of Vaccines</strong><br />(non-credit)</div>
+* <div><strong>Vaccine Preventable Diseases and Your Healthy Classroom</strong><br />(non-credit – designed for current and future Texas teachers and school administrators)</div>
 
 <div><div><br /> </div></div>
