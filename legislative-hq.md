@@ -59,13 +59,8 @@ content_blocks:
           external_url: false
           color_variation:
           animate_hover: false
-  - _bookshop_name: section/text-section
-    title:
-    text: ''
-    centered: true
-    colored_background: true
   - _bookshop_name: section/card-section
-    title: TAKE ACTION TO KEEP TEXANS SAFE FROM DISEASE
+    title:
     subtitle:
     cards:
       - _bookshop_name: simple/info-card
