@@ -33,7 +33,7 @@ content_blocks:
       - _bookshop_name: simple/info-card
         text: Learn who represents you in the Texas House and Texas Senate.
         image:
-          src: /assets/img/Screen-Shot-2023-03-12-at-2.15.59-PM.png
+          src: /assets/img/STEP-1.png
           alt:
           width:
         button:
@@ -48,7 +48,7 @@ content_blocks:
           Contact your legislator to inform them that you're a constituent and
           immunization supporter.
         image:
-          src: /assets/img/Screen-Shot-2023-03-12-at-2.16.11-PM.png
+          src: /assets/img/STEP-1-2.png
           alt:
           width:
         button:
@@ -63,7 +63,7 @@ content_blocks:
           Sign up for our legislative action alerts and keep informed of
           breaking legislative news.
         image:
-          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
+          src: /assets/img/STEP-1-3.png
           alt:
           width:
         button:
@@ -80,7 +80,7 @@ content_blocks:
       - _bookshop_name: simple/info-card
         text: VOICE YOUR POSITION
         image:
-          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
+          src: /assets/img/STEP-1-4.png
           alt:
           width:
         button:
@@ -93,7 +93,7 @@ content_blocks:
       - _bookshop_name: simple/info-card
         text: ''
         image:
-          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
+          src: /assets/img/STEP-1-5.png
           alt:
           width:
         button:
@@ -106,7 +106,7 @@ content_blocks:
       - _bookshop_name: simple/info-card
         text: ''
         image:
-          src: /assets/img/chair/rob-greer-221011-190026-2-2.jpg
+          src: /assets/img/STEP-1-6.png
           alt:
           width:
         button:
