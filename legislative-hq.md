@@ -39,10 +39,10 @@ content_blocks:
         button:
           _bookshop_name: generic/button-link
           text: FIND YOUR LEGISLATOR
-          url:
-          external_url: false
-          color_variation:
-          animate_hover: false
+          url: https://wrm.capitol.texas.gov/home
+          external_url: true
+          color_variation: green
+          animate_hover: true
       - _bookshop_name: simple/info-card
         text: >-
           Contact your legislator to inform them that you're a constituent and
