@@ -1,10 +1,10 @@
 ---
 _schema: default
-title: Legislative Headquarters
+title: Texas Legislature 101
 description: ''
 keywords:
 layout: content-page
-permalink: legislative-headquarters
+permalink: texas-legislature-101
 banner-image:
 ---
 **The Texas Legislature 101**
