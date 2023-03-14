@@ -3,10 +3,10 @@
               
                <div class="col-md-6 col-12">
                   <h2 class="h2 immunizetitle text-primary text-left editable font-weight-semi-bold">
-                    {{ include.left.left_title }}
+                    {{ include.left.left_title | markdownify }}
                   </h2>
                  <p>
-                        {{ include.left.text }}
+                        {{ include.left.text | markdownify }}
                       </p>
                       {% comment %}
                   {% for post in site.posts limit:1 -%}
@@ -29,10 +29,10 @@
                </div>
                <div class="col-lg-6 col-12">
                  <h2 class="h2 text-primary text-left editable font-weight-semi-bold">
-                   {{ include.right.right_title }}
+                   {{ include.right.right_title | markdownify }}
                  </h2>
                  <p>
-                        {{ include.right.text }}
+                        {{ include.right.text | markdownify }}
                       </p>
                 {% comment %}
                    <div class="p-lg-2 pt-md-0 editable card shadow bg-soft-primary rounded-lg">

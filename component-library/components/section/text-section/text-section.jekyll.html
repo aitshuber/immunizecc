@@ -3,9 +3,9 @@
       <div class="row {% if include.centered == true %} text-center {% endif %}">
           <div class="col-md-12">
             <h2 class="h1 text-primary font-weight-semi-bold editable">
-              {{ include.title }}
+              {{ include.title | markdownify }}
             </h2>
-            <p class="editable">{{ include.text }}</p>
+            <p class="editable">{{ include.text | markdownify }}</p>
           </div>
         </div>
   </div>

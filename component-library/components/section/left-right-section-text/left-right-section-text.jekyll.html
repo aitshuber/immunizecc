@@ -3,17 +3,17 @@
 
                 <div class="col-md-6 col-12">
                         <h2 class="h2 immunizetitle text-primary text-left editable font-weight-semi-bold">
-                                {{ include.left.left_title }}
+                                {{ include.left.left_title | markdownify }}
                         </h2>
 
 
                 </div>
                 <div class="col-lg-6 col-12">
                         <h2 class="h2 text-primary text-left editable font-weight-semi-bold">
-                                {{ include.right.right_title }}
+                                {{ include.right.right_title | markdownify }}
                         </h2>
                         <p>
-                                {{ include.right.text }}
+                                {{ include.right.text | markdownify }}
                         </p>
                 </div>
         </div>
