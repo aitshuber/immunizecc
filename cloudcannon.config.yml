@@ -80,17 +80,23 @@ _editables:
     right: text-right
 collections_config:
   pages:
-    schemas:
-      block_page:
-        path: schemas/page.md
-        _enabled_editors:
-          - visual
-          - content
-      content_page:
-        path: schemas/content-page.md
-        _enabled_editors:
-          - content
-          - visual
+    _inputs:
+    image_path:
+      type: image
+      options:
+        width: 90
+        height: 120
+  schemas:
+    block_page:
+      path: schemas/page.md
+      _enabled_editors:
+        - visual
+        - content
+    content_page:
+      path: schemas/content-page.md
+      _enabled_editors:
+        - content
+        - visual
 data_config:
   home-banner: true
   homepage-notice: true
