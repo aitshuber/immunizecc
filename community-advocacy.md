@@ -5,6 +5,6 @@ description: ''
 keywords:
 layout: sub-page
 permalink:
-banner-image:
-content_blocks:
+banner-image: /assets/img/how-we-advocate/img-20190402-095903.jpg
+content_blocks: []
 ---
