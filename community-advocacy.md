@@ -31,9 +31,17 @@ content_blocks:
           more people in more communities…and the more lives we can save.
         image_align_left: false
       - _bookshop_name: simple/left-right-image-with-gap
-        image:
+        image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
         image_alt:
-        title:
-        body_content: ''
-        image_align_left: false
+        title: BOOST TEXAS
+        body_content: >-
+          The Immunization Partnership launched BOOST TEXAS to grow a team of
+          immunization supporters who will take action as reliable sources
+          across the state to provide Texans with the immunization information
+          they want and need,.
+
+
+          The most influential messengers are neighbors, like you, talking to
+          neighbors. Please join us.
+        image_align_left: true
 ---
