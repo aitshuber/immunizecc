@@ -2,8 +2,8 @@
 spec:
   structures:
     - left-right-hero
-  label: "Left-right-hero-image"
-  description:
+  label: "Static Image"
+  description: The content block is used to in left/right hero section
   icon:
   tags: []
 
@@ -14,7 +14,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  image: http://placekitten.com/200/200
-  image_alt: A kitten
+  image: https://dummyimage.com/1620x1080/000/e0e0e0
+  image_alt: Title
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

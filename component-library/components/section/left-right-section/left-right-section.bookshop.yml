@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Left-right-section"
+  label: "Two Column Text Sections"
   description: Left-right block - left shows a preview of the latest entry in posts, right shows a card.
   icon: label
   tags: []

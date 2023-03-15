@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Card-section"
+  label: "Home Cards"
   description:
   icon:
   tags: []
@@ -15,8 +15,8 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: We're a voice for Texans who want to prevent disease
-  subtitle: We connect, educate, and advocate to ensure access to vaccines and increase immunization.
+  title: Lorem ipsum dolor sit amet, consectetur adipisicing
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.
   cards:
     - bookshop:simple/info-card
     - bookshop:simple/info-card

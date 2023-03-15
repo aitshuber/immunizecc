@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Hero-banner-image"
+  label: "Hero banner"
   description: Full width banner image. Intended for top of pages. 
   icon: panorama
   tags: []
@@ -13,7 +13,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  image: https://placebear.com/2000/500
+  image: https://dummyimage.com/1620x1080/000/e0e0e0
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

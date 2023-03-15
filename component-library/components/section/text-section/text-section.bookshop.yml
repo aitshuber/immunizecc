@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Text-section"
+  label: "Text Section"
   description: A text section with heading, with optional centering.
   icon: notes
   tags: []
@@ -13,14 +13,16 @@ blueprint:
   text: 
   centered: false
   colored_background: false
-
+  no_title: false
+  no_paragraph: false
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: "Our Partners"
-  text: "The Immunization Partnership earned its place as THE credible resource on immunization in Texas because of our access to a unique network we maintain consisting of experts in public health and public policy, as well as leaders in medicine (both practitioners and researchers) communications, education, and health care administration."
+  title: "Title Text"
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   centered: false
   colored_background: false
-
+  no_title: false
+  no_paragraph: false
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   title:
@@ -38,4 +40,12 @@ _inputs:
   colored_background:
     label: Colored Background
     comment: Select true for a colored background.
+    type: switch
+  no_title:
+    label: Disable Title
+    comment: Select true to remove title.
+    type: switch
+  no_paragraph:
+    label: Disable Paragraph
+    comment: Select true to remove paragraph.
     type: switch

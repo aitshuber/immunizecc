@@ -1,7 +1,7 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-  label: "Carousel-card"
+  label: "Indiviudal Carousel Item"
   description: Individual card for the carousel
   icon: style
   tags: []
@@ -16,11 +16,11 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  background_image: https://placebear.com/1000/500
+  background_image: https://dummyimage.com/1620x1080//e3e3e3/c4c4c4
   title: Lorem ipsum
   sub_text: >- 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit, nisl in tincidunt lobortis, massa quam pulvinar orci, a posuere lectus lorem nec massa. Nulla dictum, sapien vel mattis eleifend, lacus felis laoreet felis, ut ullamcorper ligula erat ac risus. Suspendisse sollicitudin neque vitae diam viverra
-  image: https://placebear.com/400/400
+  image: https://dummyimage.com/400x400
   button: bookshop:generic/button-link
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

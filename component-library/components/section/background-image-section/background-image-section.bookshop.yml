@@ -2,8 +2,8 @@
 spec:
   structures:
     - content_blocks
-  label: "Background-image-section"
-  description: Full width section with a background image
+  label: "Background image with text"
+  description: Full width section with a background image text and a button
   icon: crop_7_5
   tags: []
 
@@ -16,8 +16,8 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  text: Texas strength depends on the health of its citizens. We advocate everyday to keep Texas strong. 
-  image: /assets/img/the-immunization-partnership/day-7-photography-47-2.jpg?_cchid=d79a95f68129ecdd6cb6ed27b53468b7
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+  image: https://dummyimage.com/1620x1080/000/e0e0e0
   button: bookshop:generic/button-link
   space-top: false
 

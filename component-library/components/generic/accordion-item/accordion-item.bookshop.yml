@@ -1,8 +1,8 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-  label: "Accordion-item"
-  description:
+  label: "Accordion Item"
+  description: Expanable Section used on staff
   icon:
   tags: []
 
@@ -18,10 +18,10 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   type: staff 
-  image: /assets/img/screen-shot-2022-11-02-at-11-57-21-pm.png
-  name: Celinda Provost
-  position: Communications Director
-  title: CHAIR
+  image: https://dummyimage.com/436x550/000/e0e0e0
+  name: Name
+  position: Position
+  title: Title
   url: ""
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

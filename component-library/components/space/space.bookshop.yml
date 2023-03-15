@@ -2,21 +2,24 @@
 spec:
   structures:
     - content_blocks
-  label: "Left Right Card Group"
-  description: A wrapper for left right group items
-  icon: vertical_split
+  label: "Space"
+  description:
+  icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  blocks: [bookshop:simple/left-right-group-item]
-
+  size: 1
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  blocks:
-    - bookshop:simple/left-right-group-item
-    - bookshop:simple/left-right-group-item
-    - bookshop:simple/left-right-group-item
-
+  size: 1
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+size:
+type: select
+options:
+  values:
+    - half
+    - 1
+    - 2
+    - 3

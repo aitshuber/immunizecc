@@ -2,8 +2,8 @@
 spec:
   structures:
     - content_blocks
-  label: "Our-partners"
-  description: Interactive diagram of partners
+  label: "Our Partners Diagram"
+  description: Interactive diagram of partners 
   icon: panorama_fish_eye
   tags: []
 

@@ -1,7 +1,7 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-  label: 'Colored-card'
+  label: 'Hot Spot Card'
   description: A card with colored background and a non-button link
   icon: call_to_action
   tags: []
@@ -17,15 +17,13 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: The Flu is Back in Texas
+  title: Lorem ipsum dolor 
   link: 
     src: https://www.khou.com/article/news/health/flu-rsv-cases-surge-hosuton-texas/285-e52eb79f-4670-45b2-98ea-cc6908841dcd
-    link_text: Visit
-  image: /assets/img/the-flu-is-back-in-texas/screen-shot-2022-10-20-at-9-48-46-am.png
+    link_text: link
+  image: https://dummyimage.com/489x225
   text:
-    The influenza epidemic is sending people to hospitals in every region of the
-    state, resulting in few available beds - and increasing hospital staff
-    shortages.
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

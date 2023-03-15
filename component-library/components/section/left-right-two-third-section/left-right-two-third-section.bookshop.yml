@@ -2,8 +2,8 @@
 spec:
   structures:
     - content_blocks
-  label: "Left-right-two-third-section"
-  description: Left right content section with a gap in between each text/image.
+  label: "Why were here section group two"
+  description: Why were here section group with black title and image seperated by border
   icon: vertical_split
   tags: []
 

@@ -2,8 +2,8 @@
 spec:
   structures:
     - content_blocks
-  label: "Left-right-hero"
-  description: Left-Right section displaying a card, on the left. 
+  label: "Left Card with Image"
+  description: Left right section displaying a card, on the left image on the right. 
   icon: label
   tags: []
 
@@ -19,8 +19,8 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   left_section:
-    title: Why We're Here
-    text: Despite having vaccines that prevent more than 20 life-threatening diseases, those diseases have not gone away. The number of people receiving routine vaccinations has dropped for the first time in a decade. Texas is ground-zero for the anti-vaccination movement, putting our children and our communities at great risk for disease outbreaks, such as measles and chicken pox.&nbsp;<br /><br />More Texas families are opting their children out from one or more school required vaccines, leading to an increase in vaccine exemptions.
+    title: Lorem ipsum
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     colored_background: true
     bold_title: false
   right_section: bookshop:generic/left-right-hero-image

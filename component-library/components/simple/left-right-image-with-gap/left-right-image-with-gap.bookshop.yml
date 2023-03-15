@@ -1,7 +1,7 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-  label: "Left-right-image-with-gap"
+  label: "Why were here - text image section"
   description: Left right content card with a gap in between.
   icon: vertical_split
   tags: []
@@ -16,7 +16,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  image: https://placebear.com/500/500
+  image: https://dummyimage.com/748x499/000/e0e0e0
   image_alt: Alt tag
   title: Title 
   body_content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit mi elit. Pellentesque bibendum dolor ante, vitae vehicula eros ornare a. Praesent fermentum convallis velit.

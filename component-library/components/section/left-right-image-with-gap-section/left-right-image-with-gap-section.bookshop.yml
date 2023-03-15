@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Left-right-image-with-gap-section"
+  label: "Why were here section group"
   description: Left right content section with a gap in between each text/image.
   icon: vertical_split
   tags: []

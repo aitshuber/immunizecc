@@ -1,8 +1,8 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-  label: 'Left-right-group-item'
-  description: Fills left-right-group
+  label: 'Left Right Card Group Item'
+  description: Fills left right group
   icon: vertical_split
   tags: []
 
@@ -16,13 +16,10 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: We increase immunization through CONNECTION
-  text: By leveraging expertise we gain serving as the connection for a
-    coalition of researchers, clinicians, community organizations and
-    government entities - - we represent a uniquely knowledgeable, credible
-    voice in Austin, and equip others to be powerful voices, too.
+  title: Lorem ipsum dolor sit amet, consectetur 
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
   button: bookshop:generic/button-link
-  image: /assets/img/the-immunization-partnership/we-connect.jpg
+  image: https://dummyimage.com/570x503/000/e0e0e0
   flipped: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

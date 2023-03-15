@@ -1,15 +1,15 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-  label: "News-list-item"
-  description: News item component
+  label: "Latest New Section"
+  description: only use if you want to list recent post somewhere else on the site.
   icon: newspaper
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
   post:
-    url:
+    url: 
     title:
     source:
     date:
