@@ -7,11 +7,10 @@ layout: sub-page
 permalink:
 banner-image: /assets/img/how-we-advocate/img-20190402-095903.jpg
 content_blocks:
-  - _bookshop_name: section/background-image-section
-    text: BUILDING PROTECTED COMMUNITIES
-    image:
-    button:
-    space-top: false
+  - _bookshop_name: section/card-section
+    title: BUILDING PROTECTED COMMUNITIES
+    subtitle: The health of our communities is in jeopardy - but it doesn’t have to be.
+    cards: []
   - _bookshop_name: section/left-right-image-with-gap-section
     left_right:
       - _bookshop_name: simple/left-right-image-with-gap
@@ -26,8 +25,4 @@ content_blocks:
         title:
         body_content: ''
         image_align_left: false
-  - _bookshop_name: section/card-section
-    title: BUILDING PROTECTED COMMUNITIES
-    subtitle: The health of our communities is in jeopardy - but it doesn’t have to be.
-    cards: []
 ---
