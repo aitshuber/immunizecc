@@ -31,7 +31,7 @@ content_blocks:
       - _bookshop_name: simple/left-right-image-with-gap
         image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
         image_alt:
-        title: BOOST TEXAS
+        title: INTRODUCING BOOST TEXAS
         body_content: >-
           The Immunization Partnership launched BOOST TEXAS to grow a team of
           immunization supporters who will take action as reliable sources
