@@ -34,9 +34,9 @@ content_blocks:
         title: INTRODUCING BOOST TEXAS
         body_content: >-
           The Immunization Partnership launched BOOST TEXAS to grow a team of
-          immunization supporters who will take action as reliable sources
-          across the state to provide Texans with the immunization information
-          they want and need,.
+          immunization supporters (or 'Boosters') who will take action as
+          reliable sources across the state to provide Texans with the
+          immunization information they want and need,.
 
 
           The most influential messengers are neighbors, like you, talking to
