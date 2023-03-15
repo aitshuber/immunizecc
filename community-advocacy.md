@@ -26,4 +26,8 @@ content_blocks:
         title:
         body_content: ''
         image_align_left: false
+  - _bookshop_name: section/card-section
+    title: BUILDING PROTECTED COMMUNITIES
+    subtitle: The health of our communities is in jeopardy - but it doesn’t have to be.
+    cards: []
 ---
