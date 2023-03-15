@@ -16,7 +16,7 @@ content_blocks:
       - _bookshop_name: simple/left-right-image-with-gap
         image: /assets/img/Advocacy_HowtoAdvocate_Final.jpg
         image_alt:
-        title: TITLE
+        title:
         body_content: >-
           Immunization has protected the health of Texans for generations.
           Despite that long, successful history, immunization has, in recent
@@ -44,4 +44,12 @@ content_blocks:
           The most influential messengers are neighbors, like you, talking to
           neighbors. Please join us.
         image_align_left: true
+  - _bookshop_name: section/card-section
+    title: GETTING STARTED
+    subtitle: >-
+      ​​​​​​Ready to make an impact? We will be excited to have you as a
+      Booster, however much time you can devote and whatever activities you
+      would like to do. Please provide us with your preferences below, and we’ll
+      be in touch shortly.
+    cards: []
 ---
