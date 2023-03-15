@@ -51,4 +51,12 @@ content_blocks:
       Booster, however much time you can devote and whatever activities you
       would like to do. Please provide us with your preferences below,.
     cards: []
+  - _bookshop_name: section/text-section
+    title:
+    text: >-
+      &lt;script src="https://cdn.virtuoussoftware.com/virtuous.embed.min.js"
+      data-vform="d8d52dc1-de60-4ec9-84f2-fe35b5df7caa" data-orgId="3832"
+      data-isGiving="false" data-dependencies="\[\]"&gt;&lt;/script&gt;
+    centered: false
+    colored_background: false
 ---
