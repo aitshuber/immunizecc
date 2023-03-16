@@ -19,7 +19,6 @@ size:
 type: select
 options:
   values:
-    - half
     - 1
     - 2
     - 3
