@@ -2,8 +2,8 @@
 spec:
   structures:
   label: 'Why were here section group item'
-  description: Why were here section group item with black title with image
-  icon:
+  description: "Why were here section group item with black title with image"
+  icon: image_aspect_ratio
   tags: []
 
 # Defines the structure of this component, as well as the default values

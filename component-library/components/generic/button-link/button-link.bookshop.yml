@@ -3,7 +3,7 @@ spec:
   structures:
   label: "Button"
   description: 
-  icon:
+  icon: smart_button
   tags: []
 
 # Defines the structure of this component, as well as the default values

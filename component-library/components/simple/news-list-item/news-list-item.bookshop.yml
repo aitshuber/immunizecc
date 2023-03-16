@@ -2,8 +2,8 @@
 spec:
   structures:
   label: "Latest New Section"
-  description: only use if you want to list recent post somewhere else on the site.
-  icon: newspaper
+  description: "only use if you want to list recent post somewhere else on the site"
+  icon: new_releases
   tags: []
 
 # Defines the structure of this component, as well as the default values

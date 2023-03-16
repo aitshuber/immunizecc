@@ -4,7 +4,7 @@ spec:
     - left-right-hero
   label: "Static Image"
   description: The content block is used to in left/right hero section
-  icon:
+  icon: art_track
   tags: []
 
 # Defines the structure of this component, as well as the default values

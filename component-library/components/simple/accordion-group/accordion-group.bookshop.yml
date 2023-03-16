@@ -4,7 +4,7 @@ spec:
     - left-right-hero
   label: "Accordion group"
   description:
-  icon:
+  icon: group_work
   tags: []
 
 # Defines the structure of this component, as well as the default values

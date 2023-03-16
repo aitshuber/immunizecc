@@ -3,7 +3,7 @@ spec:
   structures:
   label: "Accordion Item Group"
   description:
-  icon:
+  icon: group_work
   tags: []
 
 # Defines the structure of this component, as well as the default values

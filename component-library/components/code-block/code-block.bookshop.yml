@@ -2,23 +2,20 @@
 spec:
   structures:
     - content_blocks
-  label: "Space"
-  description: ""
-  icon: crop_7_5
+  label: "Code block"
+  description: "This is used to embed code"
+  icon: barcode
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  size: 1
+ code_block: >-
+   
+
 # Overrides any fields in the blueprint when viewing this component in the component browser
-preview:
-  size: 1
+code_block: >-
+
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-size:
-type: select
-options:
-  values:
-    - 1
-    - 2
-    - 3
+  code_block:
+    type: "code_block"
