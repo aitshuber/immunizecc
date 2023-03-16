@@ -11,6 +11,7 @@ spec:
 blueprint:
   title: 
   text: 
+  brand_color: ''
   centered: false
   colored_background: false
   no_title: false
@@ -20,6 +21,7 @@ preview:
   title: "Title Text"
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   centered: false
+  brand_color: ''
   colored_background: false
   no_title: false
   no_paragraph: false
@@ -37,6 +39,10 @@ _inputs:
     label: Center Text
     comment: Select true to center text in this section.
     type: switch
+  brand_color: 
+    label: Color Picker
+    comment: Select color
+    type: color
   colored_background:
     label: Colored Background
     comment: Select true for a colored background.
