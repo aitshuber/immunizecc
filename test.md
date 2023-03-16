@@ -7,6 +7,13 @@ layout: sub-page
 permalink: test
 banner-image:
 content_blocks:
+  - _bookshop_name: code-block
+    code_block: >-
+      <div class="cms-embed"
+      data-cms-embed="PHNjcmlwdCBzcmM9Imh0dHBzOi8vY2RuLnZpcnR1b3Vzc29mdHdhcmUuY29tL3ZpcnR1b3VzLmVtYmVkLm1pbi5qcyIgZGF0YS12Zm9ybT0iZDhkNTJkYzEtZGU2MC00ZWM5LTg0ZjItZmUzNWI1ZGY3Y2FhIiBkYXRhLW9yZ0lkPSIzODMyIiBkYXRhLWlzR2l2aW5nPSJmYWxzZSIgZGF0YS1kZXBlbmRlbmNpZXM9IltdIj48L3NjcmlwdD4="><script
+      src="https://cdn.virtuoussoftware.com/virtuous.embed.min.js"
+      data-vform="d8d52dc1-de60-4ec9-84f2-fe35b5df7caa" data-orgid="3832"
+      data-isgiving="false" data-dependencies="[]"></script></div>
   - _bookshop_name: section/background-image-section
     text: test text
     image: >-
