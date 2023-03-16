@@ -3,7 +3,7 @@
       <div class="row {% if include.centered == true %} text-center {% endif %}">
           <div class="col-md-12">
           <h2 class="h1 text-primary font-weight-semi-bold editable{% if include.no_title == true %} d-none{% endif %}" {% if include.brand_color %} style="color:{{ include.brand_color }} !important"{% endif %}>
-            {{ include.title }}
+            {{ include.title | remove: '<p>' }}
           </h2>
             <div class="{% if include.no_paragraph == true %}d-none{% endif %}">
             <p class="editable">{{ include.text | markdownify }}</p>
