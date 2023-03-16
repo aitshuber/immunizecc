@@ -17,5 +17,3 @@ code_block: >-
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  code_block:
-    type: "code_block"
