@@ -7,6 +7,14 @@ layout: sub-page
 permalink: test
 banner-image:
 content_blocks:
+  - _bookshop_name: section/text-section
+    title: <p>test title</p>
+    text: lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+    brand_color: '#32d62f'
+    centered: false
+    colored_background: false
+    no_title: false
+    no_paragraph: false
   - _bookshop_name: code-block
     code_block: >-
       <div class="cms-embed"
