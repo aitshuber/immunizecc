@@ -8,9 +8,24 @@ permalink: test
 banner-image:
 content_blocks:
   - _bookshop_name: section/text-section
+    title: <p>Title</p>
+    text: test text
+    brand_color: '#af2d2d'
+    centered: true
+    colored_background: false
+    no_title: false
+    no_paragraph: false
+  - _bookshop_name: horizontal-break
+    text: ''
+  - _bookshop_name: section/background-image-section
+    text: test text
+    image: /assets/img/AboutUs_VideoStill_Final.jpg
+    button:
+    space-top: false
+  - _bookshop_name: section/text-section
     title: <p>test title</p>
     text: lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-    brand_color: '#32d62f'
+    brand_color: '#631ac4'
     centered: false
     colored_background: false
     no_title: false
