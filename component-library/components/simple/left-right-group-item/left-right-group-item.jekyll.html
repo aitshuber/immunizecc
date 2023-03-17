@@ -10,10 +10,10 @@
   <div class="col-md-6 align-middle d-flex h-100 my-auto space-2">
     <div class="d-block p-4">
       <h2 class="h2 text-primary immunizetitle editable">
-        {{ include.title | markdownify }}
+        {{ include.title | markdownify | remove: '<p>' }}
       </h2>
       <p class="editable">
-       {{ include.text | markdownify }}
+       {{ include.text | markdownify | remove: '<p>' }}
       </p>
         <div class="mt-2">
           {% bookshop generic/button-link bind=include.button %}

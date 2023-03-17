@@ -1,10 +1,10 @@
 <div class="row justify-content-lg-between space-1">
   <div class="col-md-7">
     <h2 class="h2 text-primary immunizetitle editable">
-      {{ include.title | markdownify }}
+      {{ include.title | markdownify | remove: '<p>' }}
     </h2>
     <p class="editable">
-      {{ include.text | markdownify }}&nbsp;
+      {{ include.text | markdownify | remove: '<p>' }}&nbsp;
     </p>
   </div>
   <div class="col-md-5">
