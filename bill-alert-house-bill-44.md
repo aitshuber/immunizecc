@@ -6,7 +6,7 @@ keywords:
 layout: sub-page
 permalink:
 banner-image: >-
-  /assets/img/bill-alert-house-bill-44/2023-legislative-session-headquarters-1-1.png
+  /assets/img/bill-alert-house-bill-44/2023-legislative-session-headquarters-2.png
 content_blocks:
   - _bookshop_name: section/text-section
     title: <p>WHAT IT WILL DO</p>
@@ -25,6 +25,7 @@ content_blocks:
     text: >-
       * #### The bill affects how doctors practice medicine and their goal of
       protecting patients they care for.
+
 
       * #### Immunocompromised children, such as children with leukemia and
       newborns and infants who are too young to receive immunizations, are
