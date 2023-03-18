@@ -6,9 +6,7 @@ keywords:
 layout: content-page
 permalink:
 banner-image:
-content_blocks:
-  - _bookshop_name: horizontal-break
-    text: ''
+content_blocks: []
 ---
 #####
 {: .text-center}
