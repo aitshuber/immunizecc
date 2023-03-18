@@ -7,7 +7,7 @@ layout: content-page
 permalink: /BCAT
 banner-image: /assets/img/building-coalitions-across-texas/bcat-coalitionmap.png
 ---
-<div><h4>Building Coalitions across Texas (BCAT)</h4><h4> </h4><div>Coalitions are instrumental in promoting and increasing immunization rates, which helps keep all of Texas protected from outbreaks of vaccine-preventable diseases. The Immunization Partnership's (TIP) Building Coalitions across Texas (BCaT) project fosters the incubation, growth, and development of coalitions to improve immunization policies and services at local and statewide levels.</div></div>
+<div><h4>Building Coalitions Across Texas (BCAT)</h4><h4> </h4><div>Coalitions are instrumental in promoting and increasing immunization rates, which helps keep all of Texas protected from outbreaks of vaccine-preventable diseases. The Immunization Partnership's (TIP) Building Coalitions Across Texas (BCAT) project fosters the incubation, growth, and development of coalitions to improve immunization policies and services at local and statewide levels.</div></div>
 
 <div><div> </div></div>
 
@@ -15,9 +15,9 @@ banner-image: /assets/img/building-coalitions-across-texas/bcat-coalitionmap.png
 
 <div><div> </div></div>
 
-<div><div>The BCaT Network is an online community for Texas immunization coalitions to network and share coalition resources from TIP, Texas Department of State Health Services, the Centers for Disease Control and Prevention, Coalition Works, and many others.</div></div>
+<div><div>The BCAT Network is an online community for Texas immunization coalitions to network and share coalition resources from TIP, Texas Department of State Health Services, the Centers for Disease Control and Prevention, Coalition Works, and many others.</div></div>
 
-<div><div> </div><div>Immunization coalitions have the opportunity to learn from other members through discussion board posts and shared resources. Additionally, each coalition has their own page within the BCaT Network to interact with their members.</div></div>
+<div><div> </div><div>Immunization coalitions have the opportunity to learn from other members through discussion board posts and shared resources. Additionally, each coalition has their own page within the BCAT Network to interact with their members.</div></div>
 
 <div><div> </div></div>
 
