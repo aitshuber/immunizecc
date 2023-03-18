@@ -10,6 +10,9 @@ content_blocks:
   - _bookshop_name: horizontal-break
     text: ''
 ---
+#####
+{: .text-center}
+
 ##### ​​​​​​2023 Texas Legislative Session<br>**BILLS WE ARE MONITORING**
 {: .text-center}
 
