@@ -12,7 +12,7 @@ content_blocks: []
 {: .text-center}
 
 |  |  |  | |
-| **Bill** | **Author** | **Companion** | **Caption** |
+| **BILL** | **AUTHOR** | **COMPANION** | **CAPTION** |
 | --- | --- | --- | --- |
 | **[HB 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}** | Swanson | SB 303, by<br>Hall | Relating to provider discrimination against a Medicaid recipient or child health plan program enrollee based on immunization status. |
 | **[HB 81](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB81){: target="_blank" rel="noopener"}** | Harrison | SB 177, by Middleton | Relating to informed consent before the provision of certain medical treatments involving COVID-19 vaccination. |
