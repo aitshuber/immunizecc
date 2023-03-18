@@ -8,10 +8,7 @@ permalink:
 banner-image:
 content_blocks: []
 ---
-#####
-{: .text-center}
-
-##### ​​​​​​2023 Texas Legislative Session<br>**BILLS WE ARE MONITORING**
+##### 2023 Texas Legislative Session<br>**BILLS WE ARE MONITORING**
 {: .text-center}
 
 | **Bill** | **Author** | **Companion** | **Caption** |
