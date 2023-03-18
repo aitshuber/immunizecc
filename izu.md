@@ -7,7 +7,7 @@ layout: content-page
 permalink: /BCAT
 banner-image: /assets/img/building-coalitions-across-texas/bcat-coalitionmap.png
 ---
-<div><h4>Building Coalitions across Texas (BCaT)</h4><h4> </h4><div>Coalitions are instrumental in promoting and increasing immunization rates, which helps keep all of Texas protected from outbreaks of vaccine-preventable diseases. The Immunization Partnership's (TIP) Building Coalitions across Texas (BCaT) project fosters the incubation, growth, and development of coalitions to improve immunization policies and services at local and statewide levels.</div></div>
+<div><h4>Building Coalitions across Texas (BCAT)</h4><h4> </h4><div>Coalitions are instrumental in promoting and increasing immunization rates, which helps keep all of Texas protected from outbreaks of vaccine-preventable diseases. The Immunization Partnership's (TIP) Building Coalitions across Texas (BCaT) project fosters the incubation, growth, and development of coalitions to improve immunization policies and services at local and statewide levels.</div></div>
 
 <div><div> </div></div>
 
