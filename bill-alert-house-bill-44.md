@@ -70,8 +70,8 @@ content_blocks:
       electronically](https://comments.house.texas.gov/home?c=c410){:
       target="_blank" rel="noopener"} related to House Bill 44.&nbsp;
     brand_color:
-    centered: false
-    colored_background: false
+    centered: true
+    colored_background: true
     no_title: false
     no_paragraph: false
 ---
