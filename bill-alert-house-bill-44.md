@@ -32,14 +32,17 @@ content_blocks:
       vulnerable to the spread of infectious diseases from those who have not
       been immunized.
 
+
       * #### Immunization is a simple, cost-effective public health strategy
       that has saved countless lives and millions of dollars to the health care
       system.
+
 
       * #### HB 44 undermines access to care for low-income children. Families
       who refuse to vaccinate tend to reside in higher income areas and use
       commercial insurance at higher rates, making it easier for them to
       transition to a new provider than those on CHIP and Medicaid.
+
 
       * #### Texas already struggles recruiting physicians to accept Medicaid
       patients due to administrative burdens. The state should encourage more
