@@ -8,6 +8,9 @@ permalink:
 banner-image: >-
   /assets/img/bill-alert-house-bill-44/2023-legislative-session-headquarters-2.png
 content_blocks:
+  - _bookshop_name: section/hero-banner-image
+    image: >-
+      /assets/img/bill-alert-house-bill-44/screen-shot-2023-03-18-at-12-23-57-pm.png
   - _bookshop_name: section/text-section
     title: <p>WHAT IT WILL DO</p>
     text: >-
