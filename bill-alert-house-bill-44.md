@@ -6,7 +6,7 @@ keywords:
 layout: sub-page
 permalink:
 banner-image: >-
-  /assets/img/bill-alert-house-bill-44/2023-legislative-session-headquarters-1.png
+  /assets/img/bill-alert-house-bill-44/2023-legislative-session-headquarters-1-1.png
 content_blocks:
   - _bookshop_name: section/text-section
     title: <p>WHAT IT WILL DO</p>
