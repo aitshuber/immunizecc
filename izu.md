@@ -21,10 +21,6 @@ banner-image: /assets/img/building-coalitions-across-texas/bcat-coalitionmap.png
 
 <div><div> </div></div>
 
-<div><h5 class="text-center"><strong><a href="/static/custom/img/resources/bcat-network-user-guide.pdf">View the BCAT Network User Guide</a></strong>&nbsp;</h5></div>
-
-<div><div> </div></div>
-
 <div><div>TIP’s coalition capacity building efforts include:&nbsp;<br /> </div></div>
 
 * <div>Conducting strategic planning workshops for the <strong>Vaccine Awareness Coalition</strong> in Gregg County and <strong>Andrews County Immunization Coalition</strong> in Andrews County to help each coalition establish an action plan with goals and objectives.<br /> </div>
