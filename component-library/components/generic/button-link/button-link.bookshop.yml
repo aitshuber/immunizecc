@@ -8,8 +8,8 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: 
-  url: 
+  text: Button text
+  url: /
   external_url: false
   color_variation: 
   animate_hover: false
