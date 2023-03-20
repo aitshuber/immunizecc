@@ -1,4 +1,4 @@
-<div class="c-hero-banner-image bg-img-hero-center mb-lg-3" style="background-image: url('{{ include.image }}');">
+<div class="c-hero-banner-image bg-img-hero-center mb-lg-3" style="background-image: url('{{ include.image }}');{% if include.contain == true%}background-size:contain !important;{% endif %}{% if include.colored_background == true%}background-color:{{include.background_color}} !important;{% endif %}">
     <div class="container space-md-4 space-3">
         <div class="w-lg-80 text-center mx-auto">
         </div>
