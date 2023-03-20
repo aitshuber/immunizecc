@@ -1,6 +1,6 @@
 {% assign c = "c-background-image-section" %}
 <div class="container-fluid {% if include.space-top %} mt-9 {% endif %} bg-primary px-0">
-    <div class="{{ c }} bg-img-hero" style="background: url('{{ include.image }}'); background-size:cover; background-position: center">
+    <div class="{{ c }} bg-img-hero" style="background: url('{{ include.image }}');{% if include.contain == true%}background-size:contain !important;{% else %} background-size:cover;{% endif %}{% if include.colored_background == true%}background-color:{{include.background_color}} !important;{% endif %} background-position: center">
 
         {% if include.button %}
         <div class="container space-1">
