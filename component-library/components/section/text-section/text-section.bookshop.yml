@@ -9,8 +9,8 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: 
-  text: 
+  title: "Title Text"
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   brand_color: ''
   centered: false
   colored_background: false

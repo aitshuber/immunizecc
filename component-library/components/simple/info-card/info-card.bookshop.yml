@@ -8,11 +8,11 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: 
+  text: The overload of information, and misinformation, about vaccines requires insight from a qualified network of scientific experts.
   image:
-    src:
+    src: https://dummyimage.com/348x232/000/e0e0e0
     alt: 
-    width: 
+    width: 100%
   button: bookshop:generic/button-link
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

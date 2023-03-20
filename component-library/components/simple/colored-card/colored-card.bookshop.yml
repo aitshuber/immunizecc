@@ -8,12 +8,12 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: 
+  title: Lorem ipsum dolor 
   link: 
-    src: 
-    text: 
-  image: 
-  text:
+    src: https://www.khou.com/article/news/health/flu-rsv-cases-surge-hosuton-texas/285-e52eb79f-4670-45b2-98ea-cc6908841dcd
+    text: link
+  image: ttps://dummyimage.com/489x225
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
