@@ -12,6 +12,9 @@ content_blocks:
     text:
     image: >-
       /assets/img/bill-alert-house-bill-44/screen-shot-2023-03-18-at-12-23-57-pm.png
+    contain: true
+    colored_background: true
+    background_color: '#e8f3f9'
     button:
     space-top: false
   - _bookshop_name: section/text-section
