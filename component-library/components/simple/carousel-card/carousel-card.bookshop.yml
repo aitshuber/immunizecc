@@ -8,10 +8,10 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  background_image: 
-  title: 
-  sub_text: 
-  image: 
+  background_image: https://dummyimage.com/1620x1080//e3e3e3/c4c4c4
+  title: Lorem ipsum
+  sub_text:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit, nisl in tincidunt lobortis, massa quam pulvinar orci, a posuere lectus lorem nec massa. Nulla dictum, sapien vel mattis eleifend, lacus felis laoreet felis, ut ullamcorper ligula erat ac risus. Suspendisse sollicitudin neque vitae diam viverra
+  image: https://dummyimage.com/400x400
   button: bookshop:generic/button-link
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

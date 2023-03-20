@@ -10,8 +10,8 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   left_section:
-    title:
-    text: 
+    title: Lorem ipsum
+    text:  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     colored_background: true
     bold_title: false
   right_section: bookshop:structure:left-right-hero

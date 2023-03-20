@@ -9,8 +9,8 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: 
-  subtitle: 
+  title: Lorem ipsum dolor sit amet, consectetur adipisicing
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.
   cards: [bookshop:simple/info-card]
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
