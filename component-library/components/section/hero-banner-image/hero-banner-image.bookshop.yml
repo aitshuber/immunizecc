@@ -10,10 +10,30 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   image: https://dummyimage.com/1620x1080/000/e0e0e0
+  contain: false
+  colored_background: false
+  background_color: '#000'
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   image: https://dummyimage.com/1620x1080/000/e0e0e0
+  contain: false
+  colored_background: false
+  background_color: '#fff'
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  contain:
+    label: Contain Image
+    comment: Select true to maintain image in section
+    type: switch
+  colored_background:
+    label: Colored Background
+    comment: Select true if you want a color background to blend in with image.
+    type: switch
+  background_color: 
+    label: Background Color Picker 
+    comment: Use to select background color
+    type: color
+  
+ 
