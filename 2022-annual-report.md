@@ -3,7 +3,7 @@ _schema: content_page
 title: 2022 Annual Report
 description: ''
 keywords:
-layout: sub-page
+layout: content-page
 permalink:
 banner-image: ''
 content_blocks:
