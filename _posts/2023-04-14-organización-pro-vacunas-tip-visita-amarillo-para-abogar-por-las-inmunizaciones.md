@@ -16,6 +16,8 @@ tags:
   - blog
 image:
 ---
+[![](/assets/img/organización-pro-vacunas-tip-visita-amarillo-para-abogar-por-las-inmunizaciones/screen-shot-2023-04-16-at-1-22-07-pm.png)](https://www.telemundoamarillo.com/2023/04/14/organizacin-pro-vacunas-tip-visita-amarillo-para-abogar-por-las-inmunizaciones/){: target="_blank" rel="noopener"}
+
 AMARILLO, Texas (KEYU) - Una organización a favor de la vacunación hizo una parada en Amarillo el martes, para abogar por las vacunas.
 
 La organización se llama La Alianza para Inmunizaciónes y su misión es proteger nuestro estado de texas contra enfermedades.
