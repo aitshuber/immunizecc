@@ -10,7 +10,7 @@ content_blocks:
   - _bookshop_name: code-block
     code_block: ''
   - _bookshop_name: horizontal-break
-    text: ''
+    text: ___________________________________________________________
 ---
 The Immunization Partnership was proud to honor all of the award recipients below. Each has demonstrated great courage to ensure access to life-saving vaccines, despite a tumultuous tide of anti-vaccine rhetoric.<br>
 
