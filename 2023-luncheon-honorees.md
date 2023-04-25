@@ -5,7 +5,7 @@ description: ''
 keywords:
 layout: content-page
 permalink:
-banner-image: /assets/img/2023-luncheon-honorees/screen-shot-2023-04-25-at-2-33-36-pm.png
+banner-image: /assets/img/2023-luncheon-honorees/screen-shot-2023-04-25-at-2-35-39-pm.png
 content_blocks:
   - _bookshop_name: code-block
     code_block: ''
