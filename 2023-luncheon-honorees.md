@@ -9,6 +9,8 @@ banner-image: /assets/img/2023-luncheon-honorees/screen-shot-2023-04-25-at-2-35-
 content_blocks:
   - _bookshop_name: code-block
     code_block: ''
+  - _bookshop_name: space
+    size: 1
   - _bookshop_name: horizontal-break
     text: ___________________________________________________________
 ---
