@@ -1,10 +1,10 @@
 ---
 _schema: default
-title: Community Engagement
+title: Community
 description: ''
 keywords:
 layout: content-page
-permalink: community-engagement
+permalink: community
 banner-image:
 ---
 #### **BUILDING PROTECTED COMMUNITIES**<br>*​​​*
