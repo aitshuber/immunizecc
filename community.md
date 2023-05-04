@@ -12,7 +12,7 @@ content_blocks:
       <p><strong>The health of our communities is in jeopardy - but it doesn’t
       have to be.</strong></p>
     text: >-
-      **The more people across the state that help educate others about the
+      #### **The more people across the state that help educate others about the
       benefits of immunization, the less likely we are to face resurgences of
       diseases like measles, mumps, and meningitis.&nbsp;**
 
