@@ -38,11 +38,11 @@ content_blocks:
     title: Ready to make an impact?
     subtitle: >-
       However much time you can devote and whatever activities you would like to
-      do, <br>your Boost will make a difference. 
+      do, <br>your action will help boost Texas.. 
     cards:
       - _bookshop_name: simple/info-card
         text: >-
-          ### **GO VIRTUAL**
+          **GO VIRTUAL**
 
 
           Unable to lend a hand in person? Consider volunteering at a distance.
