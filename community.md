@@ -45,8 +45,9 @@ content_blocks:
           ### **GO VIRTUAL**
 
 
-          The overload of information, and misinformation, about vaccines
-          requires insight from a qualified network of scientific experts.
+          Unable to lend a hand in person? Consider volunteering at a distance.
+          Virtual volunteering is just as meaningful as face-to-face community
+          service - and is a quick way to amplify our message.
         image:
           src: /assets/img/COM-VV.png
           alt:
