@@ -24,6 +24,10 @@ content_blocks:
     colored_background: true
     no_title: false
     no_paragraph: false
+  - _bookshop_name: section/left-right-image-with-gap-section
+    left_right: []
+  - _bookshop_name: section/left-right-group
+    blocks: []
 ---
 <div class="text-center"> </div>
 
