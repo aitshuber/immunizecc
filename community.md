@@ -3,7 +3,7 @@ _schema: content_page
 title: COMMUNITY
 description: ''
 keywords:
-layout: content-page
+layout: sub-page
 permalink:
 banner-image: /assets/img/community/community.png
 content_blocks:
