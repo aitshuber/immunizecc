@@ -21,6 +21,8 @@ content_blocks:
       colored_background: true
       bold_title: false
     right_section:
+  - _bookshop_name: horizontal-break
+    text: ''
   - _bookshop_name: section/text-section
     title: <p><strong>TAKE ACTION&nbsp;</strong></p>
     text: >-
@@ -38,8 +40,6 @@ content_blocks:
     colored_background: true
     no_title: false
     no_paragraph: false
-  - _bookshop_name: horizontal-break
-    text: ''
 ---
 #### *The health of our communities is in jeopardy - but it doesn’t ha
 
