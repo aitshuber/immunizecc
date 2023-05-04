@@ -1,9 +1,9 @@
 <div class="col-md-4 mb-2">
     <!-- Blog Card -->
     <article class="card h-100 border border-primary">
-        <img class="card-img-top editable" alt="{{ include.image.alt }}" src="{{ include.image.src }}" width="{{ include.image.width }}" />
-        <div class="card-body px-5 pt-5 editable">
-          <p class="mb-0 text-left">{{ include.text }}</p>
+        <img class="card-img-top" alt="{{ include.image.alt }}" src="{{ include.image.src }}" width="{{ include.image.width }}" />
+        <div class="card-body px-5 pt-5">
+          <p class="mb-0 text-left">{{ include.text | markdownify | remove: '<p>' }}</p>
         </div>
         <div class="card-footer border-0">
             {% bookshop generic/button-link bind=include.button %}
