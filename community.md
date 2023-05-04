@@ -14,7 +14,7 @@ content_blocks:
     text: >-
       #### The more people across the state that help educate others about the
       benefits of immunization, the less likely we are to face resurgences of
-      diseases like measles, mumps, and meningitis.&nbsp;
+      diseases like measles, mumps, and meningitis.
     brand_color:
     centered: false
     colored_background: false
@@ -38,7 +38,7 @@ content_blocks:
     title: Ready to make an impact?
     subtitle: >-
       However much time you can devote and whatever activities you would like to
-      do, we could use your Boost!! 
+      do, you'll provide a needed Boost!! 
     cards:
       - _bookshop_name: simple/info-card
         text: >-
@@ -95,7 +95,7 @@ content_blocks:
     text: >-
       #### Not sure what activities may be a good fit for you? No worries!&nbsp;
       A member of our Community Engagement Team would be happy to visit with you
-      about your interests and to discuss details about ways to take
+      about your interests and to provide details about ways to take
       action.&nbsp;
     brand_color:
     centered: true
