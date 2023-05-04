@@ -38,7 +38,7 @@ content_blocks:
     title: Ready to make an impact?
     subtitle: >-
       However much time you can devote and whatever activities you would like to
-      do, we'll be excited to have you as a Booster! 
+      do, we could use your Boost!! 
     cards:
       - _bookshop_name: simple/info-card
         text: >-
