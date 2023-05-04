@@ -43,7 +43,7 @@ content_blocks:
           ### **GO VIRTUAL**
 
 
-          #### The overload of information, and misinformation, about vaccines
+          The overload of information, and misinformation, about vaccines
           requires insight from a qualified network of scientific experts.
         image:
           src: /assets/img/COM-VV.png
@@ -51,7 +51,7 @@ content_blocks:
           width: 100%
         button:
           _bookshop_name: generic/button-link
-          text: step i
+          text: Go Virtual  >>
           url: /
           external_url: false
           color_variation:
@@ -66,6 +66,12 @@ content_blocks:
           alt:
           width: 100%
         button:
+          _bookshop_name: generic/button-link
+          text: Go Advocate  >>
+          url: /
+          external_url: false
+          color_variation:
+          animate_hover: false
       - _bookshop_name: simple/info-card
         text: >-
           **BECOME A LEAD BOOSTER**&nbsp;<br>The overload of information, and
@@ -76,6 +82,12 @@ content_blocks:
           alt:
           width: 100%
         button:
+          _bookshop_name: generic/button-link
+          text: Go Lead  >>
+          url: /
+          external_url: false
+          color_variation:
+          animate_hover: false
 ---
 <div class="text-center"> </div>
 
