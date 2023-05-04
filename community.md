@@ -40,8 +40,9 @@ content_blocks:
     cards:
       - _bookshop_name: simple/info-card
         text: >-
-          The overload of information, and misinformation, about vaccines
-          requires insight from a qualified network of scientific experts.
+          GO VIRTUAL &lt;br&gt;<br>The overload of information, and
+          misinformation, about vaccines requires insight from a qualified
+          network of scientific experts.
         image:
           src: https://dummyimage.com/348x232/000/e0e0e0
           alt:
@@ -55,8 +56,9 @@ content_blocks:
           animate_hover: false
       - _bookshop_name: simple/info-card
         text: >-
-          The overload of information, and misinformation, about vaccines
-          requires insight from a qualified network of scientific experts.
+          ADVOCATE &lt;br&gt;<br>The overload of information, and
+          misinformation, about vaccines requires insight from a qualified
+          network of scientific experts.
         image:
           src: https://dummyimage.com/348x232/000/e0e0e0
           alt:
@@ -64,8 +66,9 @@ content_blocks:
         button:
       - _bookshop_name: simple/info-card
         text: >-
-          The overload of information, and misinformation, about vaccines
-          requires insight from a qualified network of scientific experts.
+          BECOME A LEAD BOOSTER &lt;br&gt;<br>The overload of information, and
+          misinformation, about vaccines requires insight from a qualified
+          network of scientific experts.
         image:
           src: https://dummyimage.com/348x232/000/e0e0e0
           alt:
