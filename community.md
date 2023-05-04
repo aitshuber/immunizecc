@@ -93,12 +93,12 @@ content_blocks:
   - _bookshop_name: section/text-section
     title: <p><br />​​​</p>
     text: >-
-      Not sure what activities may be a good fit for you? No worries!&nbsp; A
-      member of our Community Engagement Team would be happy to visit with you
+      #### Not sure what activities may be a good fit for you? No worries!&nbsp;
+      A member of our Community Engagement Team would be happy to visit with you
       about your interests and to discuss in detail different ways to get to
       take action.&nbsp;
     brand_color:
-    centered: false
+    centered: true
     colored_background: false
     no_title: true
     no_paragraph: false
