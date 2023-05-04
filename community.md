@@ -5,7 +5,7 @@ description: ''
 keywords:
 layout: content-page
 permalink:
-banner-image: /assets/img/2022-annual-report/2023-legislative-session-headquarters-1.png
+banner-image: /assets/img/community/community.png
 content_blocks:
   - _bookshop_name: section/text-section
     title: <p><strong>TAKE ACTION&nbsp;</strong></p>
