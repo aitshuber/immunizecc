@@ -40,11 +40,11 @@ content_blocks:
     cards:
       - _bookshop_name: simple/info-card
         text: >-
-          GO VIRTUAL &lt;br&gt;<br>The overload of information, and
-          misinformation, about vaccines requires insight from a qualified
-          network of scientific experts.
+          &lt;STRONG&gt;GO VIRTUAL&lt;/STRONG&gt;<br>The overload of
+          information, and misinformation, about vaccines requires insight from
+          a qualified network of scientific experts.
         image:
-          src: https://dummyimage.com/348x232/000/e0e0e0
+          src: /assets/img/COM-VV.png
           alt:
           width: 100%
         button:
