@@ -30,7 +30,7 @@ content_blocks:
   - _bookshop_name: section/left-right-group
     blocks:
       - _bookshop_name: simple/left-right-group-item
-        title:
+        title: BECOME A BOOSTER!
         text: >-
           We cannot afford to lose ground in our fight to protect Texans from
           preventable disease.  The more people across the state that help
