@@ -77,9 +77,11 @@ content_blocks:
           animate_hover: false
       - _bookshop_name: simple/info-card
         text: >-
-          **BECOME A LEAD BOOSTER**&nbsp;<br>The overload of information, and
-          misinformation, about vaccines requires insight from a qualified
-          network of scientific experts.
+          **BECOME A LEAD BOOSTER**&nbsp;
+
+
+          No one knows your neighbors better than you, which means that you are
+          in the best position to help us keep your community safe and healthy.
         image:
           src: /assets/img/COM-LEAD.png
           alt:
