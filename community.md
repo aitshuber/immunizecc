@@ -44,7 +44,7 @@ content_blocks:
           provide to more people in more communities…and the more lives we can
           save.
         button:
-        image: https://dummyimage.com/570x503/000/e0e0e0
+        image: /assets/img/poll.png
         flipped: false
 ---
 <div class="text-center"> </div>
