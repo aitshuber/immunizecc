@@ -63,7 +63,7 @@ content_blocks:
         text: >-
           **ADVOCATE**&nbsp;<br>Elected officials influence immunization policy,
           and constituents like you influence elected officials. Weigh in on
-          proposals considered at the state capitol.
+          proposals considered at the state capitol in Austin.
         image:
           src: /assets/img/COM-ADV.png
           alt:
