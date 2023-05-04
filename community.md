@@ -14,7 +14,7 @@ content_blocks:
     text: >-
       #### The more people across the state that help educate others about the
       benefits of immunization, the less likely we are to face resurgences of
-      diseases like measles, mumps, and meningitis.
+      diseases like measles, mumps, and meningitis.&nbsp;
     brand_color:
     centered: false
     colored_background: false
@@ -24,7 +24,7 @@ content_blocks:
     blocks:
       - _bookshop_name: simple/left-right-group-item
         title: BECOME A BOOSTER!
-        text: "Immunization has protected the health of Texans for generations.  Despite that long, successful history, immunization has, in recent years, been politicized more than ever.  The spread of misinformation about vaccines is dangerous, and puts our state’s health at risk.\_ <br> <br>We cannot afford to lose ground in our fight to protect Texans from preventable disease.  The more people, like you, who become part of our <strong> BOOST TEXAS team </strong> , the more helpful, factual information we can provide to more people in more communities… and the more lives we can save."
+        text: "<br>Immunization has protected the health of Texans for generations.  Despite that long, successful history, immunization has, in recent years, been politicized more than ever.  The spread of misinformation about vaccines is dangerous, and puts our state’s health at risk.\_ <br> <br>We cannot afford to lose ground in our fight to protect Texans from preventable disease.  The more people, like you, who become part of our <strong> BOOST TEXAS team </strong> , the more helpful, factual information we can provide to more people in more communities… and the more lives we can save. <br>"
         button:
           _bookshop_name: generic/button-link
           text: JOIN US
