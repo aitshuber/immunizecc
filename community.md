@@ -90,6 +90,18 @@ content_blocks:
           external_url: false
           color_variation:
           animate_hover: false
+  - _bookshop_name: section/text-section
+    title: <p><br />​​​</p>
+    text: >-
+      Not sure what activities may be a good fit for you? No worries!&nbsp; A
+      member of our Community Engagement Team would be happy to visit with you
+      about your interests and to discuss in detail different ways to get to
+      take action.&nbsp;
+    brand_color:
+    centered: false
+    colored_background: false
+    no_title: true
+    no_paragraph: false
 ---
 <div class="text-center"> </div>
 
