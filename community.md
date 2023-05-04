@@ -34,6 +34,11 @@ content_blocks:
           animate_hover: false
         image: /assets/img/screen-shot-2023-05-03-at-10-07-23-pm.png
         flipped: false
+  - _bookshop_name: code-block
+    code_block: |-
+      <div id="DCDrKoTOLU">
+          <script type="text/javascript" src="https://default.salsalabs.org/api/widget/template/963fc7eb-1807-438b-8410-2e138c2898c9/?tId=DCDrKoTOLU" ></script>
+      </div>
 ---
 <div class="text-center"> </div>
 
