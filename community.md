@@ -7,23 +7,6 @@ layout: sub-page
 permalink:
 banner-image: /assets/img/community/community.png
 content_blocks:
-  - _bookshop_name: section/text-section
-    title: <p><strong>TAKE ACTION&nbsp;</strong></p>
-    text: >-
-      #### **[Contact members of the Texas House Committee on Public
-      Health](https://capitol.texas.gov/Committees/MembershipCmte.aspx?LegSess=88R&amp;CmteCode=C410){:
-      target="_blank" rel="noopener"}** and tell them to vote NO on House Bill
-      44.
-
-
-      #### **[Submit comments
-      electronically](https://comments.house.texas.gov/home?c=c410){:
-      target="_blank" rel="noopener"}** related to House Bill 44.&nbsp;
-    brand_color:
-    centered: true
-    colored_background: true
-    no_title: false
-    no_paragraph: false
   - _bookshop_name: section/left-right-group
     blocks:
       - _bookshop_name: simple/left-right-group-item
@@ -67,8 +50,6 @@ content_blocks:
     no_paragraph: false
 ---
 <div class="text-center"> </div>
-
-**The health of our communities is in jeopardy - but it doesn’t have to be.**
 
 Immunization has protected the health of Texans for generations. Despite that long, successful history, immunization has, in recent years, been politicized more than ever. The spread of misinformation about vaccines is dangerous, and puts our state’s health at risk.We cannot afford to lose ground in our effort to protect people from preventable disease. The more people across the state that help educate others about the benefits of immunization, the less likely we are to face resurgences of diseases like measles, mumps, and meningitis. The more people, like you, who become part of our BOOST TEXAS team, the more helpful, factual information we can provide to more people in more communities…and the more lives we can save.
 
