@@ -24,7 +24,7 @@ content_blocks:
     blocks:
       - _bookshop_name: simple/left-right-group-item
         title: BECOME A BOOSTER!
-        text: "Immunization has protected the health of Texans for generations.  Despite that long, successful history, immunization has, in recent years, been politicized more than ever.  The spread of misinformation about vaccines is dangerous, and puts our state’s health at risk.\_ <br> We cannot afford to lose ground in our fight to protect Texans from preventable disease.  The more people, like you, who become part of our <strong> BOOST TEXAS <strong> team, the more helpful, factual information we can provide to more people in more communities… and the more lives we can save."
+        text: "Immunization has protected the health of Texans for generations.  Despite that long, successful history, immunization has, in recent years, been politicized more than ever.  The spread of misinformation about vaccines is dangerous, and puts our state’s health at risk.\_ <br> <p></p>We cannot afford to lose ground in our fight to protect Texans from preventable disease.  The more people, like you, who become part of our <strong> BOOST TEXAS team </strong> , the more helpful, factual information we can provide to more people in more communities… and the more lives we can save."
         button:
         image: /assets/img/screen-shot-2023-05-03-at-10-07-23-pm.png
         flipped: false
