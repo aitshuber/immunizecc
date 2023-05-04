@@ -66,11 +66,11 @@ content_blocks:
         button:
       - _bookshop_name: simple/info-card
         text: >-
-          BECOME A LEAD BOOSTER &lt;br&gt;<br>The overload of information, and
+          **BECOME A LEAD BOOSTER**&nbsp;<br>The overload of information, and
           misinformation, about vaccines requires insight from a qualified
           network of scientific experts.
         image:
-          src: https://dummyimage.com/348x232/000/e0e0e0
+          src: /assets/img/COM-LEAD.png
           alt:
           width: 100%
         button:
