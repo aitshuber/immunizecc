@@ -5,7 +5,7 @@ description: ''
 keywords:
 layout: sub-page
 permalink:
-banner-image: /assets/img/community/community.png
+banner-image: /assets/img/community/community-1.png
 content_blocks:
   - _bookshop_name: section/text-section
     title: >-
