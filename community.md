@@ -44,7 +44,7 @@ content_blocks:
           provide to more people in more communities…and the more lives we can
           save.
         button:
-        image: /assets/img/poll.png
+        image: /assets/img/screen-shot-2023-05-03-at-10-07-23-pm.png
         flipped: false
 ---
 <div class="text-center"> </div>
