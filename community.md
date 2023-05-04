@@ -61,9 +61,9 @@ content_blocks:
           animate_hover: false
       - _bookshop_name: simple/info-card
         text: >-
-          **ADVOCATE**&nbsp;<br>The overload of information, and misinformation,
-          about vaccines requires insight from a qualified network of scientific
-          experts.
+          **ADVOCATE**&nbsp;<br>Elected officials influence immunization policy,
+          and constituents like you influence elected officials. Weigh in on
+          proposals considered at the state capitol.
         image:
           src: /assets/img/COM-ADV.png
           alt:
