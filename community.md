@@ -35,8 +35,10 @@ content_blocks:
         image: /assets/img/screen-shot-2023-05-03-at-10-07-23-pm.png
         flipped: false
   - _bookshop_name: section/card-section
-    title: step 1
-    subtitle: do a good thing
+    title: Ready to make an impact?
+    subtitle: >-
+      We will be excited to have you as a Booster, however much time you can
+      devote and whatever activities you would like to do.  
     cards:
       - _bookshop_name: simple/info-card
         text: >-
