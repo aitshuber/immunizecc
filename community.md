@@ -7,22 +7,6 @@ layout: content-page
 permalink:
 banner-image: /assets/img/community/community.png
 content_blocks:
-  - _bookshop_name: section/left-right-hero
-    left_section:
-      title: Lorem ipsum
-      text: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam.
-      colored_background: true
-      bold_title: false
-    right_section:
-  - _bookshop_name: horizontal-break
-    text: ''
   - _bookshop_name: section/text-section
     title: <p><strong>TAKE ACTION&nbsp;</strong></p>
     text: >-
@@ -41,9 +25,10 @@ content_blocks:
     no_title: false
     no_paragraph: false
 ---
-#### *The health of our communities is in jeopardy - but it doesn’t ha
+#### *The health of our communities is in jeopardy<br>\- but it doesn’t ha
 
 <button class="close"></button>ve to be.*<br>
+{: .text-center}
 
 Immunization has protected the health of Texans for generations. Despite that long, successful history, immunization has, in recent years, been politicized more than ever. The spread of misinformation about vaccines is dangerous, and puts our state’s health at risk.We cannot afford to lose ground in our effort to protect people from preventable disease. The more people across the state that help educate others about the benefits of immunization, the less likely we are to face resurgences of diseases like measles, mumps, and meningitis. The more people, like you, who become part of our BOOST TEXAS team, the more helpful, factual information we can provide to more people in more communities…and the more lives we can save.
 
