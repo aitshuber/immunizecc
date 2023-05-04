@@ -24,8 +24,6 @@ content_blocks:
     colored_background: true
     no_title: false
     no_paragraph: false
-  - _bookshop_name: section/left-right-image-with-gap-section
-    left_right: []
   - _bookshop_name: section/left-right-group
     blocks:
       - _bookshop_name: simple/left-right-group-item
@@ -47,6 +45,21 @@ content_blocks:
         button:
         image: https://dummyimage.com/570x503/000/e0e0e0
         flipped: false
+  - _bookshop_name: section/text-section
+    title: >-
+      <p><strong>The health of our communities is in jeopardy - but it doesn’t
+      have to be.</strong></p>
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam.
+    brand_color:
+    centered: false
+    colored_background: false
+    no_title: false
+    no_paragraph: false
 ---
 <div class="text-center"> </div>
 
