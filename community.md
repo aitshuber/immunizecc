@@ -12,9 +12,9 @@ content_blocks:
       <p><strong>The health of our communities is in jeopardy - but it doesn’t
       have to be.</strong></p>
     text: >-
-      #### **The more people across the state that help educate others about the
+      #### The more people across the state that help educate others about the
       benefits of immunization, the less likely we are to face resurgences of
-      diseases like measles, mumps, and meningitis.&nbsp;**
+      diseases like measles, mumps, and meningitis.&nbsp;
     brand_color:
     centered: false
     colored_background: false
@@ -95,8 +95,8 @@ content_blocks:
     text: >-
       #### Not sure what activities may be a good fit for you? No worries!&nbsp;
       A member of our Community Engagement Team would be happy to visit with you
-      about your interests and to discuss in detail different ways to get to
-      take action.&nbsp;
+      about your interests and to discuss details about ways to take
+      action.&nbsp;
     brand_color:
     centered: true
     colored_background: false
