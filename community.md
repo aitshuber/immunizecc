@@ -9,8 +9,8 @@ banner-image: /assets/img/community/community.png
 content_blocks:
   - _bookshop_name: section/text-section
     title: >-
-      <p><strong>The health of our communities is in jeopardy - but it doesn’t
-      have to be.</strong></p>
+      <p><strong>The health of our communities is threatened<br />- but it
+      doesn’t have to be.</strong></p>
     text: >-
       #### The more people across the state that help educate others about the
       benefits of immunization, the less likely we are to face resurgences of
