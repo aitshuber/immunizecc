@@ -34,11 +34,43 @@ content_blocks:
           animate_hover: false
         image: /assets/img/screen-shot-2023-05-03-at-10-07-23-pm.png
         flipped: false
-  - _bookshop_name: code-block
-    code_block: |-
-      <div id="DCDrKoTOLU">
-          <script type="text/javascript" src="https://default.salsalabs.org/api/widget/template/963fc7eb-1807-438b-8410-2e138c2898c9/?tId=DCDrKoTOLU" ></script>
-      </div>
+  - _bookshop_name: section/card-section
+    title: step 1
+    subtitle: do a good thing
+    cards:
+      - _bookshop_name: simple/info-card
+        text: >-
+          The overload of information, and misinformation, about vaccines
+          requires insight from a qualified network of scientific experts.
+        image:
+          src: https://dummyimage.com/348x232/000/e0e0e0
+          alt:
+          width: 100%
+        button:
+          _bookshop_name: generic/button-link
+          text: step i
+          url: /
+          external_url: false
+          color_variation:
+          animate_hover: false
+      - _bookshop_name: simple/info-card
+        text: >-
+          The overload of information, and misinformation, about vaccines
+          requires insight from a qualified network of scientific experts.
+        image:
+          src: https://dummyimage.com/348x232/000/e0e0e0
+          alt:
+          width: 100%
+        button:
+      - _bookshop_name: simple/info-card
+        text: >-
+          The overload of information, and misinformation, about vaccines
+          requires insight from a qualified network of scientific experts.
+        image:
+          src: https://dummyimage.com/348x232/000/e0e0e0
+          alt:
+          width: 100%
+        button:
 ---
 <div class="text-center"> </div>
 
