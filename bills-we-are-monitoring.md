@@ -11,7 +11,7 @@ content_blocks: []
 ##### 2023 Texas Legislative Session<br>**BILLS WE ARE MONITORING**
 {: .text-center}
 
-|  |  |  | |
+|  |  |  |  |
 | **BILL** | **AUTHOR** | **COMPANION** | **CAPTION** |
 | --- | --- | --- | --- |
 | **[HB 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}** | Swanson | SB 303, by<br>Hall | Relating to provider discrimination against a Medicaid recipient or child health plan program enrollee based on immunization status. |
@@ -22,6 +22,7 @@ content_blocks: []
 | **[HB 518](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB518){: target="_blank" rel="noopener"}** | Wu | SB 77, by<br>Johnson | Relating to notice of the health of children attending and adults employed by a child-care facility. |
 | **[HB 777](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB777){: target="_blank" rel="noopener"}** | Vasut |  | Relating to prohibiting face covering mandates for public school students, prohibiting public schools from requiring students to provide documentation regarding certain vaccinations, and allowing public schools to screen students regarding certain infections. |
 | **[HB 807](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB807){: target="_blank" rel="noopener"}** | Harrison |  | Relating to immunization requirements. |
+| **[HB 989&nbsp;](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}** | Howard |  | Relating to the establishment of a higher education plan for human papillomavirus education and prevention. |
 | **[HB 1015](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1015){: target="_blank" rel="noopener"}** | Vasut |  | Relating to a prohibition on receipt of state money by businesses that implement COVID-19 vaccination requirements |
 | **[HB 1032](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1032){: target="_blank" rel="noopener"}** | Noble |  | Relating to prohibited vaccination status discrimination and requirements for COVID-19 vaccines. |
 | **[HB 1063](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1063){: target="_blank" rel="noopener"}** | Guerra | SB 852 by<br>Miles | Relating to the content of certain biennial legislative reports on immunizations issued by the Department of State Health Services. |
@@ -29,6 +30,13 @@ content_blocks: []
 | **[HB 1313](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1313){: target="_blank" rel="noopener"}** | Burrows | SB 403, by Springer | Health & Human Services & Dept. State Health Services must conduct study to assess full and complete adverse reactions (including death) and effectiveness of each type of COVID 19 vaccine used in Texas |
 | **[HB 1419](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB1419){: target="_blank" rel="noopener"}** | Cain |  | Relating to the repeal of certain limitations on bacterial meningitis vaccination exemptions for students at institutions of higher education. |
 | **[HB 3475](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB3475){: target="_blank" rel="noopener"}** | Leach |  | Relating to exemptions from COVID-19 vaccine requirements and vaccination status discrimination. |
+| **[HB 3](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB3475){: target="_blank" rel="noopener"}**[**721**](__notset__) | Lozano |  | Relating to a prohibition on COVID-19 vaccine mandates.&nbsp;&nbsp; |
+| **[HB 4](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB3475){: target="_blank" rel="noopener"}262** | Klick |  | Relating to requirements for and prohibited uses of information contained in the immunization registry.&nbsp; |
+| **[HB 4](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB3475){: target="_blank" rel="noopener"}730** | Tinderholt |  | Relating to the release or disclosure of vaccination or immunization information to certain persons; providing a civil penalty&nbsp;&nbsp; |
+| **[HB 4](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB3475){: target="_blank" rel="noopener"}731** | Tinderholt |  | Relating to the authority of an advanced practice registered nurse to sign a health exception to an immunization requirement for school admission&nbsp; |
+| **[HB 4](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB3475){: target="_blank" rel="noopener"}841** | Hunter |  | Relating to the prohibition on COVID-19 restrictions, with exceptions. |
+| **[HB 5](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB3475){: target="_blank" rel="noopener"}027** | Toth |  | Relating to prohibited governmental entity implementation or enforcement of a vaccine mandate, mask requirement, or private business or school closure to prevent the spread of COVID-19. |
+| **[HB 5](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=HB3475){: target="_blank" rel="noopener"}129** | Raney |  | Relating to the delegation to a pharmacy technician of a pharmacist's authority to administer an immunization or vaccine. |
 | **[SB 265](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB265){: target="_blank" rel="noopener"}** | Perry |  | Relating to required reports of certain vaccine-related or drug-related injuries and adverse events. |
 | **[SB 298](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB298){: target="_blank" rel="noopener"}** | Hall |  | Relating to informed consent to immunizations for children and civil liability for failure to obtain the consent. |
 | **[SB 302](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB302){: target="_blank" rel="noopener"}** | Hall |  | Relating to employer civil liability for a vaccine requirement imposed on the employer's employees. |
