@@ -11,9 +11,6 @@ content_blocks: []
 ##### 2023 Texas Legislative Session
 {: .text-center}
 
-#####
-{: .text-center}
-
 #### ***BILL WATCH******&nbsp;***
 {: .text-center}
 
@@ -25,4 +22,4 @@ content_blocks: []
 | **[SB 177](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB177){: target="_blank" rel="noopener"}** | Middleton |  | Relating to required reports of certain vaccine-related or drug-related injuries and adverse events. |
 | **[SB 1024](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB1024){: target="_blank" rel="noopener"}** | Kolkhorst |  | Relating to preventative health care and public health; authorizing a civil penalty. |
 
-&nbsp;
+&nbsp;&nbsp;
