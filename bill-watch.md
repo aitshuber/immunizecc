@@ -16,7 +16,7 @@ content_blocks: []
 
 
 
-The Immunization Partnership has monitored the nearly 50 immunization-related bills filed this year at the State Capitol in Austin. Now, with only weeks left until the Legislative Session gavels to a close, we are paying close attention to four particular anti-immunization bills that are on the move. These four bills would have harmful and far-reaching implications for public health, negative impacts on families and communities, and unintended consequences for the business sector and our state’s economic strength.&nbsp;
+We have carefully monitored the nearly 50 immunization-related bills filed this year at the State Capitol in Austin. Now, with only weeks left until the Legislative Session gavels to a close, The Immunization Partnership is paying close attention to four particular anti-immunization bills that are on the move. These four bills would have harmful and far-reaching implications for public health, negative impacts on families and communities, and unintended consequences for the business sector and our state’s economic strength.&nbsp;
 
 |  |  |  |  |
 | **BILL** | **AUTHOR** | **COMPANION** | **CAPTION** |
