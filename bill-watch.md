@@ -6,7 +6,9 @@ keywords:
 layout: content-page
 permalink:
 banner-image:
-content_blocks: []
+content_blocks:
+  - _bookshop_name: horizontal-break
+    text: "2023 Texas Legislative Session\_BILL WATCH\_"
 ---
 #### 2023 Texas Legislative Session&nbsp;***BILL WATCH******&nbsp;***<br>
 {: .text-center}
