@@ -5,7 +5,7 @@ description: ''
 keywords:
 layout: content-page
 permalink:
-banner-image: /assets/img/how-we-advocate/texas-capitol.jpg
+banner-image: /assets/img/how-we-advocate/dome.jpg
 content_blocks: []
 ---
 #### 2023 Texas Legislative Session&nbsp;***BILL WATCH******&nbsp;***
