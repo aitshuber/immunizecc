@@ -8,7 +8,13 @@ permalink:
 banner-image:
 content_blocks:
   - _bookshop_name: section/left-right-group
-    blocks: []
+    blocks:
+      - _bookshop_name: simple/left-right-group-item
+        title: "2023 Texas Legislative Session\_BILL WATCH\_"
+        text: "We have carefully monitored the nearly 50 immunization-related bills filed this year at the State Capitol in Austin. Now, with only weeks left until the Legislative Session gavels to a close, The Immunization Partnership is paying close attention to four particular anti-immunization bills that are on the move. These four bills would have harmful and far-reaching implications for public health, negative impacts on families and communities, and unintended consequences for the business sector and our state’s economic strength.\_"
+        button:
+        image: /assets/img/how-we-advocate/texas-capitol.jpg
+        flipped: false
 ---
 #### 2023 Texas Legislative Session&nbsp;***BILL WATCH******&nbsp;***<br>
 {: .text-center}
