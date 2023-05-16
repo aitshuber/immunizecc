@@ -72,9 +72,5 @@ Bill Author: Lois Kolkhorst (R-Brenham)<br>This bill has wide-ranging implicatio
 
 
 
-* **Tuesday, May 23 and Wednesday, May 24&nbsp;**<br>Last day for the House to consider Senate bills)<br><br>​​​​​
-* **Tuesday, May 23 and Wednesday, May 24&nbsp;**
-* Last day for the House to consider Senate bills)
-* **Tuesday, May 23 and Wednesday, May 24&nbsp;**
-*
-* **Monday, May 29, 2023**<br>Last day of 88th Regular Session (sine die)
+* **Tuesday, May 23 and Wednesday, May 24&nbsp;**<br>Last day for the House to consider Senate bills<br><br>​​​​​
+* **Monday, May 29, 2023 &nbsp;**<br>Last day of 88th Regular Session (sine die)
