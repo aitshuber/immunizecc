@@ -15,9 +15,6 @@ content_blocks: []
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 {: .text-center}
 
-####
-{: .text-center}
-
 #### **[HOUSE BILL 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}&nbsp;**
 {: .text-center}
 
@@ -26,9 +23,6 @@ Bill Author: Valoree Swanson (R-Spring)<br>House Bill 44 denies Medicaid/CHIP re
 
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-{: .text-center}
-
-####
 {: .text-center}
 
 #### **[SENATE BILL 29](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB29){: target="_blank" rel="noopener"}**
@@ -41,9 +35,6 @@ Bill Author: Brian Birdwell (R-Granbury)<br>Senate Bill (SB) 29 prohibits face c
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 {: .text-center}
 
-####
-{: .text-center}
-
 #### **[SENATE BILL 177](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB177){: target="_blank" rel="noopener nofollow"}**
 {: .text-center}
 
@@ -52,9 +43,6 @@ Bill Author: Mayes Middleton (R-Galveston)<br>Senate Bill 177 requires health ca
 
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-{: .text-center}
-
-####
 {: .text-center}
 
 #### **[SENATE BILL 1024](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB1024){: target="_blank" rel="noopener nofollow"}**
