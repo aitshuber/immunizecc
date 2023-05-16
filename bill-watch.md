@@ -15,6 +15,9 @@ content_blocks: []
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 {: .text-center}
 
+####
+{: .text-center}
+
 #### **[HOUSE BILL 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}&nbsp;**
 {: .text-center}
 
@@ -23,6 +26,9 @@ Bill Author: Valoree Swanson (R-Spring)<br>House Bill 44 denies Medicaid/CHIP re
 
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+{: .text-center}
+
+####
 {: .text-center}
 
 #### **[SENATE BILL 29](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB29){: target="_blank" rel="noopener"}**
@@ -35,6 +41,9 @@ Bill Author: Brian Birdwell (R-Granbury)<br>Senate Bill (SB) 29 prohibits face c
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 {: .text-center}
 
+####
+{: .text-center}
+
 #### **[SENATE BILL 177](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB177){: target="_blank" rel="noopener nofollow"}**
 {: .text-center}
 
@@ -43,6 +52,9 @@ Bill Author: Mayes Middleton (R-Galveston)<br>Senate Bill 177 requires health ca
 
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+{: .text-center}
+
+####
 {: .text-center}
 
 #### **[SENATE BILL 1024](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB1024){: target="_blank" rel="noopener nofollow"}**
@@ -61,13 +73,5 @@ Bill Author: Lois Kolkhorst (R-Brenham)<br>This bill has wide-ranging implicatio
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 {: .text-center}
-
-|  |  |  |  |
-| **BILL** | **AUTHOR** | **COMPANION** | **CAPTION** |
-| --- | --- | --- | --- |
-| **[HB 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}** | Swanson | SB 303, by<br>Hall | Relating to provider discrimination against a Medicaid recipient or child health plan program enrollee based on immunization status. |
-| **[SB 29](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB29){: target="_blank" rel="noopener"}** | Birdwell |  | Relating to prohibited governmental entity implementation or enforcement of a vaccine mandate, mask requirement, or private business or school closure to prevent the spread of COVID-19. |
-| **[SB 177](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB177){: target="_blank" rel="noopener"}** | Middleton |  | Relating to informed consent before provision of certain medical treatments and exemptions from COVID-19 vaccination requirements. |
-| **[SB 1024](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB1024){: target="_blank" rel="noopener"}** | Kolkhorst |  | Relating to preventative health care and public health; authorizing a civil penalty. |
 
 &nbsp;&nbsp;
