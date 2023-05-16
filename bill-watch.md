@@ -10,7 +10,7 @@ content_blocks: []
 ---
 #### 2023 Texas Legislative Session&nbsp;***BILL WATCH******&nbsp;***
 
-**We have carefully monitored the nearly 50 immunization-related bills filed this year at the State Capitol in Austin. Now, with only weeks left until the Legislative Session gavels to a close, The Immunization Partnership is paying close attention to four particular bills that are on the move. These four bills would have harmful and far-reaching implications for public health, negative impacts on families and communities, and unintended consequences for the business sector and our state’s economic strength.&nbsp;**
+<br>**We have carefully monitored the nearly 50 immunization-related bills filed this year at the State Capitol in Austin. Now, with only weeks left until the Legislative Session gavels to a close, The Immunization Partnership is paying close attention to four particular bills that are on the move. These four bills would have harmful and far-reaching implications for public health, negative impacts on families and communities, and unintended consequences for the business sector and our state’s economic strength.&nbsp;**
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 {: .text-center}
@@ -63,3 +63,11 @@ Bill Author: Lois Kolkhorst (R-Brenham)<br>This bill has wide-ranging implicatio
 {: .text-center}
 
 &nbsp;&nbsp;
+
+**KEY DATES OF INTEREST**
+
+**Friday, May 19, 2023**<br>Last day for the House to consider bills on the Local and Consent calendar (the House calendar for uncontroversial bills).&nbsp;
+
+**Tuesday, May 23 & Wednesday, May 24, 2023** ** ** <br>Last day for the House to consider Senate bills
+
+**Monday, May 29, 2023**<br>Last day of 88th Regular Session (sine die);
