@@ -64,7 +64,7 @@ Bill Author: Lois Kolkhorst (R-Brenham)<br>This bill has wide-ranging implicatio
 
 &nbsp;&nbsp;
 
-#### **KEY LEGISLATIVE DATES OF INTEREST**
+#### **KEY LEGISLATIVE DATES OF INTEREST**<br>
 
 
 
