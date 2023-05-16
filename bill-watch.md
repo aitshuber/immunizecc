@@ -33,7 +33,7 @@ Senate Bill (SB) 29 prohibits face covering mandates, vaccine mandates, and clos
 
 Senate Bill 177 requires health care providers to obtain informed consent from patients receiving the COVID-19 vaccine.&nbsp; It prohibits coercion from physicians and nurses, which is not consistent with the practices of the vast majority of health care providers. It also penalizes businesses for requiring immunization against COVID-19 and offers for religious and medical exemptions, undercutting the rights and liberty of businesses to set health and wellness policies appropriate for their settings.&nbsp;***BILL STATUS: HOUSE PUBLIC HEALTH COMMITTEE REPORT SENT TO CALENDARS COMMITTEE***
 
-#### [**SENATE BILL 1024**](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB1024){: target="_blank" rel="noopener"}
+#### **SENATE BILL 1024**
 {: .text-center}
 
 This bill has wide-ranging implications for public health and businesses.&nbsp; SB 1024 would:
