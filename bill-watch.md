@@ -11,14 +11,18 @@ content_blocks: []
 ##### 2023 Texas Legislative Session
 {: .text-center}
 
-#### ***BILL WATCH******&nbsp;***
+#### ***BILL WATCH******&nbsp;***<br>
 {: .text-center}
-
-
 
 We have carefully monitored the nearly 50 immunization-related bills filed this year at the State Capitol in Austin. Now, with only weeks left until the Legislative Session gavels to a close, The Immunization Partnership is paying close attention to four particular anti-immunization bills that are on the move. These four bills would have harmful and far-reaching implications for public health, negative impacts on families and communities, and unintended consequences for the business sector and our state’s economic strength.&nbsp;
 
-**[HOUSE BILL 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}&nbsp;**<br>House Bill (HB) 44 denies Medicaid/CHIP reimbursement to doctors who require their patients be immunized to protect other vulnerable patients, such as infants who are too young to be vaccinated and immunocompromised patients undergoing chemotherapy.<br>**BILL STATUS: PENDING IN SENATE HEALTH & HUMAN SERVICES COMMITTEE**
+
+
+#### **[HOUSE BILL 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}&nbsp;**
+
+House Bill 44&nbsp;denies Medicaid/CHIP reimbursement to doctors who require their patients be immunized to protect other vulnerable patients, such as infants who are too young to be vaccinated and immunocompromised patients undergoing chemotherapy.
+
+*​​​​​​**BILL STATUS: PENDING IN SENATE HEALTH & HUMAN SERVICES COMMITTEE***<br>
 
 **[SENATE BILL 29](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB29){: target="_blank" rel="noopener"}**<br>Senate Bill (SB) 29 prohibits face covering mandates, vaccine mandates, and closures of private businesses and schools.&nbsp; The bill establishes an ominous blueprint for future pandemic response and interferes with businesses’ ability to protect employees and customers and schools’ ability to protect teachers, staff, and students.<br>**BILL STATUS: PENDING IN HOUSE STATE AFFAIRS COMMITTEE**
 
