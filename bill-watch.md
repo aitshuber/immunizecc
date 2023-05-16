@@ -64,10 +64,12 @@ Bill Author: Lois Kolkhorst (R-Brenham)<br>This bill has wide-ranging implicatio
 
 &nbsp;&nbsp;
 
-**KEY DATES OF INTEREST**
+#### **KEY LEGISLATIVE DATES OF INTEREST**
+
+
 
 **Friday, May 19, 2023**<br>Last day for the House to consider bills on the Local and Consent calendar (the House calendar for uncontroversial bills).&nbsp;
 
-**Tuesday, May 23 & Wednesday, May 24, 2023** ** ** <br>Last day for the House to consider Senate bills
+**Tuesday, May 23 and Wednesday, May 24, 2023** ** ** <br>Last day for the House to consider Senate bills
 
 **Monday, May 29, 2023**<br>Last day of 88th Regular Session (sine die);
