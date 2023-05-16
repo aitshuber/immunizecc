@@ -19,18 +19,22 @@ We have carefully monitored the nearly 50 immunization-related bills filed this 
 
 
 #### **[HOUSE BILL 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}&nbsp;**
+{: .text-center}
 
-House Bill 44&nbsp;denies Medicaid/CHIP reimbursement to doctors who require their patients be immunized to protect other vulnerable patients, such as infants who are too young to be vaccinated and immunocompromised patients undergoing chemotherapy.<br>*​​​​​​**BILL STATUS: PENDING IN SENATE HEALTH & HUMAN SERVICES COMMITTEE***<br>
+House Bill 44&nbsp;denies Medicaid/CHIP reimbursement to doctors who require their patients be immunized to protect other vulnerable patients, such as infants who are too young to be vaccinated and immunocompromised patients undergoing chemotherapy.&nbsp;*​​​​**BILL STATUS: PENDING IN SENATE HEALTH & HUMAN SERVICES COMMITTEE***
 
 #### **[SENATE BILL 29](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB29){: target="_blank" rel="noopener"}**
+{: .text-center}
 
-Senate Bill (SB) 29 prohibits face covering mandates, vaccine mandates, and closures of private businesses and schools.&nbsp; The bill establishes an ominous blueprint for future pandemic response and interferes with businesses’ ability to protect employees and customers and schools’ ability to protect teachers, staff, and students.<br>***BILL STATUS: PENDING IN HOUSE STATE AFFAIRS COMMITTEE***<br>
+Senate Bill (SB) 29 prohibits face covering mandates, vaccine mandates, and closures of private businesses and schools.&nbsp; The bill establishes an ominous blueprint for future pandemic response and interferes with businesses’ ability to protect employees and customers and schools’ ability to protect teachers, staff, and students.&nbsp;***BILL STATUS: PENDING IN HOUSE STATE AFFAIRS COMMITTEE***<br>
 
 #### **[SENATE BILL 177](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB177){: target="_blank" rel="noopener nofollow"}**
+{: .text-center}
 
-Senate Bill 177 requires health care providers to obtain informed consent from patients receiving the COVID-19 vaccine.&nbsp; It prohibits coercion from physicians and nurses, which is not consistent with the practices of the vast majority of health care providers. It also penalizes businesses for requiring immunization against COVID-19 and offers for religious and medical exemptions, undercutting the rights and liberty of businesses to set health and wellness policies appropriate for their settings.<br>***BILL STATUS: HOUSE PUBLIC HEALTH COMMITTEE REPORT SENT TO CALENDARS COMMITTEE***<br>
+Senate Bill 177 requires health care providers to obtain informed consent from patients receiving the COVID-19 vaccine.&nbsp; It prohibits coercion from physicians and nurses, which is not consistent with the practices of the vast majority of health care providers. It also penalizes businesses for requiring immunization against COVID-19 and offers for religious and medical exemptions, undercutting the rights and liberty of businesses to set health and wellness policies appropriate for their settings.&nbsp;***BILL STATUS: HOUSE PUBLIC HEALTH COMMITTEE REPORT SENT TO CALENDARS COMMITTEE***
 
 #### [**SENATE BILL 1024**](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB1024){: target="_blank" rel="noopener"}
+{: .text-center}
 
 This bill has wide-ranging implications for public health and businesses.&nbsp; SB 1024 would:
 
