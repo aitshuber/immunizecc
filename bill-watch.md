@@ -57,7 +57,7 @@ Bill Author: Lois Kolkhorst (R-Brenham)<br>This bill has wide-ranging implicatio
 * Punish health care facilities by withholding Medicaid funding and obstruct health care service delivery to Medicaid and CHIP recipients.
 * Undercut the rights and liberty of businesses and government operations to set necessary health and wellness policies.
 
-*​​​**BILL STATUS: REFERRED TO HOUSE STATE AFFAIRS COMMITTEE***
+*​​​**BILL STATUS: REFERRED TO [HOUSE STATE AFFAIRS COMMITTEE](https://capitol.texas.gov/Committees/MembershipCmte.aspx?LegSess=88R&amp;CmteCode=C450){: target="_blank" rel="noopener"}***
 
 ​​​
 
