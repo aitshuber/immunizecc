@@ -6,9 +6,7 @@ keywords:
 layout: content-page
 permalink:
 banner-image:
-content_blocks:
-  - _bookshop_name: horizontal-break
-    text: "2023 Texas Legislative Session\_BILL WATCH\_"
+content_blocks: []
 ---
 #### 2023 Texas Legislative Session&nbsp;***BILL WATCH******&nbsp;***<br>
 {: .text-center}
@@ -56,9 +54,12 @@ This bill has wide-ranging implications for public health and businesses.&nbsp; 
 * Punish health care facilities by withholding Medicaid funding and obstruct health care service delivery to Medicaid and CHIP recipients.
 * Undercut the rights and liberty of businesses and government operations to set necessary health and wellness policies.
 
-​​​**BILL STATUS: REFERRED TO HOUSE STATE AFFAIRS COMMITTEE**
+*​​​**BILL STATUS: REFERRED TO HOUSE STATE AFFAIRS COMMITTEE***
 
-​​​​​
+​​​
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+{: .text-center}
 
 |  |  |  |  |
 | **BILL** | **AUTHOR** | **COMPANION** | **CAPTION** |
