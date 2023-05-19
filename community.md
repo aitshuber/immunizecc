@@ -27,9 +27,9 @@ content_blocks:
         text: >-
           <br>Immunization has protected Texans for generations, yet a small
           vocal group is spreading misinformation about vaccines that is putting
-          our health at risk. <br>We cannot afford to lose ground in our fight
-          to protect Texans from preventable disease.  The more people, like
-          you, who become part of our <strong> IMMUNIZATION CHAMPION team
+          our health at risk.<br/><br>We cannot afford to lose ground in our
+          fight to protect Texans from preventable disease.  The more people,
+          like you, who become part of our <strong> IMMUNIZATION CHAMPION team
           </strong> , the more helpful, factual information we can provide to
           more people in more communities… and save more lives. <br>
         button:
