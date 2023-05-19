@@ -29,9 +29,9 @@ content_blocks:
           vocal group is spreading misinformation about vaccines that is putting
           our health at risk.<br/><br>We cannot afford to lose ground in our
           fight to protect Texans from preventable disease. Our <strong>
-          IMMUNIZATION CHAMPIONS</strong> help ensure that more Texans across
+          IMMUNIZATION CHAMPIONS</strong> help ensure that more people across
           our state have factual information about vaccines and immunization –
-          providing them with all they need to stay safe and healthy. 
+          providing more Texans with all they need to stay safe and healthy. 
         button:
           _bookshop_name: generic/button-link
           text: JOIN US
