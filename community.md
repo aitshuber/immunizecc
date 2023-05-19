@@ -28,10 +28,10 @@ content_blocks:
           <br>Immunization has protected Texans for generations, yet a small
           vocal group is spreading misinformation about vaccines that is putting
           our health at risk.<br/><br>We cannot afford to lose ground in our
-          fight to protect Texans from preventable disease.  The more people,
-          like you, who become part of our <strong> IMMUNIZATION CHAMPION team
-          </strong> , the more helpful, factual information we can provide to
-          more people in more communities… and save more lives. <br>
+          fight to protect Texans from preventable disease. Our <strong>
+          IMMUNIZATION CHAMPIONS</strong> help ensure that more Texans across
+          our state have factual information about vaccines and immunization –
+          providing them with all they need to stay safe and healthy. <br>
         button:
           _bookshop_name: generic/button-link
           text: JOIN US
