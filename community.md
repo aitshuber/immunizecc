@@ -70,8 +70,8 @@ content_blocks:
       - _bookshop_name: simple/info-card
         text: >-
           **ADVOCATE**&nbsp;<br>Elected officials influence immunization policy,
-          and constituents like you influence elected officials. Weigh in on
-          proposals considered at the state capitol in Austin.
+          and constituents influence elected officials. Weigh in on proposals
+          considered at the state capitol in Austin.
         image:
           src: /assets/img/COM-ADV.png
           alt:
