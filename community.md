@@ -85,7 +85,7 @@ content_blocks:
           animate_hover: false
       - _bookshop_name: simple/info-card
         text: >-
-          **TAKE ACTION AS A LEADER**
+          **TAKE ACTION AS A CAPTAIN**
 
 
           No one knows their neighbors better than you, which means that you are
