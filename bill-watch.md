@@ -18,7 +18,7 @@ content_blocks: []
 #### **[HOUSE BILL 44](https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&amp;Bill=HB44){: target="_blank" rel="noopener"}&nbsp;**
 {: .text-center}
 
-Bill Author: Valoree Swanson (R-Spring)<br>House Bill 44 denies Medicaid/CHIP reimbursement to doctors who require their patients be immunized to protect other vulnerable patients, such as infants who are too young to be vaccinated and immunocompromised patients undergoing chemotherapy.&nbsp;*​​​​<br><br><u>BILL STATUS</u>\: PENDING IN **[SENATE HEALTH & HUMAN SERVICES COMMITTEE](https://capitol.texas.gov/Committees/MembershipCmte.aspx?LegSess=88R&amp;CmteCode=C610){: target="_blank" rel="noopener"}***
+Bill Author: Valoree Swanson (R-Spring)<br>House Bill 44 denies Medicaid/CHIP reimbursement to doctors who require their patients be immunized to protect other vulnerable patients, such as infants who are too young to be vaccinated and immunocompromised patients undergoing chemotherapy.&nbsp;*​​​​<br><br><u>BILL STATUS</u>\: PLACED ON THE IN **[SENATE INTENT CALENDAR&nbsp;](https://capitol.texas.gov/tlodocs/88R/calendars/html/S120230522.htm){: target="_blank" rel="noopener"}***
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 {: .text-center}
@@ -61,7 +61,7 @@ Bill Author: Lois Kolkhorst (R-Brenham)<br>This bill has wide-ranging implicatio
 #### **KEY LEGISLATIVE DATES OF INTEREST**
 {: .text-center}
 
-* **Friday, May 19, 2023**<br>Last day for the House to consider bills on the Local and Consent calendar (the House calendar for uncontroversial bills)<br>
+* **Friday, May 19, 2023**<br>Last day for the House to consider bills on the Local and Consent calendar (the House calendar for uncontroversial bills)
 
 * **Tuesday, May 23 and Wednesday, May 24&nbsp;**<br>Last day for the House to consider Senate bills<br><br>​​​​​
 * **Monday, May 29, 2023 &nbsp;**<br>Last day of 88th Regular Session (sine die)
