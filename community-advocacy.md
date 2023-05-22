@@ -5,7 +5,7 @@ description: ''
 keywords:
 layout: sub-page
 permalink: go-virtual
-banner-image: /assets/img/how-we-advocate/img-20190402-095903.jpg
+banner-image: /assets/img/go-virtual/screen-shot-2023-05-22-at-12-21-51-pm.png
 content_blocks:
   - _bookshop_name: section/card-section
     title: BUILDING PROTECTED COMMUNITIES
