@@ -17,7 +17,7 @@ content_blocks:
         image: >-
           /assets/img/introducing-boost-texas/screen-shot-2023-05-22-at-12-30-18-pm.png
         image_alt:
-        title: Connect with us via EMAIL
+        title: Connect via EMAIL
         body_content: Text here.
         image_align_left: true
 ---
