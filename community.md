@@ -98,7 +98,7 @@ content_blocks:
         button:
           _bookshop_name: generic/button-link
           text: Go Lead  >>
-          url: /
+          url: https://immunizeusa.org/go-lead
           external_url: false
           color_variation:
           animate_hover: false
