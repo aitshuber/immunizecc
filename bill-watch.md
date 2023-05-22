@@ -49,7 +49,7 @@ Bill Author: Lois Kolkhorst (R-Brenham)<br>This bill has wide-ranging implicatio
 * Punish health care facilities by withholding Medicaid funding and obstruct health care service delivery to Medicaid and CHIP recipients.
 * Undercut the rights and liberty of businesses and government operations to set necessary health and wellness policies.
 
-*​​​<u>BILL STATUS</u>\: REFERRED TO **[HOUSE STATE AFFAIRS COMMITTEE](https://capitol.texas.gov/Committees/MembershipCmte.aspx?LegSess=88R&amp;CmteCode=C450){: target="_blank" rel="noopener"}***
+*​​​<u>BILL STATUS</u>\: FAILED TO PASS OUT OF HOUSE STATE AFFAIRS COMMITTEE; SO ADDED TO **[HOUSE BILL 1105](https://capitol.texas.gov/BillLookup/history.aspx?LegSess=88R&amp;Bill=HB1105){: target="_blank" rel="noopener"}***
 
 ​​​
 
@@ -60,6 +60,8 @@ Bill Author: Lois Kolkhorst (R-Brenham)<br>This bill has wide-ranging implicatio
 
 #### **KEY LEGISLATIVE DATES OF INTEREST**<br>
 {: .text-center}
+
+
 
 * **Tuesday, May 23 and Wednesday, May 24&nbsp;**<br>Last day for the House to consider Senate bills<br>​​
 * **Monday, May 29, 2023 &nbsp;**<br>Last day of 88th Regular Session (sine die)
