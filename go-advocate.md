@@ -5,8 +5,7 @@ description: ''
 keywords:
 layout: sub-page
 permalink: go-advocate
-banner-image: >-
-  /assets/img/how-we-advocate/16804282-10154424775783753-8053056589517762971-o.jpg
+banner-image: /assets/img/how-we-advocate/texas-capitol-1.jpg
 content_blocks:
   - _bookshop_name: section/card-section
     title: 'TAKE ACTION ONLINE '
