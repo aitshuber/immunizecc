@@ -108,7 +108,8 @@ content_blocks:
       #### Not sure what activities may be a good fit for you? No worries!&nbsp;
       A member of our Community Engagement Team would be happy to visit with you
       about your interests and to provide details about upcoming
-      activities.&nbsp; <u>Schedule your visit today &gt;&gt;</u>
+      activities.&nbsp; [<u>Schedule your visit today
+      &gt;&gt;</u>](mailto:imorris@immunizeusa.org)
     brand_color:
     centered: true
     colored_background: false
