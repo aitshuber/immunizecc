@@ -14,7 +14,7 @@ content_blocks:
   - _bookshop_name: section/text-section
     title: ''
     text: >-
-      ### **Do you want to be an immunization champion in your community,
+      #### **Do you want to be an immunization champion in your community,
       encouraging others to take action to protecting themselves against
       preventable disease? Then becoming a TIP Community Captain is a perfect
       fit for you!<br><br>Community Captains help remove barriers that prevent
@@ -33,10 +33,9 @@ content_blocks:
         image_alt:
         title: APPLY TODAY!
         body_content: >-
-          Every TIP Community Captain receives leadership training designed
-          specifically to help them confidently lead an immunization advocacy
-          initiative. Training includes public policy education, social media
-          practices, and ongoing support from the TIP Community Engagement team.
-          &nbsp;
+          Every TIP Community Captain receives training designed specifically to
+          help them confidently lead an immunization advocacy initiative.
+          Training includes public policy education, social media practices, and
+          ongoing support from the TIP Community Engagement team. &nbsp;
         image_align_left: true
 ---
