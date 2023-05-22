@@ -35,7 +35,7 @@ content_blocks:
         button:
           _bookshop_name: generic/button-link
           text: JOIN US
-          url: /
+          url: https://immunizeusa.salsalabs.org/mailinglistsign-up/index.html
           external_url: false
           color_variation:
           animate_hover: false
