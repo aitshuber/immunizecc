@@ -8,8 +8,10 @@ permalink: go-advocate
 banner-image: /assets/img/how-we-advocate/texas-capitol-1.jpg
 content_blocks:
   - _bookshop_name: section/card-section
-    title: 'TAKE ACTION ONLINE '
-    subtitle: Virtual Volunteering is Vital!
+    title: 'TAKE ACTION AT THE CAPITOL '
+    subtitle: >-
+      Elected officials who influence immunization policy listen to constituents
+      like you.
     cards: []
   - _bookshop_name: section/left-right-image-with-gap-section
     left_right:
