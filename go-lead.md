@@ -14,15 +14,14 @@ content_blocks:
   - _bookshop_name: section/left-right-image-with-gap-section
     left_right:
       - _bookshop_name: simple/left-right-image-with-gap
-        image: /assets/img/see-who-represents-you/days.png
+        image: /assets/img/apply-today/screen-shot-2023-05-22-at-2-55-00-pm.png
         image_alt:
-        title: See who REPRESENTS YOU
+        title: APPLY TODAY!
         body_content: >-
-          text here
-
-
-          [Find your State Senator and State
-          Representative](https://wrm.capitol.texas.gov/home){: target="_blank"
-          rel="noopener"}&nbsp;
+          Every TIP Community Captain receives leadership training designed
+          specifically to help them confidently lead an immunization advocacy
+          initiative. Training includes public policy education, social media
+          training, and ongoing support from the TIP Community Engagement team.
+          &nbsp;
         image_align_left: true
 ---
