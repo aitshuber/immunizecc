@@ -16,14 +16,15 @@ content_blocks:
   - _bookshop_name: section/left-right-image-with-gap-section
     left_right:
       - _bookshop_name: simple/left-right-image-with-gap
-        image: >-
-          /assets/img/introducing-boost-texas/screen-shot-2023-05-22-at-12-30-18-pm.png
+        image: /assets/img/see-who-represents-you/days.png
         image_alt:
-        title: Connect via EMAIL
+        title: See who REPRESENTS YOU
         body_content: >-
-          We promise the content will be worth your time. Not only will you be
-          kept up to date with the latest news on vaccines, immunization and
-          public health issues, we'll outline what actions you can easily take
-          to help increase immunization coverage in Texas.
+          text here
+
+
+          [Find your State Senator and State
+          Representative](https://wrm.capitol.texas.gov/home){: target="_blank"
+          rel="noopener"}&nbsp;
         image_align_left: true
 ---
