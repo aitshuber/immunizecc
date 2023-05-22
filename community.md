@@ -79,7 +79,7 @@ content_blocks:
         button:
           _bookshop_name: generic/button-link
           text: Go Advocate  >>
-          url: /
+          url: https://immunizeusa.org/go-advocate
           external_url: false
           color_variation:
           animate_hover: false
