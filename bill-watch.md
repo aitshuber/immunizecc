@@ -26,7 +26,7 @@ Bill Author: Valoree Swanson (R-Spring)<br>House Bill 44 denies Medicaid/CHIP re
 #### **[SENATE BILL 29](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&amp;Bill=SB29){: target="_blank" rel="noopener"}**
 {: .text-center}
 
-Bill Author: Brian Birdwell (R-Granbury)<br>Senate Bill (SB) 29 prohibits face covering mandates, vaccine mandates, and closures of private businesses and schools.&nbsp; The bill establishes an ominous blueprint for future pandemic response and interferes with businesses’ ability to protect employees and customers and schools’ ability to protect teachers, staff, and students.&nbsp;<br><br>*<u>BILL STATUS</u>\: PENDING IN* ***[HOUSE STATE AFFAIRS COMMITTEE](https://capitol.texas.gov/Committees/MembershipCmte.aspx?LegSess=88R&amp;CmteCode=C450){: target="_blank" rel="noopener"}***
+Bill Author: Brian Birdwell (R-Granbury)<br>Senate Bill (SB) 29 prohibits face covering mandates, vaccine mandates, and closures of private businesses and schools.&nbsp; The bill establishes an ominous blueprint for future pandemic response and interferes with businesses’ ability to protect employees and customers and schools’ ability to protect teachers, staff, and students.&nbsp;<br><br>*<u>BILL STATUS</u>\: PLACED ON THE* ***[HOUSE MAJOR STATE CALENDAR&nbsp;](https://capitol.texas.gov/tlodocs/88R/calendars/html/H120230522.htm){: target="_blank" rel="noopener"}***
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 {: .text-center}
