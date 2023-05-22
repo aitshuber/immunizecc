@@ -49,7 +49,7 @@ content_blocks:
     cards:
       - _bookshop_name: simple/info-card
         text: >-
-          **GO VIRTUAL**
+          **TAKE ACTION ONLINE&nbsp;**
 
 
           Unable to lend a hand in person? Consider volunteering at a distance!
@@ -88,7 +88,7 @@ content_blocks:
           **BECOME A IMMUNIZATION CAPTAIN**&nbsp;
 
 
-          No one knows your neighbors better than you, which means that you are
+          No one knows their neighbors better than you, which means that you are
           in the best position to help us keep your community safe and healthy.
         image:
           src: /assets/img/COM-LEAD.png
