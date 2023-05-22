@@ -85,11 +85,12 @@ content_blocks:
           animate_hover: false
       - _bookshop_name: simple/info-card
         text: >-
-          **BECOME A IMMUNIZATION CAPTAIN**&nbsp;
+          **TAKE ACTION AS A LEADER**
 
 
           No one knows their neighbors better than you, which means that you are
           in the best position to help us keep your community safe and healthy.
+          Become a TIP Immunization Captain in your region!
         image:
           src: /assets/img/COM-LEAD.png
           alt:
