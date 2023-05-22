@@ -8,7 +8,7 @@ permalink: go-lead
 banner-image: /assets/img/go-lead/screen-shot-2023-05-22-at-1-59-03-pm.png
 content_blocks:
   - _bookshop_name: section/card-section
-    title: TAKE ACTION AS A CAPTAIN
+    title: TAKE ACTION AS A COMMUNITY CAPTAIN
     subtitle: 'Neighbors listen to neighbors.  '
     cards: []
   - _bookshop_name: section/left-right-image-with-gap-section
