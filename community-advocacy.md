@@ -8,8 +8,8 @@ permalink: go-virtual
 banner-image: /assets/img/go-virtual/screen-shot-2023-05-22-at-12-21-51-pm.png
 content_blocks:
   - _bookshop_name: section/card-section
-    title: BUILDING PROTECTED COMMUNITIES
-    subtitle: The health of our communities is in jeopardy - but it doesn’t have to be.
+    title: 'TAKE ACTION ONLINE '
+    subtitle: Virtual Volunteering is Vital!
     cards: []
   - _bookshop_name: section/text-section
     title:
