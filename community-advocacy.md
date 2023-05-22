@@ -1,10 +1,10 @@
 ---
 _schema: block_page
-title: Community Advocacy
+title: Go Virtual
 description: ''
 keywords:
 layout: sub-page
-permalink:
+permalink: go-virtual
 banner-image: /assets/img/how-we-advocate/img-20190402-095903.jpg
 content_blocks:
   - _bookshop_name: section/card-section
