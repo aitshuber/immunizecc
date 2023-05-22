@@ -57,7 +57,7 @@ content_blocks:
           service - and it's a quick way to get immunization information to many
           Texans.
         image:
-          src: /assets/img/COM-VV.png
+          src: https://immunizeusa.org/go-virtual
           alt:
           width: 100%
         button:
