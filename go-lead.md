@@ -14,7 +14,7 @@ content_blocks:
   - _bookshop_name: section/text-section
     title: ''
     text: >-
-      #### **Do you want to be an immunization champion in your community,
+      ##### **Do you want to be an immunization champion in your community,
       encouraging others to take action to protecting themselves against
       preventable disease? Then becoming a TIP Community Captain is a perfect
       fit for you!<br><br>Community Captains help remove barriers that prevent
@@ -23,7 +23,7 @@ content_blocks:
       area.&nbsp;**
     brand_color:
     centered: false
-    colored_background: true
+    colored_background: false
     no_title: true
     no_paragraph: false
   - _bookshop_name: section/left-right-image-with-gap-section
