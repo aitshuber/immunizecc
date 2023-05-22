@@ -57,13 +57,13 @@ content_blocks:
           service - and it's a quick way to get immunization information to many
           Texans.
         image:
-          src: https://immunizeusa.org/go-virtual
+          src: /assets/img/COM-VV.png
           alt:
           width: 100%
         button:
           _bookshop_name: generic/button-link
           text: Go Virtual  >>
-          url: /
+          url: https://immunizeusa.org/go-virtual
           external_url: false
           color_variation:
           animate_hover: false
