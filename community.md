@@ -85,7 +85,7 @@ content_blocks:
           animate_hover: false
       - _bookshop_name: simple/info-card
         text: >-
-          **BECOME A LEAD BOOSTER**&nbsp;
+          **BECOME A IMMUNIZATION CAPTAIN**&nbsp;
 
 
           No one knows your neighbors better than you, which means that you are
