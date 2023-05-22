@@ -16,11 +16,11 @@ content_blocks:
     text: >-
       ##### **Do you want to be an immunization champion in your community,
       encouraging others to take action to protecting themselves against
-      preventable disease? Then becoming a TIP Community Captain is a perfect
-      fit for you!<br><br>Community Captains help remove barriers that prevent
-      neighbors from being immunized. Activities depend on the interests of each
-      Community Captain, along with the resources available in their local
-      area.&nbsp;**
+      preventable disease?<br><br>Then becoming a TIP Community Captain is a
+      perfect fit for you!<br><br>Community Captains help remove barriers that
+      prevent neighbors from being immunized. Activities depend on the interests
+      of each Community Captain, along with the resources available in their
+      local area.&nbsp;**
     brand_color:
     centered: false
     colored_background: false
