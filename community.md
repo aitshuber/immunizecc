@@ -52,9 +52,10 @@ content_blocks:
           **GO VIRTUAL**
 
 
-          Unable to lend a hand in person? Consider volunteering at a distance.
+          Unable to lend a hand in person? Consider volunteering at a distance!
           Virtual volunteering is just as meaningful as face-to-face community
-          service - and is a quick way to amplify our message.
+          service - and it's a quick way to get immunization information to many
+          Texans.
         image:
           src: /assets/img/COM-VV.png
           alt:
