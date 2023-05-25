@@ -166,7 +166,16 @@ content_blocks:
           color_variation: green
           animate_hover: false
   - _bookshop_name: section/left-right-group
-    blocks: []
+    blocks:
+      - _bookshop_name: simple/left-right-group-item
+        title: Lorem ipsum dolor sit amet, consectetur
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam.
+        button:
+        image: https://dummyimage.com/570x503/000/e0e0e0
+        flipped: false
   - _bookshop_name: section/left-right-two-third-section
     left_right_block: []
 ---

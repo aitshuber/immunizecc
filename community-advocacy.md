@@ -10,7 +10,34 @@ content_blocks:
   - _bookshop_name: section/card-section
     title: 'TAKE ACTION ONLINE '
     subtitle: Virtual Volunteering is Vital!
-    cards: []
+    cards:
+      - _bookshop_name: simple/info-card
+        text: >-
+          The overload of information, and misinformation, about vaccines
+          requires insight from a qualified network of scientific experts.
+        image:
+          src: https://dummyimage.com/348x232/000/e0e0e0
+          alt:
+          width: 100%
+        button:
+      - _bookshop_name: simple/info-card
+        text: >-
+          The overload of information, and misinformation, about vaccines
+          requires insight from a qualified network of scientific experts.
+        image:
+          src: https://dummyimage.com/348x232/000/e0e0e0
+          alt:
+          width: 100%
+        button:
+      - _bookshop_name: simple/info-card
+        text: >-
+          The overload of information, and misinformation, about vaccines
+          requires insight from a qualified network of scientific experts.
+        image:
+          src: https://dummyimage.com/348x232/000/e0e0e0
+          alt:
+          width: 100%
+        button:
   - _bookshop_name: section/left-right-image-with-gap-section
     left_right:
       - _bookshop_name: simple/left-right-image-with-gap
