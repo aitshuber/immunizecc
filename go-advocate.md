@@ -27,4 +27,32 @@ content_blocks:
           Representative](https://wrm.capitol.texas.gov/home){: target="_blank"
           rel="noopener"}&nbsp;
         image_align_left: true
+  - _bookshop_name: section/left-right-image-with-gap-section
+    left_right:
+      - _bookshop_name: simple/left-right-image-with-gap
+        image: /assets/img/see-who-represents-you/days.png
+        image_alt:
+        title: See who REPRESENTS YOU
+        body_content: >-
+          text here
+
+
+          [Find your State Senator and State
+          Representative](https://wrm.capitol.texas.gov/home){: target="_blank"
+          rel="noopener"}&nbsp;
+        image_align_left: true
+  - _bookshop_name: section/left-right-image-with-gap-section
+    left_right:
+      - _bookshop_name: simple/left-right-image-with-gap
+        image: /assets/img/see-who-represents-you/days.png
+        image_alt:
+        title: See who REPRESENTS YOU
+        body_content: >-
+          text here
+
+
+          [Find your State Senator and State
+          Representative](https://wrm.capitol.texas.gov/home){: target="_blank"
+          rel="noopener"}&nbsp;
+        image_align_left: true
 ---
